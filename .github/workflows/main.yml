@@ -1,0 +1,34 @@
+name: Deploy repo to BunnyCDN
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+# TODO: cache the previous state of the build / only update the files that have changed
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    container: python:3.10
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Build HBAS Repo
+        run: cd packages && python ../spinarak/spinarak.py
+      - name: Deploy to BunnyCDN
+        uses: ayeressian/bunnycdn-storage-deploy@v2.2.0
+        with:
+          source: "public"
+          destination: "/"
+          storageZoneName: "${{ secrets.STORAGE_ZONE_NAME }}"
+          storageEndpoint: "uk.storage.bunnycdn.com"
+          storagePassword: "${{ secrets.STORAGE_PASSWORD }}"
+          accessKey: "${{ secrets.STORAGE_KEY }}"
+          pullZoneId: "${{ secrets.PULL_ZONE_ID }}"
+          upload: "true"
+          remove: "true" # TODO: cache
+          purgePullZone: "true"

@@ -1,0 +1,3 @@
+[submodule "spinarak"]
+	path = spinarak
+	url = https://github.com/fortheusers/spinarak.git
