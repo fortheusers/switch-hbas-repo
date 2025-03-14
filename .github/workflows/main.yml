@@ -22,7 +22,7 @@ jobs:
       - name: Deploy to BunnyCDN
         uses: ayeressian/bunnycdn-storage-deploy@v2.2.0
         with:
-          source: "public"
+          source: "packages/public"
           destination: "/"
           storageZoneName: "${{ secrets.STORAGE_ZONE_NAME }}"
           storageEndpoint: "storage.bunnycdn.com"
