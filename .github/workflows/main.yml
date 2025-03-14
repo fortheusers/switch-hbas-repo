@@ -25,7 +25,7 @@ jobs:
           source: "public"
           destination: "/"
           storageZoneName: "${{ secrets.STORAGE_ZONE_NAME }}"
-          storageEndpoint: "uk.storage.bunnycdn.com"
+          storageEndpoint: "storage.bunnycdn.com"
           storagePassword: "${{ secrets.STORAGE_PASSWORD }}"
           accessKey: "${{ secrets.STORAGE_KEY }}"
           pullZoneId: "${{ secrets.PULL_ZONE_ID }}"
