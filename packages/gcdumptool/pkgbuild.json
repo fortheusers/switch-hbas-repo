@@ -16,10 +16,10 @@
             "url": "https://github.com/DarkMatterCore/nxdumptool/releases/download/rewrite-prerelease/nxdt_rw_poc.nro",
             "type": "update",
 			"dest": "/switch/nxdt_rw_poc/nxdt_rw_poc.nro"
-        }
+        },
         {
             "url": "https://switch.cdn.fortheusers.org/packages/gcdumptool/icon.png",
-            "type": "icon",
+            "type": "icon"
         }
     ]
 }
