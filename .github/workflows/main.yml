@@ -15,6 +15,8 @@ jobs:
     container: python:3.10
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
       - name: Build HBAS Repo
         run: cd packages && python ../spinarak/spinarak.py
       - name: Deploy to BunnyCDN
