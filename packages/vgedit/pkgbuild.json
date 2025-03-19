@@ -8,8 +8,7 @@
         "url": "https://github.com/vgmoose/vgedit",
         "license": "GPLv3",
         "description": "Text editor for the Nintendo Switch",
-        "details": "The Homebrew App Store is graphical frontend to the get package manager for downloading and managing homebrew on the Nintendo Switch. This is a replacement to the Wii U Homebrew App Store.\\n\\nFor further information you can visit source repo here: https://github.com/vgmoose/hb-appstore\\n\\nNotice: when updating appstore from appstore, the application will restart! This is due to assets from romfs needing to be unmounted.",
-		"binary": "/switch/appstore/appstore.nro"
+        "details": "vgedit is a Video Game text Editor for the Switch. It has basic file browsing functionality (SD card only) and allows text files to be edited directly using either the touch screen or a controller."
     },
 	"changelog": "v2.2.1\\n\\n- Adds support for opening a file via other apps (like sphaira)\\n\\nv2.1\\n\\nThe Switch build has no significant changes. It is a version Bump\\n\\nv2.0.1: Small bugfix to not move the cursor while holding a directional button with the on-screen keyboard up.\\n\\nv2.0: New Features:\\n- Line numbers along left side\\n- Can load much larger text files\\n    - Uses SDL_FontCache for improved performance\\n- New menu bar while editing file\\n    - Find and jump to position within file\\n    - Undo/redo history state tracking\\n- Create new file or folder while browsing\\n- USB Keyboard support\\n    - Only in Insert mode (when on-screen keyboard is showing)\\n    - Can press Alt to toggle on-screen keyboard\\n\\nBugfixes:\\n- Proper line wrapping for long lines\\n- Properly affix cursor within text file\\n- File/folder list is alphabetized now\\n- Better support for tabs within file\\n- Scroll to cursor position when typing\\n- Unsaved changes need confirmation when exiting\\n- Allow copy/paste between two files\\n\\n",
     "assets": [
@@ -17,6 +16,10 @@
             "url": "https://github.com/vgmoose/vgedit/releases/download/v2.2.1/vgedit.nro",
             "type": "update",
 			"dest": "/switch/vgedit/vgedit.nro"
+        },
+        {
+            "url": "icon.png",
+            "type": "icon"
         }
     ]
 }
