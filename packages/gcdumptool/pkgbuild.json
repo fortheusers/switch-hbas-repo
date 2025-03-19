@@ -8,7 +8,7 @@
         "url": "https://github.com/DarkMatterCore/nxdumptool",
         "license": "GPLv3",
         "description": "Game dumper for the Nintendo Switch",
-        "details": "Generates XCI/NSP/HFS0/ExeFS/RomFS/Certificate/Ticket dumps from Nintendo Switch gamecards and installed SD/eMMC titles.",
+        "details": "Generates XCI/NSP/HFS0/ExeFS/RomFS/Certificate/Ticket dumps from Nintendo Switch gamecards and installed SD/eMMC titles."
     },
     "assets": [
         {
