@@ -1,0 +1,45 @@
+{
+    "package": "McOsu-NX",
+    "info": {
+        "title": "McOsu-NX",
+        "author": "McKay42",
+        "category": "game",
+        "version": "33.10",
+        "url": "https://github.com/McKay42/McOsu-NX/releases",
+        "license": "GPLv3",
+        "description": "Custom unofficial osu! practice client",
+        "details": "WARNING: Use HBL takeover or NSP HBL to launch, or you WILL run out of memory and crash!\\n\\nHow to use:\\nNOTE: You don't have to create any folder structures, everything is already prepared. Follow the guide on extracting beatmaps/skins below, and simply put them into /switch/McOsu/Songs/ or /switch/McOsu/Skins/ on your microSD card. Default beatmaps are already included, so just follow their structure.\\n\\nHow to add beatmaps/skins: https://steamcommunity.com/sharedfiles/filedetails/?id=880768265\\n\\nFAQ: https://steamcommunity.com/app/607260/discussions/0/1620599015885400990/\\n\\nThe game will give you a big fat warning on the main menu if it doesn't have access to enough memory (< 1 GB).\\n\\nAt least on my system, if you still launch HBL via the Album applet, then only ~400 MB out of 4 GB are available, and some of that is already used up. (This might not even be a problem anymore with newer Atmosphere/ReiNX/etc. versions.)\\n\\nI have only tested this on firmware 5.1, with a pretty old SD setup and RajNX (which is no longer maintained), but never change a running system you know.\\n\\nIf you get audio crackling after minimizing the game or going into sleep mode: To fix it, Go to Options > Audio > Restart SoundEngine (fix crackling)\\n\\nIf you are playing beatmaps with a lot of sliders visible at the same time, and consistently getting less than 60 fps, improve performance by enabling Options > Skin > \"Use slidergradient.png\"\\n\\nIf you get stuck at 0% loading forever, then the resource loader thread could not be created. Try restarting the game, HBL, and your system, in that order. This has only happened to me once, so it shouldn't be a problem.\\n\\nAll speed changing mods are unavailable (DT/HT/DC/NC, Speed/BPM Multiplier, Timewarp) because the audio library does not support varying playback speed (yet).\\n\\n"
+    },
+    "changelog": "33.10\\n\\nNon-switch-specific changes\\n\\n33.00\\n\\nNon switch-specific changes from version 33: https://steamcommunity.com/games/607260/announcements/detail/3128313422581495579\\n\\n31.08\\n\\nNon switch-specific changes: https://steamcommunity.com/games/607260/announcements/detail/1691601090541194677\\n\\n29.31\\n\\nRecompiled with libnx v3.0.0 (to support input without hid-mitm)\\n\\n29.3\\n\\nKeyboard/Mouse support, with some limitations:\\nText typing is not supported, only raw keys/hotkeys/gameplay work\\nMouse sensitivity can only be set to \u2265 1.0, use DPI settings of your mouse if you want to go lower\\nImproved touch handling slightly\\nNon switch-specific changes",
+    "assets": [
+        {
+            "url": "https://github.com/McKay42/McOsu-NX/releases/download/v33.10/McOsu.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/switch/McOsu/**/**",
+                    "dest": "/switch/McOsu/",
+                    "type": "update"
+                },
+                {
+                    "path": "/switch/McOsu/Songs/**",
+                    "dest": "/switch/McOsu/Songs",
+                    "type": "get"
+                },
+                {
+                    "path": "/switch/McOsu/cfg/**",
+                    "dest": "/switch/McOsu/",
+                    "type": "get"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
