@@ -20,7 +20,7 @@ jobs:
       - name: Load override update list from commit message
         run: python parse_packages_from_commit.py
       - name: Build HBAS Repo
-        run: "cd packages && python ../spinarak/spinarak.py -c https://switch2.cdn.fortheusers.org/repo.json $(cat packages_in_commit.txt | tr '\n' ' ')"
+        run: "cd packages && python ../spinarak/spinarak.py -c https://switch2.cdn.fortheusers.org/repo.json $(cat ../packages_in_commit.txt | tr '\n' ' ')"
       - name: Deploy to BunnyCDN
         uses: ayeressian/bunnycdn-storage-deploy@v2.2.0
         with:
