@@ -1,0 +1,29 @@
+{
+    "package": "ezRemoteClient",
+    "info": {
+        "title": "ezRemote Client",
+        "author": "cy33hc",
+        "category": "tool",
+        "version": "1.12",
+        "url": "https://github.com/cy33hc/switch-ezremote-client",
+        "license": "GPLv3",
+        "description": "Remote File Manager for FTP, SMB, WebDAV",
+        "details": "A File Manager application that allows you to connect the Switch to remote FTP, SMB, WebDAV servers to transfer and manage files."
+    },
+    "changelog": "1.12\\nAdd support for browse and download release artifacts from github repos. Under the server just enter the git repo of the homebrew\\n\\n1.06\\n\\nFix an issue that would delete the local file after uploading using webdav and the server does not return a http 200 status code\\n\\n1.04\\n\\nAdd support for archive.org download URLs\\nThis allows you to browse and download the files\\nOnly supports parsing of the download URL (ie the URL where you see a list of files). Example\\narchive_org_screen1\tarchive_org_screen2\timage\\nAdd ability to use the ZL button to go up a directory\\nAdded support for WebDAV servers that don't support http HEAD request. Fixes download issues from real-debrid webdav\\n\\n1.03\\n\\nUpdated Progress Dialog to show Avg Transfer Speed instead of percentage completed\\nImplemented wrap around while scrolling file list\\nFix crash caused by invalid SMB url\\n\\n1.02\\n\\nimprove speed extracting compressed files from SMB\\nfixed connecting to FTP server by using hostname\\nupdate Simplified Chinese\\nadded Ukrainian language",
+    "assets": [
+        {
+            "url": "https://github.com/cy33hc/switch-ezremote-client/releases/download/1.12/ezremote-client.nro",
+            "dest": "/switch/ezremote-client.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
