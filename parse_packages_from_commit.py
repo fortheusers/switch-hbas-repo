@@ -2,13 +2,17 @@
 # This is a helper script to list any packages that match text in the last commit message
 # it writes the list to packages_in_commit.txt
 
-import os, subprocess
+import os, sys
 
 # get a list of all packages from ./packages
-packages = os.listdir("packages")
+packages = os.listdir("./packages")
 out = set()
 
-commit_message = subprocess.run(["git", "log", "-1"], capture_output=True, text=True).stdout
+if len(sys.argv) < 2:
+    print("Usage: python3 parse_packages_from_commit.py <commit_message>")
+    sys.exit(1)
+
+commit_message = sys.argv[1]
 for package in packages:
     if package in commit_message:
         out.add(package)
@@ -20,3 +24,5 @@ if "force_refresh_all" in commit_message:
 with open("packages_in_commit.txt", "w") as f:
     for package in out:
         f.write(package + "\n")
+
+print("Wrote to packages_in_commit.txt, count:", len(out))
