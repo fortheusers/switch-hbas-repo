@@ -18,7 +18,7 @@ jobs:
         with:
           submodules: 'recursive'
       - name: Build HBAS Repo
-        run: cd packages && python ../spinarak/spinarak.py
+        run: cd packages && python ../spinarak/spinarak.py -c https://switch2.cdn.fortheusers.org/repo.json
       - name: Deploy to BunnyCDN
         uses: ayeressian/bunnycdn-storage-deploy@v2.2.0
         with:
@@ -30,5 +30,7 @@ jobs:
           accessKey: "${{ secrets.STORAGE_KEY }}"
           pullZoneId: "${{ secrets.PULL_ZONE_ID }}"
           upload: "true"
-          remove: "true" # TODO: cache
-          purgePullZone: "true"
+          remove: "false"
+          purgePullZone: "false" # purging will be handled by magnezone
+      - name: Refresh merged repo via Magnezone
+        run: curl --header "AccessKey: ${{ secrets.STORAGE_KEY }}" https://magnezone.fortheusers.org/refresh?repo=primary&packages=$(cat updated_packages.txt | tr -s '\n' ' ')
