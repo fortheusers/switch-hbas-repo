@@ -33,4 +33,4 @@ jobs:
           remove: "false"
           purgePullZone: "false" # purging will be handled by magnezone
       - name: Refresh merged repo via Magnezone
-        run: "curl --header \"AccessKey: ${{ secrets.STORAGE_KEY }}\" https://magnezone.fortheusers.org/refresh?repo=primary&packages=$(cat updated_packages.txt)"
+        run: "curl --header \"AccessKey: ${{ secrets.STORAGE_KEY }}\" https://magnezone.fortheusers.org/refresh?repo=primary&packages=$(cat ./packages/updated_packages.txt)"
