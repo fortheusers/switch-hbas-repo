@@ -18,7 +18,7 @@
             "zip": [
                 {
                     "path": "/switch/McOsu/**/**",
-                    "dest": "/switch/McOsu/",
+                    "dest": "/switch/McOsu",
                     "type": "update"
                 },
                 {
@@ -28,7 +28,7 @@
                 },
                 {
                     "path": "/switch/McOsu/cfg/**",
-                    "dest": "/switch/McOsu/",
+                    "dest": "/switch/McOsu/cfg",
                     "type": "get"
                 }
             ]

@@ -17,6 +17,12 @@ The `assets` section of the pkgbuild.json contains info about how to source the 
 
 For an explanation of the different extraction states (Install, Extract, Update, Get), see the [libget Wiki](https://github.com/fortheusers/libget/wiki/Overview-&-Glossary). Concisely, most files will use the `update` state, which indicates that the file should always be extracted on update or install of the package.
 
-See the [Spinarak Wiki](https://gitlab.com/4TU/spinarak/-/wikis/pkgbuild.json-specification) for more detailed information on pkgbuild keys and assets. If the `version` key is bumped, the package will be rebuilt by the CI, including the re-sourcing and re-downloading of any required assets.
+### CI Updates
+If the `version` key is bumped, the package will be rebuilt by the CI, including the re-sourcing and re-downloading of any required assets. See the [Spinarak Wiki](https://gitlab.com/4TU/spinarak/-/wikis/pkgbuild.json-specification) for more detailed information on pkgbuild keys and assets.
 
+If the `version` key is not bumped, you can still force a manual update by including the name of the package in your git commit. Eg. if my commit message was "fix file layout issue in vgedit", the precesense of the string `vgedit` in the commit will ensure that the package is rebuilt.
+
+### Migration script
 For migrating an existing package into a pkgbuild, you can run `python3 stage_update.py <package name>` and a template directory, pkgbuild.json, and assets will be created. It includes both an example for extracting a zip, or a simple one-file download.
+
+For zip extractions, in most cases there should not be a trailing slash on the `dest` key, or there will be double-slash'd paths in the manifest. If the same file path is matched by another asset, (see McOsu-NX package for an example), the later assets will override the state in the earlier assets. This allows for the first asset to be "extract all, with `update` type" and then the second one to be "extract just songs, with `get` type".

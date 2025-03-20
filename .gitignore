@@ -1,2 +1,5 @@
 .DS_Store
 packages/public/*
+packages_in_commit.txt
+*manifest.install
+*info.json
