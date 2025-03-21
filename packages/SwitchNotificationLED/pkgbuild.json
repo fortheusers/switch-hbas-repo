@@ -14,8 +14,14 @@
     "assets": [
         {
             "url": "https://github.com/Mellow20ne/Switch-Notification-LED/releases/download/v1.0/Notification_LED.zip",
-            "dest": "/switch/Notification_LED.nro",
-            "type": "update"
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/Notification_LED/Notification_LED.nro",
+                    "dest": "/switch/Notification_LED.nro",
+                    "type": "update"
+                }
+            ]
         },
         {
             "url": "icon.png",
