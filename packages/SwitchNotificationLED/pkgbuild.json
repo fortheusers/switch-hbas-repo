@@ -1,0 +1,25 @@
+{
+    "package": "SwitchNotificationLED",
+    "info": {
+        "title": "Switch Notification LED",
+        "author": "Mellow20ne",
+        "category": "advanced",
+        "version": "1.0",
+        "url": "https://github.com/Mellow20ne/Switch-Notification-LED/",
+        "license": "n/a",
+        "description": "Notification LED hombrew app",
+        "details": "Switch Notification LED, homebrew app. Works with multiple connected controllers (Joy-Cons/Pro controller). You can connect controllers while in the app, and use 'R', to cycle through them to active the LED on controller you want.\\nLED modes: ON (Full brightness), Dim brightness, and Fading."
+    },
+    "changelog": "Initial release",
+    "assets": [
+        {
+            "url": "https://github.com/Mellow20ne/Switch-Notification-LED/releases/download/v1.0/Notification_LED.zip",
+            "dest": "/switch/Notification_LED.nro",
+            "type": "update"
+        },
+        {
+            "url": "icon.png",
+            "type": "icon"
+        }
+    ]
+}

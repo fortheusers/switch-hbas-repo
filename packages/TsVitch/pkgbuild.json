@@ -1,0 +1,33 @@
+{
+    "package": "TsVitch",
+    "info": {
+        "title": "TsVitch",
+        "author": "giovannimirulla",
+        "category": "tool",
+        "version": "0.1.0",
+        "url": "https://github.com/giovannimirulla/TsVitch/",
+        "license": "GPLv3",
+        "description": "TV finally on Switch",
+        "details": "This app turns your Nintendo Switch into a powerful multimedia streaming device. With a user-friendly interface and extensive customization options, you can easily access and enjoy your favorite IPTV channels.\\n\\nMultimedia Streaming: Stream IPTV channels directly on your Nintendo Switch with support for M3U playlists.\\nOptimized UI: User interface designed for the Nintendo Switch touchscreen and Joy-Con controls.\\nDefault Playlist: Includes a preloaded playlist sourced from the Free-TV/IPTV repository.\\nDisclaimers\\n\\nLegal Compliance: The app does not host or provide IPTV content. Users must ensure their playlists comply with local laws.\\nEducational Purpose: Provided 'as-is' without warranties. The author disclaims responsibility for misuse or damages."
+    },
+    "changelog": "Initial Release",
+    "assets": [
+        {
+            "url": "https://github.com/giovannimirulla/TsVitch/releases/download/0.1.0/tsvitch.nro",
+			"dest": "/switch/tsvitch.nro",
+            "type": "update"
+        },
+        {
+            "url": "icon.png",
+            "type": "icon"
+        },
+        {
+            "url": "banner.png",
+            "type": "banner"
+        },
+        {
+            "url": "screenshot.png",
+            "type": "screenshot"
+        }
+    ]
+}
