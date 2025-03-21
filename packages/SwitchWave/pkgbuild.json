@@ -1,0 +1,56 @@
+{
+    "package": "SwitchWave",
+    "info": {
+        "title": "SwitchWave",
+        "author": "averne",
+        "category": "tool",
+        "version": "1.0.1",
+        "url": "https://github.com/averne/SwitchWave/",
+        "license": "GPLv3",
+        "description": "Hardware accelerated media player",
+        "details": "A hardware-accelerated media player for the Nintendo Switch, built on mpv and FFmpeg.  Features: \\n\\nCustom hardware acceleration backend for FFmpeg, with dynamic frequency scaling. The following codecs can be decoded:\\n\\nMPEG1/2/4\\n\\nVC1\\n\\nH.264/AVC (10+ bit not supported by hardware)\\n\\nH.265/HEVC (12+ bit not supported by hardware)\\n\\nVP8\\n\\nVP9 (10+ bit not supported by hardware)\\n\\nCustom graphics backend for mpv using deko3d, supporting:\\n\\nPlayback at 4k60fps\\n\\nDirect rendering (faster software decoding)\\n\\nCustom post-processing shaders\\n\\nCustom audio backend for mpv using native Nintendo APIs, supporting layouts up to 5.1 surround\\n\\nNetwork playback through Samba, NFS or SFTP\\n\\nExternal drive support using libusbhsfs\\n\\nRich and responsive user interface, even under load"
+    },
+    "changelog": "v1.0.1\\nFixes playback of files with very long paths in the recent tab\\nFixes a rare corruption of native screenshots\\nMiscellaneous UX improvements",
+    "assets": [
+        {
+            "url": "https://github.com/averne/SwitchWave/releases/download/v1.0.1/SwitchWave-1.0.1-910bc0c.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**",
+                    "dest": "/",
+                    "type": "update"
+                },
+                {
+                    "path": "/switch/SwitchWave/mpv.conf",
+                    "dest": "/switch/SwitchWave/mpv.conf",
+                    "type": "get"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "banner.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "filelist.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "connect.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "playback1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "playback2.png"
+        }
+    ]
+}
