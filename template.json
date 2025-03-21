@@ -1,0 +1,36 @@
+{
+    "package": "folderName",
+    "info": {
+        "title": "Human Readable Title",
+        "author": "DevName",
+        "category": "game",
+        "version": "1.0",
+        "url": "http://website.com",
+        "license": "MIT",
+        "description": "short description",
+        "details": "long description"
+    },
+    "changelog": "",
+    "assets": [
+        {
+            "url": "https://example.com/zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/example.nro",
+            "dest": "/switch/path/to/file.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        }
+    ]
+}

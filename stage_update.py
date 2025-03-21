@@ -21,10 +21,7 @@ if response.status_code != 200:
 repo = response.json()
 
 # get the existing libget package data from the repo
-data = [pkg for pkg in repo["packages"] if pkg["name"] == package][0]
-if data is None:
-    print("Package not found in existing repo.json")
-    sys.exit(1)
+data = [pkg for pkg in repo["packages"] if pkg["name"] == package]
 
 # create the new package folder
 os.makedirs(f"packages/{package}", exist_ok=True)
@@ -47,6 +44,14 @@ template = {
     "changelog": "",
     "assets": [],
 }
+
+if len(data) == 0:
+    print(f"Package {package} not found in repo.json, make empty pkgbuild.json")
+    with open(f"packages/{package}/pkgbuild.json", "w") as f:
+        json.dump(template, f, indent=4)
+    sys.exit(0)
+
+data = data[0] # grab first match for this package name
 
 # for each key in the template, copy the data from the repo
 for key in template["info"]:
