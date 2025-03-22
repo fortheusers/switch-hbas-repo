@@ -17,12 +17,12 @@
             "type": "zip",
             "zip": [
                 {
-                    "path": "/switch/McOsu/**/**",
+                    "path": "/switch/McOsu/**/*",
                     "dest": "/switch/McOsu",
                     "type": "update"
                 },
                 {
-                    "path": "/switch/McOsu/Songs/**",
+                    "path": "/switch/McOsu/Songs/**/*",
                     "dest": "/switch/McOsu/Songs",
                     "type": "get"
                 },
