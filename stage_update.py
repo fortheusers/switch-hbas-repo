@@ -65,7 +65,7 @@ template["assets"].append({
     "url": "https://example.com/file.zip",
     "type": "zip",
     "zip": [{
-        "path": "/**",
+        "path": "/**/*",
         "dest": "/",
         "type": "update",
     }]

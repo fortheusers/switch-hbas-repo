@@ -12,7 +12,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    container: python:3.10
+    container: python:3.12
     steps:
       - uses: actions/checkout@v2
         with:
@@ -20,7 +20,7 @@ jobs:
       - name: Load override update list from commit message
         run: python parse_packages_from_commit.py "${{ github.event.head_commit.message }}"
       - name: Install 7zip
-        run: apt-get update && apt-get install -y 7zip
+        run: apt-get update && apt-get install -y 7zip tree
       - name: Build HBAS Repo
         run: "cd packages && python ../spinarak/spinarak.py -c https://switch2.cdn.fortheusers.org/repo.json $(cat ../packages_in_commit.txt | tr '\n' ' ')"
       - name: Deploy to BunnyCDN

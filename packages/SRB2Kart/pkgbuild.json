@@ -17,7 +17,7 @@
             "type": "zip",
             "zip": [
                 {
-                    "path": "/**",
+                    "path": "/**/*",
                     "dest": "/",
                     "type": "update"
                 }
