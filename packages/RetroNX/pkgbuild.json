@@ -74,12 +74,12 @@
                 },
                 {
                     "path": "/retroarch/cores/mupen64plus_next_libretro_libnx.nro",
-                    "dest": "/retroarch/coresmupen64plus_next_libretro_libnx.nro",
+                    "dest": "/retroarch/cores/mupen64plus_next_libretro_libnx.nro",
                     "type": "update"
                 },
                 {
                     "path": "/retroarch/cores/gambatte_libretro_libnx.nro",
-                    "dest": "/retroarch/coresgambatte_libretro_libnx.nro",
+                    "dest": "/retroarch/cores/gambatte_libretro_libnx.nro",
                     "type": "update"
                 },
                 {
@@ -90,6 +90,36 @@
                 {
                     "path": "/retroarch/cores/melonds_libretro_libnx.nro",
                     "dest": "/retroarch/cores/melonds_libretro_libnx.nro",
+                    "type": "update"
+                },
+                {
+                    "path": "/retroarch/info/nestopia_libretro.info",
+                    "dest": "/retroarch/info/nestopia_libretro.info",
+                    "type": "update"
+                },
+                {
+                    "path": "/retroarch/info/snes9x_libretro.info",
+                    "dest": "/retroarch/info/snes9x_libretro.info",
+                    "type": "update"
+                },
+                {
+                    "path": "/retroarch/info/mupen64plus_next_libretro.info",
+                    "dest": "/retroarch/info/mupen64plus_next_libretro.info",
+                    "type": "update"
+                },
+                {
+                    "path": "/retroarch/info/gambatte_libretro.info",
+                    "dest": "/retroarch/info/gambatte_libretro.info",
+                    "type": "update"
+                },
+                {
+                    "path": "/retroarch/info/mgba_libretro.info",
+                    "dest": "/retroarch/info/mgba_libretro.info",
+                    "type": "update"
+                },
+                {
+                    "path": "/retroarch/info/melonds_libretro.info",
+                    "dest": "/retroarch/info/melonds_libretro.info",
                     "type": "update"
                 }
             ]
