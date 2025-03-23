@@ -1,0 +1,33 @@
+{
+    "package": "Super-Haxagon",
+    "info": {
+        "title": "Super-Haxagon",
+        "author": "RedTopper",
+        "category": "game",
+        "version": "3.8.3",
+        "url": "https://github.com/RedTopper/Super-Haxagon/releases",
+        "license": "MIT",
+        "description": "A Super Hexagon Clone",
+        "details": "Super Haxagon is a cross platform, open source Super Hexagon clone for the Nintendo 3DS, Nintendo Switch, Windows, and Linux. It is developed in C++ and uses no additional libraries for the core logic, making it easy (in theory) to port to new platforms. It also has a GUI based level editor called Haxa Editor.\\n\\nFeatures\\n\\nCross Platform\\nWidescreen support\\nHigh Refresh Rate support\\nCustom Levels\\nOGG decoder for BGM\\nHigh Score Saving\\n"
+    },
+    "changelog": "",
+    "assets": [
+        {
+            "url": "https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.3/SuperHaxagon.nro",
+            "dest": "/switch/Super-Haxagon/SuperHaxagon.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen1.png"
+        }
+    ]
+}
