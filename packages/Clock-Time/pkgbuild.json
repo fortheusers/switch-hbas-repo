@@ -1,0 +1,25 @@
+{
+    "package": "Clock-Time",
+    "info": {
+        "title": "Clock-Time",
+        "author": "TRY",
+        "category": "demo",
+        "version": "1.0.1",
+        "url": "https://github.com/neoneopuooui/Clock-Time",
+        "license": "n/a",
+        "description": "Yet another clock app",
+        "details": "The Switch Clock app, light n' dark mode yeahh !\\n\\nCommands\\nPress Plus to quit and tap the screen to change mode, beetween dark and bright\\n\\nInstructions\\nPut the .nro file wherever you want just don't run it in appelet mode, use R and run a game to go into non appelt mode hbmenu\\n\\nMade with LÖVE"
+    },
+    "changelog": "",
+    "assets": [
+        {
+            "url": "https://github.com/neoneopuooui/Clock-Time/releases/download/fhioziejf/clocktime.nro",
+            "dest": "/switch/Clock-Time/clocktime.nro",
+            "type": "update"
+        },
+        {
+            "url": "icon.png",
+            "type": "icon"
+        }
+    ]
+}

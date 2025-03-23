@@ -1,0 +1,36 @@
+{
+    "package": "ftpsrv",
+    "info": {
+        "title": "ftpsrv",
+        "author": "iTotalJustice",
+        "category": "tool",
+        "version": "1.2.2",
+        "url": "https://github.com/ITotalJustice/ftpsrv",
+        "license": "n/a",
+        "description": "small and fast ftp server",
+        "details": "An ftp server for the switch, designed with performance in mind.\\n\\nNOTE: to enable login, you must either set \"anon = 1\" or set a valid username and password in \"/config/ftpsrv/config.ini\""
+    },
+    "changelog": "",
+    "assets": [
+        {
+            "url": "https://github.com/ITotalJustice/ftpsrv/releases/download/1.2.2/switch_application.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/switch/ftpsrv.nro",
+                    "dest": "/switch/ftpsrv.nro",
+                    "type": "update"
+                },
+                {
+                    "path": "/config/ftpsrv/config.ini.template",
+                    "dest": "/config/ftpsrv/config.ini",
+                    "type": "get"
+                }
+            ]
+        },
+        {
+            "type": "banner",
+            "url": "banner.png"
+        }
+    ]
+}
