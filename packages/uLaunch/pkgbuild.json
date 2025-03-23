@@ -1,0 +1,35 @@
+{
+    "package": "uLaunch",
+    "info": {
+        "title": "uLaunch",
+        "author": "XorTroll",
+        "category": "advanced",
+        "version": "1.1.0",
+        "url": "https://github.com/XorTroll/uLaunch/releases",
+        "license": "GPLv2",
+        "description": " Custom, open-source Home Menu",
+        "details": "Custom, open-source replacement/reimplementation for Nintendo Switch's HOME menu (qlaunch), extending it with amazing, homebrew-oriented functionality!\\n\\nuLaunch is a very ambitious project, consisting on two custom library applets, a custom system application and a custom system applet, in order to replace the console's HOME menu with a custom, homebrew-oriented one.\\n\\nThis isn't any kind of HOME menu extension, injection, patch, etc. uLaunch is a complete reimplementation, 100% open-source, which also takes over eShop and Parental control applets and flog system title (all of them are pretty much useless with this reimpl) for its extended functionality.\\n\\nThe project is licensed as GPLv2.\\n\\nFor those who are interested in how the UI was done, this project is, like Goldleaf, a good example of how powerful Plutonium libraries can be in order to make beautiful UIs.\\n\\nFeatures\\nList of HOME menu features uLaunch has:\\n\\nProper launching and foreground management: launch, suspend and close titles and applets\\n\\nProper general channel handling (some of it might be not implemented): sleep, shutdown, reboot, HOME menu press detection...\\n\\nSettings:\\n\\nShow connected WiFi network's name\\n\\nOpen connection applet in case user wants to change network settings\\n\\nChange console's language and show active one\\n\\nChange console's nickname and show current one\\n\\nUser features:\\n\\nAllow creating user on the startup menu\\n\\nShow user's page (in order to edit nickname, icon, friends...)\\n\\nHomebrew support\\n\\nLaunching as applets (no need of Album!)\\n\\nLaunching as applications (no need of any titles to do so!)\\n\\nCustom basic homebrew menu\\n\\nOption to add custom NRO accessors to main menu (homebrew or custom items easily accessible, no more need of forwarders!)\\n\\nUI\\n\\nThemes (different to official HOME menu themes/NXThemes)\\n\\nCustom icons, menu assets and graphics (custom images, colors, sizes, positions...), background...\\n\\nCustom background music and sound effects!\\n\\nFolders in order to keep your main menu organized!\\n\\nUsers\\n\\nPC-like login on startup (select user and use it for everything, log off, register/change/remove password...)\\n\\nUser password support! (up to 15 characters)\\n\\nMiscellaneous extras\\n\\nWeb browsing (via web-applet) directly from the main menu!\\n\\nConsole screen capturing from PC itself (Windows-only) via USB-C cable and uViewer tool!\\n\\nDisclaimer\\nHomebrew-as-application 'flog' takeover\\nuLaunch allows you to launch homebrew as an application, taking advantage of the system's 'flog' built-in application title, which was stubbed but not removed, thus it's content can be overriden via LayeredFS and launched.\\n\\nSince launching this title should be impossible, it might involve ban risk. uLaunch has this option disabled by default, so enable and use it use it at your own risk. Always make youre you're safe from bans (by using tools like 90DNS) before using uLaunch to avoid any possible risks."
+    },
+    "changelog": "Atmosphère v1.8.0 (up to firmware 19.0.1) support\\n\\nDisclaimer: known issue\\n\\nThis release ships with a known (minor) issue: the newly introduced game detection (gamecard, corrupted and more, see below) also misclasifies some games as 'needing an update', and while it doesn't prevent from launching them, the corresponding icon is incorrectly displayed. I still need to figure out the way regular HOME menu detects updated titles :P\\n\\nMenu\\n\\nGames which are installed within uLaunch now launch fine for the first time, no longer requiring to revert to regular HOME menu for that initial launch\\n\\nItalian, French and German translations\\n\\nLockscreen support! It can be enabled/disabled in settings\\n\\nA new special entry for amiibo settings was added\\n\\nFolder names are displayed now over the folder icons (like old uLaunch did)\\n\\nGames are now detected in a much better way:\\n\\nCorrupted games are detected like the regular HOME menu, allowing for the same data check process... but in the background, while the regular HOME menu forces it to be active\\n\\nGamecard titles are recognized and properly shown\\n\\n(Most) games which cannot be launched are recognized and properly shown (see known issue above)\\n\\nAdded special checks to ensure all special entries (user page, controller options and so on) are present in the menu\\n\\nThe delay time after adding a homebrew / after a crash was made shorter\\n\\nMinor bugs where fixed when adding a new homebrew entry to the menu\\n\\nFixed some issues with custom menu entries, where some JSON fields were not working if other fields were not set\\n\\nSettings\\n\\nSettings were reorganized and extended with a few previously unimplemented options (and there are more to come), these are the changed/added entries:\\n\\nConsole language (reorganized in a nicer way)\\n\\nSystem update status\\n\\nConsole region\\n\\nPrimary album storage\\n\\nLockscreen enabled (uLaunch-specific)\\n\\nHandheld / console sleep time\\n\\nSleeps while playing media\\n\\nWakes at power state change\\n\\nBattery serial / lot\\n\\nAll these were organized in various menus (uLaunch, system, screen and so on)... not a lot of new ones, but slowly extending the supported settings\\n\\nThemeing\\n\\nIntroduced a new special entry for amiibo options, with a new icon at ui/Main/EntryIcon/Amiibo, ui/Main/QuickIcon/Amiibo and a dedicated sound effect at sound/Main/OpenAmiibo.wav.\\n\\nSettings got reorganized, now having menu_text and submenu_text fields (info_text is unused now) and its own input_bar, with background at ui/Settings/InputBarBackground\\n\\nDue to better game detection, the following over-icons are introduced in this release:\\n\\nMain/OverIcon/Corrupted\\n\\nMain/OverIcon/Gamecard\\n\\nMain/OverIcon/NeedsUpdate\\n\\nMain/OverIcon/NotLaunchable\\n\\nOf course, uDesigner and the wiki will quickly get updated with these theme changes.",
+    "assets": [
+        {
+            "url": "https://github.com/XorTroll/uLaunch/releases/download/1.1.0/uLaunch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "SdOut/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

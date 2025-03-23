@@ -1,0 +1,35 @@
+{
+    "package": "wiliwili",
+    "info": {
+        "title": "wiliwili",
+        "author": "xfangfang",
+        "category": "_misc",
+        "version": "1.5.1",
+        "url": "https://github.com/xfangfang/wiliwili/releases",
+        "license": "GPLv3",
+        "description": "Yet another Bilibili client",
+        "details": "wiliwili is an Unofficial 3rd party Bilibili client, which provides switch users with the possibility to watch videos from Bilibili.\\n\\nBilibili is a video website mainly for Chinese users, so the default language setting is Chinese.\\n\\nBecause of copyright issues, videos refreshed using this app are different in different regions of the world.\\n"
+    },
+    "changelog": "[Added]: Highlight search keywords\\n\\n[Added]: Support jumping to specified videos from the chat\\n\\n[Added]: Several custom configurations added (see Wiki)\\n\\n[Fixed]: Some videos fail to auto-replay\\n\\n[Fixed]: Subtitles display incorrectly\\n\\n[Fixed]: Video card icons not displayed on some systems.\\n\\n[Fixed]: OSD doesn't auto-hide after using shortcuts.\\n\\n[Fixed]: Clicking on one's own activity replies does not lead to the corresponding activity\\n\\n[Optimized]: Improved network request speed\\n\\n[Optimized]: Prevent MPV caching shaders locally\\n\\n[Optimized]: Change to HTTP after disabling TLS verification\\n\\n[Optimized]: Minor UI tweaks, performance improvements, and subtle bug fixes",
+    "assets": [
+        {
+            "url": "https://github.com/xfangfang/wiliwili/releases/download/v1.5.1/wiliwili-NintendoSwitch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "wiliwili/wiliwili.nro",
+                    "dest": "/switch/wiliwili/wiliwili.nro",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

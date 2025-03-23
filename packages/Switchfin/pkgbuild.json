@@ -1,0 +1,29 @@
+{
+    "package": "Switchfin",
+    "info": {
+        "title": "Switchfin",
+        "author": "dragonflylee",
+        "category": "tool",
+        "version": "0.6.3",
+        "url": "https://github.com/dragonflylee/switchfin",
+        "license": "Apache v2",
+        "description": "Nintendo Switch Jellyfin client",
+        "details": "Switchfin is third-party PC player for Jellyfin that provides a native user interface to browse and play movies and series.\\nSupported media items: movies, series, seasons, episodes\\nDirect play and transcoding"
+    },
+    "changelog": "Fixed\\n- websocket close gracefully\\n- vita\\n- transcode audio codec\\n- upgrade ffmpeg 7.1.1\\n\\nAdd\\n- player option for video rotate\\n- photo viewer support",
+    "assets": [
+        {
+            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.6.3/Switchfin.nro",
+            "dest": "/switch/Switchfin/Switchfin.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
