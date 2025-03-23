@@ -10,7 +10,7 @@
         "description": "A Super Hexagon Clone",
         "details": "Super Haxagon is a cross platform, open source Super Hexagon clone for the Nintendo 3DS, Nintendo Switch, Windows, and Linux. It is developed in C++ and uses no additional libraries for the core logic, making it easy (in theory) to port to new platforms. It also has a GUI based level editor called Haxa Editor.\\n\\nFeatures\\n\\nCross Platform\\nWidescreen support\\nHigh Refresh Rate support\\nCustom Levels\\nOGG decoder for BGM\\nHigh Score Saving\\n"
     },
-    "changelog": "",
+    "changelog": "3ds, switch: For platforms that embed music into the ROM, you can add custom title music by placing a title.ogg next to your scores.db file. #35\\nall: Pressing right no longer has priority over pressing left. Instead, the last direction to be pressed \"wins\". This makes switching directions faster and easier. #36",
     "assets": [
         {
             "url": "https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.3/SuperHaxagon.nro",
