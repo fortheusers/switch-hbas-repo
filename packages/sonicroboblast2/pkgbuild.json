@@ -1,0 +1,35 @@
+{
+    "package": "sonicroboblast2",
+    "info": {
+        "title": "Sonic Robo Blast 2",
+        "author": "Craftyawesome, heyjoeway",
+        "category": "game",
+        "version": "2.2.15-switch",
+        "url": "https://github.com/Craftyawesome/SRB2",
+        "license": "GPLv2",
+        "description": "Sonic Robo Blast 2 Port",
+        "details": "Sonic Robo Blast 2 is a 3D Sonic the Hedgehog fangame based on a modified version of Doom Legacy.\\n\\nThis fork aims to support the Nintendo Switch.\\n\\nNotes: The game takes a bit to boot. A faster SD card or higher CPU clock may help with this. The game defaults to software renderer. Consider changing to OpenGL. Performance is similar at low resolutions and better at high resolutions. The automatic resolution option runs at 800x450 on software, 1280x720 OpenGL handheld, 1920x1080 OpenGL docked. This can be disabled. The game is CPU bottlenecked even on OpenGL. Models are an additional small performance loss. The game continues to run while on the Switch's home screen when you are unable to pause to prevent lag-switching. If you want to play the game with mouse/keyboard, you'll have to bind most of the buttons yourself. All button bindings are set \"correctly\" out-of-the-box. You might want to tweak them to your liking though.\\n\\nAuthors: Sonic Team Jr, Craftyawesome, heyjoeway, carstene1n"
+    },
+    "changelog": "Fix saved resolution being ignored with automatic resolution off\\nAdd a message when attempting to change resolution with auto resolution enabled\\n\\nFor the full notes on 2.2.15 read here: https://git.do.srb2.org/STJr/SRB2/-/wikis/Changelogs/2.2.15",
+    "assets": [
+        {
+            "url": "https://github.com/Craftyawesome/SRB2/releases/download/v2.2.15-switch/srb2switch22_2.2.15.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "icon.png",
+            "type": "icon"
+        },
+        {
+            "url": "banner.png",
+            "type": "banner"
+        }
+    ]
+}

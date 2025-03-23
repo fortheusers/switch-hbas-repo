@@ -1,0 +1,35 @@
+{
+    "package": "RingRacers",
+    "info": {
+        "title": "Ring Racers",
+        "author": "Craftyawesome",
+        "category": "game",
+        "version": "2.3-r6-switch",
+        "url": "https://github.com/Craftyawesome/RingRacers-Switch/releases/",
+        "license": "GPLv2",
+        "description": "Technical Kart Racer",
+        "details": "\"Dr. Robotnik’s Ring Racers\" is a Technical Kart Racer, drawing inspiration from \"antigrav\" racers, fighting games, and traditional-style kart racing.\\n\\nDesigned to minimize randomness and emphasize player expression, Ring Racers isn’t just about precise handling—you’ll need to master tense combat, resource management, and taking risks under pressure.\\n\\nRing Racers is not a \"pick-up-and-play\" experience. If you aren’t already a racing fanatic, the learning curve will be quite steep.\\n\\nIt takes a while to boot up, longer than SRB2/kart do. Increase the CPU clock with something like sys-clk. It helps framerates significantly, which is needed to get modes with multiple racers to a playable framerate. Legacy GL is not very stable, especially with multiple racers. Consider using software only. I would recommend a resolution of 708x400 under software, and 800x450 for less complex tracks or one racer. Legacy GL can handle larger at similar framerates. Buttons match the Xbox controller layout."
+    },
+    "changelog": "Fix undersaturated icon, now matches ingame/website. Also change crop.\\nFix log sometimes being incomplete on exit/crash.\\n\\nFor the full notes on this release read here: https://github.com/KartKrewDev/RingRacers/releases/tag/v2.3",
+    "assets": [
+        {
+            "url": "https://github.com/Craftyawesome/RingRacers-Switch/releases/download/v2.3-r6-switch/Ring.Racers.2.3.r6.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "icon.png",
+            "type": "icon"
+        },
+        {
+            "url": "banner.png",
+            "type": "banner"
+        }
+    ]
+}
