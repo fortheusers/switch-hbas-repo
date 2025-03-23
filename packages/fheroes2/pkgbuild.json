@@ -4,16 +4,16 @@
         "title": "fheroes2",
         "author": "dimag0g",
         "category": "game",
-        "version": "1.1.6",
+        "version": "1.1.7",
         "url": "https://github.com/ihhub/fheroes2",
         "license": "GPLv2",
         "description": "Free Heroes of Might and Magic II engine",
         "details": "Details\\nInstallation\\n\\nYou will need a copy of the official game to run this port. Put the game files in /switch/fheroes2 (specifically ANIM, DATA, MAPS and MUSIC folders), ANIM and MUSIC folders are optional: you can play without any music or movies. If you don't have the ANIM folder, create it and copy whatever *.smk files you have from DATA to ANIM.\\n\\nControls\\n\\n- Touchscreen - emulates mouse, including dragging\\n- L-stick - move mouse cursor\\n- R-stick/D-pad - scroll\\n- A - left mouse click\\n- B - Right mouse click\\n- X - Escape\\n- Y - Enter\\n- (+) - Cast spell\\n- (-) - End turn\\n- R - Cycle through towns\\n- L - Cycle through heroes\\n\\nMore info at https://github.com/dimag0g/fheroes2/tree/switch"
     },
-    "changelog": "Rework multiple buttons in the game and introduce additional buttons in both the Editor and gameplay\\n\\nExpand the functionality of Adventure Map events\\n\\nDisplay additional information for Adventure Map objects in the Editor\\n\\nFix various rendering and logical issues in the Editor\\n\\nOver 50 issues have been closed since the 1.1.5 release\\n\\nFull list of changes can be found here.",
+    "changelog": "v1.1.7\\nImprove the AI logic during battles and on the Adventure Map\\nAllow changing the campaign difficulty at any time\\nFix multiple rendering issues on the Adventure Map\\nExpand the Virtual Keyboard to support more languages\\n\\nv1.1.6\\nRework multiple buttons in the game and introduce additional buttons in both the Editor and gameplay\\n\\nExpand the functionality of Adventure Map events\\n\\nDisplay additional information for Adventure Map objects in the Editor\\n\\nFix various rendering and logical issues in the Editor\\n\\nOver 50 issues have been closed since the 1.1.5 release\\n\\nFull list of changes can be found here.",
     "assets": [
         {
-            "url": "https://github.com/ihhub/fheroes2/releases/download/1.1.6/fheroes2_switch.zip",
+            "url": "https://github.com/ihhub/fheroes2/releases/download/1.1.7/fheroes2_switch.zip",
             "type": "zip",
             "zip": [
                 {
