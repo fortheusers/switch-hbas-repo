@@ -1,0 +1,35 @@
+{
+    "package": "mGBA",
+    "info": {
+        "title": "mGBA",
+        "author": "endrift",
+        "category": "emu",
+        "version": "0.10.5",
+        "url": "https://github.com/mgba-emu/mgba/releases",
+        "license": "MPL-2.0",
+        "description": "Game Boy Advance Emulator",
+        "details": "mGBA is an emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack. It also supports Game Boy and Game Boy Color games.\\n\\nUp-to-date news and downloads can be found at https://mgba.io\\n\\nFeatures\\nHighly accurate Game Boy Advance hardware support[1].\\nGame Boy/Game Boy Color hardware support.\\nFast emulation. Known to run at full speed even on low end hardware, such as netbooks.\\nQt and SDL ports for a heavy-weight and a light-weight frontend.\\nLocal (same computer) link cable support.\\nSave type detection, even for flash memory size[2].\\nSupport for cartridges with motion sensors and rumble (only usable with game controllers).\\nReal-time clock support, even without configuration.\\nSolar sensor support for Boktai games.\\nGame Boy Camera and Game Boy Printer support.\\nA built-in BIOS implementation, and ability to load external BIOS files.\\nTurbo/fast-forward support by holding Tab.\\nRewind by holding Backquote.\\nFrameskip, configurable up to 10.\\nScreenshot support.\\nCheat code support.\\n9 savestate slots. Savestates are also viewable as screenshots.\\nVideo and GIF recording.\\nRemappable controls for both keyboards and gamepads.\\nLoading from ZIP and 7z files.\\nIPS, UPS and BPS patch support.\\nGame debugging via a command-line interface and GDB remote support, compatible with IDA Pro.\\nConfigurable emulation rewinding.\\nSupport for loading and exporting GameShark and Action Replay snapshots.\\nCores available for RetroArch/Libretro and OpenEmu.\\nMany, many smaller things."
+    },
+    "changelog": "Important fixes include save state loading leading to a small portion of the ROM getting corrupted until reset, which affected games including Golden Sun, the Wii version (and potentially other versions) crashing when loading from ZIP files that are too large, and another issue with the updater.\\n\\nSee full changelog at: https://mgba.io/2025/03/08/mgba-0.10.5/",
+    "assets": [
+        {
+            "url": "https://github.com/mgba-emu/mgba/releases/download/0.10.5/mGBA-0.10.5-switch.7z",
+            "type": "7z",
+            "7z": [
+                {
+                    "path": "mGBA-0.10.5-switch/mgba.nro",
+                    "dest": "/switch/mgba.nro",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

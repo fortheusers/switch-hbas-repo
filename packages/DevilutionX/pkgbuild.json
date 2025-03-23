@@ -1,0 +1,40 @@
+{
+    "package": "DevilutionX",
+    "info": {
+        "title": "devilutionX",
+        "author": "diasurgical",
+        "category": "game",
+        "version": "1.5.4",
+        "url": "https://github.com/diasurgical/devilutionX/releases",
+        "license": "The Unlicense",
+        "description": "Diablo build for modern operating system",
+        "details": "Joycon Controls\\n- Left analog or D-Pad: move hero\\n- A: attack nearby enemies, talk to townspeople and merchants, pickup/place items in the inventory, OK while in main menu\\n- B: select spell, back while in menus\\n- X: pickup items, open nearby chests and doors, use item in the inventory\\n- Y: cast spell, delete character while in main menu\\n- L: use health item from belt\\n- R: use mana potion from belt\\n- ZL: character sheet (alt: Start + L1 or \u2190)\\n- ZR: inventory (alt: Start + L2 or \u2192)\\n- Left analog click: toggle automap (alt: Start + \u2193)\\n- Start + Select: game menu (alt: Start + \u2191)\\n- Select + A/B/X/Y: Spell hotkeys\\n- Right analog: move automap or simulate mouse\\n- Right analog click or Select + L: left mouse click\\n- Select + Right analog click: right mouse click (alt: Select + R1)\\n- Select + L2: quest log (alt: Start + Y)\\n- Select + R2: spell book (alt: Start + B)"
+    },
+    "changelog": "Features\\n\\n\\n\\nMultiplayer\\n\\n\\n\\nMake invalid items unusable\\n\\nControls\\n\\n\\n\\nBetter support for various gamepads\\n\\nGamepad: Improve navigation of the stash\\n\\nImprove keymapper options\\n\\nPlatforms\\n\\n\\n\\nAdded support for macOS 10.4 PowerPC\\n\\nAdded support for Windows XP\\n\\nAndroid: Avoid game lagging on devices that can switch refresh rates\\n\\nCorrect networking support on big-endian systems\\n\\niOS: High refresh rate support\\n\\nXbox One/Series: Include translations\\n\\nTranslations\\n\\n\\n\\nImprove rendering of Turkish texts\\n\\nUpdate Italian translation\\n\\nUpdate Russian translation\\n\\nUpdate Ukrainian translation\\n\\nStability / Performance / System\\n\\n\\n\\nFix crashes on device hot-plugging\\n\\nFix game crash\\n\\nHide Upscale option in the Settings menu to avoid stability issues\\n\\nLooser validation in Single Player games\\n\\nMake file sync services less likely to corrupt saves\\n\\nMake it clearer how to switch between Hellfire and Diablo\\n\\nUse available screen space in the Settings menu\\n\\nBug Fixes\\n\\n\\n\\nGameplay\\n\\n\\n\\nFix being able to repair equipped items for free\\n\\nFix game freezing when loading Lazarus lair from a save game\\n\\nUnique drops now reset on a new game\\n\\nWake up the whole pack of Gargoyles when disturbed\\n\\nPlatforms\\n\\n\\n\\nAndroid: Fix performance and audio issues on recent versions\\n\\nAndroid: Fix full immersive mode in Android 9 and higher\\n\\nIncorrect menu graphics on DirectFB devices\\n\\nPS4/Switch/Vita/Xbox One/Series: Correct controller mapping\\n\\nMultiplayer\\n\\n\\n\\nCorrect some item validation\\n\\nFix items being lost when held in the cursor during lag spikes\\n\\nBug Fixes for Original Diablo Bugs\\n\\n\\n\\nGameplay\\n\\n\\n\\nFix non-solid fences in the caves\\n\\nBug Fixes for Original Hellfire Bugs\\n\\n\\n\\nGameplay\\n\\n\\n\\nFix incorrectly solid tile next to crypt stairs down\\n\\nMultiplayer\\n\\n\\n\\nFix runes not being seen as a player spell in PvP\\n\\nKnown Issues\\n\\n\\n\\nReleases still being build and will be uploaded soon",
+    "assets": [
+        {
+            "url": "https://example.com/file.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/diasurgical/DevilutionX/releases/download/1.5.4/devilutionx-switch.nro",
+            "dest": "/switch/devilutionx-switch/devilutionx.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
