@@ -1,0 +1,29 @@
+{
+    "package": "SwitchVerifier",
+    "info": {
+        "title": "SwitchVerifier",
+        "author": "LotP",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/LotP1/SwitchVerifier",
+        "license": "GPLv3",
+        "description": "Verify yourself as a real Switch owner",
+        "details": "This tool uses information from your Nintendo Switch device to generate a token that can be used to verify yourself as a real switch owner.\\nUse it with a Discord App/Bot in the supported Discord servers to verify yourself.\\nThe tool does not require internet access."
+    },
+    "changelog": "Initial release",
+    "assets": [
+        {
+            "url": "https://github.com/LotP1/SwitchVerifier/releases/download/1.0.0/SwitchVerification.nro",
+            "dest": "/switch/SwitchVerifier/SwitchVerifier.nro",
+            "type": "update"
+        },
+        {
+            "url": "icon.png",
+            "type": "icon"
+        },
+        {
+            "url": "banner.png",
+            "type": "banner"
+        }
+    ]
+}
