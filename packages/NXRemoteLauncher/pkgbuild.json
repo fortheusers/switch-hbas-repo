@@ -1,0 +1,29 @@
+{
+    "package": "NXRemoteLauncher",
+    "info": {
+        "title": "NX Remote Launcher",
+        "author": "Kiran Kunigiri",
+        "category": "tool",
+        "version": "1.0.1",
+        "url": "https://github.com/kirankunigiri/nx-remote-launcher",
+        "license": "MIT",
+        "description": "Remote Switch game launcher",
+        "details": "A Nintendo Switch homebrew app to browse, filter, and launch Switch games from your phone. Open the app on your Switch, and scan the QR code to view your games.\\n\\n- View your game library.\\n- Filter by genre and player count.\\n- View game details, trailer, and tap to launch."
+    },
+    "changelog": "First initial release!",
+    "assets": [
+        {
+            "url": "https://github.com/kirankunigiri/nx-remote-launcher/releases/download/v1.0.1/nx-remote-launcher.nro",
+            "dest": "/switch/NXRemoteLauncher/NXRemoteLauncher.nro",
+            "type": "update"
+        },
+        {
+            "url": "icon.png",
+            "type": "icon"
+        },
+        {
+            "url": "banner.png",
+            "type": "banner"
+        }
+    ]
+}
