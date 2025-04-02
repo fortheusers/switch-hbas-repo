@@ -1,0 +1,29 @@
+{
+    "package": "Checkpoint",
+    "info": {
+        "title": "Checkpoint",
+        "author": "FlagBrew",
+        "category": "tool",
+        "version": "3.8.2",
+        "url": "https://github.com/FlagBrew/Checkpoint",
+        "license": "GPLv3",
+        "description": "Save Manager",
+        "details": "Why use Checkpoint?\\n\\nCheckpoint is created following ideas of simplicity and efficiency. The UI has been designed to condense as many options as possible, while keeping it simple to work with.\\n\\nMoreover, Checkpoint is extremely lightweight - while being packaged with a nice graphic user interface - and is built using the most recent libraries available.\\n\\nCheckpoint for Switch natively supports NAND saves for the titles you have played. Title information are loaded automatically.\\n\\nWorking path\\n\\nCheckpoint relies on the following folders to store the files it generates. Note that all the working directories are automatically generated on first launch (or when Checkpoint finds a new title that doesn't have a working directory yet).\\n\\n - sdmc:/switch/Checkpoint: root path\\n - sdmc:/switch/Checkpoint/config.json: custom configuration file\\n - sdmc:/switch/Checkpoint/saves/<title id> <game title>: root path for all the save backups for a generic game\\n\\nUsage\\n\\nCheckpoint for Switch only runs on homebrew launcher. Make sure you're running up-to-date payloads.\\n\\nThe first launch will take considerably longer than usual (usually 1-2 minutes depending on how many titles you have installed), due to the working directories being created - Checkpoint will be significatively faster upon launch from then on.\\n\\nYou can scroll between the title list with the DPAD/LR and target a title with A when the selector is on it. Now, you can use the DPAD or the touchscreen to select a target backup to restore/overwrite."
+    },
+    "changelog": "Added: Initial upgrade from C++17 to C++20\\nAdded: Built with latest Sharkive's cheats repository\\nFixed: UI has been improved and rendering has been simplified in order to make the screen render faster\\nFixed: the color scheme has been improved (to my liking)\\nFixed: a crash when playing certain games and then going directly into checkpoint afterwards\\nFixed: logs on the Switch version are now split by day. This avoids keeping a huge checkpoint.log file after years of use.\\nYou can safely remove /switch/Checkpoint/checkpoint.log.\\nYou can find the new logs under /switch/Checkpoint/logs folder.\\nLogs for the 3DS version will be added in the next releases.\\nFixed: dependencies have been updated to their latest version\\nFixed: displayed play time is now rendered correctly\\nFixed: L/R buttons double binding (thanks @Noxor11)\\nFixed: source compilation (thanks @mrhappyasthma and @l-austenfeld)\\nRemoved: link time optimizations have been disabled.\\nThese were originally introduced to strip down some weight off the compiled executable, but the difference is too small to consider this feature useful. LTO has caused some trouble in v3.8.0 on the 3DS version.",
+    "assets": [
+        {
+            "url": "https://github.com/BernardoGiordano/Checkpoint/releases/download/v3.8.2/Checkpoint.nro",
+            "dest": "/switch/Checkpoint/Checkpoint.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

@@ -4,16 +4,16 @@
         "title": "SwitchVerifier",
         "author": "LotP",
         "category": "tool",
-        "version": "2.0.0",
+        "version": "2.1.0",
         "url": "https://github.com/LotP1/SwitchVerifier",
         "license": "GPLv3",
         "description": "Verify yourself as a real Switch owner",
         "details": "This tool uses information from your Nintendo Switch device to generate a token that can be used to verify yourself as a real switch owner.\\nUse it with a Discord App/Bot in the supported Discord servers to verify yourself.\\nThe tool does not require internet access."
     },
-    "changelog": "Token order has been shuffled.\\nHardware values used for verification have been changed.\\nMore timing information is now supplied with the token.\\nToken is now also written to a file for easy copy/paste with ftp or usb file transfer.\\nCurrently works with these discord servers:\\n- Ryubing\\n- (contact me on discord lotp if you would like to add this to your server)",
+    "changelog": "2.1.0\\nResolved complaints about the token containing the full serial:\\nthe token now only contains a partial serial and a value consisting of the sum of the remaining values, so the individual remaining values cannot be accessed no matter what.\\nthis means it is now completely impossible to obtain the full original serial from the token.\\n\\n2.0.0\\nToken order has been shuffled.\\nHardware values used for verification have been changed.\\nMore timing information is now supplied with the token.\\nToken is now also written to a file for easy copy/paste with ftp or usb file transfer.\\nCurrently works with these discord servers:\\n- Ryubing\\n- (contact me on discord lotp if you would like to add this to your server)",
     "assets": [
         {
-            "url": "https://github.com/LotP1/SwitchVerifier/releases/download/2.0.0/SwitchVerification.nro",
+            "url": "https://github.com/LotP1/SwitchVerifier/releases/download/2.1.0/SwitchVerification.nro",
             "dest": "/switch/SwitchVerifier/SwitchVerifier.nro",
             "type": "update"
         },
