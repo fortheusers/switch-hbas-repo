@@ -5,6 +5,7 @@
 import requests
 import json
 import os, sys
+import base64
 
 if len(sys.argv) < 2:
     print("Usage: python3 stage_update.py <package_name>")
@@ -46,9 +47,61 @@ template = {
 }
 
 if len(data) == 0:
-    print(f"Package {package} not found in repo.json, make empty pkgbuild.json")
-    with open(f"packages/{package}/pkgbuild.json", "w") as f:
-        json.dump(template, f, indent=4)
+    # try and log into the package submission endpoint to see if we have any submitted matches
+    notFound = False
+    with open("creds.json") as creds:
+        creds = json.load(creds)
+        endpoint = creds["submissionEndpoint"]
+        username = creds["submissionUsername"]
+        authkey = creds["submissionAuthkey"]
+        if not endpoint or not username or not authkey:
+            print("No credentials found for package submission endpoint")
+            notFound = True
+        else:
+            response = requests.get(f"{endpoint}", auth=(username, authkey))
+            if response.status_code != 200:
+                print("Failed to download recent submissions")
+                notFound = True
+            else:
+                data = [pkg for pkg in response.json() if pkg["pkg"]["package"] == package]
+                if len(data) == 0:
+                    notFound = True
+                else:
+                    # we found some package data, populate the template
+                    with open(f"packages/{package}/pkgbuild.json", "w") as f:
+                        # delete some keys that we don't need from the submission template
+                        pkgData = data[0]["pkg"]
+                        if "changes" in pkgData:
+                            pkgData["changelog"] = pkgData["changes"] # handle legacy key
+                            del pkgData["changes"]
+                        if "console" in pkgData:
+                            del pkgData["console"]
+                        if "submitter" in pkgData:
+                            del pkgData["submitter"]
+                        if "type" in pkgData:
+                            del pkgData["type"]
+                        # also, if we have any base64 assets, convert them to files
+                        if "assets" in pkgData:
+                            for asset in pkgData["assets"]:
+                                if "format" in asset and "data" in asset and asset["format"] == "base64":
+                                    b64data = asset["data"]
+                                    asset["url"] = asset["type"] + ".png"
+                                    with open(f"packages/{package}/{asset['url']}", "wb") as img:
+                                        # remove base URI prefix
+                                        b64data = b64data.split(",")[1]
+                                        img.write(base64.b64decode(b64data))
+                                # always delete format and data keys
+                                if "format" in asset:
+                                    del asset["format"]
+                                if "data" in asset:
+                                    del asset["data"]
+                        # write the template to the new package folder 
+                        json.dump(pkgData, f, indent=4)
+                        print(f"Created new package folder for {package} in packages from recent submissions")
+    if notFound:
+        print(f"Package {package} not found in repo.json, or recent submissions, making empty pkgbuild.json")
+        with open(f"packages/{package}/pkgbuild.json", "w") as f:
+            json.dump(template, f, indent=4)
     sys.exit(0)
 
 data = data[0] # grab first match for this package name
