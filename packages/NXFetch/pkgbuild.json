@@ -22,8 +22,12 @@
             "url": "icon.png"
         },
         {
-            "type": "screen",
+            "type": "banner",
             "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "main.png"
         }
     ]
 }
