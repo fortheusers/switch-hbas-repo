@@ -1,0 +1,59 @@
+{
+    "package": "EasyRPGplayer",
+    "info": {
+        "title": "EasyRPG player",
+        "author": "Rinnegatamante, EasyRPG team",
+        "category": "tool",
+        "version": "0.8.1",
+        "url": "https://github.com/EasyRPG/Player/releases",
+        "license": "GPLv3",
+        "description": "Play your own RPG",
+        "details": "EasyRPG Player is a software allowing you to run games built with RPG Maker 2000 and RPG Maker 2003 on your system.\\nIt supports several consoles and now Switch support got added.\\n\\nPlace your games in /switch/easyrpg-player (same folder for RTP files if required, so /switch/easyrpg-player/rtp)."
+    },
+    "changelog": "0.8.1\\n\\nSee the full changelog at: https://blog.easyrpg.org/2025/04/easyrpg-player-0-8-1-stun/\\n\\n0.8.0\\n\\nhttps://blog.easyrpg.org/2023/04/easyrpg-player-0-8-paralyze/",
+    "assets": [
+        {
+            "url": "https://easyrpg.org/downloads/player/0.8.1/easyrpg-player-0.8.1-switch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/switch/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "testgame.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "name_input.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "desert_nightmare.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "yume_nikki.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "vampires_dawn2.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "unterwegs_in_duesterburg.png"
+        }
+    ]
+}
