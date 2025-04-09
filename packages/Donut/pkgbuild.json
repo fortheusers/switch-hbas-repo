@@ -1,0 +1,29 @@
+{
+    "package": "Donut",
+    "info": {
+        "title": "Donut",
+        "author": "Ted Was Here",
+        "category": "_misc",
+        "version": "1.0",
+        "url": "https://github.com/tedlipper/Switch-Ascii-Donut",
+        "license": "n/a",
+        "description": "Spinning donut rendered with ascii chars",
+        "details": "This project was inspired by the ascii donut that someone else ported to the Wii. I put it on the Switch."
+    },
+    "changelog": "Initial release",
+    "assets": [
+        {
+            "url": "https://github.com/tedlipper/Switch-Ascii-Donut/releases/download/v1.0/Donut.nro",
+            "dest": "/switch/Donut/Donut.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "screen",
+            "url": "screen.png"
+        }
+    ]
+}
