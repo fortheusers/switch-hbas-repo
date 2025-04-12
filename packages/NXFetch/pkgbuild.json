@@ -4,16 +4,16 @@
         "title": "NX-Fetch",
         "author": "Xc98",
         "category": "_misc",
-        "version": "1.2.0",
+        "version": "1.3.0",
         "url": "https://github.com/Xc987/NX-Fetch",
         "license": "MIT",
         "description": "Neofetch for switch",
         "details": "Neofetch for the nintendo switch. Prints system info and switch icon ascii art in the style you would see in neofetch.\\nPress DPad left / right to change joycon ascii colors"
     },
-    "changelog": "Initial release",
+    "changelog": "If user hasnt been preselected, it will display the first user. The displayed user can be changed by pressing L / R\\nprint resolution in docked mode and display hz\\nprint SD and NAND disk procentage usage\\nprint all connected controllers (P1 to P8 connected via bluetooth and connected in handheld)\\nupdate the printed info category text (\"BL\", \"CFW\" etc) accent color if joycon ascii colors are changed",
     "assets": [
         {
-            "url": "https://github.com/Xc987/NX-Fetch/releases/download/1.2.0/NX-Fetch.nro",
+            "url": "https://github.com/Xc987/NX-Fetch/releases/download/1.3.0/NX-Fetch.nro",
             "dest": "/switch/NXFetch/NXFetch.nro",
             "type": "update"
         },
