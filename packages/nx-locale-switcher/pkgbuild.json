@@ -1,0 +1,37 @@
+{
+    "package": "nx-locale-switcher",
+    "info": {
+        "title": "nx-locale-switcher",
+        "author": "HamletDuFromage",
+        "category": "tool",
+        "version": "1.1.3",
+        "url": "https://github.com/HamletDuFromage/nx-locale-switcher/releases",
+        "license": "GPLv3",
+        "description": "Changes the locale for specific titles on your Nintendo Switch",
+        "details": "A Nintendo Switch homebrew app that allows you to change the language and region of your games on a per-title basis, directly from your console. This makes use of Atmosph\u00e8re's per-game settings overriding. As such, this WILL NOT work on any other CFW."
+    },
+    "changelog": "Update compatibility and languages",
+    "assets": [
+        {
+            "url": "https://github.com/HamletDuFromage/nx-locale-switcher/releases/download/1.1.3/nx-locale-switcher.nro",
+            "dest": "/switch/nx-locale-switcher/nx-locale-switcher.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen2.png"
+        }
+    ]
+}
