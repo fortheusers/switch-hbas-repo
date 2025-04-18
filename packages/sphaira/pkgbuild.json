@@ -10,7 +10,7 @@
         "description": "A hbmenu alternative",
         "details": "A homebrew menu for the switch.\\n\\nFeatures: \\nLaunch homebrew\\nFile browser\\nAppstore\\nCreate / installer forwarders for homebrew\\nTheme browser, powered by Themezer\\nAnd many more! \\n A homebrew menu for the switch."
     },
-    "changelog": "0.6.3\\nFix themezer\\nAdd 12 hour clock\\nUpdate translations.",
+    "changelog": "0.6.3\\nFix themezer\\nAdd 12 hour clock\\nUpdate translations.\\n\\\n0.6.2\\nAudio is now only disabled if launched in applet mode with a suspended (background) game running.",
     "assets": [
         {
             "url": "https://github.com/ITotalJustice/sphaira/releases/download/0.6.3/sphaira.zip",
