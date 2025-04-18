@@ -4,18 +4,25 @@
         "title": "Super-Haxagon",
         "author": "RedTopper",
         "category": "game",
-        "version": "3.8.3",
+        "version": "3.9.0",
         "url": "https://github.com/RedTopper/Super-Haxagon/releases",
-        "license": "MIT",
+        "license": "GPLv3-or-later",
         "description": "A Super Hexagon Clone",
-        "details": "Super Haxagon is a cross platform, open source Super Hexagon clone for the Nintendo 3DS, Nintendo Switch, Windows, and Linux. It is developed in C++ and uses no additional libraries for the core logic, making it easy (in theory) to port to new platforms. It also has a GUI based level editor called Haxa Editor.\\n\\nFeatures\\n\\nCross Platform\\nWidescreen support\\nHigh Refresh Rate support\\nCustom Levels\\nOGG decoder for BGM\\nHigh Score Saving\\n"
+        "binary": "/switch/SuperHaxagon/SuperHaxagon.nro",
+        "details": "SuperHaxagon is a cross-platform, open source Super Hexagon clone for the Nintendo 3DS, Nintendo Switch, Windows, Linux, Portmaster, Miyoo Mini, and the TI-Nspire (yes, the calculator). It is developed in C++ and uses no additional libraries for the core logic, making it easy (in theory) to port to new platforms. It also has a GUI based level editor called Haxa Editor.\\n\\nFeatures\\n\\nCross-platform with modular drivers\\nMusic timed camera and spin effects\\nDevice independent 3D effects\\nSupports any aspect ratio\\nSupports high refresh rates\\nCreate custom levels\\nSave files for scores\\nBuild toolchain with cmake\\n"
     },
-    "changelog": "3ds, switch: For platforms that embed music into the ROM, you can add custom title music by placing a title.ogg next to your scores.db file. #35\\nall: Pressing right no longer has priority over pressing left. Instead, the last direction to be pressed \"wins\". This makes switching directions faster and easier. #36",
+    "changelog": "macos: new platform!\\nsteamdeck: new platform!\\nall: License change to GPLv3 (or later) for the core game.\\nall: Levels no longer speed up during \"level ups\"\\nall: LAST Major driver refactor, ALL platform specific files are now located in 'driver'\\nall: All platforms now build with GitHub actions!",
     "assets": [
         {
-            "url": "https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.3/SuperHaxagon.nro",
-            "dest": "/switch/Super-Haxagon/SuperHaxagon.nro",
-            "type": "update"
+            "url": "https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-Switch-arm64.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/switch/SuperHaxagon/*",
+                    "dest": "/switch/SuperHaxagon",
+                    "type": "update"
+                }
+            ]
         },
         {
             "type": "icon",
