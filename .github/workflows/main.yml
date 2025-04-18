@@ -25,7 +25,7 @@ jobs:
         run: "cd packages && python ../spinarak/spinarak.py -c https://switch2.cdn.fortheusers.org/repo.json $(cat ../packages_in_commit.txt | tr '\n' ' ')"
       - name: Deploy to BunnyCDN
         if: ${{ github.event_name != 'pull_request' }}
-        uses: ayeressian/bunnycdn-storage-deploy@v2.2.0
+        uses: ayeressian/bunnycdn-storage-deploy@09ef6b87542c012f56c7f548b5966e1ea2f9099e
         with:
           source: "packages/public"
           destination: "/"
