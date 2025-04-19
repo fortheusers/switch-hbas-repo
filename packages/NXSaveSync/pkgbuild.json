@@ -1,0 +1,35 @@
+{
+    "package": "NXSaveSync",
+    "info": {
+        "title": "NX-Save-Sync",
+        "author": "Xc98 ",
+        "category": "tool",
+        "version": "2.0.0",
+        "url": "https://github.com/Xc987/NX-Save-Sync",
+        "license": "MIT",
+        "description": "Sync save files between switch and pc",
+        "details": "NX Save Sync is a switch homebrew app to quickly sync save files between switch and an emulator.\\n\\nControls:\\nPress L / R in main menu to move between tabs or move between pages when selecting a title\\nPress ZL / ZR to change the selected user\\n\\nUsage:\\nFor a guide on how to use switch / pc app, check github repo:\\nhttps://github.com/Xc987/NX-Save-Sync"
+    },
+    "changelog": "Add gui for pc app and make switch app gui a bit better\\nFix save file commiting on switch app\\nAdd changeable pc app themes\\nRemove option exit switch app while waiting for pc to start server or for pc to connect to switch",
+    "assets": [
+        {
+            "type": "zip",
+            "url": "https://github.com/Xc987/NX-Save-Sync/releases/download/2.0.0/NX-Save-Sync-switch.zip",
+            "zip": [
+                {
+                    "path": "/switch/NX-Save-Sync/NX-Save-Sync.nro",
+                    "dest": "/switch/NX-Save-Sync/NX-Save-Sync.nro",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "screen",
+            "url": "screen.png"
+        }
+    ]
+}
