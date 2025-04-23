@@ -18,7 +18,7 @@
             "type": "zip",
             "zip": [
                 {
-                    "path": "/switch/SuperHaxagon/*",
+                    "path": "/switch/SuperHaxagon/**/*",
                     "dest": "/switch/SuperHaxagon",
                     "type": "update"
                 }
