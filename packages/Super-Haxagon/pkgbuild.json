@@ -4,17 +4,17 @@
         "title": "Super-Haxagon",
         "author": "RedTopper",
         "category": "game",
-        "version": "3.9.0",
+        "version": "3.9.1",
         "url": "https://github.com/RedTopper/Super-Haxagon/releases",
         "license": "GPLv3-or-later",
         "description": "A Super Hexagon Clone",
         "binary": "/switch/SuperHaxagon/SuperHaxagon.nro",
         "details": "SuperHaxagon is a cross-platform, open source Super Hexagon clone for the Nintendo 3DS, Nintendo Switch, Windows, Linux, Portmaster, Miyoo Mini, and the TI-Nspire (yes, the calculator). It is developed in C++ and uses no additional libraries for the core logic, making it easy (in theory) to port to new platforms. It also has a GUI based level editor called Haxa Editor.\\n\\nFeatures\\n\\nCross-platform with modular drivers\\nMusic timed camera and spin effects\\nDevice independent 3D effects\\nSupports any aspect ratio\\nSupports high refresh rates\\nCreate custom levels\\nSave files for scores\\nBuild toolchain with cmake\\n"
     },
-    "changelog": "macos: new platform!\\nsteamdeck: new platform!\\nall: License change to GPLv3 (or later) for the core game.\\nall: Levels no longer speed up during \"level ups\"\\nall: LAST Major driver refactor, ALL platform specific files are now located in 'driver'\\nall: All platforms now build with GitHub actions!",
+    "changelog": "3.9.1\\nThis version is almost exactly the same as 3.9.0, except the downloads include two new files, outlined below. If you already have v3.9.0 and have installed it properly, there isn't much need to update. (And if you don't know what version you have, you should probably update!)\\n\\nChangelog\\n\\nnspire: There are now at least two buttons to perform all basic actions, in case one of your keys is sticky.\\nsdl2 and sfml: Drivers and downloads have been renamed to better show what back-end the driver is using.\\nall: Downloads now have a README.md that gives offline instructions on how to set up your platform, as well as a link back to this repo.\\nall: Downloads now have a vX.X.X.txt file that includes some metadata for the release, like which commit hash the download came from, version information, how it was built, and the time it was built.\\n\\n3.9.0\\nmacos: new platform!\\nsteamdeck: new platform!\\nall: License change to GPLv3 (or later) for the core game.\\nall: Levels no longer speed up during \"level ups\"\\nall: LAST Major driver refactor, ALL platform specific files are now located in 'driver'\\nall: All platforms now build with GitHub actions!",
     "assets": [
         {
-            "url": "https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-Switch-arm64.zip",
+            "url": "https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.1/SuperHaxagon-Switch-arm64.zip",
             "type": "zip",
             "zip": [
                 {
