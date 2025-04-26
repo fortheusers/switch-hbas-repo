@@ -4,22 +4,26 @@
         "title": "ShoWiFi",
         "author": "vgmoose",
         "category": "concept",
-        "version": "1.0.0",
+        "version": "1.1",
         "url": "https://github.com/vgmoose/ShoWiFi",
         "license": "GPLv3",
         "description": "Display current wifi network info",
         "details": "This is a simple helper app to display the SSID and password of the currently connected Wifi network. Useful if you don't remember your password and want to look it up to use on a different device."
     },
-    "changelog": "Initial release",
+    "changelog": "Displays a Wifi QR code to easily scan on other devices!",
     "assets": [
         {
-            "url": "https://github.com/vgmoose/ShoWiFi/releases/download/v1.0.0/ShoWiFi.nro",
+            "url": "https://github.com/vgmoose/ShoWiFi/releases/download/v1.1/ShoWiFi.nro",
             "dest": "/switch/ShoWiFi/ShoWiFi.nro",
             "type": "update"
         },
         {
             "type": "icon",
             "url": "icon.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "preview.png"
         }
     ]
 }
