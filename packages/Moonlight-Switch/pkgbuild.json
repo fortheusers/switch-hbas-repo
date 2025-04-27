@@ -4,16 +4,16 @@
         "title": "Moonlight-Switch",
         "author": "XITRIX",
         "category": "tool",
-        "version": "1.3.1",
+        "version": "1.3.2",
         "url": "https://github.com/XITRIX/Moonlight-Switch/releases",
         "license": "GPLv3",
         "description": "Moonlight port for Nintendo Switch",
         "details": "Moonlight-Switch is a port of Moonlight Game Streaming Project for Nintendo Switch.\\n\\nControls:\\n- Mouse\\nWith touch screen you can move your coursor, tap to left click, scroll 2 fingers to scroll.\\n\\nWhile touching screen ZR and ZL buttons will work like left and right mouse buttons.\\n\\nAlso While touching screen L and R sticks will work like scrolling wheel.\\n\\nUSB mouse working as well.\\n\\n- Keyboard\\nYou can use onscreen keyboard, tap 3 fingers on screen to show it.\\n\\nUSB keyboard working as well.\\n\\n- Gamepad\\nBy default Switch gamepad configured as X360 gamepad (A/B and X/Y swapped). Key mapping availale in application settings.\\n\\nUp to 5 gamepads (includes handheld mode) supported. Half of joycons are also supported.\\n\\n- Ingame overlay\\nTo open overlay, press - and + key simultaneously by default or Hold ESC on keyboard.\\n\\nKey combination and holding time are configurable in settings."
     },
-    "changelog": "1.3.1\\nGeForce Experience audio encryption fix: #230\\nMinor localization fixes: #233 | #231\\n\\n1.3.0\\nNew:\\nFrame buffer queue\\nSunshine Encryption support added\\nHost rename\\nSupport for custom ports\\nSticks dead zone configuration\\nReconnection attempt in case of unexpected termination error\\nFrench localization and keyboard\\n\\nImprovements:\\nMultithreading improvements, app's UI works faster\\nBetter debug statistics\\n\\nFixes:\\nCURL crash on Host ping attempt\\nTwo finger scrolling and right click gesture",
+    "changelog": "1.3.2\\nFixes a crash\\n\\n1.3.1\\nGeForce Experience audio encryption fix: #230\\nMinor localization fixes: #233 | #231\\n\\n1.3.0\\nNew:\\nFrame buffer queue\\nSunshine Encryption support added\\nHost rename\\nSupport for custom ports\\nSticks dead zone configuration\\nReconnection attempt in case of unexpected termination error\\nFrench localization and keyboard\\n\\nImprovements:\\nMultithreading improvements, app's UI works faster\\nBetter debug statistics\\n\\nFixes:\\nCURL crash on Host ping attempt\\nTwo finger scrolling and right click gesture",
     "assets": [
         {
-            "url": "https://github.com/XITRIX/Moonlight-Switch/releases/download/v1.3.1/Moonlight-Switch.nro",
+            "url": "https://github.com/XITRIX/Moonlight-Switch/releases/download/v1.3.2/Moonlight-Switch.nro",
             "dest": "/switch/Moonlight-Switch/Moonlight-Switch.nro",
             "type": "update"
         },
