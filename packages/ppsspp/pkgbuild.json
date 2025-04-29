@@ -1,0 +1,35 @@
+{
+    "package": "ppsspp",
+    "info": {
+        "title": "PPSSPP Standalone",
+        "author": "m4xw",
+        "category": "emu",
+        "version": "1.17.x (Sept 9, 2024)",
+        "url": "https://www.ppsspp.org/legacybuilds/",
+        "license": "GPLv2",
+        "description": "PPSSPP Standalone Switch",
+        "details": "PPSSPP Standalone Switch by m4xw\\n============================================\\n\\nThis is the first Standalone Release for PPSSPP.\\nIt's based on my libretro port with some few distinctions:\\n-JIT improvements (should now work on all Horizon version), masking is no longer required, thus JIT masking bugs are a thing of the past (will be backported to the libretro ver. this week).\\n-All config files reside in /switch/ppsspp/, the path can not be changed for the time being.\\n-You can copy your PPSSPP files from /retroarch/cores/savefiles/PPSSPP/ (savefiles are compatible, savestates are NOT, however I will add a export option to the Core soon-ish).\\n\\nNote:\\n\\n-Due to a toolchain Issue, starting like 15~ games in a row might lead to a crash, your mileage might vary depending of the number of JIT buffer allocations\\n\\nNotes\\n============================================\\n-If you are using ANY method of loading PPSSPP OTHER than Atmosphere's title redirection feature, DO NOT report issues that you encounter.\\n-Don't use NSP's.\\n-After upstreaming, this port will likely become the official\\n\\nSupport\\n============================================\\nSpecial thanks to hrydgard for everything he has done for the PPSSPP Project.\\n\\nIf you want to support his work, consider buying PPSSPP Gold https://central.ppsspp.org/buygold even if you don't use it!\\n\\nMy Patreon: https://www.patreon.com/m4xwdev\\n\\nLinks\\n============================================\\nSwitch Port Github: https://github.com/m4xw/ppsspp/\\nUpstream Github: https://github.com/hrydgard/ppsspp"
+    },
+    "changelog": "Update to 1.17.x version from Sept 9, 2024. For full changelog, see: https://www.ppsspp.org/news/release-1.17/",
+    "assets": [
+        {
+            "url": "https://www.ppsspp.org/files/Switch/Release_PPSSPP_Standalone_11.09.2024.7z",
+            "type": "7z",
+            "7z": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
