@@ -21,7 +21,7 @@
             "url": "icon.png"
         },
         {
-            "type": "screen",
+            "type": "banner",
             "url": "screen.png"
         }
     ],
