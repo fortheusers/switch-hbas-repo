@@ -1,0 +1,29 @@
+{
+    "package": "SwitchLanController",
+    "info": {
+        "title": "SwitchLanController",
+        "author": "Leandro Puentes Rivas",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/devnull-tech/SwitchLanController-Client",
+        "license": "n/a",
+        "description": "Use N. Switch as a Wireless LAN joystick",
+        "details": "Use your Nintendo Switch as a wireless LAN joystick. \\nSteps:\\n1- Download and install the server on your PC (https://github.com/devnull-tech/SwitchLanController-Server)\\n1.2- Just follow the repo's steps it will be more verbose in the future\\n2- Install the SwitchLanController-Client (this app) on your switch\\n3- Connect PC and Switch in the same network\\n4- Run the server and then open the app\\n5- Type your PC ip address and connect"
+    },
+    "assets": [
+        {
+            "type": "update",
+            "url": "https://github.com/devnull-tech/SwitchLanController-Client/releases/download/switch_homebrew/SwitchLanController-Client.nro",
+            "dest": "/switch/SwitchLanController/SwitchLanController.nro"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "screen",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "V1.0 - First release\\n- Basic functionalities, everything seems to be going well.\\n"
+}
