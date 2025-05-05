@@ -15,6 +15,7 @@ jobs:
     container: python:3.12
     env:
       DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      BSKY_AUTH: ${{ secrets.BSKY_AUTH }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -44,4 +45,4 @@ jobs:
         run: "curl --header \"AccessKey: ${{ secrets.STORAGE_KEY }}\" \"https://magnezone.fortheusers.org/refresh?repo=primary&packages=$(cat ./packages/updated_packages.txt)\""
       - name: Notify update
         if: ${{ github.event_name != 'pull_request' }}
-        run: "pip install requests && python notify_update.py"
+        run: "pip install requests atproto && python notify_update.py"
