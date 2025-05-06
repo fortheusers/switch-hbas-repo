@@ -1,0 +1,33 @@
+{
+    "package": "UltrahandOverlay",
+    "info": {
+        "title": "Ultrahand Overlay",
+        "author": "ppkantorski",
+        "category": "tool",
+        "version": "1.8.3",
+        "url": "https://github.com/ppkantorski/Ultrahand-Overlay",
+        "license": "GPLv2",
+        "description": "The fully craft-able overlay executor.",
+        "details": "WARNING: This will overwrite Tesla Menu if already installed.\\n\\nUltrahand Overlay is a Tesla Menu replacement built from the ground up off of libtesla that provides powerful C/C++ commands through the usage of its own custom interpretive programming language (similar to Shell/BASH). It is a versatile tool that enables you to create and share custom command-based packages, providing enhanced functionality for managing files and directories on your SD card.\\n\\nWith Ultrahand, you have the flexibility to customize and shape your file management system according to your needs, empowering you with greater control over your system configurations."
+    },
+    "changelog": "1.8.3\\nNew toggle option Dynamic Logo in UI Settings > Miscellaneous for enabling / disabling the dynamic logo effect.\\nVarious fixes to libultrahand.\\nLaunch combo is read from the tesla.ini if ultrahand.ini does not exist for overlays compiled with libultrahand. (bug fix)\\nFix for converting pchtxt's with embedded comments as well as a couple other tweaks.\\nSubtle UI corrections / improvements.\\nThe memory indicator on the System page now shows the true memory (no longer -8MB) and has custom coloring.\\nNew theme colors healthy_ram_text_color, neutral_ram_text_color, and bad_ram_text_color.\\nHealthy is >= 9MB.\\nNeutral is < 9MB, >= 3MB.\\nBad is < 3MB.\\nVarious minor tweaks.\\nThe pre-generated package.ini now has symbols on some of the Reboot To commands and the Shutdown command.\\nThe ultra.ini theme that is installed when updating has been updated to use white text color.\\nThe ultra-blue.ini theme that is installed when updating is now the old ultra.ini theme color.",
+    "assets": [
+        {
+            "url": "https://github.com/ppkantorski/Ultrahand-Overlay/releases/download/v1.8.3/ovlmenu.ovl",
+            "dest": "/switch/.overlays/ovlmenu.ovl",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen1.png"
+        }
+    ]
+}
