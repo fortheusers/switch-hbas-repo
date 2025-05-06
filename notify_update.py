@@ -5,6 +5,7 @@
 import os, time
 from datetime import datetime
 import requests
+import sys
 
 # load discord URL from env secrets
 try:
@@ -35,6 +36,7 @@ allRepoData = {}
 
 def fetch_repo_data():
     global didLoadBsky, allRepoData
+    allRepoData = {}
     path = "switch"
     data = requests.get(f"https://{path}.cdn.fortheusers.org/repo.json")
     if data.status_code != 200:
@@ -154,6 +156,39 @@ def announce_discord(package):
     return response.status_code
 
 fetch_repo_data() # fetch the current repo state first
+
+if len(sys.argv) > 1 and sys.argv[1] == "server":
+    # run a cherrypy server that just makes notification announcements
+    import cherrypy
+    class NotifyServer:
+        @cherrypy.expose
+        def index(self):
+            return "Notify Server is running, listening on port 8111..."
+
+        @cherrypy.expose
+        def notify(self, key=None, package=None, bsky=None, discord=None):
+            # the key to the accounce key in the env for auth
+            if "ANNOUNCE_KEY" not in os.environ:
+                return "No announce key set in environment variables"
+            announce_key = os.environ["ANNOUNCE_KEY"]
+            if key != announce_key:
+                return "Invalid announce key"
+            fetch_repo_data() # fetch latest repo state first
+            if not package:
+                return "No package specified"
+            if package not in allRepoData:
+                return f"Package {package} not found in repo data"
+            if bsky:
+                announce_bsky(package)
+            elif discord:
+                announce_discord(package)
+            else:
+                return "No announce method specified"
+            return f"Notification sent for {package}"
+
+    cherrypy.config.update({'server.socket_port': 8111})
+    cherrypy.quickstart(NotifyServer(), '/', {'/': {}})
+    exit(0)
 
 with open("packages/updated_packages.txt") as f:
     packages = f.read().split(",")
