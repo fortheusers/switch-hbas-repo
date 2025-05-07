@@ -53,6 +53,37 @@ def fetch_repo_data(platform):
             if "name" in packages[idx]:
                 allRepoData[packages[idx]["name"]] = packages[idx] # repack as dict
 
+def get_package_data(package):
+    curData = allRepoData.get(package, {})
+    postTitle, postDescription = None, None
+
+    title = curData.get("title")
+    author = curData.get("author")
+    description = curData.get("description")
+    license = curData.get("license")
+    changelog = curData.get("changelog")
+    details = curData.get("details")
+    version = curData.get("version")
+
+    # build the actual post text content
+    if title and author:
+        postTitle = f"{title} by {author}"
+    if description:
+        postDescription = description # short desc
+    if license:
+        postDescription += f" ({license})"
+    if details:
+        details = details.replace("\\n", " ")
+        details = f"{details[:240]}" + ("..." if len(details) > 240 else "")
+    if changelog:
+        changelog = changelog.replace("\\n", " ")
+        changelog = f"{changelog[:240]}" + ("..." if len(changelog) > 240 else "")
+
+    icon_url = f"https://{platform}.cdn.fortheusers.org/packages/{package}/icon.png"
+
+    return postTitle, postDescription, changelog, details, icon_url, version
+
+
 def announce_bsky(platform, package):
     if not didLoadBsky:
         print("bsky not loaded, skipping bsky announcement for", package)
@@ -62,42 +93,14 @@ def announce_bsky(platform, package):
     client.login("hb-app.store", bskyAuth)
 
     url = f"https://hb-app.store/{platform}/{package}"
-    # fetch the url and pull og:title and og:description
-    resp = requests.get(url)
-    if resp.status_code != 200:
-        print("Failed to fetch URL:", url)
-        return
+    postTitle, postDescription, changelog, details, icon_url, version = get_package_data(package)
+
+    uploadedBlob = None
 
     # fetch and upload the image blob, if it exists
-    curData = allRepoData.get(package, {})
-    postTitle, postDescription, uploadedBlob = None, None, None
-    if curData:
-        title = curData.get("title")
-        author = curData.get("author")
-        description = curData.get("description")
-        license = curData.get("license")
-        changelog = curData.get("changelog")
-        details = curData.get("details")
-        version = curData.get("version")
-
-        # build the actual post text content
-        if title and author:
-            postTitle = f"{title} by {author}"
-        if description:
-            postDescription = description # short desc
-        if license:
-            postDescription += f" ({license})"
-        if details:
-            details = details.replace("\\n", " ")
-            details = f"{details[:400]}" + ("..." if len(details) > 400 else "")
-        if changelog:
-            changelog = changelog.replace("\\n", " ")
-            changelog = f"{changelog[:400]}" + ("..." if len(changelog) > 400 else "")
-
-        icon_url = f"https://{platform}.cdn.fortheusers.org/packages/{package}/icon.png"
-        icon_resp = requests.get(icon_url)
-        if icon_resp.status_code == 200:
-            uploadedBlob = client.upload_blob(icon_resp.content).blob
+    icon_resp = requests.get(icon_url)
+    if icon_resp.status_code == 200:
+        uploadedBlob = client.upload_blob(icon_resp.content).blob
 
     external_link = AppBskyEmbedExternal.External(
         uri=url,
@@ -114,42 +117,25 @@ def announce_bsky(platform, package):
 
 # based on the announcement method from appman
 def announce_discord(platform, package):
-    current_time = int(time.time())
     color = "0098c6" if platform == "wiiu" else "e60012"
-    date = datetime.fromtimestamp(current_time).strftime('%d/%m/%Y %H:%M:%S')
 
-    appurl = f"https://hb-app.store/{platform}/{package}"
-    icon = f"https://{platform}.cdn.fortheusers.org/packages/{package}/icon.png"
+    url = f"https://hb-app.store/{platform}/{package}"
+    postTitle, postDescription, changelog, details, icon_url, version = get_package_data(package)
 
     hook_object = {
-        "username": f"{platName[platform]} Appstore Update",
+        "username": f"{platName[platform]} App Update",
         "avatar_url": "https://switch.cdn.fortheusers.org/packages/appstore/icon.png",
         "tts": False,
         "embeds": [
             {
-                "title": "View Changelog",
+                "title": (postTitle if postTitle else package) + f" (v{version})",
                 "type": "rich",
-                "description": "",
-                "url": appurl,
+                "description": postDescription + "\n\n" + (changelog or details),
+                "url": url,
                 "color": int(color, 16),
-                "footer": {
-                    "text": "fortheusers.org",
-                    "icon_url": "https://wiiubru.com/images/switch_4tu_icon.png"
-                },
                 "thumbnail": {
-                    "url": icon
+                    "url": icon_url
                 },
-                "author": {
-                    "name": f"App : {package}",
-                    "url": appurl
-                },
-                "fields": [
-                    {
-                        "name": "Submitted : - ",
-                        "value": date,
-                        "inline": False
-                    }
-                ]
             }
         ]
     }
