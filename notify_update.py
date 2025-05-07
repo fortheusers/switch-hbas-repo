@@ -53,7 +53,7 @@ def fetch_repo_data(platform):
             if "name" in packages[idx]:
                 allRepoData[packages[idx]["name"]] = packages[idx] # repack as dict
 
-def get_package_data(package):
+def get_package_data(platform, package):
     curData = allRepoData.get(package, {})
     postTitle, postDescription = None, None
 
@@ -74,10 +74,10 @@ def get_package_data(package):
         postDescription += f" ({license})"
     if details:
         details = details.replace("\\n", " ")
-        details = f"{details[:240]}" + ("..." if len(details) > 240 else "")
+        details = f"{details[:200]}" + ("..." if len(details) > 200 else "")
     if changelog:
         changelog = changelog.replace("\\n", " ")
-        changelog = f"{changelog[:240]}" + ("..." if len(changelog) > 240 else "")
+        changelog = f"{changelog[:200]}" + ("..." if len(changelog) > 200 else "")
 
     icon_url = f"https://{platform}.cdn.fortheusers.org/packages/{package}/icon.png"
 
@@ -93,7 +93,7 @@ def announce_bsky(platform, package):
     client.login("hb-app.store", bskyAuth)
 
     url = f"https://hb-app.store/{platform}/{package}"
-    postTitle, postDescription, changelog, details, icon_url, version = get_package_data(package)
+    postTitle, postDescription, changelog, details, icon_url, version = get_package_data(platform, package)
 
     uploadedBlob = None
 
@@ -120,7 +120,7 @@ def announce_discord(platform, package):
     color = "0098c6" if platform == "wiiu" else "e60012"
 
     url = f"https://hb-app.store/{platform}/{package}"
-    postTitle, postDescription, changelog, details, icon_url, version = get_package_data(package)
+    postTitle, postDescription, changelog, details, icon_url, version = get_package_data(platform, package)
 
     hook_object = {
         "username": f"{platName[platform]} App Update",
