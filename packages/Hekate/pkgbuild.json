@@ -1,0 +1,56 @@
+{
+    "package": "Hekate",
+    "info": {
+        "title": "hekate",
+        "author": "CTCaer",
+        "category": "advanced",
+        "version": "6.3.0",
+        "url": "https://github.com/CTCaer/hekate/releases",
+        "license": "GPLv2",
+        "description": "Bootloader - CTCaer mod",
+        "details": "Custom Nintendo Switch bootloader, firmware patcher, and more.\\n\\nCheck out the Github page for more information: https://github.com/CTCaer/hekate .\\n\\nFeatures\\n\\nFully Configurable and Graphical with Touchscreen and Joycon input support\\nLauncher Style, Background and Color Themes\\nHOS (Switch OS) Bootloader -- For CFW Sys/Emu, OFW Sys and Stock Sys\\nAndroid & Linux Bootloader\\nPayload Launcher\\neMMC/emuMMC Backup/Restore Tools\\nSD Card Partition Manager -- Prepares and formats SD Card for any combo of HOS (Sys/emuMMC), Android and Linux\\nemuMMC Creation & Manager -- Can also migrate and fix existing emuMMC\\nSwitch Android & Linux flasher\\nUSB Mass Storage (UMS) for SD/eMMC/emuMMC -- Converts Switch into a SD Card Reader\\nUSB Gamepad -- Converts Switch with Joycon into a USB HID Gamepad\\nHardware and Peripherals info (SoC, Fuses, RAM, Display, Touch, eMMC, SD, Battery, PSU, Charger)\\nMany other tools like Archive Bit Fixer, Touch Calibration, SD/eMMC Benchmark, AutoRCM enabler and more"
+    },
+    "changelog": "6.3.0\\nHOS 20.0.0 support\\nConfig: Added pkg3 key support that replaces fss0 with the same exact functionality\\nfss0 will still work for compatibility reasons but it's now deprecated.\\nAt some point fss0 will become obsolete, so make sure you update your configs to use pkg3 instead.\\nThe templates were updated to use that.\\nConfig: Added pkg3kip1skip key support. Only for advanced users, read README.\\nConfig: atmosphere key is now renamed to kernelprocid to match what it does\\nOnly advanced users that do not use fss0/pkg3 are affected by this\\nConfig: fss0experimental key was renamed to pkg3ex\\nFixed parsing of system_settings.ini for usb3 enable. Thanks @new-waifu for reminding that.\\nFixed an issue that could have caused black screen on stock booting in some rare cases (kernelldr related)\\nL4T: Updated SC7exit firmware to latest\\nL4T: Added sld_type key that allows you to disable seamless display\\nOr use the deprecated coreboot method\\nVarious fixes and improvements\\nemuMMC Changes\\n\\nHOS 20.0.0 support\\nAs always based on https://github.com/m4xw/emuMMC\\nNyx v1.7.0 changes\\n\\nHOS 20.0.0 support\\nSD/eMMC Benchmark now shows 95th and 5th percentile industry standard IOPS info. It also now uses in-spec A2 test sizes.\\nAdditionally, the window was made more compact so the info underneath it is still visible for sharing screenshots.\\nIt's preferable to compare between sd cards on the same updated benchmark, because of the changes.\\nThe 95% best accesses is generally your expected performance.\\nThe 5% worst accesses shows degraded nand parts or copies from SLC/MLC to TLC/QLC nands, big cache flushes, bad controller management, fw bugs, etc.\\nSD info now checks if card's A2 support is proper or not. White: full support, Yellow: needs quirks, Red: broken.\\nSD info will now immediately show SDMMC errors before calculating free space in FAT partition\\nFixed an issue where emuMMC could fail to be found for backing up or restoring\\nFixed an issue where emuMMC could fail to be backed up\\nRAM real capacity detection is now more robust\\nMade Nyx a bit more faster.\\nFixed an issue where reserved Android partition size could be calculated wrong on the HOS leftover slider\\nFixed an issue where a window could not be closed with B button on Joy-Con\\nNyx reload will now check if nyx.bin still exists and not reload, so user can fix that with UMS again\\nVarious fixes and improvements\\nBDK changes\\n\\nDIRLIST: It now uses alphabetical ordering instead of ASCII based\\nSDMMC: Do not allow out of bound accesses since they need a power cycle to clear the error\\nSDMMC: Add performance extension register parsing support\\nUITLS: qsort compare functions added for int, char and char case insensitive.\\nSE: Support 0 sized SHA256 hashing\\nSE and DISPLAY drivers do not use heap anymore\\nVarious fixes and improvements",
+    "assets": [
+        {
+            "url": "https://github.com/CTCaer/hekate/releases/download/v6.3.0/hekate_ctcaer_6.3.0_Nyx_1.7.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                },
+                {
+                    "path": "/hekate_ctcaer_6.3.0.bin",
+                    "dest": "/hekate.bin",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen2.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen3.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen4.png"
+        }
+    ]
+}
