@@ -1,0 +1,29 @@
+{
+    "package": "SnakeNX",
+    "info": {
+        "title": "SnakeNX",
+        "author": "Abdelali221",
+        "category": "game",
+        "version": "1.1",
+        "url": "https://github.com/abdelali221/SnakeNX",
+        "license": "MIT",
+        "description": "The classic Snake game!",
+        "details": "Snake game ported to the Switch, based on SnakeWii/DS.\\n\\nHow to play :\\n\\nD-Pad : Move the snake.\\n+ : Pause menu.\\n- : Exit the game."
+    },
+    "assets": [
+        {
+            "type": "update",
+            "url": "https://github.com/abdelali221/SnakeNX/releases/download/1.0/SnakeNX.nro",
+            "dest": "/switch/SnakeNX/SnakeNX.nro"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "1.1 : Fixed some minor bugs.\\n\\n1.0 : First release."
+}
