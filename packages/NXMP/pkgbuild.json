@@ -4,16 +4,16 @@
         "title": "nxmp",
         "author": "proconsule",
         "category": "tool",
-        "version": "0.9.1",
+        "version": "0.9.2",
         "url": "https://github.com/proconsule/nxmp/releases",
         "license": "n/a",
         "description": "Video player for Nintendo Switch",
         "details": "NXMP is an open-source Nintendo switch media player\\n\\nIt is based on MPV and FFMPEG, it supports a wide range of file format\\n\\nCurrently, it supports:\\n\\n- Local File Browser\\n- HTTP and FTP Browser (you can add as many sources as you like)\\n- Enigma2 Decoder support (for viewing tv channel from the decoder)\\n- USB support up to 32 devices (supporting FAT NTFS and EXT4) thanks to the libusbhsfs\\n\\n\\nButtons Mapping\\n\\n- A select (play/pause during playback)\\n- B back (stop during playback)\\n- Y Main Menu\\n- X show OSD (during playback)\\n- R L ZR ZL (seek +/- during playback)\\n- + Exit NXMP\\n- R Stick Button Toggle Masterlock (during playback, only A button will work)\\n- Dpad Right (during playback show right menu)\\n- Dpad Left (during playback close right menu)"
     },
-    "changelog": "0.9.1\\nAdded\\n\\nAdded new network config syntax (fixes password with @ and add pubkey auth for sftp connections)\\nUPNP (same code of 0.8.0 with minor fixes)\\nHW Deinterlace\\nFile based translations (using json files, use the files on langs directory as reference)\\nPKGBUILD for libnfs,libsmb2,sqlite3\\nFixed\\n\\nNFS entry duplication\\nSoftware decoding (broken on 0.9.0 deko3d version)\\nUSB Browser fixed (no more duplicated devices)\\nRemoved\\n\\nShadermania (now NXMP uses only deko3d, no more opengl)\\nChanges\\n\\nChanged Rendering routine in a more sane way\\nNow NXMP runs also in applet mode\\nUpdated all libs to last version\\nUpdated brasilian translation",
+    "changelog": "0.9.2\\nAdded\\n\\nPDF file support\\nFixed\\n\\nfixed archive file seek (useful for playback video file inside an archive)\\nfixed archive reading from USB\\nplaylist from local sdcard and USB drives\\nsettings language selection/save\\n\\n0.9.1\\nAdded\\n\\nAdded new network config syntax (fixes password with @ and add pubkey auth for sftp connections)\\nUPNP (same code of 0.8.0 with minor fixes)\\nHW Deinterlace\\nFile based translations (using json files, use the files on langs directory as reference)\\nPKGBUILD for libnfs,libsmb2,sqlite3\\nFixed\\n\\nNFS entry duplication\\nSoftware decoding (broken on 0.9.0 deko3d version)\\nUSB Browser fixed (no more duplicated devices)\\nRemoved\\n\\nShadermania (now NXMP uses only deko3d, no more opengl)\\nChanges\\n\\nChanged Rendering routine in a more sane way\\nNow NXMP runs also in applet mode\\nUpdated all libs to last version\\nUpdated brasilian translation",
     "assets": [
         {
-            "url": "https://github.com/proconsule/nxmp/releases/download/v0.9.1/nxmp-0.9.1.zip",
+            "url": "https://github.com/proconsule/nxmp/releases/download/v0.9.2/nxmp-0.9.2.zip",
             "type": "zip",
             "zip": [
                 {
