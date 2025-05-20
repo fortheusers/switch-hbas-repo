@@ -20,7 +20,7 @@ For an explanation of the different extraction states (Install, Extract, Update,
 ### CI Updates
 If the `version` key is bumped, the package will be rebuilt by the CI, including the re-sourcing and re-downloading of any required assets. See the [Spinarak Wiki](https://gitlab.com/4TU/spinarak/-/wikis/pkgbuild.json-specification) for more detailed information on pkgbuild keys and assets.
 
-If the `version` key is not bumped, you can still force a manual update by including the name of the package in your git commit. Eg. if my commit message was "fix file layout issue in vgedit", the precesense of the string `vgedit` in the commit will ensure that the package is rebuilt.
+If the `version` key is not bumped, you can still force a manual update by including the name of the package in your git commit. Eg. if my commit message was "fix file layout issue in vgedit", the presence of the string `vgedit` in the commit will ensure that the package is rebuilt.
 
 ### Migration script
 For migrating an existing package into a pkgbuild, you can run `python3 stage_update.py <package name>` and a template directory, pkgbuild.json, and assets will be created. It includes both an example for extracting a zip, or a simple one-file download.
