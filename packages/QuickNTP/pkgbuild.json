@@ -1,0 +1,44 @@
+{
+    "package": "QuickNTP",
+    "info": {
+        "title": "QuickNTP",
+        "author": "nedex",
+        "category": "advanced",
+        "version": "1.2.8-1",
+        "url": "https://github.com/nedex/QuickNTP/releases",
+        "license": "GPLv2",
+        "description": "A Tesla plugin for Nintendo Switch to sync time with NTP servers",
+        "details": "THIS HOMEBREW REQUIRES THE TESLA MENU AND OVERLAY INSTALLED: \\n\\nhttps://apps.fortheusers.org/switch/Tesla-menu\\nhttps://hb-app.store/switch/nx-ovlloader\\n\\nSyncs the Nintendo Switch time with a list of NTP Servers.\\n\\nWhen using a custom DNS (or a limited connection), it might not be possible to update your clock using Nintendo servers, causing the Switch to get out of sync easily.\\nWith this Tesla plugin, you can now quickly update your clock using your custom NTP servers with the touch of a button.\\n\\nFeatures\\n\\n- Update the time by selecting from a list of servers\\n- Show the current offset compared to the selected server\\n- Set the internal network time to the time set by the user in system settings (time traveling, yay!)\\n\\nNotes\\n\\n- When using this application, make sure the \"Synchronize Clock via Internet\" option is enabled in System settings since this program changes the \"Network clock\".\\n- Also, don't send a lot of requests: NTP servers should be requested in 36 hours intervals."
+    },
+    "changelog": "1.2.8-1\\n\\nUpdated to latest libnx\\n\\n1.2.8\\n\\nUpdated to latest libtesla which fixes a crash in docked mode\\n\\n1.2.7\\n\\nSupport for 16.0.0\\n\\n1.2.6\\n\\nAdded Cloudflare and Google NTP servers ( Thanks to @DraconicNEO! )\\nTested up to 14.1.2 with Atmosphere 1.3.2\\n\\n1.2.5\\n\\nUpdated to C++20\\nCode optimized: now using exceptions and \"proper\" strings\\n\\n1.2.1\\n\\nUpdated with libnx 4.1.3-1 and newer libtesla.\\nTested up to 12.1.0 with Atmosphere 0.19.5\\n\\n1.2.0\\n\\nAdded new option to set network time to user-set time\\nTested up to 10.2.0 with Atmosphere 0.14.4\\n",
+    "assets": [
+        {
+            "url": "https://example.com/file.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://example.com/file.nro",
+            "dest": "none",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen1.png"
+        }
+    ]
+}
