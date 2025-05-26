@@ -4,16 +4,16 @@
         "title": "Switchfin",
         "author": "dragonflylee",
         "category": "tool",
-        "version": "0.7.0",
+        "version": "0.7.1",
         "url": "https://github.com/dragonflylee/switchfin",
         "license": "Apache v2",
         "description": "Nintendo Switch Jellyfin client",
         "details": "Switchfin is third-party PC player for Jellyfin that provides a native user interface to browse and play movies and series.\\nSupported media items: movies, series, seasons, episodes\\nDirect play and transcoding"
     },
-    "changelog": "0.7.0\\nAdd\\n\\nrefactor series view layout\\nadd people view of series/movie\\nadd Brazilian Portuguese localization (@brunorossetto)\\nswitch: external drive support using libusbhsfs\\nFixed\\n\\nexception catch under macOS\\nremote load large file list\\nuse mpv watch-later for remote\\nsubtitle not display on vita\\n\\n0.6.3\\nFixed\\n- websocket close gracefully\\n- vita\\n- transcode audio codec\\n- upgrade ffmpeg 7.1.1\\n\\nAdd\\n- player option for video rotate\\n- photo viewer support",
+    "changelog": "0.7.1\\nAdd\\n\\nadd suggest/genres tab for collection\\nFixed\\n\\nseries/movie view logo layout\\nrefactor media collection view\\nimage load for search sugguest\\n\\n0.7.0\\nAdd\\n\\nrefactor series view layout\\nadd people view of series/movie\\nadd Brazilian Portuguese localization (@brunorossetto)\\nswitch: external drive support using libusbhsfs\\nFixed\\n\\nexception catch under macOS\\nremote load large file list\\nuse mpv watch-later for remote\\nsubtitle not display on vita\\n\\n0.6.3\\nFixed\\n- websocket close gracefully\\n- vita\\n- transcode audio codec\\n- upgrade ffmpeg 7.1.1\\n\\nAdd\\n- player option for video rotate\\n- photo viewer support",
     "assets": [
         {
-            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.7.0/Switchfin.nro",
+            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.7.1/Switchfin.nro",
             "dest": "/switch/Switchfin/Switchfin.nro",
             "type": "update"
         },

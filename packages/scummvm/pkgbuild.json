@@ -1,0 +1,35 @@
+{
+    "package": "scummvm",
+    "info": {
+        "title": "ScummVM",
+        "author": "scummvm",
+        "category": "emu",
+        "version": "2.9.1",
+        "url": "https://github.com/scummvm/scummvm/releases",
+        "license": "GPLv3",
+        "description": "Point and Click Adventures.",
+        "details": "Here is a port of the excellent ScummVM engine to the switch."
+    },
+    "changelog": "2.9.1\\nGet ready to jam and slap da BASS!\\n\\nYes, it is this time of the year again! Please welcome the first ScummVM release of the year: ScummVM 2.9.1.\\n\\nThis maintenance release mainly focused on fixing bugs that our developers and users have uncovered since our last stable release.\\n\\nSCUMM:\\n\\nRestored the ScummVM 2.7.0 behavior of allowing all the DOS v2-v4\\n(i.e. Maniac Mansion to Monkey1) EGA titles to be played with the\\nAmiga palette again, using the Render mode game option.\\nFixed most of the iMUSE tracks being silent in the Booty Store,\\nin Monkey2.\\nFixed an accuracy issue with some character positioning in SCUMMv2\\nand below. This would happen when interacting with the devotee at\\nthe airport in Zak McKracken (all releases but the FM-TOWNS one),\\nfor instance.\\nFixed Moonbase Commander multiplayer mode crashing guests when\\nstarting the game.\\nFixed pops in Sega CD Monkey1 sound effects.\\nFixed saving over an existing save in COMI.\\nFixed excessive MIDI messages being sent during iMUSE music volume\\nreduction (e.g. in the Sam & Max intro), which could cause\\nslowed-down, garbled speech when using older, real MIDI hardware.\\nFixed an iMUSE crash when loading an older savegame with a sound\\nfade in progress.\\nFixed the Jolly Roger enhancement for Monkey1; enabling this\\nenhancement would prevent this flag from appearing when it should\\nno longer be visible anymore, but the fix was incomplete in some\\nVGA floppy releases.\\nFixed the enhancement for Smirk's cigar smoke in Monkey1 FM-TOWNS.",
+    "assets": [
+        {
+            "url": "https://downloads.scummvm.org/frs/scummvm/2.9.1/scummvm-2.9.1-switch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/switch/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
