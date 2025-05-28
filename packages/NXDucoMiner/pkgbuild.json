@@ -1,0 +1,37 @@
+{
+    "package": "NXDucoMiner",
+    "info": {
+        "title": "NX-Duco-Miner",
+        "author": "tbwcjw",
+        "category": "_misc",
+        "version": "25.05.23_1",
+        "url": "https://github.com/tbwcjw/nxducominer",
+        "license": "GPLv3",
+        "description": "A multithreaded DUCO Miner for the Ninte",
+        "details": "NX-Duco-Miner is a SHA1 mining tool for the Duino-coin cryptocurrency \"DUCO\". It features multithreading for mining jobs, automatic node selection, CPU Boosting, Duino-coin wallet IoT integration and a web dashboard."
+    },
+    "assets": [
+        {
+            "type": "zip",
+            "url": "https://github.com/tbwcjw/nxducominer/releases/download/25.05.23_12.29/25.05.23_12.29.zip",
+            "zip": [{
+                "path": "/switch/nxducominer/application.nro",
+                "dest": "/switch/nxducominer/application.nro",
+                "type": "update"
+            }, {
+                "path": "/switch/nxducominer/config.txt",
+                "dest": "/switch/nxducominer/config.txt",
+                "type": "get"
+            }]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
