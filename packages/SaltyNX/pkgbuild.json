@@ -4,16 +4,16 @@
         "title": "SaltyNX",
         "author": "masagrator, shinyquagsire23",
         "category": "advanced",
-        "version": "1.2.5",
+        "version": "1.2.7",
         "url": "https://github.com/masagrator/SaltyNX/releases",
         "license": "n/a",
         "description": "Background process for the Nintendo Switch for file/code modification",
         "details": "Background process for the Nintendo Switch for file/code modification\\n\\nCreated by: https://github.com/shinyquagsire23\\n\\nThis fork includes many QoL improvements\\n\\n\\nFor additional functions you need SaltyNX-Tool.\\n\\n"
     },
-    "changelog": "1.2.5\\nAdd option to force game into custom made suspend when in Home Menu (requires FPSLocker 2.1.3+).\\n\\n1.2.4\\nFix FPS Lock not working when Display Sync was disabled.\\nReport proper interval for EGL if game is passing invalid value\\n\\n1.2.3\\nReduce size of Core32 by 15% and Core by 35% which allows us to make sysmodule take 64kB less RAM\\nAllow changing amount of buffers in Vulkan games (requires FPSLocker 1.2.2+)\\nFix an issue with some games overreporting frames (120 instead of 60), such as Hades\\nFix an issue where very few Erista units had constant image stutters and loading times increased since 1.2.0 release\\n\\n1.2.2\\nFixed an old bug where games with big .bss segment were booting significantly longer than other games (For example games using Regista or LucaSystem engine were booting 30-40 seconds. With this fix it's now less than 5 seconds).\\nSysmodule log now prints info how much time have passed since sysmodule booted.\\nMinor sysmodule optimizations",
+    "changelog": "1.2.7\\nFix crash in some units when going to sleep mode (bug introduced in 1.2.6).\\n\\n1.2.5\\nAdd option to force game into custom made suspend when in Home Menu (requires FPSLocker 2.1.3+).\\n\\n1.2.4\\nFix FPS Lock not working when Display Sync was disabled.\\nReport proper interval for EGL if game is passing invalid value\\n\\n1.2.3\\nReduce size of Core32 by 15% and Core by 35% which allows us to make sysmodule take 64kB less RAM\\nAllow changing amount of buffers in Vulkan games (requires FPSLocker 1.2.2+)\\nFix an issue with some games overreporting frames (120 instead of 60), such as Hades\\nFix an issue where very few Erista units had constant image stutters and loading times increased since 1.2.0 release\\n\\n1.2.2\\nFixed an old bug where games with big .bss segment were booting significantly longer than other games (For example games using Regista or LucaSystem engine were booting 30-40 seconds. With this fix it's now less than 5 seconds).\\nSysmodule log now prints info how much time have passed since sysmodule booted.\\nMinor sysmodule optimizations",
     "assets": [
         {
-            "url": "https://github.com/masagrator/SaltyNX/releases/download/1.2.5/SaltyNX-1.2.5.zip",
+            "url": "https://github.com/masagrator/SaltyNX/releases/download/1.2.7/SaltyNX-1.2.7.zip",
             "type": "zip",
             "zip": [
                 {
