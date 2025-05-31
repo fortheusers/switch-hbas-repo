@@ -4,16 +4,16 @@
         "title": "NXMilk",
         "author": "proconsule",
         "category": "tool",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "url": "https://github.com/proconsule/NXMilk",
         "license": "n/a",
         "description": "Audio player supporting projectM VIS",
         "details": "Audio player supporting projectM VIS"
     },
-    "changelog": "0.1.0\\nAfter a long time an update.\\n\\nAdded\\nuser defined file extensions (for exotic audio extensions, FFMpeg format support is huge)\\n\\nFixed\\nlocal/usb switch (now return to startpath)\\n\\nChanges\\nupdated libs (libusbhsfs,projectM,openmpt)\\nchanged usb behavior (from event to callback)\\nfixed minor bugs\\n\\nhope you all enjoy using NXMilk!",
+    "changelog": "0.2.0\\nAdded\\n\\nNetwork support (SSH/SMB/NFS)\\nCUE/BIN support (AUDIO CD Image playback) support also mixed mode image (data+audio)\\nISO9660 support (CD/DVD image)\\nArchive support (RAR/ZIP/TAR.GZ) audio file inside an archive (fast inmemory seek for file < 100MB)\\nAdded argv file playback for sphaira file assocation\\nBacklight On/Off for minimize power consumption\\nChanges\\n\\nChanged milk builtin presets\\n\\n0.1.0\\nAfter a long time an update.\\n\\nAdded\\nuser defined file extensions (for exotic audio extensions, FFMpeg format support is huge)\\n\\nFixed\\nlocal/usb switch (now return to startpath)\\n\\nChanges\\nupdated libs (libusbhsfs,projectM,openmpt)\\nchanged usb behavior (from event to callback)\\nfixed minor bugs\\n\\nhope you all enjoy using NXMilk!",
     "assets": [
         {
-            "url": "https://github.com/proconsule/NXMilk/releases/download/v0.1.0/NXMilk-0.1.0.zip",
+            "url": "https://github.com/proconsule/NXMilk/releases/download/v0.2.0/NXMilk-0.2.0.zip",
             "type": "zip",
             "zip": [
                 {
