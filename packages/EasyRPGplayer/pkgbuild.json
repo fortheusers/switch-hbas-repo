@@ -4,16 +4,16 @@
         "title": "EasyRPG player",
         "author": "Rinnegatamante, EasyRPG team",
         "category": "tool",
-        "version": "0.8.1",
+        "version": "0.8.1.1",
         "url": "https://github.com/EasyRPG/Player/releases",
         "license": "GPLv3",
         "description": "Play your own RPG",
         "details": "EasyRPG Player is a software allowing you to run games built with RPG Maker 2000 and RPG Maker 2003 on your system.\\nIt supports several consoles and now Switch support got added.\\n\\nPlace your games in /switch/easyrpg-player (same folder for RTP files if required, so /switch/easyrpg-player/rtp)."
     },
-    "changelog": "0.8.1\\n\\nSee the full changelog at: https://blog.easyrpg.org/2025/04/easyrpg-player-0-8-1-stun/\\n\\n0.8.0\\n\\nhttps://blog.easyrpg.org/2023/04/easyrpg-player-0-8-paralyze/",
+    "changelog": "0.8.1.1\\nFix text encoding detection for ZIP archives on Android and our Homebrew platforms. (#3401)\\nImprove support for LZH archives (#3394)\\nFull changelog: https://blog.easyrpg.org/2025/06/easyrpg-player-0-8-1-1-stun-patch-1/\\n\\n0.8.1\\n\\nSee the full changelog at: https://blog.easyrpg.org/2025/04/easyrpg-player-0-8-1-stun/\\n\\n0.8.0\\n\\nhttps://blog.easyrpg.org/2023/04/easyrpg-player-0-8-paralyze/",
     "assets": [
         {
-            "url": "https://easyrpg.org/downloads/player/0.8.1/easyrpg-player-0.8.1-switch.zip",
+            "url": "https://easyrpg.org/downloads/player/0.8.1.1/easyrpg-player-0.8.1.1-switch.zip",
             "type": "zip",
             "zip": [
                 {
