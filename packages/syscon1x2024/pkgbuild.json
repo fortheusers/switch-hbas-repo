@@ -4,16 +4,16 @@
         "title": "sys-con 1.x (2024)",
         "author": "o0Zz",
         "category": "advanced",
-        "version": "1.5.2",
+        "version": "1.5.3",
         "url": "https://github.com/o0Zz/sys-con",
         "license": "GPLv3",
         "description": "Support for XBOX/PS/PC controllers",
         "details": "Connect any USB controller to your Nintendo Switch.\\n\\nSys-con v1.x is a Nintendo Switch module that adds support for all HID and XID joysticks and gamepads to the Nintendo Switch.\\n\\nSupport all USB controllers: PC controllers, Wheels, Dualshock 3, Dualshock 4, Dualsense (PS5), XBOX, XBOX360, XBOXONE, ..."
     },
-    "changelog": "1.5.2\\nAdded support for PDP Neon white (#68)\\nAdded support for HORI Drum controller (0x0f0d, 0x01b2)\\nAdded support for PowerA MOGA XP-Ultra controller (0x20d6, 0xa01a)\\nAdded a way to simulate any button (Thanks to @leofrachet11)\\n\\n1.5.1\\nFixed 8BitDo Wireless Bluetooth USB Adapter 2 (#65)\\nFixed controller gamecube adapter cause a kernel panic (#59)",
+    "changelog": "1.5.3\\nReduce input lag and reduce sys-con cpu usage #70\\n\\n1.5.2\\nAdded support for PDP Neon white (#68)\\nAdded support for HORI Drum controller (0x0f0d, 0x01b2)\\nAdded support for PowerA MOGA XP-Ultra controller (0x20d6, 0xa01a)\\nAdded a way to simulate any button (Thanks to @leofrachet11)\\n\\n1.5.1\\nFixed 8BitDo Wireless Bluetooth USB Adapter 2 (#65)\\nFixed controller gamecube adapter cause a kernel panic (#59)",
     "assets": [
         {
-            "url": "https://github.com/o0Zz/sys-con/releases/download/1.5.2/sys-con-1.5.2.zip",
+            "url": "https://github.com/o0Zz/sys-con/releases/download/1.5.3/sys-con-1.5.3.zip",
             "type": "zip",
             "zip": [
                 {
