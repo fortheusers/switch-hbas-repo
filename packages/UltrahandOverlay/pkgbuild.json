@@ -4,16 +4,16 @@
         "title": "Ultrahand Overlay",
         "author": "ppkantorski",
         "category": "tool",
-        "version": "1.8.9",
+        "version": "1.9.0",
         "url": "https://github.com/ppkantorski/Ultrahand-Overlay",
         "license": "GPLv2",
         "description": "The fully craft-able overlay executor.",
         "details": "WARNING: This will overwrite Tesla Menu if already installed.\\n\\nUltrahand Overlay is a Tesla Menu replacement built from the ground up off of libtesla that provides powerful C/C++ commands through the usage of its own custom interpretive programming language (similar to Shell/BASH). It is a versatile tool that enables you to create and share custom command-based packages, providing enhanced functionality for managing files and directories on your SD card.\\n\\nWith Ultrahand, you have the flexibility to customize and shape your file management system according to your needs, empowering you with greater control over your system configurations."
     },
-    "changelog": "1.8.9\\nSignificantly improved rendering has been applied to libultrahand's custom libtesla fork.\\nThis now allows for 60fps wallpapers on stock CPU clock speeds.\\nCPU 714 MHz under-clock without wallpapers should now render at 60fps as well.\\nCPU 612 MHz under-clock is not quite at 60fps yet, but on various pages it can get pretty close.\\nA new bug fix for input isolation failing (foreground bug) on changing titles has also been applied to libtesla.\\nThis should prevent overlays compiled with libultrahand from losing their input focus on the menu when a game starts up.\\nVarious optimizations to drawTable (the table drawing method).\\n\\n1.8.8\\nNew Key Combo implementation for launching any overlay.\\nLocated in the overlay settings menu (Y on an overlay).\\nThis lets you set any overlay to any key combination (excluding your Ultrahand Key Combo).\\nWhen setting an already used combo, combos set for overlays with the same combo are removed.\\nVery useful for quickly launching any overlay without invoking the Ultrahand Overlay menu.\\nDefault theme table info color has been changed.\\nFor changes to apply to the default theme, users must re-apply the default theme in the theme selector on the settings menu.\\nFixes for slot commands to render the updated footers instead of a checkmark.\\nLong tap on commands now invoke the ScriptOverlay.\\nThis makes all options of the menu fully accessible now via touch.\\nBug fix for new packages and overlays not initially being listed with names until the menu reloads.\\nSlight code optimizations.",
+    "changelog": "1.9.0\\nTitle ID polling bug fixes in libultrahand (cleanup of the foreground fix implementation).\\n- Before it was using old / outdated service calls for pulling the title ID.\\n- This issue appears to have caused crashes on certain switch environments according to users.\\nVarious code optimizations in libultrahand.\\n- Rendering is slightly faster now than v1.8.9.\\n- Removal of chrono for libnx alternatives.\\nnx-ovlloader/nx-ovlloader+ have been re-compiled",
     "assets": [
         {
-            "url": "https://github.com/ppkantorski/Ultrahand-Overlay/releases/download/v1.8.9/ovlmenu.ovl",
+            "url": "https://github.com/ppkantorski/Ultrahand-Overlay/releases/download/v1.9.0/ovlmenu.ovl",
             "dest": "/switch/.overlays/ovlmenu.ovl",
             "type": "update"
         },

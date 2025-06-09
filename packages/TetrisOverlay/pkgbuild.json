@@ -1,0 +1,29 @@
+{
+    "package": "TetrisOverlay",
+    "info": {
+        "title": "Tetris Overlay",
+        "author": "ppkantorski",
+        "category": "game",
+        "version": "0.3.4",
+        "url": "https://github.com/ppkantorski/Tetris-Overlay",
+        "license": "GPLv2",
+        "description": "A Tetris overlay for the Nintendo Switch",
+        "details": "An Ultrahand-enhanced Tesla overlay that brings classic Tetris gameplay to the overlay menu. This overlay allows for in-menu gameplay with dynamic UI elements, saving and loading of game state, and high score tracking.\\n\\nNotice: Requires Ultrahand Overlay or Tesla Menu."
+    },
+    "changelog": "0.3.4\\nSignificant rendering improvements and bug fixes in libultrahand.\\n\\n60fps rendering with wallpapers.\\nForeground bug fix (losing input isolation during title ID changes).\\nVarious code optimizations and library updates.",
+    "assets": [
+        {
+            "url": "https://github.com/ppkantorski/Tetris-Overlay/releases/download/v0.3.4/tetris.ovl",
+            "dest": "/switch/.overlays/tetris.ovl",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
