@@ -4,16 +4,16 @@
         "title": "Megazeux",
         "author": "AliceLR",
         "category": "game",
-        "version": "2.93c",
+        "version": "2.93d",
         "url": "https://github.com/AliceLR/megazeux/releases",
         "license": "GPLv2",
         "description": "MegaZeux is a game creation system",
         "details": "MegaZeux is a game creation system originally released in 1994 and still being developed today. At DigitalMZX you'll find an enormous collection of MegaZeux games and a forum inhabited by friendly MegaZeux veterans. In-depth community info can be found in the MZX Wiki.\\n\\nYou can chat to the team @ https://discord.gg/XJCvb4P\\n\\nGames can be found here : https://vault.digitalmzx.net/search.php?browse=AllGames&desc=CACHE_downloadCount"
     },
-    "changelog": "Released on February 28th, 2025",
+    "changelog": "2.93d\\nReleased on June 9th, 2025.\\n\\n2.93c\\n\\nReleased on February 28th, 2025",
     "assets": [
         {
-            "url": "https://github.com/AliceLR/megazeux/releases/download/v2.93c/mzx293c-switch.zip",
+            "url": "https://github.com/AliceLR/megazeux/releases/download/v2.93d/mzx293d-switch.zip",
             "type": "zip",
             "zip": [
                 {
