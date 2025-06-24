@@ -1,0 +1,43 @@
+{
+    "package": "Trogdor-Reburninated",
+    "info": {
+        "title": "Trogdor-Reburninated",
+        "author": "Mips96",
+        "category": "game",
+        "version": "2.3",
+        "url": "https://github.com/Mips96/Trogdor-Reburninated/releases",
+        "license": "MIT",
+        "description": "Burninate the countryside!",
+        "details": "An enhanced recreation of the Homestar Runner Flash game, \"Trogdor\", expanded with new features.\\n- New Options menu to customize your game\\n- Level select\\n- New cheats\\n- Optional soundtrack from Stinkoman 20X6, another Homestar Runner game\\n- Multiple screen scaling options\\n- Bugs from the original game have been fixed"
+    },
+    "changelog": "2.3\\n\\n♪ Let's go back to a Flash game! Come on, come on, come on, come on... ♪\\n\\nMostly some much-needed fixes, but also...\\n\\nNew Port:\\n\\nAdded Android port! No on-screen touch controls, you're gonna need a controller/keyboard.\\nChanges:\\n\\nEnhanced controller support! Input is now read from all connected controllers, and you can freely connect/disconnect controllers as desired.\\nReplaced some Stinkoman Flash music with CD quality versions from the Homestar Runner Original Soundtrack plus remastered tracks by CoolGuyBug.\\nImproved looping in some audio tracks.\\n[Linux] Set Native resolution as default.\\n[Linux] Assets/save data can now be read from the same directory as the executable.\\nBug Fixes:\\n\\nFixed collision issue that caused the player to sometimes get stuck directly above a cottage.\\n[3DS] Fixed screen tearing/glitchy top screen.\\n[3DS] Restored screen scaling options.\\n[3DS] Restored transparency on pause screen.\\n[Gamecube] Fixed asset path, so audio and saving now work as intended.\\n[Windows+Linux] Fixed assets not being read when you run the game from a directory other than the one containing the executable.\\nOther assorted minor bug fixes and polish.\\nOptimizations:\\n\\nReduced file size, RAM usage, and load times by optimizing graphics and music.\\nSlightly optimized graphics rendering.\\n[3DS] Significantly reduced file size by switching to optimized OGG audio.\\n[Windows] The game is now compiled with MSYS instead of Visual Studio, and DLLs are now statically linked to the executable. That means the entire game is now a single EXE (minus audio).\\nEnjoy!",
+    "assets": [
+        {
+            "url": "https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.3/Trogdor-Reburninated-v2.3-switch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/Trogdor-Reburninated-switch/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "gameplay_v1.0.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "options_v1.0.png"
+        }
+    ]
+}
