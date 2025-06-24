@@ -25,5 +25,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v0.3.2\\n- Fixes\\n  - fget(_, nil)\\n  - tostring(float) was not showing the correct number\\n  - tonum(nil) crash,\\n  - str[number] indexing was returning null.\\n  - split() would convert \"-\" to \"0\"\\n  - min() and max() with nil values\\n  - pairs(nil) should return an empty iterator\\n- p8scii\\n  - inline binary characters (\\^.)\\n  - inline hex characters (\\^:)\\n\\n- Cartridges used to try these\\n  - https://www.lexaloffle.com/bbs/?pid=160117p\\n  - https://www.lexaloffle.com/bbs/?pid=133840p\\n  - https://www.lexaloffle.com/bbs/?pid=162293p\\n  - https://www.lexaloffle.com/bbs/?pid=109965p\\n  - https://www.lexaloffle.com/bbs/?pid=118024p\\n  - https://www.lexaloffle.com/bbs/?pid=115916p\\n\\nPS4-P8 has been ported to Switch"
+    "changelog": "v0.3.2\\n- Fixes\\n  - fget(_, nil)\\n  - tostring(float) was not showing the correct number\\n  - tonum(nil) crash,\\n  - str[number] indexing was returning null.\\n  - split() would convert \"-\" to \"0\"\\n  - min() and max() with nil values\\n  - pairs(nil) should return an empty iterator\\n- p8scii\\n  - inline binary characters (\\^.)\\n  - inline hex characters (\\^:)\\n\\nPS4-P8 has been ported to Switch"
 }
