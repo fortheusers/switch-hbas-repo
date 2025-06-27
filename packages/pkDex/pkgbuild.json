@@ -1,0 +1,29 @@
+{
+    "package": "pkDex",
+    "info": {
+        "title": "pkDex",
+        "author": "Insektaure",
+        "category": "tool",
+        "version": "v1.3.0",
+        "url": "https://github.com/Insektaure/pkDex",
+        "license": "Apache v2",
+        "description": "pkDex - Offline Pokedex for Switch Games",
+        "details": "pkDex is a comprehensive Pokemon encyclopedia (Pokedex) application that allows users to offline browse and view detailed information about Pokemon for Switch games.\\n\\nMulti-Region Support: Browse Pokemon from different regions:\\n- Kanto\\n- Sinnoh\\n- Sinnoh Arceus\\n- Galar + DLC\\n- Paldea + DLC\\n\\nDetailed Pokemon Information:\\n- National and Regional\\n- Shiny Lock\\n- Types\\n- Evolution\\n- Version exclusivity\\n- In-game locations\\n- Images of both standard / shiny\\n- Packaged low resolution images, with dynamic loading high resolution if available on the SD card\\n\\nPokemon Tracker:\\n- Track caught Pokemon by marking them on the list"
+    },
+    "assets": [
+        {
+            "url": "https://github.com/Insektaure/pkDex/releases/download/v1.3.0/pkDex.nro",
+            "dest": "/switch/pkDex/pkDex.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v1.3.0\\nNew Feature release - Main App :\\n- Update file can be redownloaded (prompt to force download is update file already exist)\\n- Add Pokemon Tracker system\\n\\nCan now toggle \"Captured\" status on the list to mark Pokemon as Captured.\\n\\nYou can now keep track of what's missing in your collection (useful for Shiny Hunt)\\n\\nSettings menu :\\n- Add an option to reset all \"captured\" status (this cannot be undone -for now-)\\n\\nv1.2.0\\nNew Feature release - Main App :\\n- Can download the Updater app directly from the main application if missing (since v1.2.0 and up).\\n\\nUpdater App :\\n- Add new Updater app to update to latest version available directly from the Nintendo Switch.\\n\\nv1.1.1\\nUpdate release - Main App :\\n- Added Shiny Locked flag on pokemon view\\n\\nv1.1.0\\nNew Feature release - Main App :\\n- Update check on startup (to ensure you have the latest version -Enable by default-) (network connection needed)\\n- Update checks is only available since this release, previous ones don't have this feature !\\n\\nNew Settings menu :\\n- Disable automatic update check on startup (for those who prefer not to check for updates on launch)\\n- Manually check if an update is available (network connection needed)\\n\\nChanging the settings will generate a config.ini file in the /config/pkDex directory on the Switch SD Card, which will be used to store user preferences.\\n\\nv1.0.0\\nInitial Release"
+}
