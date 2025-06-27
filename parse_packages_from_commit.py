@@ -17,6 +17,10 @@ for package in packages:
     if package in commit_message:
         out.add(package)
 
+# if we have a match for skip_notify, pass it through
+if "skip_notify" in commit_message:
+    out.add("skip_notify")
+
 # if we have a match for the force_refresh_all keyword, add all packages
 if "force_refresh_all" in commit_message:
     out = set(packages)

@@ -180,6 +180,10 @@ if len(sys.argv) > 1 and sys.argv[1] == "server":
 
 with open("packages/updated_packages.txt") as f:
     packages = f.read().split(",")
+    all_packages = set(packages)
+    if "skip_notify" in all_packages:
+        print("Skipping notifying due to skip_notify flag")
+        exit(0)
     platform = "switch" # the CI is hardcoded to switch for now
     fetch_repo_data(platform)
     for package in packages:
