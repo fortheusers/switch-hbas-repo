@@ -4,7 +4,7 @@
         "title": "pkDex",
         "author": "Insektaure",
         "category": "tool",
-        "version": "1.3.0",
+        "version": "1.3.1",
         "url": "https://github.com/Insektaure/pkDex",
         "license": "Apache v2",
         "description": "pkDex - Offline Pokedex for Switch Games",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/Insektaure/pkDex/releases/download/v1.3.0/pkDex.nro",
+            "url": "https://github.com/Insektaure/pkDex/releases/download/v1.3.1/pkDex.nro",
             "dest": "/switch/pkDex.nro",
             "type": "update"
         },
@@ -41,5 +41,5 @@
             "url": "region.png"
         }
     ],
-    "changelog": "v1.3.0\\nNew Feature release - Main App :\\n- Update file can be redownloaded (prompt to force download is update file already exist)\\n- Add Pokemon Tracker system\\n\\nCan now toggle \"Captured\" status on the list to mark Pokemon as Captured.\\n\\nYou can now keep track of what's missing in your collection (useful for Shiny Hunt)\\n\\nSettings menu :\\n- Add an option to reset all \"captured\" status (this cannot be undone -for now-)\\n\\nv1.2.0\\nNew Feature release - Main App :\\n- Can download the Updater app directly from the main application if missing (since v1.2.0 and up).\\n\\nUpdater App :\\n- Add new Updater app to update to latest version available directly from the Nintendo Switch.\\n\\nv1.1.1\\nUpdate release - Main App :\\n- Added Shiny Locked flag on pokemon view\\n\\nv1.1.0\\nNew Feature release - Main App :\\n- Update check on startup (to ensure you have the latest version -Enable by default-) (network connection needed)\\n- Update checks is only available since this release, previous ones don't have this feature !\\n\\nNew Settings menu :\\n- Disable automatic update check on startup (for those who prefer not to check for updates on launch)\\n- Manually check if an update is available (network connection needed)\\n\\nChanging the settings will generate a config.ini file in the /config/pkDex directory on the Switch SD Card, which will be used to store user preferences.\\n\\nv1.0.0\\nInitial Release"
+    "changelog": "v1.3.1\\nMinor Feature release - Main App :\\n\\n- Tracker now use one file per region to save \"_Captured_\" statuses instead of a big one (faster Read / Write)\\n\\nSettings menu :\\n\\n- Can now select & reset per region \"_Captured_\" statuses instead of all regions without distinction (this cannot be undone _-for now-_)\\n\\nHow to Use :- \\n\\n1. Download the latest pkDex.nro and pkDexUpdater.nro (_optional, can be downloaded from the main app_)\\n2. Copy pkDex.nroand pkDexUpdater.nro to be inside the /switch directory on your Switch's SD Card\\n3. You can download the optional High Res img pack (extract on the root of the Switch' SD Card) _-recommended-_\\n4. Open the app (applet or takeover mode)\\n5. Navigate the app\\n\\nv1.3.0\\nNew Feature release - Main App :\\n- Update file can be redownloaded (prompt to force download is update file already exist)\\n- Add Pokemon Tracker system\\n\\nCan now toggle \"Captured\" status on the list to mark Pokemon as Captured.\\n\\nYou can now keep track of what's missing in your collection (useful for Shiny Hunt)\\n\\nSettings menu :\\n- Add an option to reset all \"captured\" status (this cannot be undone -for now-)\\n\\nv1.2.0\\nNew Feature release - Main App :\\n- Can download the Updater app directly from the main application if missing (since v1.2.0 and up).\\n\\nUpdater App :\\n- Add new Updater app to update to latest version available directly from the Nintendo Switch.\\n\\nv1.1.1\\nUpdate release - Main App :\\n- Added Shiny Locked flag on pokemon view\\n\\nv1.1.0\\nNew Feature release - Main App :\\n- Update check on startup (to ensure you have the latest version -Enable by default-) (network connection needed)\\n- Update checks is only available since this release, previous ones don't have this feature !\\n\\nNew Settings menu :\\n- Disable automatic update check on startup (for those who prefer not to check for updates on launch)\\n- Manually check if an update is available (network connection needed)\\n\\nChanging the settings will generate a config.ini file in the /config/pkDex directory on the Switch SD Card, which will be used to store user preferences.\\n\\nv1.0.0\\nInitial Release"
 }
