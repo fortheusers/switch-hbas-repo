@@ -178,12 +178,14 @@ if len(sys.argv) > 1 and sys.argv[1] == "server":
     cherrypy.quickstart(NotifyServer(), '/', {'/': {}})
     exit(0)
 
-with open("packages/updated_packages.txt") as f:
-    packages = f.read().split(",")
-    all_packages = set(packages)
-    if "skip_notify" in all_packages:
+with open("packages_in_commit.txt") as f:
+    packages = set(f.read().splitlines())
+    if "skip_notify" in packages:
         print("Skipping notifying due to skip_notify flag")
         exit(0)
+
+with open("packages/updated_packages.txt") as f:
+    packages = f.read().split(",")    
     platform = "switch" # the CI is hardcoded to switch for now
     fetch_repo_data(platform)
     for package in packages:
