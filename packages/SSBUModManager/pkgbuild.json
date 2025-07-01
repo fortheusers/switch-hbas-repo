@@ -20,6 +20,10 @@
             "url": "screen.png"
         },
         {
+            "type": "screenshot",
+            "url": "main.png"
+        },
+        {
             "type": "update",
             "url": "https://github.com/K-Schmitt/HomebrewModManagerSSBU/releases/download/1.0.0/ssbu-mod-manager.nro",
             "dest": "/switch/SSBUModManager/SSBUModManager.nro"
