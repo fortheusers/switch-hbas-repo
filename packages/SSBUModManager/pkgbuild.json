@@ -1,0 +1,29 @@
+{
+    "package": "SSBUModManager",
+    "info": {
+        "title": "SSBU Mod Manager",
+        "author": "Slackliniste",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/K-Schmitt/HomebrewModManagerSSBU",
+        "license": "MIT",
+        "description": "A simple mod manager for SSBU on Switch",
+        "details": "HomebrewModManagerSSBU is a homebrew application that allows you to easily manage your SSBU mods directly from your Nintendo Switch. The application provides an intuitive console interface for enabling/disabling your mods with multilingual support and multiple sorting options."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "update",
+            "url": "https://github.com/K-Schmitt/HomebrewModManagerSSBU/releases/download/1.0.0/ssbu-mod-manager.nro",
+            "dest": "/switch/SSBUModManager/SSBUModManager.nro"
+        }
+    ],
+    "changelog": ""
+}
