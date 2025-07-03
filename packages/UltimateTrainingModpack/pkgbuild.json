@@ -1,0 +1,58 @@
+{
+    "package": "UltimateTrainingModpack",
+    "info": {
+        "title": "UltimateTrainingModpack",
+        "author": "jugeeya",
+        "category": "tool",
+        "version": "7.0.0",
+        "url": "https://github.com/jugeeya/UltimateTrainingModpack/releases",
+        "license": "n/a",
+        "description": "An application to drastically improve the training mode in Super Smash Bros Ultimate",
+        "details": "A Skyline plugin using cargo-skyline for adding features to the training mode. It interfaces with skyline-web to provide a menu for customizing training options. (Note: This download will also install/update skyline)\\n\\nThe features in this modpack are configured through the menu, which can be accessed within training mode by pressing SPECIAL+UPTAUNT. Generally they fall into these categories:\\n\\nMash Settings; Defensive Settings: Controls CPU behavior\\nSave State Settings: Saves and loads the positional state of the player and CPU\\nMiscellaneous Settings: Displays additional information onscreen, enables or disables stage hazards\\n\\nMenu Settings:\\nWhen multiple options are selected, one of the selected options will be chosen at random. Open / focused menus can be reset by pressing the Y button. All menus can be reset to the default by pressing the Z/ZR button. These defaults can be saved upon exiting the menu by pressing X when in-menu. Use this to make a preset that fits your personal training style.\\n\\nSave States:\\nAt any time in Training Mode, you can press Shield + Down Taunt to save the state of training mode. This will save the position, state, and damage of each fighter, which can then be reverted to at any time with Shield + Up Taunt. With the mirroring setting, loading the save state will flip the positions, allowing you to practice your skills facing both directions. Use this instead of the built-in training mode reset!\\n\\nYou can switch Save State slots by using the associated toggle! There are 5 slots you can save, and they are persisted between loads of the game!"
+    },
+    "changelog": "7.0.0\\n- Added support for SSBU v13.0.4 - @ThatNintendoNerd, @SuddyN, @asimon-1, @jugeeya\\n- When Mash Toggles is blank, display frame advantage on-hit - @asimon-1\\n- Fix a bug that allowed invalid menu selections - @asimon-1\\n- Fix a bug that would cause distance-based mash triggers to fire during Aegis swap - @asimon-1\\n- Multiple under-the-hood refactors - @asimon-1\\n- Multiple under-the-hood refactors - @austintraver\\nInclude version information in crash modals - @mk360",
+    "assets": [
+        {
+            "url": "https://github.com/jugeeya/UltimateTrainingModpack/releases/download/7.0.0/TrainingModpack.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/skyline-dev/skyline/releases/download/beta/skyline.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/atmosphere/contents/01006A800016E000/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "damage_range.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "defensive_settings.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "mash_settings.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "misc_settings.png"
+        }
+    ]
+}
