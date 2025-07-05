@@ -4,7 +4,7 @@
         "title": "Switch P8",
         "author": "voliva",
         "category": "emu",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "url": "https://github.com/voliva/ps4-p8/tree/switch",
         "license": "MIT",
         "description": "Pico-8 emulator for nintendo switch",
@@ -13,7 +13,7 @@
     "assets": [
         {
             "type": "update",
-            "url": "https://github.com/voliva/ps4-p8/releases/download/0.4.0/switch-p8.nro",
+            "url": "https://github.com/voliva/ps4-p8/releases/download/0.4.1/switch-p8.nro",
             "dest": "/switch/SwitchP8/switch-p8.nro"
         },
         {
@@ -25,5 +25,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v0.4.0\\nThis update mainly focuses on the switch version:\\n\\n- switch: Move all application data (cartridges, savestates, etc.) to /switch/switch-p8 to reduce clutter.\\n- enable pico-8 saves without needing a specific folder setup.\\n- splore: add a context menu accessible with \"pause\" (button +) to save a BBS cartridge to the local SD.\\n- local cartridges: add a context menu to delete cartridges from the local SD.\\n- add animation to splore cartridges\\n\\nFixes\\n- implement pico-8 load() function, a function that loads external cartridges.\\n- avoid skipping too many frames\\n\\nv0.3.2\\n- Fixes\\n  - fget(_, nil)\\n  - tostring(float) was not showing the correct number\\n  - tonum(nil) crash,\\n  - str[number] indexing was returning null.\\n  - split() would convert \"-\" to \"0\"\\n  - min() and max() with nil values\\n  - pairs(nil) should return an empty iterator\\n- p8scii\\n  - inline binary characters (\\^.)\\n  - inline hex characters (\\^:)\\n\\nPS4-P8 has been ported to Switch"
+    "changelog": "v0.4.1\\nFeatures\\n- Custom font compatibility\\n- Support games with their own rendering loop through \"flip\". Save states for these games will not work yet.\\n\\nCompatibility fixes\\n- stat(table) should behave like stat(0)\\n- printing backspaces\\n- stop looping SFX after length mark\\n- tonum(\"\") should return empty instead of 0\\n- time() should go in exact intervals based on frame rate instead of the actual time.\\n\\nv0.4.0\\nThis update mainly focuses on the switch version:\\n\\n- switch: Move all application data (cartridges, savestates, etc.) to /switch/switch-p8 to reduce clutter.\\n- enable pico-8 saves without needing a specific folder setup.\\n- splore: add a context menu accessible with \"pause\" (button +) to save a BBS cartridge to the local SD.\\n- local cartridges: add a context menu to delete cartridges from the local SD.\\n- add animation to splore cartridges\\n\\nFixes\\n- implement pico-8 load() function, a function that loads external cartridges.\\n- avoid skipping too many frames\\n\\nv0.3.2\\n- Fixes\\n  - fget(_, nil)\\n  - tostring(float) was not showing the correct number\\n  - tonum(nil) crash,\\n  - str[number] indexing was returning null.\\n  - split() would convert \"-\" to \"0\"\\n  - min() and max() with nil values\\n  - pairs(nil) should return an empty iterator\\n- p8scii\\n  - inline binary characters (\\^.)\\n  - inline hex characters (\\^:)\\n\\nPS4-P8 has been ported to Switch"
 }
