@@ -4,7 +4,7 @@
         "title": "UMSDPong",
         "author": "Kriperovich",
         "category": "concept",
-        "version": "1.0.4",
+        "version": "release",
         "url": "https://github.com/Kriperovich2/umsdpong-switch",
         "license": "n/a",
         "description": "Just pong",
@@ -25,5 +25,5 @@
             "dest": "/switch/UMSDPong/UMSDPong.nro"
         }
     ],
-    "changelog": ""
+    "changelog": "vrelease\\n(1.0.4 beacuse im lose another versions)"
 }
