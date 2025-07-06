@@ -15,11 +15,11 @@
         {
             "url": "https://github.com/ppkantorski/nx-ovlloader/releases/download/v1.1.0/nx-ovlloader.zip",
             "type": "zip",
-            "zip": {
+            "zip": [{
                 "path": "/**/*",
                 "dest": "/",
                 "type": "update"
-            }
+            }]
         },
         {
             "url": "https://github.com/ppkantorski/Ultrahand-Overlay/releases/download/v1.9.9/ovlmenu.ovl",
