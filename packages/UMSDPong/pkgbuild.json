@@ -1,0 +1,29 @@
+{
+    "package": "UMSDPong",
+    "info": {
+        "title": "UMSDPong",
+        "author": "Kriperovich",
+        "category": "concept",
+        "version": "1.0.4",
+        "url": "https://github.com/Kriperovich2/umsdpong-switch",
+        "license": "n/a",
+        "description": "Just pong",
+        "details": "An ASCII pong port, see github.com/Kriperovich2/umsdpong-switch for source code.\\n\\nUMSD stands for ULTRA MEGA SUPER DUPER PONG!\\n\\n \"The legend returns. 8 years in the making. A revival of the game that started it all.\""
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "update",
+            "url": "https://github.com/Kriperovich2/umsdpong-switch/releases/download/release/ULTRA.MEGA.SUPER.DUPER.PONG.nro",
+            "dest": "/switch/UMSDPong/UMSDPong.nro"
+        }
+    ],
+    "changelog": ""
+}
