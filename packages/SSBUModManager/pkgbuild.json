@@ -4,7 +4,7 @@
         "title": "SSBU Mod Manager",
         "author": "Slackliniste",
         "category": "tool",
-        "version": "1.1.0",
+        "version": "1.1.3",
         "url": "https://github.com/K-Schmitt/HomebrewModManagerSSBU",
         "license": "MIT",
         "description": "A simple mod manager for SSBU on Switch",
@@ -25,9 +25,9 @@
         },
         {
             "type": "update",
-            "url": "https://github.com/K-Schmitt/HomebrewModManagerSSBU/releases/download/1.1.0/ssbu-mod-manager.nro",
+            "url": "https://github.com/K-Schmitt/HomebrewModManagerSSBU/releases/download/1.1.3/ssbu-mod-manager.nro",
             "dest": "/switch/SSBUModManager/SSBUModManager.nro"
         }
     ],
-    "changelog": "v1.1.0\\nImplemented scrollable mods list ( 24 mods per page) and global enable/disable button."
+    "changelog": "v1.1.3\\n- Improved navigation controls for a smoother experience\\n- Quick UI adjustments for better readability\\n- Fixed a minor UI-related bug\\n\\nv1.1.0\\nImplemented scrollable mods list ( 24 mods per page) and global enable/disable button."
 }
