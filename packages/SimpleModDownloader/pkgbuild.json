@@ -1,0 +1,29 @@
+{
+    "package": "SimpleModDownloader",
+    "info": {
+        "title": "SimpleModDownloader",
+        "author": "PoloNX",
+        "category": "tool",
+        "version": "2.2.0",
+        "url": "https://github.com/PoloNX/SimpleModDownloader",
+        "license": "GPLv3",
+        "description": "Download mods for your Switch!",
+        "details": "An easy tool to download mods for your switch!\\nEver wish you didn't have to keep switching back and forth from your switch to your computer to download and install mods? Now you can download mods from your switch with this tool!\\n(SimpleModManager needs to be installed to install mods)"
+    },
+    "changelog": "2.2.0\\nBug fix Latest\\nA bug was introduced with a recent change in the gamebanana api. thanks to @Starwarsfan2099 who fixed it in #93\\nI improved the code about images, it is now limited to 8 but I will improve this in the future",
+    "assets": [
+        {
+            "url": "https://github.com/PoloNX/SimpleModDownloader/releases/download/2.2.0/SimpleModDownloader.nro",
+            "dest": "/switch/SimpleModDownloader.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
