@@ -1,0 +1,35 @@
+{
+    "package": "BlockamokRemix",
+    "info": {
+        "title": "Blockamok Remix",
+        "author": "Mode8fx",
+        "category": "game",
+        "version": "1.1",
+        "url": "https://github.com/Mode8fx/blockamok",
+        "license": "MIT",
+        "description": "3D block-dodging action",
+        "details": "Fly through a 3D world of never-ending blocks and survive for as long as you can! Includes customization options for both gameplay and visuals, along with five music tracks."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/Mode8fx/blockamok/releases/download/v1.1/BlockamokRemix-v1.1-switch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v1.1\\nMajor performance improvements and others, make sure you update!\\n\\nTechnical Improvements:\\n -Significantly optimized rendering and block logic. This means higher framerates on all systems (sometimes much higher)!\\n- The goal was usually to reach 60 FPS on the most intense settings while maintaining good block spawn boundaries, though some consoles only reach this target on less intense difficulties.\\n- Increased cube spawn boundaries on almost all consoles to take advantage of improved performance.\\nOther minor optimizations and polish.\\n\\nChanges:\\n- Enhanced controller support! Input is now read from all connected controllers, and you can freely connect/disconnect controllers as desired.\\n- Added Block Transparency setting. Disabling this can slightly improve performance if needed.\\n- Added Frame Rate setting, intended for weak hardware.\\n- Made True Analog (formerly called Type B) the default control scheme.\\n- Made Pitch Black the default overlay color.\\n- Renamed and reorganized some menu options.\\n- Added version number to credits."
+}
