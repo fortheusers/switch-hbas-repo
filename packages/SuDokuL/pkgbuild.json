@@ -2,10 +2,10 @@
     "package": "SuDokuL",
     "info": {
         "title": "SuDokuL",
-        "author": "Mips96",
+        "author": "Mode8fx",
         "category": "game",
         "version": "1.41",
-        "url": "https://github.com/Mips96/SuDokuL",
+        "url": "https://github.com/Mode8fx/SuDokuL",
         "license": "MIT",
         "description": "Sudoku made with SDL2",
         "details": "A Sudoku game made with SDL2.\\n\\nFeatures:\\n- Sudoku puzzle generator\\n- Touch screen support\\n- A scrolling background that lets you change the size, scroll speed and scroll direction\\n- Those mini-numbers to help you keep track of harder puzzles\\n- An optional cheat that auto-fills a cell (press X or Y 10 times)\\n- 7 different MOD format songs"
