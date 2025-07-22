@@ -36,5 +36,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v25.07.22_13.16\\nFollow the setup: https://github.com/tbwcjw/nxducominer/?tab=readme-ov-filesetup guide for installing on your HB switch console.\\n\\nChanges:\\n- Added node name as identifier, when automatically selecting node.\\n\\nBug Fixes:\\n- IoT would send on each thread regardless of miner id\\n- Buffer tweaks; allocation sizes\\n\\nAdded node name as identifier, when automatically selecting node. Added charge state (Charging, Discharging, Charging slowly, Plugged in not charging). On connection loss, the miner will retry until reconnected. On connection loss, the miner will retry until reconnected. Various layout tweaks. A full changelog with bug fixes can be found on the releases page."
+    "changelog": "Added node name as identifier, when automatically selecting node. Added charge state (Charging, Discharging, Charging slowly, Plugged in not charging). On connection loss, the miner will retry until reconnected. On connection loss, the miner will retry until reconnected. Various layout tweaks. A full changelog with bug fixes can be found on the releases page."
 }
