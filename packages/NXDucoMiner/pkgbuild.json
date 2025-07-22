@@ -4,7 +4,7 @@
         "title": "NX-Duco-Miner",
         "author": "tbwcjw",
         "category": "_misc",
-        "version": "25.07.22_1",
+        "version": "25.07.22_13.16",
         "url": "https://github.com/tbwcjw/nxducominer",
         "license": "GPLv3",
         "description": "A multithreaded DUCO Miner for the Ninte",
@@ -14,15 +14,18 @@
         {
             "type": "zip",
             "url": "https://github.com/tbwcjw/nxducominer/releases/download/25.07.22_13.16/25.07.22_13.16.zip",
-            "zip": [{
-                "path": "/switch/nxducominer/application.nro",
-                "dest": "/switch/nxducominer/application.nro",
-                "type": "update"
-            }, {
-                "path": "/switch/nxducominer/config.txt",
-                "dest": "/switch/nxducominer/config.txt",
-                "type": "get"
-            }]
+            "zip": [
+                {
+                    "path": "/switch/nxducominer/application.nro",
+                    "dest": "/switch/nxducominer/application.nro",
+                    "type": "update"
+                },
+                {
+                    "path": "/switch/nxducominer/config.txt",
+                    "dest": "/switch/nxducominer/config.txt",
+                    "type": "get"
+                }
+            ]
         },
         {
             "type": "icon",
