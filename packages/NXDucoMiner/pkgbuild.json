@@ -4,7 +4,7 @@
         "title": "NX-Duco-Miner",
         "author": "tbwcjw",
         "category": "_misc",
-        "version": "25.05.23_1",
+        "version": "25.07.22_1",
         "url": "https://github.com/tbwcjw/nxducominer",
         "license": "GPLv3",
         "description": "A multithreaded DUCO Miner for the Ninte",
@@ -13,7 +13,7 @@
     "assets": [
         {
             "type": "zip",
-            "url": "https://github.com/tbwcjw/nxducominer/releases/download/25.05.23_12.29/25.05.23_12.29.zip",
+            "url": "https://github.com/tbwcjw/nxducominer/releases/download/25.07.22_13.16/25.07.22_13.16.zip",
             "zip": [{
                 "path": "/switch/nxducominer/application.nro",
                 "dest": "/switch/nxducominer/application.nro",
@@ -33,5 +33,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": ""
+    "changelog": "Added node name as identifier, when automatically selecting node. Added charge state (Charging, Discharging, Charging slowly, Plugged in not charging). On connection loss, the miner will retry until reconnected. On connection loss, the miner will retry until reconnected. Various layout tweaks. A full changelog with bug fixes can be found on the releases page."
 }
