@@ -1,0 +1,44 @@
+{
+    "package": "NXCGOL",
+    "info": {
+        "title": "NX-CGOL",
+        "author": "tbwcjw",
+        "category": "_misc",
+        "version": "25.06.07_00.06",
+        "url": "https://github.com/tbwcjw/nxcgol",
+        "license": "MIT",
+        "description": "Conway's Game Of Life on the Switch",
+        "details": "An implementation of Conway's Game of Life for the Nintendo Switch. Conway's Game of Life is a cellular automaton where simple rules determine the birth, survival, or death of cells on a grid, creating complex evolving patterns over time."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/tbwcjw/nxcgol/releases/download/25.06.07_00.06/25.06.07_00.06.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                },
+                {
+                    "path": "/switch/nxcgol/nxcgol.config.txt",
+                    "dest": "/switch/nxcgol/nxcgol.config.txt",
+                    "type": "get"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "gol.png"
+        }
+    ],
+    "changelog": "- Added 'stagnant wait'. The simulation will carry on running X number of generations before starting a new colony (if auto_restart is enabled).\\n- Changed some config keys to be more descriptive.\\n- Default simulation speed is now 80%, a comfortable middle ground.\\n-Setting 'auto_restart' to false in the config has no effect."
+}
