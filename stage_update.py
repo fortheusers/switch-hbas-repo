@@ -83,18 +83,22 @@ if len(data) == 0:
                         # also, if we have any base64 assets, convert them to files
                         if "assets" in pkgData:
                             for asset in pkgData["assets"]:
-                                if "format" in asset and "data" in asset and asset["format"] == "base64":
-                                    b64data = asset["data"]
-                                    asset["url"] = asset["type"] + ".png"
-                                    with open(f"packages/{package}/{asset['url']}", "wb") as img:
-                                        # remove base URI prefix
-                                        b64data = b64data.split(",")[1]
-                                        img.write(base64.b64decode(b64data))
-                                # always delete format and data keys
-                                if "format" in asset:
-                                    del asset["format"]
-                                if "data" in asset:
-                                    del asset["data"]
+                                try:
+                                    if "format" in asset and "data" in asset and asset["format"] == "base64":
+                                        b64data = asset["data"]
+                                        asset["url"] = asset["type"] + ".png"
+                                        with open(f"packages/{package}/{asset['url']}", "wb") as img:
+                                            # remove base URI prefix
+                                            b64data = b64data.split(",")[1]
+                                            img.write(base64.b64decode(b64data))
+                                    # always delete format and data keys
+                                    if "format" in asset:
+                                        del asset["format"]
+                                    if "data" in asset:
+                                        del asset["data"]
+                                except:
+                                    print("Error processing an asset, skipping")
+                                    pass
                         # write the template to the new package folder 
                         json.dump(pkgData, f, indent=4)
                         print(f"Created new package folder for {package} in packages from recent submissions")

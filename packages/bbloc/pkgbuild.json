@@ -1,0 +1,29 @@
+{
+    "package": "bbloc",
+    "info": {
+        "title": "bbloc",
+        "author": "Romain337",
+        "category": "tool",
+        "version": "0 alpha",
+        "url": "https://github.com/notnotme/bbloc/tree/nintendo_switch",
+        "license": "n/a",
+        "description": "A text and code editor.",
+        "details": "A text editor which work with a command prompt.\\n\\nYou open the prompt by using a keystroke (\"ctrl+shift+space\", with AZERTY layout), and type the command you want, like \"open [file_path]\", \"save [file_path]\". You can use the \"tab\" key to auto-complete commands and most arguments.\\n\\nThe UI tints and dimension can be altered by modifying variables using the prompt.\\n\\nWhen the prompt is not open, the text goes into the buffer.\\n\\nPlease check the README file on github to know how it work in details. \\n\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "capture.png"
+        },
+        {
+            "type": "update",
+            "url": "https://github.com/notnotme/bbloc/releases/download/alpha_3/bbloc.nro",
+            "dest": "/switch/bbloc/bbloc.nro"
+        }
+    ],
+    "changelog": "Release \"0\" pre-alpha.\\n\\nRight now I cannot work more on it, as I need to rampup in my new work, and it will take some times. But I like this project and will update it later when free times will allow it."
+}
