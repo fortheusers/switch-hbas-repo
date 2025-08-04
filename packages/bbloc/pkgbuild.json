@@ -4,7 +4,7 @@
         "title": "bbloc",
         "author": "Romain337",
         "category": "tool",
-        "version": "0 alpha",
+        "version": "alpha_3",
         "url": "https://github.com/notnotme/bbloc/tree/nintendo_switch",
         "license": "n/a",
         "description": "A text and code editor.",
@@ -25,5 +25,5 @@
             "dest": "/switch/bbloc/bbloc.nro"
         }
     ],
-    "changelog": "Release \"0\" pre-alpha.\\n\\nRight now I cannot work more on it, as I need to rampup in my new work, and it will take some times. But I like this project and will update it later when free times will allow it."
+    "changelog": "valpha_3\\nLatest build including all refactoring.\\n\\nRelease \"0\" pre-alpha.\\n\\nRight now I cannot work more on it, as I need to rampup in my new work, and it will take some times. But I like this project and will update it later when free times will allow it."
 }
