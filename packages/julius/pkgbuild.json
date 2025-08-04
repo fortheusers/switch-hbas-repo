@@ -2,9 +2,9 @@
     "package": "julius",
     "info": {
         "title": "Julius",
-        "author": "rsn8887",
+        "author": "Bianca van Schaik",
         "category": "game",
-        "version": "1.7.0",
+        "version": "1.8.0",
         "url": "https://github.com/bvschaik/julius/releases",
         "license": "Affero GPLv3",
         "description": "Port of Caesar 3 for Switch, based on devnoname120's Vita port.",
