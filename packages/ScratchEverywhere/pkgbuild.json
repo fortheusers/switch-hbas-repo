@@ -1,0 +1,29 @@
+{
+    "package": "ScratchEverywhere",
+    "info": {
+        "title": "Scratch Everywhere!",
+        "author": "NateXS and Grady Link",
+        "category": "tool",
+        "version": "0.17",
+        "url": "https://github.com/NateXS/Scratch-Everywhere",
+        "license": "GPLv3",
+        "description": "Play Scratch games on your Switch!",
+        "details": "A custom Scratch runtime that allows you to run Scratch 3 projects on your Nintendo Switch! This is an official port of the original runtime for the 3DS.\\n\\nSee the Github README for more info on what features are supported.\\n\\nMouse\\n3DS: Glide your finger/stylus on the bottom screen to move the mouse, and tap the bottom screen to click.\\nWii U GamePad: You can use the touchscreen on the GamePad.\\nWii Remote: You can use the Wii sensor bar to control the mouse.\\nOther Controllers: Enter Mouse Mode by holding L. Use the D-pad to move the mouse, and press R to click."
+    },
+    "assets": [
+        {
+            "type": "update",
+            "url": "https://github.com/NateXS/Scratch-Everywhere/releases/download/0.17/scratch-nx.nro",
+            "dest": "/switch/scratch-nx/scratch-nx.nro"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "0.17\\nNew Features\\n\\nScratch Everywhere!\\n- The name has been changed to Scratch Everywhere!\\n- That's Scratch Everywhere! with the exclamation point btw..\\n- It made 0 sense to keep the name Scratch 3DS as this is now on 5 different platforms...\\n- speaking of which...\\n\\n**Switch Port!**\\n- For all 1.5 people who own a modded Switch, you can now enjoy Scratch games!\\n- Via pull request (#97)!\\n\\nAll new main menu screen!\\n- The Main Menu has gone through a huge refactor under the hood!\\n- It should be a smoother and better experience overall!\\n- It's still a work in progress, but now it should be a little easier to add stuff to it in the future!\\n\\nCustom controls!\\n- In the Project menu is a new option to remap the controls of any project!\\n- Control mappings get loaded and saved to `scratch-everywhere/'project_name'.json`\\n        - Wii U is `sd:/wiiu/scratch-wiiu/'project_name.json'`\\n\\nRuntime changes:\\n- Sprite fencing has been implemented!\\n        - Can be disabled with TurboWarp or other Scratch mods.\\n- The `Stop 'All'` block now takes you back to the Main Menu instead of the homebrew menu!\\n        - Note: The Wii U will still exit the app, as it would freeze when going back to the Main Menu for some reason.\\n- Booleans (anything set to `true` or `false`) now doesn't get set to `1` or `0` by the runtime mistakenly\\n- Fixed a couple of crashes that could happen while loading\\n- Custom blocks with no definition now works as intended\\n- The runtime can now be compiled with `ENABLE_AUDIO=0`.\\n        - For the 3DS, this means smaller file size, and you no longer need SDL2 to compile.\\n\\n3DS Changes:\\n- Fixed crash when closing the app\\n- Fixed audio cracking issue\\n- Sprites are no longer rendered in fractional positions, fixing some image weirdness\\n- Changed image filtering from `nearest` to `linear`\\n        - This fixes the image fuzziness and weirdness issues, with a tradeoff to some images looking slightly blurry. I might add a filtering option to the Main Menu in the future."
+}
