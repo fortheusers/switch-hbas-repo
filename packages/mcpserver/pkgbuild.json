@@ -4,7 +4,7 @@
         "title": "mcp-server",
         "author": "FitzQ",
         "category": "advanced",
-        "version": "1.0",
+        "version": "1.0.0",
         "url": "https://github.com/FitzQ/mcp-server",
         "license": "n/a",
         "description": "an mcp server setup on switch",
@@ -14,11 +14,13 @@
         {
             "url": "https://github.com/FitzQ/mcp-server/releases/download/1.0.0/atmosphere.zip",
             "type": "zip",
-             "zip": [{
-                "path": "/**/*",
-                "dest": "/",
-                "type": "update"
-            }]
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
         },
         {
             "type": "icon",
@@ -29,5 +31,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "Initial release"
+    "changelog": "v1.0.0\\n\\n\\nInitial release"
 }
