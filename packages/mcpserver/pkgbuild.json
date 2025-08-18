@@ -1,0 +1,33 @@
+{
+    "package": "mcpserver",
+    "info": {
+        "title": "mcp-server",
+        "author": "FitzQ",
+        "category": "advanced",
+        "version": "1.0",
+        "url": "https://github.com/FitzQ/mcp-server",
+        "license": "n/a",
+        "description": "an mcp server setup on switch",
+        "details": "This project is an MCP Server for Nintendo Switch, providing the following features:\\n- tools\\n    - Controller button control injection (supports buttons, joysticks, six-axis, etc.)\\n    - Get the current ns screen frame\\n- resources\\n- prompts\\n\\nListening port is 12345\\nSwitch location: Hekate Toolbox -> Background Services -> mcp-server\\n\\nclient connection config:\\n{\\n    \"servers\": {\\n        \"switch-mcp-server\": {\\n            \"type\": \"streamableHttp\",\\n            \"url\": \"http://{your switch ip}:12345/mcp\"\\n        }\\n    }\\n}\\n\\nCurrent known issues\\n\\nSometimes the service won't start, but restarting the switch will fix it. This is because the program requests 2MB of heap memory when it starts. It's only 2MB... If it's smaller, the function that retrieves the NS image won't work properly."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/FitzQ/mcp-server/releases/download/1.0.0/atmosphere.zip",
+            "type": "zip",
+             "zip": [{
+                "path": "/**/*",
+                "dest": "/",
+                "type": "update"
+            }]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "Initial release"
+}
