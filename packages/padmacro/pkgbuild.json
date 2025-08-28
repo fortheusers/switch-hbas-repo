@@ -1,0 +1,37 @@
+{
+    "package": "padmacro",
+    "info": {
+        "title": "pad-macro",
+        "author": "FitzQ",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/FitzQ/pad-macro",
+        "license": "GPLv3",
+        "description": "Controller macro recorder and playback",
+        "details": "pad-macro provides on-device controller macro recording and playback. The overlay offers a simple UI to edit and save config (/config/pad-macro/config.ini), pick macro files and start/stop the target program."
+    },
+    "assets": [
+         {
+            "url": "https://github.com/FitzQ/pad-macro/releases/download/1.0.0/release.zip",
+            "type": "zip",
+             "zip": [{
+                "path": "/**/*",
+                "dest": "/",
+                "type": "update"
+            }, {
+                "path": "/config/pad-macro/config.ini",
+                "dest": "/config/pad-macro/config.ini",
+                "type": "get"
+            }]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "init project. \\nsupported on joycon."
+}
