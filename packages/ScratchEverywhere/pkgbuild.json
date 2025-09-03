@@ -6,7 +6,7 @@
         "category": "tool",
         "version": "0.21",
         "url": "https://github.com/ScratchEverywhere/Scratch-Everywhere",
-        "license": "GPLv3",
+        "license": "LGPLv3",
         "description": "Play Scratch games on your Switch!",
         "details": "A custom Scratch runtime that allows you to run Scratch 3 projects on your Nintendo Switch! This is an official port of the original runtime for the 3DS.\\n\\nSee the Github README for more info on what features are supported.\\n\\nMouse\\n3DS: Glide your finger/stylus on the bottom screen to move the mouse, and tap the bottom screen to click.\\nWii U GamePad: You can use the touchscreen on the GamePad.\\nWii Remote: You can use the Wii sensor bar to control the mouse.\\nOther Controllers: Enter Mouse Mode by holding L. Use the D-pad to move the mouse, and press R to click."
     },
