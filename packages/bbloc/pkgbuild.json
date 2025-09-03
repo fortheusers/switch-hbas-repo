@@ -4,7 +4,7 @@
         "title": "bbloc",
         "author": "Romain337",
         "category": "tool",
-        "version": "alpha_3",
+        "version": "alpha_4",
         "url": "https://github.com/notnotme/bbloc/tree/nintendo_switch",
         "license": "n/a",
         "description": "A text and code editor.",
@@ -21,9 +21,9 @@
         },
         {
             "type": "update",
-            "url": "https://github.com/notnotme/bbloc/releases/download/alpha_3/bbloc.nro",
+            "url": "https://github.com/notnotme/bbloc/releases/download/alpha_4/bbloc.nro",
             "dest": "/switch/bbloc/bbloc.nro"
         }
     ],
-    "changelog": "valpha_3\\nLatest build including all refactoring.\\n\\nRelease \"0\" pre-alpha.\\n\\nRight now I cannot work more on it, as I need to rampup in my new work, and it will take some times. But I like this project and will update it later when free times will allow it."
+    "changelog": "valpha_4\\n- fix update logic (refresh only when necessary on all platforms)\\n- fix wrong mapping bol -> bof\\n- fix wrong mapping bof <-> eof\\n- cursor column position stick to column when possible\\n\\nvalpha_3\\nLatest build including all refactoring.\\n\\nRelease \"0\" pre-alpha.\\n\\nRight now I cannot work more on it, as I need to rampup in my new work, and it will take some times. But I like this project and will update it later when free times will allow it."
 }
