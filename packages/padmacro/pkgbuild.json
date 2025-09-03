@@ -4,25 +4,28 @@
         "title": "pad-macro",
         "author": "FitzQ",
         "category": "tool",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "url": "https://github.com/FitzQ/pad-macro",
         "license": "GPLv3",
         "description": "Controller macro recorder and playback",
         "details": "pad-macro provides on-device controller macro recording and playback. The overlay offers a simple UI to edit and save config (/config/pad-macro/config.ini), pick macro files and start/stop the target program."
     },
     "assets": [
-         {
-            "url": "https://github.com/FitzQ/pad-macro/releases/download/1.0.0/release.zip",
+        {
+            "url": "https://github.com/FitzQ/pad-macro/releases/download/1.0.1/padmacro.zip",
             "type": "zip",
-             "zip": [{
-                "path": "/**/*",
-                "dest": "/",
-                "type": "update"
-            }, {
-                "path": "/config/pad-macro/config.ini",
-                "dest": "/config/pad-macro/config.ini",
-                "type": "get"
-            }]
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                },
+                {
+                    "path": "/config/pad-macro/config.ini",
+                    "dest": "/config/pad-macro/config.ini",
+                    "type": "get"
+                }
+            ]
         },
         {
             "type": "icon",
@@ -33,5 +36,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "init project. \\nsupported on joycon."
+    "changelog": "v1.0.1\\n- 增加了组合键选项\\n- 支持选择录制与播放的频率\\n- 支持预览宏文键内容（按键及帧数）\\n\\ninit project. \\nsupported on joycon."
 }
