@@ -4,7 +4,7 @@
         "title": "pad-macro",
         "author": "FitzQ",
         "category": "tool",
-        "version": "2.0.0",
+        "version": "2.0.1",
         "url": "https://github.com/FitzQ/pad-macro",
         "license": "GPLv3",
         "description": "Controller macro recorder and playback",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/FitzQ/pad-macro/releases/download/2.0.0/padmacro.zip",
+            "url": "https://github.com/FitzQ/pad-macro/releases/download/2.0.1/padmacro.zip",
             "type": "zip",
             "zip": [
                 {
@@ -36,5 +36,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v2.0.0\\n- 支持宏文件编辑\\n- 支持宏商店下载\\n- 不兼容老版本宏文件\\n- 欢迎在此分享宏文键：宏商店: http://121.43.66.100/files/\\n\\nv1.0.1\\n- 增加了组合键选项\\n- 支持选择录制与播放的频率\\n- 支持预览宏文键内容（按键及帧数）\\n\\ninit project. \\nsupported on joycon."
+    "changelog": "v2.0.1\\n- change the storage dir from /switch/pad-macro/macros to /config/pad-macro/macros, you should move your macro files by yourself\\n- enable custom set combos\\n- enable edit macro file\\n\\nv2.0.0\\n- 支持宏文件编辑\\n- 支持宏商店下载\\n- 不兼容老版本宏文件\\n- 欢迎在此分享宏文键：宏商店: http://121.43.66.100/files/\\n\\nv1.0.1\\n- 增加了组合键选项\\n- 支持选择录制与播放的频率\\n- 支持预览宏文键内容（按键及帧数）\\n\\ninit project. \\nsupported on joycon."
 }
