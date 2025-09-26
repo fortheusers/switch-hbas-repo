@@ -1,0 +1,35 @@
+{
+    "package": "NXModManager",
+    "info": {
+        "title": "NX-Mod-Manager",
+        "author": "TOM (Bad EN)",
+        "category": "tool",
+        "version": "2.26",
+        "url": "https://github.com/TOM-BadEN/NX-Mod-Manager",
+        "license": "MIT",
+        "description": "local mod management for the NX",
+        "details": "This is a plugin dedicated to local MOD management and does not provide MOD download functionality.\\nThe installation method is copy-based. Although this is slower than moving files directly, it is designed to facilitate backup and MOD management, so this will never be changed.\\n\\nPlugin Features:\\n\\n- Modern, aesthetically pleasing interface.\\n- Supports multiple languages, automatically following the system language.\\n- Powerful local management features, such as custom names and descriptions.\\n- Supports MTP transfer (experimental), for moving MOD files only.\\n- Allows adding MODs through the plugin or manually.\\n- Supports fast game search."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/TOM-BadEN/NX-Mod-Manager/releases/download/v2.26/NX-Mod-Manage.For.other.users.-2.2.6.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/switch/**/*",
+                    "dest": "/switch",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v2.26\\n中文\\n\\n优化冲突检测逻辑，现在允许多个MOD之间存在公用文件。\\n取消按B打断卸载MOD的功能。\\n修复文件类型MOD安装的一个恶性BUG\\nEN\\nOptimized conflict detection logic, now allowing multiple mods to share common files.\\nRemoved the feature to cancel mod uninstallation by pressing B.\\nFixed a critical bug in file-type mod installation."
+}
