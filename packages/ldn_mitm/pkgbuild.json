@@ -4,16 +4,16 @@
         "title": "ldn_mitm",
         "author": "spacemeowx2, DefenderOfHyrule",
         "category": "tool",
-        "version": "1.19.4",
+        "version": "1.19.5",
         "url": "https://github.com/DefenderOfHyrule/ldn_mitm/",
         "license": "GPLv2",
         "description": "A mitm kip modified from fs_mitm",
         "details": "A mitm kip modified from fs_mitm.\\n\\nldn_mitm implements LAN connectivity by replacing the system's ldn service.\\n\\nThe original ldn service is only responsible for calling the WiFi service to scan and connect to nearby Switch. ldn_mitm uses the LAN UDP to emulate this scanning process. Therefore ldn_mitm is usually used with switch-lan-play. A configuration tutorial can be found here."
     },
-    "changelog": "v1.19.4\\nThis release was compiled with the latest libnx and atmosphere-libs.\\n\\nv1.19.3\\nThis release was compiled with the latest libnx and atmosphere-libs.\\n\\nv1.19.2\\nThis release was compiled with the latest libnx and atmosphere-libs.\\n\\n1.19.1\\n1.9.1/20.X.0 Compatibility\\nThis release was compiled with the latest libnx and atmosphere-libs.",
+    "changelog": "v1.19.5\\nThis release was compiled with the latest libnx and atmosphere-libs.\\n\\nv1.19.4\\nThis release was compiled with the latest libnx and atmosphere-libs.\\n\\nv1.19.3\\nThis release was compiled with the latest libnx and atmosphere-libs.\\n\\nv1.19.2\\nThis release was compiled with the latest libnx and atmosphere-libs.\\n\\n1.19.1\\n1.9.1/20.X.0 Compatibility\\nThis release was compiled with the latest libnx and atmosphere-libs.",
     "assets": [
         {
-            "url": "https://github.com/DefenderOfHyrule/ldn_mitm/releases/download/v1.19.4/ldn_mitm.zip",
+            "url": "https://github.com/DefenderOfHyrule/ldn_mitm/releases/download/v1.19.5/ldn_mitm.zip",
             "type": "zip",
             "zip": [
                 {
