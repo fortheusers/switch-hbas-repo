@@ -130,7 +130,7 @@ def announce_discord(platform, package):
             {
                 "title": (postTitle if postTitle else package) + f" (v{version})",
                 "type": "rich",
-                "description": postDescription + "\n\n" + (changelog or details),
+                "description": (postDescription or "") + "\n\n" + (changelog or details or ""),
                 "url": url,
                 "color": int(color, 16),
                 "thumbnail": {
