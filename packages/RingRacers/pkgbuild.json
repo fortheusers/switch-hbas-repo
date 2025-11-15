@@ -4,16 +4,16 @@
         "title": "Ring Racers",
         "author": "Craftyawesome",
         "category": "game",
-        "version": "2.4",
+        "version": "2.4-r2",
         "url": "https://github.com/Craftyawesome/RingRacers-Switch/releases/",
         "license": "GPLv2",
         "description": "Technical Kart Racer",
         "details": "\"Dr. Robotnik's Ring Racers\" is a Technical Kart Racer, drawing inspiration from \"antigrav\" racers, fighting games, and traditional-style kart racing.\\n\\nDesigned to minimize randomness and emphasize player expression, Ring Racers isn't just about precise handling--you'll need to master tense combat, resource management, and taking risks under pressure.\\n\\nRing Racers is not a \"pick-up-and-play\" experience. If you aren't already a racing fanatic, the learning curve will be quite steep.\\n\\nIt takes a while to boot up, longer than SRB2/kart do. Increase the CPU clock with something like sys-clk. It helps framerates significantly, which is needed to get modes with multiple racers to a playable framerate. Legacy GL is not very stable, especially with multiple racers. Consider using software only. I would recommend a resolution of 708x400 under software, and 800x450 for less complex tracks or one racer. Legacy GL can handle larger at similar framerates. Buttons match the Xbox controller layout."
     },
-    "changelog": "Update to 2.4\\n\\nPlease see the official site for release notes: https://www.kartkrew.org/news/2025-11-02_dr-robotniks-ring-racers-version-24.html",
+    "changelog": "v2.4-r2\\nRecompile for Atmosphere 1.10\\nMerged upstream 2.4-maintenence\\n\\nOnly NRO download is required if you installed a previous release of 2.4.\\n\\nPlease see the official site for release notes: https://www.kartkrew.org/news/2025-11-02_dr-robotniks-ring-racers-version-24.html\\n\\nUpdate to 2.4\\n\\nPlease see the official site for release notes: https://www.kartkrew.org/news/2025-11-02_dr-robotniks-ring-racers-version-24.html",
     "assets": [
         {
-            "url": "https://github.com/Craftyawesome/RingRacers-Switch/releases/download/v2.4-switch/Ring.Racers.2.4.zip",
+            "url": "https://github.com/Craftyawesome/RingRacers-Switch/releases/download/v2.4-r2-switch/Ring.Racers.2.4.r2.zip",
             "type": "zip",
             "zip": [
                 {
