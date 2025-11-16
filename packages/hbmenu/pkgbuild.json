@@ -1,0 +1,35 @@
+{
+    "package": "hbmenu",
+    "info": {
+        "title": "Homebrew Menu",
+        "author": "yellows8, plutoo",
+        "category": "tool",
+        "version": "3.6.1",
+        "url": "https://github.com/switchbrew/nx-hbmenu/",
+        "license": "n/a",
+        "description": "Run and load other Homebrew apps",
+        "details": "Homebrew Launcher for Switch!\\nPlaces hbmenu.nro on the root of your SD card.\\nSee https://switchbrew.org/wiki/Homebrew_Menu for more usage instructions.\\nAfter the exploit, HBL is launched by visiting the Album from the home menu."
+    },
+    "changelog": "3.5.1\\nUpdate theme.c by @octopuserectus in #169\\nFix: Incomplete and Incorrect Russian Localization by @Vyacguru in #170\\nFix build pc version on macOS by @Vyacguru in #174\\nuse SDL2 for rendering on pc testbed by @WinterMute in #180\\nAdded a warning for homebrew using an outdated ABI by @Adubbz in #183",
+    "assets": [
+        {
+            "url": "https://github.com/switchbrew/nx-hbmenu/releases/download/v3.6.1/nx-hbmenu_v3.6.1.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/hbmenu.nro",
+                    "dest": "/hbmenu.nro",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
