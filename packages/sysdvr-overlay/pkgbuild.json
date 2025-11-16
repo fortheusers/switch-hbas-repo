@@ -4,16 +4,16 @@
         "title": "SysDVR Overlay",
         "author": "Hartie95",
         "category": "_misc",
-        "version": "1.0.14",
+        "version": "1.0.13",
         "url": "https://github.com/Hartie95/sysdvr-overlay/releases",
         "license": "GPLv2",
         "description": "Overlay to check and change the current mode of SysDVR.",
         "details": "This is a simple Tesla overlay to check and change the current mode of SysDVR.\\n\\nSetup\\n\\nSetup the tesla menu and nx-ovlloader\\nSetup SysDVR\\n"
     },
-    "changelog": "1.0.14\\nThis rebuilds the overlay with libnx 4.10.0 to make sure it fully supports firmware 21.0.0 and atmosphere 1.10.0.\\nAlso prepares the support for the next sysDVR update.\\nThe header now also shows the sysdvr ipc version, the overlay communicates with.\\n\\n1.0.13\\nThis update just adds compatibility with the newest SysDVR version 6.2.1\\nI will look into adding support for starting/stopping the sysdvr module at a later point.",
+    "changelog": "v1.0.13\\nThis update just adds compatibility with the newest SysDVR version 6.2.1: https://github.com/exelix11/SysDVR/releases/tag/v6.2.1\\nI will look into adding support for starting/stopping the sysdvr module at a later point.\\n\\n1.0.14\\nThis rebuilds the overlay with libnx 4.10.0 to make sure it fully supports firmware 21.0.0 and atmosphere 1.10.0.\\nAlso prepares the support for the next sysDVR update.\\nThe header now also shows the sysdvr ipc version, the overlay communicates with.\\n\\n1.0.13\\nThis update just adds compatibility with the newest SysDVR version 6.2.1\\nI will look into adding support for starting/stopping the sysdvr module at a later point.",
     "assets": [
         {
-            "url": "https://github.com/Hartie95/sysdvr-overlay/releases/download/v1.0.14/SysDVR-Overlay-1.0.14.zip",
+            "url": "https://github.com/Hartie95/sysdvr-overlay/releases/download/v1.0.13/SysDVR-Overlay-1.0.13.zip",
             "type": "zip",
             "zip": [
                 {
