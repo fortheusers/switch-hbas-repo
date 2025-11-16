@@ -4,16 +4,16 @@
         "title": "SRB2Kart",
         "author": "Craftyawesome, heyjoeway",
         "category": "game",
-        "version": "1.6-r7",
+        "version": "1.6-r8",
         "url": "https://github.com/Craftyawesome/Kart-Public",
         "license": "GPLv2",
         "description": "Classic styled kart racer",
         "details": "SRB2Kart is a kart racing mod based on the 3D Sonic the Hedgehog fangame Sonic Robo Blast 2, based on a modified version of Doom Legacy.\\n\\nThis fork aims to support the Nintendo Switch.\\n\\nFeatures:\\nFull online support\\nFull mouse/keyboard support\\nFull software keyboard support\\nNotes:\\nThe game takes a bit to boot. A faster SD card or higher CPU clock may help with this.\\nOpenGL is used by default on this port. To switch to software either delete renderer.txt or write software in that file.\\nAutomatic resolution runs at 720p on handheld and 1080p docked (OpenGL only). For software I recommend 800x450.\\nThe game is CPU bottlenecked even on OpenGL. Models are an additional small performance loss.\\nThe game continues to run while on the Switch's home screen when you are unable to pause to prevent lag-switching.\\nIf you want to play the game with mouse/keyboard, you'll have to bind most of the buttons yourself.\\nAll button bindings are set to match the Xbox controller layout (Xbox A -> Switch B, Xbox X -> Switch Y, etc.)"
     },
-    "changelog": "1.6r7\\nAdd an option to toggle renderer (requires restarting the game)\\nReduce Z-fighting in OpenGL\\nFix saved resolution being ignored with auto resolution off\\nImprove menus related to auto resolution",
+    "changelog": "v1.6-r8\\nRecompile for Atmosphere 1.10\\n\\nOnly NRO download is required if you installed a previous 1.6 version.\\n\\nFor the full notes on 1.6 read here: https://github.com/STJr/Kart-Public/releases/tag/v1.6\\n\\n1.6r7\\nAdd an option to toggle renderer (requires restarting the game)\\nReduce Z-fighting in OpenGL\\nFix saved resolution being ignored with auto resolution off\\nImprove menus related to auto resolution",
     "assets": [
         {
-            "url": "https://github.com/Craftyawesome/Kart-Public/releases/download/v1.6-r7/kartswitch_1.6_r7.zip",
+            "url": "https://github.com/Craftyawesome/Kart-Public/releases/download/v1.6-r8/kartswitch_1.6_r8.zip",
             "type": "zip",
             "zip": [
                 {
