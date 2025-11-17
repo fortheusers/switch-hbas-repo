@@ -13,6 +13,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     container: python:3.12
+    permissions:
+      contents: read
+      pull-requests: write
     env:
       DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       BSKY_AUTH: ${{ secrets.BSKY_AUTH }}
@@ -43,6 +46,12 @@ jobs:
       - name: Refresh merged repo via Magnezone
         if: ${{ github.event_name != 'pull_request' }}
         run: "curl --header \"AccessKey: ${{ secrets.STORAGE_KEY }}\" \"https://magnezone.fortheusers.org/refresh?repo=primary&packages=$(cat ./packages/updated_packages.txt)\""
+      - name: Post PR comment with build results
+        if: ${{ github.event_name == 'pull_request' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: "python post_pr_comment.py https://switch.cdn.fortheusers.org"
       - name: Notify update
         if: ${{ github.event_name != 'pull_request' }}
         run: "pip install requests atproto && python notify_update.py"
