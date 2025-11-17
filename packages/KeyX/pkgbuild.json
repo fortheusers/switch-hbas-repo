@@ -4,7 +4,7 @@
         "title": "KeyX",
         "author": "TOM",
         "category": "tool",
-        "version": "1.1.6",
+        "version": "1.2.6",
         "url": "https://github.com/TOM-BadEN/KeyX",
         "license": "GPLv3",
         "description": "Key Helper - Button Remapping and Turbo ",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/TOM-BadEN/KeyX/releases/download/v1.1.6/KeyX-1.1.6-EN.zip",
+            "url": "https://github.com/TOM-BadEN/KeyX/releases/download/v1.2.6/KeyX-1.2.6-EN.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             "url": "config.png"
         }
     ],
-    "changelog": "v1.1.6\\nZH\\n\\n增加了连发启动延迟检测，避免误触连发功能\\n现在连发功能已支持所有机型\\n优化LITE机型连发功能的流畅性\\n注意：JC手柄因底层原因，多按键连发效果一般，我尽力了。LITE机型效果完美\\n\\n 修复\\n\\n修复了一处缓冲区溢出导致崩溃的BUG\\n修复了部分情况特斯拉插件IPC调用导致卡死的BUG\\n\\n EN\\n\\n- Added turbo activation delay detection to prevent accidental triggering of the turbo function.\\n- The turbo function now supports all models.\\n- Optimized the smoothness of the turbo function on LITE models.\\n- Note: Due to underlying system limitations, multi-button turbo on JC controllers performs only moderately. I’ve tried my best. It works perfectly on LITE models.\\n\\n Fixes\\n\\n- Fixed a BUG where a buffer overflow could cause a crash.\\n- Fixed a BUG where, in some cases, Tesla plugin IPC calls could cause a freeze.\\n\\nv1.1.5\\n- Fixed a bug where the mapping feature could not work properly on non-LITE models in some cases.\\n- Changed the plugin’s configuration file path from /config/AutoKeyLoop to /config/KeyX.\\n- If you have been using this plugin before, you can manually update the configuration path to avoid losing your settings.\\n\\n Note\\n\\n- Remapping function works on all models\\n- Turbo function still only works on LITE models\\n- The CN and EN versions differ only in the Tesla overlay title; everything else is identical.\\n\\nv1.1.4\\nFixed a bug, where IPC communication failed when switching configurations, if both mapping and Turbo functions were disabled.\\n\\nv1.1.3\\n1. Added Button Remapping Feature\\nSupports remapping between 16 buttons (A/B/X/Y/L/R/ZL/ZR/D-Pad/SELECT/START/L3/R3)\\nCan be enabled simultaneously with turbo function without conflicts\\nPerfectly bypasses system warning popups about button modifications\\nGlobal configuration and per-game configuration\\nAutomatically remembers on/off state\\n\\n2. Optimizations\\nTurbo threads merged from 2 into 1\\nSignificant code optimization throughout the entire project\\nSystem module now only uses 297 KB of RAM\\nTurbo and remapping functions pause when game is switched to background\\n\\n3. Tesla Overlay\\nTesla overlay has been significantly redesigned to accommodate the new remapping feature\\nAdded reset function to turbo button settings\\n\\n4. Note\\nRemapping function works on all models\\nTurbo function still only works on LITE models"
+    "changelog": "v1.2.6\\nEN\\n\\n- Added key macro functionality\\n- The red badge on the home page indicates that the key has a macro bound\\n- Macros can be recorded directly using the Tesla plugin, and the recording guide is complete and visually refined\\n- Added keyboard input module, allowing file renaming through Tesla\\n- Both stick and button states will be recorded\\n- Maximum recording duration is 30 seconds\\n- Recording frame rate is 60 FPS\\n- Pressing the corresponding shortcut key plays once\\n- Holding the corresponding shortcut key loops playback\\n- Pressing the shortcut key again during playback cancels playback\\n\\n Fixes\\n\\n- Fixed a bug where an IPC call could cause Tesla to freeze\\n- Fixed an issue where using turbo and remapping simultaneously could cause key confusion\\n- Fixed some bugs that I already forgot what they were\\n\\n Others\\n\\n- Compiled with the latest libnx, it now supports HOS21\\n- Refactored the refresh mechanism of the ovl plugin\\n- Completely refactored the automatic key (turbo and macro) module in the system module\\n- Memory usage increased from 297 KB to 343 KB\\n\\nThe CN and EN versions differ only in the Tesla overlay title; everything else is identical."
 }
