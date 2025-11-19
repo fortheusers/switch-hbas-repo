@@ -75,33 +75,14 @@ def create_manifest_diff(package: str, old_manifest, new_manifest):
 ```
 """
 
-def post_github_comment(comment_body: str):
-    if not all([GITHUB_TOKEN, GITHUB_REPOSITORY, PR_NUMBER]):
-        print("WARNING: Missing GitHub environment variables, skipping PR comment")
-        return
+def save_comment_to_file(comment_body: str):
+    with open('comment.md', 'w') as f:
+        f.write(comment_body)
     
-    api_url = f"https://api.github.com/repos/{GITHUB_REPOSITORY}/issues/{PR_NUMBER}/comments"
-    
-    data = json.dumps({"body": comment_body}).encode('utf-8')
-    
-    req = urllib.request.Request(
-        api_url,
-        data=data,
-        headers={
-            'Authorization': f'token {GITHUB_TOKEN}',
-            'Accept': 'application/vnd.github.v3+json',
-            'Content-Type': 'application/json'
-        },
-        method='POST'
-    )
-    
-    try:
-        with urllib.request.urlopen(req) as response:
-            print(f"Successfully posted comment to PR #{PR_NUMBER}")
-    except urllib.error.HTTPError as e:
-        print(f"Failed to post comment: {e.code} {e.reason}")
-        print(e.read().decode('utf-8'))
-        sys.exit(1)
+    if PR_NUMBER:
+        with open('pr_number.txt', 'w') as f:
+            f.write(PR_NUMBER)
+    print(f"Saved comment for PR #{PR_NUMBER} to comment.md and pr_number.txt")
 
 def main():
     if len(sys.argv) < 2:
@@ -136,10 +117,8 @@ def main():
     
     comment_body = '\n\n'.join(comment_parts)
     
-    print("Results:")
-    print(comment_body)
-    
-    post_github_comment(comment_body)
+    # save to file for build artifacts
+    save_comment_to_file(comment_body)
 
 if __name__ == '__main__':
     main()
