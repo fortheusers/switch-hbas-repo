@@ -4,7 +4,7 @@
         "title": "NX-Mod-Manager",
         "author": "TOM (Bad EN)",
         "category": "tool",
-        "version": "2.26",
+        "version": "2.27",
         "url": "https://github.com/TOM-BadEN/NX-Mod-Manager",
         "license": "MIT",
         "description": "local mod management for the NX",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/TOM-BadEN/NX-Mod-Manager/releases/download/v2.26/NX-Mod-Manage.For.other.users.-2.2.6.zip",
+            "url": "https://github.com/TOM-BadEN/NX-Mod-Manager/releases/download/v2.27/NX-Mod-Manage.For.other.users.-2.2.7.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v2.26\\n中文\\n\\n优化冲突检测逻辑，现在允许多个MOD之间存在公用文件。\\n取消按B打断卸载MOD的功能。\\n修复文件类型MOD安装的一个恶性BUG\\nEN\\nOptimized conflict detection logic, now allowing multiple mods to share common files.\\nRemoved the feature to cancel mod uninstallation by pressing B.\\nFixed a critical bug in file-type mod installation."
+    "changelog": "v2.27\\n中文\\n\\n- 使用最新的libnx重新编译，支持AMS1.10与HOS21\\n- 修复zip文件名有其他\".\"的时候识别不到的问题\\n\\n EN\\n\\n- Recompiled with the latest libnx, supporting AMS 1.10 and HOS 21.  \\n- Fixed the issue where zip files with additional \".\" in the filename could not be recognized.\\n\\nv2.26\\n中文\\n\\n优化冲突检测逻辑，现在允许多个MOD之间存在公用文件。\\n取消按B打断卸载MOD的功能。\\n修复文件类型MOD安装的一个恶性BUG\\nEN\\nOptimized conflict detection logic, now allowing multiple mods to share common files.\\nRemoved the feature to cancel mod uninstallation by pressing B.\\nFixed a critical bug in file-type mod installation."
 }
