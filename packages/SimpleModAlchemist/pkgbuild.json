@@ -1,0 +1,35 @@
+{
+    "package": "SimpleModAlchemist",
+    "info": {
+        "title": "Simple Mod Alchemist",
+        "author": "gtiersma",
+        "category": "tool",
+        "version": "v1.0",
+        "url": "https://github.com/gtiersma/Simple_Mod_Alchemist",
+        "license": "GPLv3",
+        "description": "Fast and stable mod management!",
+        "details": "SimpleModManager + State Alchemist = Simple Mod Alchemist\\n\\nTwo tools combine to become an ultimate app for fast changing of game mods with improved stability!\\n\\n---\\n\\nEach individual game mod must be organized on the SD card as \"/mod_alchemy/[ TITLE ID ]/[ GROUP ]/[ THING MOD REPLACES ]/[ MOD NAME ]/romfs/...\"\\nFor example, \"/mod_alchemy/0100152000022000/Characters/Mario/Shrek/romfs/Driver/Mario.szs\"\\n\\nIt's also always good idea to backup your mods, just to be safe.\\n\\nSee the GitHub repo readme for much more info!\\n\\n---\\n\\nSpecial thanks:\\n\\n* Nadrino for creating SimpleModManager\\n* Natinusala, xfangfang and any other contributors to Borealis\\n* SciresM and devkitPro"
+    },
+    "assets": [
+        {
+            "url": "https://github.com/gtiersma/Simple_Mod_Alchemist/releases/download/v1.0/simple-mod-alchemist_v1.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v1.0 - INITIAL RELEASE\\nForked from SimpleModManager. Initial major changes:\\n* Full UI upgrade, fixing data-access crashing errors from the old version\\n* Mods are categorized in groups and by what they replace\\n* Huge speed boost (mod files are moved, not copied)\\n* Can automatically bring over mods from SimpleModManager to start using right away\\n* Scalable - it now safe to use with lists of hundreds of mods\\n* More to come!"
+}
