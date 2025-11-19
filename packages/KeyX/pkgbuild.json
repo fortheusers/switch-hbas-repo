@@ -8,7 +8,7 @@
         "url": "https://github.com/TOM-BadEN/KeyX",
         "license": "GPLv3",
         "description": "Major features: Turbo, Remapping, and Macro",
-        "details": "Supports Turbo, Remapping and Macro\n\nBeautiful and modern UI design\\nThe changes to the settings take effect immediately.\\nRecord macros directly using Tesla overlay with comprehensive guidance\\nOptional notification popups\\nBlue icons on home page indicate remapped buttons\\nYellow badges indicate turbo-enabled buttons\\nRed badges indicate macro-bound buttons"
+        "details": "Supports Turbo, Remapping and Macro\\n\\nBeautiful and modern UI design\\nThe changes to the settings take effect immediately.\\nRecord macros directly using Tesla overlay with comprehensive guidance\\nOptional notification popups\\nBlue icons on home page indicate remapped buttons\\nYellow badges indicate turbo-enabled buttons\\nRed badges indicate macro-bound buttons"
     },
     "assets": [
         {
