@@ -4,7 +4,7 @@
         "title": "KeyX",
         "author": "TOM",
         "category": "tool",
-        "version": "1.2.6",
+        "version": "1.2.7",
         "url": "https://github.com/TOM-BadEN/KeyX",
         "license": "GPLv3",
         "description": "Key Helper - Button Remapping and Turbo ",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/TOM-BadEN/KeyX/releases/download/v1.2.6/KeyX-1.2.6-EN.zip",
+            "url": "https://github.com/TOM-BadEN/KeyX/releases/download/v1.2.7/KeyX-1.2.7-EN.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             "url": "config.png"
         }
     ],
-    "changelog": "v1.2.6\\nEN\\n\\n- Added key macro functionality\\n- The red badge on the home page indicates that the key has a macro bound\\n- Macros can be recorded directly using the Tesla plugin, and the recording guide is complete and visually refined\\n- Added keyboard input module, allowing file renaming through Tesla\\n- Both stick and button states will be recorded\\n- Maximum recording duration is 30 seconds\\n- Recording frame rate is 60 FPS\\n- Pressing the corresponding shortcut key plays once\\n- Holding the corresponding shortcut key loops playback\\n- Pressing the shortcut key again during playback cancels playback\\n\\n Fixes\\n\\n- Fixed a bug where an IPC call could cause Tesla to freeze\\n- Fixed an issue where using turbo and remapping simultaneously could cause key confusion\\n- Fixed some bugs that I already forgot what they were\\n\\n Others\\n\\n- Compiled with the latest libnx, it now supports HOS21\\n- Refactored the refresh mechanism of the ovl plugin\\n- Completely refactored the automatic key (turbo and macro) module in the system module\\n- Memory usage increased from 297 KB to 343 KB\\n\\nThe CN and EN versions differ only in the Tesla overlay title; everything else is identical."
+    "changelog": "v1.2.7\\nEN\\n\\n- Fixed a bug where requesting the pdmqry service could cause the system service session count to overflow, leading to a crash.\\n- Currently, this bug has only been observed in the game Taiko no Tatsujin Rhythm Festival (01002460135A4000), causing it to crash.\\n- Thanks to @masagrator for providing the solution.\\n\\nThe CN and EN versions differ only in the Tesla overlay title; everything else is identical.\\n\\nv1.2.6\\nEN\\n\\n- Added key macro functionality\\n- The red badge on the home page indicates that the key has a macro bound\\n- Macros can be recorded directly using the Tesla plugin, and the recording guide is complete and visually refined\\n- Added keyboard input module, allowing file renaming through Tesla\\n- Both stick and button states will be recorded\\n- Maximum recording duration is 30 seconds\\n- Recording frame rate is 60 FPS\\n- Pressing the corresponding shortcut key plays once\\n- Holding the corresponding shortcut key loops playback\\n- Pressing the shortcut key again during playback cancels playback\\n\\n Fixes\\n\\n- Fixed a bug where an IPC call could cause Tesla to freeze\\n- Fixed an issue where using turbo and remapping simultaneously could cause key confusion\\n- Fixed some bugs that I already forgot what they were\\n\\n Others\\n\\n- Compiled with the latest libnx, it now supports HOS21\\n- Refactored the refresh mechanism of the ovl plugin\\n- Completely refactored the automatic key (turbo and macro) module in the system module\\n- Memory usage increased from 297 KB to 343 KB\\n\\nThe CN and EN versions differ only in the Tesla overlay title; everything else is identical."
 }
