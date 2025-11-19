@@ -1,0 +1,29 @@
+{
+    "package": "TimerNX",
+    "info": {
+        "title": "Timer-NX",
+        "author": "SudoTronics",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/Sudachi-E/Timer-NX",
+        "license": "GPLv3",
+        "description": "A countdown timer for Nintendo Switch",
+        "details": "A countdown timer for your Nintendo Switch. Set custom durations, with the ability to pause and resume and get notified when time's up with both haptic feedback and audio alerts."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/Sudachi-E/Timer-NX/releases/download/V1.0/SwitchTimer.nro",
+            "dest": "/switch/TimerNX/TimerNX.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "Initial release"
+}
