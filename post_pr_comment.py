@@ -54,7 +54,7 @@ def create_manifest_diff(package: str, old_manifest, new_manifest):
         return f"### New Manifest: `{package}`\n\n```\n" + '\n'.join(new_manifest) + "\n```\n"
     
     if old_manifest == new_manifest:
-        return f"### Manifest Check: `{package}`\n\nManifest is identical to the public version.\n"
+        return f"### Manifest Check: `{package}`\n\n✅ File layout looks good: Manifest matches the previous version\n"
     
     # Create unified diff
     diff = list(difflib.unified_diff(
@@ -64,11 +64,13 @@ def create_manifest_diff(package: str, old_manifest, new_manifest):
     ))
     
     if not diff:
-        return f"### Manifest Check: `{package}`\n\nManifest is unchanged from published version.\n"
+        return f"### Manifest Check: `{package}`\n\n✅ File layout looks good: Manifest is unchanged from the previous version\n"
     
     diff_text = '\n'.join(diff[2:]) # skip first 2 lines which are just file headers
     
     return f"""### Manifest Diff: `{package}`
+
+The following files would be added/removed on update:
 
 ```diff
 {diff_text}
