@@ -1,0 +1,66 @@
+name: PR Comment
+
+# Consumes the output of a successful PR build job, to then posts a comment on that same PR
+# Separate job so that any PR can't have 'pull-requests: write' access, see: https://stackoverflow.com/a/71683208
+on:
+  workflow_run:
+    workflows: ["Build repo and deploy"]
+    types:
+      - completed
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    if: >
+      github.event.workflow_run.event == 'pull_request' &&
+      github.event.workflow_run.conclusion == 'success'
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Download artifacts
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
+               owner: context.repo.owner,
+               repo: context.repo.repo,
+               run_id: ${{github.event.workflow_run.id }},
+            });
+            const matchArtifact = artifacts.data.artifacts.filter((artifact) => {
+              return artifact.name == "pr-comment-data"
+            })[0];
+            if (!matchArtifact) {
+              core.setFailed('No pr-comment-data artifact found');
+              return;
+            }
+            const download = await github.rest.actions.downloadArtifact({
+               owner: context.repo.owner,
+               repo: context.repo.repo,
+               artifact_id: matchArtifact.id,
+               archive_format: 'zip',
+            });
+            const fs = require('fs');
+            fs.writeFileSync('${{github.workspace}}/pr-comment-data.zip', Buffer.from(download.data));
+      
+      - name: Extract artifacts
+        run: unzip pr-comment-data.zip
+      
+      - name: Read PR number
+        id: pr
+        run: echo "number=$(cat pr_number.txt)" >> $GITHUB_OUTPUT
+      
+      - name: Post comment
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const commentBody = fs.readFileSync('comment.md', 'utf8');
+            
+            github.rest.issues.createComment({
+              issue_number: ${{ steps.pr.outputs.number }},
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: commentBody
+            });
