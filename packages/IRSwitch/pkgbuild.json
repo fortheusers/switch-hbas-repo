@@ -1,0 +1,35 @@
+{
+    "package": "IRSwitch",
+    "info": {
+        "title": "IR Switch",
+        "author": "tech-will",
+        "category": "tool",
+        "version": "1.00",
+        "url": "https://github.com/tech-will/IR-Switch",
+        "license": "MIT",
+        "description": "Shows the IR camera feed on the Switch.",
+        "details": "A homebrew app for the switch that allows you to view the Switch's IR camera on the right joy-con that is steamed to the switch's screen.\\n\\nFeatures:\\n\u2022 Change the resolution\\n\\n\u2022 Hide the UI\\n\\n\u2022 Switch between greyscale and thermal colour*\\n\\n\u2022 Turn the IR led off\\n\\n\u2022 Detach the controllers\\n\\n*The thermal colour mode shows the amount of InfraRed light that is received by the InfraRed sensor. It is NOT a thermal camera because the sensor only detects shorter infrared wavelengths of around 850-940nm that are emitted by a TV remote for example. It cannot detect heat's wavelength.\\n\\nControls:\\n\u2022 Press left stick to hide/show UI\\n\\n\u2022 Up/Down on D-PAD to switch between thermal/greyscale\\n\\n\u2022 Left/Right on D-PAD to change resolution\\n\\n\u2022 - to turn off IR LED"
+    },
+    "assets": [
+        {
+            "url": "https://github.com/tech-will/IR-Switch/releases/download/Final-Release/IR-Switch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "IR-Switch/Switch/IR_Switch.nro",
+                    "dest": "/switch/IR_Switch.nro",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v1.00\\nIR-Switch released."
+}
