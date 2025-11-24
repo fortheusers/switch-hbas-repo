@@ -4,7 +4,7 @@
         "title": "Simple Mod Alchemist",
         "author": "gtiersma",
         "category": "tool",
-        "version": "v1.0",
+        "version": "1.0.1",
         "url": "https://github.com/gtiersma/Simple_Mod_Alchemist",
         "license": "GPLv3",
         "description": "Fast and stable mod management!",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/gtiersma/Simple_Mod_Alchemist/releases/download/v1.0/simple-mod-alchemist_v1.zip",
+            "url": "https://github.com/gtiersma/Simple_Mod_Alchemist/releases/download/v1.0.1/simple-mod-alchemist_v1_0_1.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v1.0 - INITIAL RELEASE\\nForked from SimpleModManager. Initial major changes:\\n* Full UI upgrade, fixing data-access crashing errors from the old version\\n* Mods are categorized in groups and by what they replace\\n* Huge speed boost (mod files are moved, not copied)\\n* Can automatically bring over mods from SimpleModManager to start using right away\\n* Scalable - it now safe to use with lists of hundreds of mods\\n* More to come!"
+    "changelog": "v1.0.1\\n- The app was recompiled using the latest version of libnx for support of Atmosphère v1.10.0.\\n- Feature: Mods can now be changed at random.\\n  - Individually, by group or by game\\n  - This can be done by pressing X- on a mod, group or game.\\n  - This can also be done through the new option in the game settings.\\n- A working progress bar was created. It's used in the dialogs that appear when:\\n  - Randomly changing multiple mods at a time.\\n  - Disabling all mods in a game.\\n  - Bringing over mods from SimpleModManager.\\n- Fix: The game list now refreshes after bringing over mods from SimpleModManager. No need to relaunch the app.\\n- When bringing over mods from SimpleModManager, no longer will any of SimpleModManager's folders be deleted under any circumstance unless they contain no files after the migration.\\n- Minor improvements were made to the layout of dialogs.\\n\\nv1.0 - INITIAL RELEASE\\nForked from SimpleModManager. Initial major changes:\\n* Full UI upgrade, fixing data-access crashing errors from the old version\\n* Mods are categorized in groups and by what they replace\\n* Huge speed boost (mod files are moved, not copied)\\n* Can automatically bring over mods from SimpleModManager to start using right away\\n* Scalable - it now safe to use with lists of hundreds of mods\\n* More to come!"
 }
