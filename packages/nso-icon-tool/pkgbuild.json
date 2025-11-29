@@ -1,0 +1,25 @@
+{
+    "package": "nso-icon-tool",
+    "info": {
+        "title": "nso-icon-tool",
+        "author": "dslatt",
+        "category": "tool",
+        "version": "0.4.5",
+        "url": "https://github.com/dslatt/nso-icon-tool",
+        "license": "GPLv3",
+        "description": "Create custom avatars using NSO icons",
+        "details": "nso-icon-tool allows you create custom avatars using icon elements used by NSO. You can also your own images to create avatars if desired.\\n\\nfeatures:\\naccess to an NSO icon element cache to create custom avatars\\nability to update element cache to access new additions\\nuse custom images when creating avatars"
+    },
+    "changelog": "0.4.5\\nRebuilt for new libnx\\n\\n0.4.4\\n\\nAdded zhHans translation in #27; thanks to @WE1ZARD\\nFixed issue in ru translation file\\n\\n0.4.3\\n\\nReworked code that handles downloading/extracting the icon zipfile (#24 )\\n\\n0.4.2\\n\\nThis release adds the ability to use your own images when selecting icon components using the 'Frame', 'Character', or 'Background' sections. You can now use your own images and the NSO icon components together when creating your user icon.\\n\\nChanges:\\n\\nAdded 'custom' entry to icon component listing that allows you to select your own images to use as icon parts\\nDid some rework on the code to remove a dependency and cleanup some mess",
+    "assets": [
+        {
+            "url": "https://github.com/dslatt/nso-icon-tool/releases/download/v0.4.5/nso-icon-tool.nro",
+            "dest": "/switch/nso-icon-tool/nso-icon-tool.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        }
+    ]
+}
