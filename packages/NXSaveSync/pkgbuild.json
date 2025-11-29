@@ -4,17 +4,17 @@
         "title": "NX-Save-Sync",
         "author": "Xc98 ",
         "category": "tool",
-        "version": "2.2.0",
+        "version": "2.3.0",
         "url": "https://github.com/Xc987/NX-Save-Sync",
         "license": "MIT",
         "description": "Sync save files between switch and pc",
         "details": "NX Save Sync is a switch homebrew app to quickly sync save files between switch and an emulator.\\n\\nControls:\\nPress L / R in main menu to move between tabs or move between pages when selecting a title\\nPress ZL / ZR to change the selected user\\n\\nUsage:\\nFor a guide on how to use switch / pc app, check github repo:\\nhttps://github.com/Xc987/NX-Save-Sync"
     },
-    "changelog": "v2.2.0\\nPrint title save file size in MB / KB in switch app\\nAllow exiting while waiting for pc to connect or waiting for pc to start server in switch app\\nAllow selecting device and BCAT as the user in switch app\\nWhen receiving saves, skip titles not installed in switch app 3\\nAllow using switch app after sending / receiving\\nAdd secondary switch ip config in switch and desktop app 3\\nAdd zip compression config in switch app\\nAdd option to delete saved titles in desktop app\\nAdd debug window in desktop app\\nAdd pop up to keep or delete temp files in switch (deleted automatically in desktop app)\\nMake copy and download buffer bigger to speed up the process in switch app\\n\\n2.1.0\\nAdd selecting multiple or all titles in switch and desktop app #1\\nAdd listing saved titles and add a new title in desktop app\\nFix pushing from switch to pc titles with special or non ascii chars in the name #2\\nList only titles that have a save file for the selected user in switch app\\n\\n2.0.0\\nAdd gui for pc app and make switch app gui a bit better\\nFix save file commiting on switch app\\nAdd changeable pc app themes\\nRemove option exit switch app while waiting for pc to start server or for pc to connect to switch",
+    "changelog": "v2.3.0\\nspeed up title scanning\\nadd linux support 4 \\nshow total size when selecting multiple titles in switch app\\nadd config to scan uninstalled titles in switch app\\nadd config to hide titles with empty save file\\nchange to getsockname to get local ip 7 \\nswap recieve and send tab place in desktop app\\nupdate libnx\\n\\nv2.2.0\\nPrint title save file size in MB / KB in switch app\\nAllow exiting while waiting for pc to connect or waiting for pc to start server in switch app\\nAllow selecting device and BCAT as the user in switch app\\nWhen receiving saves, skip titles not installed in switch app 3\\nAllow using switch app after sending / receiving\\nAdd secondary switch ip config in switch and desktop app 3\\nAdd zip compression config in switch app\\nAdd option to delete saved titles in desktop app\\nAdd debug window in desktop app\\nAdd pop up to keep or delete temp files in switch (deleted automatically in desktop app)\\nMake copy and download buffer bigger to speed up the process in switch app\\n\\n2.1.0\\nAdd selecting multiple or all titles in switch and desktop app #1\\nAdd listing saved titles and add a new title in desktop app\\nFix pushing from switch to pc titles with special or non ascii chars in the name #2\\nList only titles that have a save file for the selected user in switch app\\n\\n2.0.0\\nAdd gui for pc app and make switch app gui a bit better\\nFix save file commiting on switch app\\nAdd changeable pc app themes\\nRemove option exit switch app while waiting for pc to start server or for pc to connect to switch",
     "assets": [
         {
             "type": "zip",
-            "url": "https://github.com/Xc987/NX-Save-Sync/releases/download/2.2.0/NX-Save-Sync-switch.zip",
+            "url": "https://github.com/Xc987/NX-Save-Sync/releases/download/2.3.0/NX-Save-Sync-switch.zip",
             "zip": [
                 {
                     "path": "/switch/NX-Save-Sync/NX-Save-Sync.nro",
