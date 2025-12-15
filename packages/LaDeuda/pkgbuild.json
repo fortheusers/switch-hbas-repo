@@ -4,7 +4,7 @@
         "title": "La Deuda",
         "author": "SoyKhaler",
         "category": "game",
-        "version": "1.0",
+        "version": "release",
         "url": "https://github.com/soykhaler/LaDeuda",
         "license": "MIT",
         "description": "A game about consequences",
@@ -41,5 +41,5 @@
             "url": "screen4.png"
         }
     ],
-    "changelog": "Initial release"
+    "changelog": "vrelease\\n\\n\\nInitial release"
 }
