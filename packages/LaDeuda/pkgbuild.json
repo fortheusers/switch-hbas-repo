@@ -1,0 +1,45 @@
+{
+    "package": "LaDeuda",
+    "info": {
+        "title": "La Deuda",
+        "author": "SoyKhaler",
+        "category": "game",
+        "version": "1.0",
+        "url": "https://github.com/soykhaler/LaDeuda",
+        "license": "MIT",
+        "description": "A game about consequences",
+        "details": "The Debt is an interactive game/movie created for the Crowned Jam.\\n\\nFor this project, we were asked to create a video game with the theme of TAXES, and we made this game in less than 48 hours.\\n\\nIn this story, you have to save a protagonist who has been kidnapped by a tax collector for a debt that will leave you anything but indifferent."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/soykhaler/LaDeuda/releases/download/release/La.Deuda_switch.nro",
+            "dest": "/switch/LaDeuda/LaDeuda.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen2.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen3.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen4.png"
+        }
+    ],
+    "changelog": "Initial release"
+}
