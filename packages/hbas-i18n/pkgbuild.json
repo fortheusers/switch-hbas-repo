@@ -1,0 +1,65 @@
+{
+    "package": "hbas-i18n",
+    "info": {
+        "title": "HBAS i18n files",
+        "author": "4TU",
+        "category": "misc",
+        "version": "2.4-0",
+        "url": "https://github.com/fortheusers/hb-appstore",
+        "license": "GPLv3, OFL",
+        "description": "Localization support files for hb-appstore",
+        "details": "This is an internal package that contains .ini language files and CJK fonts used by HBAS 2.4 and higher. It's a special package that does not need to be manually installed, and 2.4 manages the versioning and updating of these files.\\n\\nIf you're reading this description, you should update your hb-appstore version!"
+    },
+    "changelog": "Initial release, matches 2.4 hb-appstore",
+    "assets": [
+        {
+            "url": "https://raw.githubusercontent.com/fortheusers/hb-appstore/blob/2.4-newabi/resin/res/fonts/NotoSansJP-Regular.ttf",
+            "dest": "/switch/appstore/i18n/fonts/NotoSansJP-Regular.ttf",
+            "type": "update"
+        }, {
+            "url": "https://raw.githubusercontent.com/fortheusers/hb-appstore/blob/2.4-newabi/resin/res/fonts/NotoSansKR-Regular.ttf",
+            "dest": "/switch/appstore/i18n/fonts/NotoSansKR-Regular.ttf",
+            "type": "update"
+        }, {
+            "url": "https://raw.githubusercontent.com/fortheusers/hb-appstore/blob/2.4-newabi/resin/res/fonts/NotoSansSC-Regular.ttf",
+            "dest": "/switch/appstore/i18n/fonts/NotoSansSC-Regular.ttf",
+            "type": "update"
+        }, {
+            "url": "https://raw.githubusercontent.com/fortheusers/hb-appstore/refs/heads/2.4-newabi/resin/res/i18n/en-gb.ini",
+            "dest": "/switch/appstore/i18n/en-gb.ini",
+            "type": "update"
+        }, {
+            "url": "https://raw.githubusercontent.com/fortheusers/hb-appstore/refs/heads/main/resin/res/i18n/en-us.ini",
+            "dest": "/switch/appstore/i18n/en-us.ini",
+            "type": "update"
+        }, {
+            "url": "https://raw.githubusercontent.com/fortheusers/hb-appstore/refs/heads/2.4-newabi/resin/res/i18n/fr-fr.ini",
+            "dest": "/switch/appstore/i18n/fr-fr.ini",
+            "type": "update"
+        }, {
+            "url": "https://raw.githubusercontent.com/fortheusers/hb-appstore/refs/heads/main/resin/res/i18n/ko-KR.ini",
+            "dest": "/switch/appstore/i18n/ko-KR.ini",
+            "type": "update"
+        }, {
+            "url": "https://raw.githubusercontent.com/fortheusers/hb-appstore/refs/heads/main/resin/res/i18n/nl-nl.ini",
+            "dest": "/switch/appstore/i18n/nl-nl.ini",
+            "type": "update"
+        }, {
+            "url": "https://raw.githubusercontent.com/fortheusers/hb-appstore/refs/heads/main/resin/res/i18n/ro-ro.ini",
+            "dest": "/switch/appstore/i18n/ro-ro.ini",
+            "type": "update"
+        }, {
+            "url": "https://raw.githubusercontent.com/fortheusers/hb-appstore/refs/heads/main/resin/res/i18n/ru-Ru.ini",
+            "dest": "/switch/appstore/i18n/ru-Ru.ini",
+            "type": "update"
+        }, {
+            "url": "https://raw.githubusercontent.com/fortheusers/hb-appstore/refs/heads/main/resin/res/i18n/tr-TR.ini",
+            "dest": "/switch/appstore/i18n/tr-TR.ini",
+            "type": "update"
+        }, {
+            "url": "https://raw.githubusercontent.com/fortheusers/hb-appstore/refs/heads/main/resin/res/i18n/zh-cn.ini",
+            "dest": "/switch/appstore/i18n/zh-cn.ini",
+            "type": "update"
+        }
+    ]
+}
