@@ -1,0 +1,29 @@
+{
+    "package": "Amiigo",
+    "info": {
+        "title": "Amiigo",
+        "author": "CompSciOrBust",
+        "category": "tool",
+        "version": "2.4.0",
+        "url": "https://github.com/CompSciOrBust/Amiigo/releases",
+        "license": "n/a",
+        "description": "GUI for Emuiibo",
+        "details": "Amiigo is a GUI for Emuiibo and a EmuGUIibo alternative that runs directly on the switch.\\n\\nControls\\nUp / Down on Dpad to move up and down the list.\\n\\nA to select a Amiibo from the list.\\n\\nX toggles emulation state.\\n\\nY moves on to the next Amiibo.\\n\\nB enters the Amiigo Maker. Press B again to go back to the Amiibo selection UI.\\n\\nYou can also use the touch screen to select an Amiibo by tapping on a item in the list, tapping the emulation status rectangle will toggle the emulation state, and tapping the currently selected Amiibo on the top rectangle will move on to the next Amiibo."
+    },
+    "changelog": "2.4.0\\nChanges to Amiigo:\\n\\nStatus bar now highlights when a status change occurs\\nEmuiibo version is now shown in the settings menu\\nChanged symbols used for special list entries\\nReintroduced theme support\\nAdded experimental support for downloading Amiibo images\\nIntended for use with Overlay\\nTo enable manually edit the Amiigo config file to set saveAmiiboImages to true\\nNote: There is a known issue with Overlay where loading images which are too large will cause it to crash. In future versions of Amiigo I will resize images automatically to prevent this.\\nRemoved AmiiboAPI downloading functionality\\nAmiiboAPI is shutting down on Dec 31st 2025\\nAmiigo will no longer attempt to download the API data on first launch\\nThe \"Update API cache\" button has been removed since it will stop working once the API goes offline\\nSanitised file paths when creating virtual Amiibos to fix a bug where certain Amiibos were uncreatable\\nUpdated included API cache\\nUpdated to latest Arriba\\nChanges to Arriba:\\n\\nFixed double text kerning bug\\nAdded support for most unicode characters",
+    "assets": [
+        {
+            "url": "https://github.com/CompSciOrBust/Amiigo/releases/download/2.4.0/Amiigo.nro",
+            "dest": "/switch/Amiigo/Amiigo.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
