@@ -1,0 +1,33 @@
+{
+    "package": "WarnelChawpiovs",
+    "info": {
+        "title": "Warnel Chawpiovs",
+        "author": "Wololo",
+        "category": "game",
+        "version": "0.1",
+        "url": "https://github.com/frwololo/warnel-chawpiovs",
+        "license": "Affero GPLv3",
+        "description": "Solo/Coop card game",
+        "details": "A card game based on a well known cooperative board game, with full rules enforcement, to play solo or (ultimately) multiplayer. Defeat villains with your team of heroes\\nThese archives do not include resource files (images in particular). Resources will be automatically downloaded when the game starts (and it can take a while), unless you provide a separate \"core.zip\" file with those resources"
+    },
+    "assets": [
+        {
+            "url": "https://github.com/frwololo/warnel-chawpiovs/releases/download/0.1/WarnelChawpiovs_0_1_Switch_no_img.zip",
+            "type": "zip",
+            "zip": [{
+                "path": "/WarnelChawpiovs_0_1_Switch_no_img/**/*",
+                "dest": "/switch/WarnelChawpiovs/",
+                "type": "update"
+            }]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "screen",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "Initial release. Supports 5 heroes and 3 villains"
+}
