@@ -1,0 +1,29 @@
+{
+    "package": "switchXBOXcontroller",
+    "info": {
+        "title": "NXInput",
+        "author": "Vins98, WerWolv",
+        "category": "tool",
+        "version": "1.0.0.0",
+        "url": "https://github.com/Vins98/NXInput",
+        "license": "GPLv3",
+        "description": "Switch into an XBOX360 controller",
+        "details": "Based on WerWolv's great work (SwitchXBOXController).\\nYou can turn your Switch into a relatively low-latency UDP-socket wireless XInput controller.\\nNOTE: This applet is a Client, so you need to run your Server on your PC.\\nPlease follow the instructions on GitHub: https://github.com/Vins98/NXInput"
+    },
+    "changelog": "1.0.0.0\\nFirst release, this could be unstable!\\n\\nI mostly tested it on my V1 Switch on firmwares 19.0, 20.5 and 21.0, but further testing will be needed. I noticed that some crashes may occur when using the exit shortcut (minus + plus), but I still haven't identified the root cause of it\\n\\nWhat's changed:\\n- Migration to libnx 4.10, refactor main.c by @Vins98 in #1\\n- Migration to .NET Framework 4.8, WinForms and ViGEmBus by @Vins98 in #2",
+    "assets": [
+        {
+            "url": "https://github.com/Vins98/NXInput/releases/download/v1.0.0.0/NXInput_Client.nro",
+            "dest": "/switch/NXInput/NXInput_Client.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "banner.png"
+        }
+    ]
+}
