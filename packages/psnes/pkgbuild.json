@@ -1,0 +1,29 @@
+{
+    "package": "psnes",
+    "info": {
+        "title": "pSNES",
+        "author": "Cpasjuste",
+        "category": "emu",
+        "version": "7.1",
+        "url": "https://github.com/Cpasjuste/pemu/releases",
+        "license": "GPLv3",
+        "description": "A Snes9x port",
+        "details": "Installation\\n\\ncopy 'psnes' directory to '/switch/' directory on sdcard\\ncopy roms to '/switch/psnes/roms/' directory on sdcard\\n\\nInformation\\n\\n\\npSNES 'should' work on any firmware (based on libnx and snes9x.git)\\npSNES actually support save states, 2x, 3x, fit, fit 4/3 and fullscreen hardware linear scaling and a simple (but nice?) ui.\\npSNES ui support titles images (png), named as the rom name with png extension instead zip, in the 'previews' directory (to be created if needed).\\npSNES does not actually support high resolution games...\\npSNES use a database file for rom handling. You'll need a 'db.xml' file located alongside the application. The current 'db.xml' file comes from 'Hyperspin' website, and only contains USA 'good rom / no-intro' set. Your rom files must be zipped and named as per this set. You'll find in the 'database' directory this file as backup/reference (Super Nintendo Entertainment System - hyperspin.xml) + a complete set from dat-o-matic (datomatic.no-intro.org). Rename this file to 'db.xml' and (re)place it in the same directory as the executable to use this one. You can make your own database file with filtering from this great website."
+    },
+    "changelog": "psnes: fix texture pitch/lock\\npsnes: bump snes9x to latest git rev\\nswitch: fix libmpv crash (fix crash on startup)\\nvita: fix pgba installation (but gba emulation is slow...)",
+    "assets": [
+        {
+            "url": "https://github.com/Cpasjuste/pemu/releases/download/v7.1/psnes.nro",
+            "dest": "/switch/psnes/psnes.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "package": "pFBA",
+    "info": {
+        "title": "pFBNEO",
+        "author": "cpasjuste",
+        "category": "emu",
+        "version": "7.1",
+        "url": "https://github.com/Cpasjuste/pemu/releases",
+        "license": "GPLv3",
+        "description": "final burn alpha emulator",
+        "details": "The main goals of this final burn alpha port are :\\nhave a basic but user friendly user interface on non windows devices\\nuse a recent rendering interface for speed and effect support\\ncross-platform and code portability\\neasy updates of fba core (no modifications to the original sources)\\nuse arm asm m68k (cyclone) core on arm devices\\n\\nGENERAL INFORMATION'S\\nUsing icons on the Nintendo Switch will make main loading time longer if a lot of icons are detected. There's currently no plan to improve this.\\nYou can enable or disable single joycon support from the pFBA main menu (+). When enabled, all detected joycons (not docked) will be handled as a single controller/player.\\nPoint scaling is currently limited to 1x, 2x and 3x size. FIT, FIT 4/3 and FULL options will fallback to 3x.\\n\\nNINTENDO SWITCH CONTROLS (UI)\\n(L/R)            : SWITCH FROM TITLE TO PREVIEW IMAGE\\n(+)              : GENERAL OPTIONS + DEFAULT ROMS OPTIONS\\n(-)              : PER ROM OPTIONS\\n(A)              : RUN ROM\\n\\nNINTENDO SWITCH CONTROLS (IN-GAME)\\n\\n(+)              : START\\n(-)              : COINS\\n(+/-) + (A)      : START\\n(+/-) + (B)      : COINS\\n(+/-) + (X)      : SERVICE SWITCH\\n(+/-) + (Y)      : 1P + 2P START\\n(+/-) + (L/R)    : PFBA MENU\\n(+)   + (-)      : UNIBIOS MENU (NEOGEO ONLY)"
+    },
+    "changelog": "psnes: fix texture pitch/lock\\npsnes: bump snes9x to latest git rev\\nswitch: fix libmpv crash (fix crash on startup)\\nvita: fix pgba installation (but gba emulation is slow...)",
+    "assets": [
+        {
+            "url": "https://github.com/Cpasjuste/pemu/releases/download/v7.1/pfbneo.nro",
+            "dest": "/switch/pfbneo/pfbneo.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

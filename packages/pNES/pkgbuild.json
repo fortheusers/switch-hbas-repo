@@ -1,0 +1,29 @@
+{
+    "package": "pNES",
+    "info": {
+        "title": "pNES",
+        "author": "Cpasjuste",
+        "category": "emu",
+        "version": "7.1",
+        "url": "https://github.com/Cpasjuste/pemu/releases",
+        "license": "GPLv3",
+        "description": "Portable NES Emulator",
+        "details": "Here is pNES, a NES emulator for the Nintendo Switch!\\npNES is based on the excellent Nestopia emulator!\\n\\nCapabilities\\n\\nSupport save states\\nSupport 2x, 3x, fit, fit 4/3 and fullscreen hardware scaling\\nSupport hardware filtering (shaders)\\nSupport titles, previews, and icons images (png), named as the rom name with png extension instead zip/sfc, in their respective directory (to be created if needed).\\nInstallation (roms)\\n\\ncopy roms to \"/switch/pnes/roms/\" directory on sdcard\\n\\nUsage\\n\\nPress (+) in the rom list to configure main options and default roms options\\nPress (-) in the rom list to configure per rom options\\nPress (+) AND (-) when in emulation to bring the options menu\\n\\nThanks\\n\\nScHlAuChi\\ndevkitPro and libnx people: yellows8, plutoo, profi200, WntrMute ....\\nScHlAuChi again :)"
+    },
+    "changelog": "psnes: fix texture pitch/lock\\npsnes: bump snes9x to latest git rev\\nswitch: fix libmpv crash (fix crash on startup)\\nvita: fix pgba installation (but gba emulation is slow...)",
+    "assets": [
+        {
+            "url": "https://github.com/Cpasjuste/pemu/releases/download/v7.1/pnes.nro",
+            "dest": "/switch/pnes/pnes.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
