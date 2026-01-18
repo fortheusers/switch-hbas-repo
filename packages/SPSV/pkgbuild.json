@@ -4,16 +4,16 @@
         "title": "SPSV",
         "author": "meesterP",
         "category": "tool",
-        "version": "4",
+        "version": "5",
         "url": "https://github.com/m4st3rP/Switch-Play-Statistics-Viewer",
         "license": "EUPL-1.2",
         "description": "Displays playtime of all installed apps",
         "details": "This is a Switch Application that shows a selected users play statistics, currently just the playtime, for all installed applications.\\nCompatible with HOS 16 (see GitHub for compatability with older versions)."
     },
-    "changelog": "v4\\nAdded icon to NRO\\nCompiled with libnx 4.9.0",
+    "changelog": "v5\\nAdded JSON export.\\nCompiled for HOS 21.\\n\\nv4\\nAdded icon to NRO\\nCompiled with libnx 4.9.0",
     "assets": [
         {
-            "url": "https://github.com/m4st3rP/Switch-Play-Statistics-Viewer/releases/download/v4/Switch-Play-Statistics-Viewer.nro",
+            "url": "https://github.com/m4st3rP/Switch-Play-Statistics-Viewer/releases/download/v5/Switch-Play-Statistics-Viewer.nro",
             "dest": "/switch/Switch-Play-Statistics-Viewer.nro",
             "type": "update"
         },
