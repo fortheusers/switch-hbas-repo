@@ -16,8 +16,13 @@
             "type": "zip",
             "zip": [
                 {
-                    "path": "/WarnelChawpiovs_*_Switch_no_img/**/*",
-                    "dest": "/switch/WarnelChawpiovs",
+                    "path": "/WarnelChawpiovs_*_Switch_no_img/WC.nro",
+                    "dest": "/switch/WarnelChawpiovs/WC.nro",
+                    "type": "update"
+                },
+                {
+                    "path": "/WarnelChawpiovs_*_Switch_no_img/WC.pck",
+                    "dest": "/switch/WarnelChawpiovs/WC.pck",
                     "type": "update"
                 }
             ]
