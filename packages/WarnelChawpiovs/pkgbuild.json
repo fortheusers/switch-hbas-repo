@@ -4,7 +4,7 @@
         "title": "Warnel Chawpiovs",
         "author": "Wololo",
         "category": "game",
-        "version": "0.1",
+        "version": "1.0.0",
         "url": "https://github.com/frwololo/warnel-chawpiovs",
         "license": "Affero GPLv3",
         "description": "Solo/Coop card game",
@@ -12,22 +12,29 @@
     },
     "assets": [
         {
-            "url": "https://github.com/frwololo/warnel-chawpiovs/releases/download/0.1/WarnelChawpiovs_0_1_Switch_no_img.zip",
+            "url": "https://github.com/frwololo/warnel-chawpiovs/releases/download/1.0.0/WarnelChawpiovs_1_0_0_Switch_no_img.zip",
             "type": "zip",
-            "zip": [{
-                "path": "/WarnelChawpiovs_0_1_Switch_no_img/**/*",
-                "dest": "/switch/WarnelChawpiovs",
-                "type": "update"
-            }]
+            "zip": [
+                {
+                    "path": "/WarnelChawpiovs_*_Switch_no_img/WC.nro",
+                    "dest": "/switch/WarnelChawpiovs/WC.nro",
+                    "type": "update"
+                },
+                {
+                    "path": "/WarnelChawpiovs_*_Switch_no_img/WC.pck",
+                    "dest": "/switch/WarnelChawpiovs/WC.pck",
+                    "type": "update"
+                }
+            ]
         },
         {
             "type": "icon",
             "url": "icon.png"
         },
         {
-            "type": "screen",
+            "type": "banner",
             "url": "screen.png"
         }
     ],
-    "changelog": "Initial release. Supports 5 heroes and 3 villains"
+    "changelog": "v1.0.0\\n- Adds support for \"The Rise of Red Skull\":\\n  - New heroes : Spider-Woman and Hawkeye\\n  - New villains: Absorbing Man, Crossbones, Taskmaster, Zola, Red skull\\n- \"Adventure Mode\" is a new gameplay feature (and now the default) in which you have to win games to unlock heroes/villains. It can be deactivated in the options to unlock everything directly\\n- The game is now much more \"verbose\" with popups that give details on what's going on. These can be dismissed for a given game by selecting \"don't show this tip again\" or entirely deactivated in the options (Options > Gameplay > Notifications > \"Expert\")\\n- \"Text mode\" is now considered playable. This allows to play if you can't or won't download image files. You might want to open the settings.json file and set \"load_cards_online\": false to avoid the game trying to download image resources on startup. (Note: you still need the set definitions to be downloaded from marvelcdb)\\n- Caped FPS to 60FPS\\n- Various bug fixes\\n\\nInitial release. Supports 5 heroes and 3 villains"
 }
