@@ -1,0 +1,35 @@
+{
+    "package": "ONScripterNX",
+    "info": {
+        "title": "ONScripter-NX",
+        "author": "clamintus",
+        "category": "game",
+        "version": "0.3.1",
+        "url": "https://github.com/clamintus/onscripter-nx",
+        "license": "GPLv2",
+        "description": "ONScripter Engine",
+        "details": "Open-source port of the ONScripter visual novel engine.\\nPorted version: onscripter-20060724-insani\\nAny game compatible with this version of ONScripter should run fine! If not, press Y to report an issue. :)\\nEnjoy!\\n\\n\\nONScripter (O-N-Scripter) is a program that interprets and executes scripts written for NScripter in its own way.\\n\\n\\n-- Port additions --\\n   - 4:3 aspect ratio simulation\\n   - Touchscreen support\\n   - RomFS integration\\n   - Optimized flush implementation\\n\\n\\n-- How to play --\\n\\nGo to the folder where onscripter-nx.nro is located (/switch/ followed by onscripter-nx/ or game-specific folder name)\\nCopy the game files in that folder:\\narc*.nsa / arc*.sar\\nnscript.dat / nscript.___\\nYou don't need this if you are using a game-specific version of ONScripter-NX.\\nSoundtracks (CD folder, ...)\\ndefault.ttf font\\nYou don't need this if you are using a game-specific version of ONScripter-NX.\\nLaunch ONScripter-NX from hbmenu\\nNote: Launching from the album applet seems to work, but it is strongly advised to launch it by holding R on an installed game to avoid potential memory problems since that's the normal environment where Switch homebrews are designed to run.\\nEnjoy!\\n\\n-- Controls --\\n\\n    A : Enter (or proceed in text mode)\\n    B : Back (or proceed in text mode)\\n    X : Right-click Menu\\n    Y : Draw full page at once\\n    Joystick UP / Joystick LEFT : Previous element\\n    Joystick DOWN / Joystick RIGHT : Next element\\n    D-Pad UP / L : Scroll up text history\\n    D-Pad DOWN / R : Scroll down text history\\n    ZL / ZR (held) : Skip mode\\n    Plus : Exit to homebrew menu"
+    },
+    "changelog": "0.3.1\\nCompatibility with v21.0.0 - Recompiled with latest libnx to allow compatibility with the latest ABI changes.\\n\\nDebug to PC with nxlink.\\n\\nNow ONScripter-NX uses nxlinkStdio to stream both stdout and stderr to the nxlink server on debug builds. This allows for easier debugging, but most importantly it's a much better thought approach than the previous one.\\nONScripter-NX used to log output to stdout.txt and stderr.txt on the SD card, consistently with ONScripter's standard behavior on Windows.\\nONScripter-NX logs a lot in debug builds; that would mean continuous writes to the SD card for the entire process lifetime (and also heavy write amplification). This is indeed problematic for SD flash storage health and, potentially, performance (even though it didn't seem to cause noticeable slowdowns under casual circumstances yet).\\nFixed crash on program exit.\\n\\nUndefined behavior inside the input handling thread caused the program to crash upon exiting. This is fixed now",
+    "assets": [
+        {
+            "url": "https://github.com/clamintus/ONScripter-NX/releases/download/v0.3.1/onscripter-nx-hd.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/switch/onscripter-nx/onscripter-nx-hd.nro",
+                    "dest": "/switch/onscripter-nx/onscripter-nx-hd.nro",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

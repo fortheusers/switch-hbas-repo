@@ -1,0 +1,35 @@
+{
+    "package": "stepmania-nx",
+    "info": {
+        "title": "stepmania-nx",
+        "author": "retronx-team",
+        "category": "game",
+        "version": "5.1-nx3",
+        "url": "https://github.com/retronx-team/stepmania-nx/releases",
+        "license": "n/a",
+        "description": "Stepmania 5.x Switch Port",
+        "details": "Welcome to StepMania, a rhythm game simulator. If you're not familiar with the concept of rhythm games, it involves triggering inputs (e.g. buttons, foot panels) in time to the music. StepMania can be controlled with a keyboard or one of various specialized controllers.\\n\\nGetting Started\\n\\nSong Installation\\n\\nStepMania requires a specific folder layout when installing songs: Songs/[group folder]/[song folder]/\\n\\nUsing one of the included songs as an example:\\n\\nSongs/StepMania 5/Springtime/Kommisar - Springtime.mp3\\nSongs/StepMania 5/Springtime/spring.png\\nSongs/StepMania 5/Springtime/springbn.png\\nSongs/StepMania 5/Springtime/Springtime.ssc\\nEach of these files serves as a part of the simfile. StepMania 5 supports various formats, including (but not limited to) SSC, SM, DWI, KSF and BMS. With the multi-file BMS and KSF formats, put all the files in the song's folder.\\n\\nDefault controls\\n\\nACTION\tKey 1\tKey 2\\nLeft\tDPAD L\tY\\nRight\tDPAD R\tA\\nUp\tDPAD U\tX\\nDown\tDPAD D\tB\\nUpLeft\tL\t\\nUpRight\tR\t\\nBack\tMinus\t\\nStart\tPlus\t\\nSelect\tZL\t\\nCoin\tZR\t"
+    },
+    "changelog": "nx3\\nUpdated Stepmania to latest commit from upstream\\nHOS 21.0.0 support",
+    "assets": [
+        {
+            "url": "https://github.com/retronx-team/stepmania-nx/releases/download/v5.1-nx3/stepmania-5.1-nx3-f691c3c.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/switch/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

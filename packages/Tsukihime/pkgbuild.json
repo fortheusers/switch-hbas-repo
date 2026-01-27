@@ -1,0 +1,40 @@
+{
+    "package": "Tsukihime",
+    "info": {
+        "title": "Tsukihime",
+        "author": "clamintus",
+        "category": "tool",
+        "version": "0.3",
+        "url": "https://github.com/clamintus/onscripter-nx",
+        "license": "GPLv2",
+        "description": "ONScripter Engine",
+        "details": "This package of ONScripter-NX is configured to automatically include some necessary files for running Tsukihime.\\nSome files (i.e. assets packs) still need to be extracted from the original game in order to play Tsukihime with ONScripter-NX.\\n\\nInstructions:\\nCopy the following files from an original copy of Tsukihime to your Switch's SD card:\\n- arc.nsa\\n- arc.sar\\n- arc1.nsa\\n- the CD folder\\n\\nGame files and folders must go in /switch/tsukihime/ or wherever the .nro application has been placed.\\n\\nJoy-Con Controls:\\nA -> Enter (or advance text)\\nB -> Go back (or advance text)\\nX -> Right-click Menu\\nY -> Toggle \"Draw full page at once\" mode\\nD-Pad Up / L -> Scroll up Text Lookback\\nD-Pad Down / R -> Scroll down Text Lookback\\nHold ZL / ZR -> Skip text\\nPlus -> Exit the game\\n\\nJoystick Controls:\\nUp / Left -> Previous Element\\nDown / Right -> Next Element\\n\\nTouch is supported too."
+    },
+    "changelog": "0.3\\n\\nThank you for your patience!\\nIt's been eight months, I know, but I hope that this was worth the wait!\\n\\nWith every update ONScripter-NX becomes more and more complete. I want people to enjoy their beloved novels on their Switch while feeling at ease, not with a chunky app that doesn't do the work right. With this update I tweaked the engine a bit to improve the playing experience in the long run. I hope I've made progress towards my goal, improving your playing experience too!\\n\\nFollow the instructions on README.md to know how to install ONScripter-NX.\\n\\nGame-specific zips are just convenience builds.\\nThey already come with some of the necessary files included, so you just need to copy the arc*.nsa/arc*.sar files from an original copy of the game.\\n\\nChangelog:\\n\\nHD support - yes! Play your old novel like you had never been able to! More info about it in the README page (seriously, read it!)\\nA new command has been added to adjust text display speed.\\nBy pressing the Left Stick, you can switch between the three available text display speeds (slow~normal~fast).\\nONScripter-NX will also memorize your selected text speed for that game.\\nMenu navigation is now a lot easier thanks to repeated input support.\\nNow you can hold the stick to scroll menu entries faster.\\nThis also works when navigating text history using D-Up and D-Down, and basically in every other directional input use case too.\\nNow the app deinitializes RomFS properly at shutdown.\\nA proper deinit function has been created. It will be called at app's shutdown, and will be eventually populated with more deinitializing code, if needed in the future. For now it just contains the RomFS deinit call...",
+    "assets": [
+        {
+            "url": "https://example.com/file.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://example.com/file.nro",
+            "dest": "/switch/tsukihime/onscripter-nx-hd.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

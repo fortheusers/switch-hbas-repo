@@ -1,0 +1,31 @@
+{
+    "package": "supermariowar-nx",
+    "info": {
+        "title": "Super Mario War NX",
+        "author": "p-sam",
+        "category": "game",
+        "version": "2.0.0-nx5",
+        "url": "https://github.com/retronx-team/supermariowar-nx",
+        "license": "n/a",
+        "description": "A port of Super Mario War",
+        "details": "A port of Super Mario War to the Switch, using SDL2 and libnx."
+    },
+    "changelog": "v2.0.0-nx5\\nUpdated build script to support latest toolchain\\nHOS 21.0.0+ support",
+    "assets": [
+        {
+            "url": "https://github.com/retronx-team/supermariowar-nx/releases/download/2.0.0-nx5/smw-2.0.0-nx5.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/switch/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "package": "milkytracker",
+    "info": {
+        "title": "MilkyTrackerNX",
+        "author": "p-sam",
+        "category": "tool",
+        "version": "1.2.0-nx6",
+        "url": "https://github.com/retronx-team/MilkyTrackerNX",
+        "license": "GPLv3",
+        "description": "An FT2 compatible music tracker",
+        "details": "MilkyTracker is an multi-platform music application for creating .MOD and .XM module files. It attempts to recreate the module replay and user experience of the popular DOS program Fasttracker II, with special playback modes available for improved Amiga ProTracker 2/3 compatibility.\\n\\nRefer to http://milkytracker.titandemo.org/?about for further details.\\n\\nPlease read the file INSTALL.md for installation instructions.\\n\\nThe docs/readme_unix file contains notes specific to the SDL port of MilkyTracker.\\n\\nRefer to platforms/nx/README.md for info specific to the Switch port of MilkyTracker."
+    },
+    "changelog": "nx6\\nFixed building using the latest toolchain\\nHOS 21.0.0+ support",
+    "assets": [
+        {
+            "url": "https://github.com/retronx-team/MilkyTrackerNX/releases/download/v1.2.0-nx6/milkytracker_1.2.0-nx6.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/switch/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}

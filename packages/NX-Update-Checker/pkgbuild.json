@@ -1,0 +1,25 @@
+{
+    "package": "NX-Update-Checker",
+    "info": {
+        "title": "NX-Update-Checker",
+        "author": "16BitWonder",
+        "category": "tool",
+        "version": "1.5.4.2",
+        "url": "https://github.com/16BitWonder/NX-Update-Checker/releases",
+        "license": "MIT",
+        "description": "Content Checker",
+        "details": "A small console application that checks a Switch's installed contents against a provided versionlist for newer updates, and then writes the titles with newer updates and the latest version to sdmc:/Available-Updates.txt.\\n\\nUsage\\nReswitched versionlist.json format has been deprecated and will no longer function with this application\\nUsers must now download the latest versions.txt from the titledb Repository and place it within the same directory as the nro\\nHaving switched to titledb, this application can now additionally parse available updates for installed DLC\\nRun the nro with your favorite variation of the HBMenu\\nWatch the pretty text move across the screen\\nProfit(?)\\nNotice\\nThis app was specifically written to parse the versionlists posted in the ReSwitched Discord Server, if you provide a versionlist.json with even a slightly different format it is likely this application will not parse it correctly.\\n\\nKudos\\nBig thanks to the folks over at the Reswitched Discord that have set up the versionlist bot. Without a nice stream of updated versionlists this wouldn't be feasible."
+    },
+    "changelog": "1.5.4.2\\nRebuild with latest Libnx to correct console clearing behavior: switchbrew/libnx#698",
+    "assets": [
+        {
+            "url": "https://github.com/16BitWonder/NX-Update-Checker/releases/download/v1.5.4.2/NX-Update-Checker.nro",
+            "dest": "/switch/NX-Update-Checker/NX-Update-Checker.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        }
+    ]
+}

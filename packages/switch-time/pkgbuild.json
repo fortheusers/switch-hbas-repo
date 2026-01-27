@@ -1,0 +1,21 @@
+{
+    "package": "switch-time",
+    "info": {
+        "title": "switch-time",
+        "author": "3096",
+        "category": "tool",
+        "version": "0.1.6",
+        "url": "https://github.com/3096/switch-time/releases",
+        "license": "The Unlicense",
+        "description": "Change NetworkSystemClock",
+        "details": "Change NetworkSystemClock\\n\\nCredit\\n\\n@thedax for NX-ntpc, from which this project is forked.\\n\\nFunctionality\\n\\nChange time by day/hour\\nContact a time server at http://ntp.org to set the time back to normal"
+    },
+    "changelog": "0.1.6\\nUpdate to a more user friendly interaction behavior, courtesy of @ZHDreamer\\nAny unit of time can now easily be \"left and right\" navigated to and changed at ease\\nStreamline build and release with GH Actions, initiated by @gzk47\\nBuilds can now be obtained more easily and will run on a commit-by-commit basis on GitHub\\nBuilt with latest toolchain versions for HOS 21+ ABI support\\nGeneral software stability improvements to enhance the user's experience\\nCredits:\\n\\n@thedax for NX-ntpc, from which the parent project is forked.\\n@Cytraen for changing the servers to cloudfare.\\n@vonhabsbourg for adding month and year change.\\n@izenn for the watch icon created by Freepik - Flaticon.\\n@ZHDreamer for adding left-right navigable interaction.\\n@gzk47 for starting the GH Actions CI for this project.",
+    "assets": [
+        {
+            "url": "https://github.com/3096/switch-time/releases/download/0.1.6/switch-time.nro",
+            "dest": "/switch/switch-time/switch-time.nro",
+            "type": "update"
+        }
+    ]
+}
