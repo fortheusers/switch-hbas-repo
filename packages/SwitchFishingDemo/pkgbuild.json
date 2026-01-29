@@ -1,0 +1,35 @@
+{
+    "package": "SwitchFishingDemo",
+    "info": {
+        "title": "SwitchFishing (Demo)",
+        "author": "Mrow",
+        "category": "game",
+        "version": "1.0",
+        "url": "https://github.com/mrowfishing/Switchfishing-Webfishing-Demo/releases",
+        "license": "GPLv2",
+        "description": "A port of the Webfishing itchio demo!",
+        "details": "Hai, i randomly decided to make this as i miss Webfishing and i wanted it on my switch. This is the full demo of webfishing.\\n\\nPort Dev: Mrow\\nOriginal Dev: Lamedev\\n\\nThe default controls are:\\n\\n- Up/Down/Left/Right: left joystick\\n- Equip/Unequip Fishin Rod/: X button\\n- Deploy Fishing Rod/Wave: A button\\n- Sprint: B button\\n- Camera Right: R button\\n- Camera Left: L button\\n- Pause Menu: + button\\n- Silly Dance: - button\\n- Sitting: Down D-pad\\n\\nFor more info visit my github <3 ( github.com/mrowfishing )"
+    },
+    "assets": [
+        {
+            "url": "https://github.com/mrowfishing/Switchfishing-Webfishing-Demo/releases/download/mrow/Switchfishing.Webfishing.demo.1.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/Switch/**/*",
+                    "dest": "/switch/SwitchFishingDemo",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "(Initial release) Hi! Not sure if il continue on this again but if i am make sure to maybe drop by sometimes! <3"
+}
