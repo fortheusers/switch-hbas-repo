@@ -4,7 +4,7 @@
         "title": "SwitchFishing (Demo)",
         "author": "Mrow",
         "category": "game",
-        "version": "1.0",
+        "version": "mrow",
         "url": "https://github.com/mrowfishing/Switchfishing-Webfishing-Demo/releases",
         "license": "GPLv2",
         "description": "A port of the Webfishing itchio demo!",
@@ -31,5 +31,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "(Initial release) Hi! Not sure if il continue on this again but if i am make sure to maybe drop by sometimes! <3"
+    "changelog": "vmrow\\n_Hi! This is the release containing the:_\\n- Source Files\\n- Game itself\\n\\nNot sure if il continue on this again but if i am make sure to maybe drop by sometimes! <3\\n\\n(Initial release) Hi! Not sure if il continue on this again but if i am make sure to maybe drop by sometimes! <3"
 }
