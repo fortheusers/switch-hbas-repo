@@ -4,16 +4,16 @@
         "title": "sys-notif-LED",
         "author": "xc98",
         "category": "tool",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "url": "https://github.com/Xc987/sys-notif-LED",
         "license": "MIT",
         "description": "sysmodule to enable the notification LED on boot",
         "details": "Sysmodule to enable the notification LED on boot or when new controllers are added.\\n\\nThe mode can be changed in the included overlay:\\n\\nSolid\\nDim\\nFade\\nOff\\nDim when charging\\nDim when battery bellow 15%, blink when bellow 5%"
     },
-    "changelog": "Initial release",
+    "changelog": "v1.0.1\\nadd text at the bottom of the overlay showing the current mode\\nfix overlay crashing on fw 21.0.0\\n\\nInitial release",
     "assets": [
         {
-            "url": "https://github.com/Xc987/sys-notif-LED/releases/download/1.0.0/sys-notif-LED.zip",
+            "url": "https://github.com/Xc987/sys-notif-LED/releases/download/1.0.1/sys-notif-LED.zip",
             "type": "zip",
             "zip": [
                 {
