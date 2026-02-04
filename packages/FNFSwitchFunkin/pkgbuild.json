@@ -1,0 +1,33 @@
+{
+    "package": "FNFSwitchFunkin",
+    "info": {
+        "title": "FNF: Switch Funkin'",
+        "author": "Slushi",
+        "category": "game",
+        "version": "1.0.4",
+        "url": "https://github.com/Slushi-Github/Switch-Funkin",
+        "license": "Apache v2",
+        "description": "Real FNF' for Nintendo Switch, why not?",
+        "details": "Enjoy the Psych Engine 1.0.4 experience on your Nintendo Switch!\\n\\nYou must always open the game from an official game (usually by holding the R button while launching a game from the HOME menu).\\n\\nInstalling mods:\\n\\nInstalling mods on Switch Funkin' is easy. Once you open the game at least once, on your SD card, inside the \"switch\" folder, you will see a new folder called \"Switch-Funkin\" Inside it, you will find the \u201cmods\u201d folder, which works exactly the same as normal Psych Engine."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/Slushi-Github/Switch-Funkin/releases/download/1.0.4/SwitchFunkin.nro.zip",
+            "type": "zip",
+            "zip": [{
+                    "path": "/SwitchFunkin.nro",
+                    "dest": "/switch/SwitchFunkin.nro",
+                    "type": "update"
+            }]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "FIxes:\\n- The way to check if the current version is really old has been corrected (I forgot to upload the changes to GitHub).\\n- Fixed an issue that prevented mods from being disabled. "
+}
