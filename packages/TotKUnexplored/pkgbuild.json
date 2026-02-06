@@ -4,16 +4,16 @@
         "title": "TotK Unexplored",
         "author": "lud99",
         "category": "tool",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "url": "https://github.com/lud99/totk-unexplored",
         "license": "n/a",
         "description": "View all unfound collectibles in TotK",
         "details": "Easily view what hasn't been discovered in your Tears of the Kingdom savefile on your Nintendo Switch.\\n\\nMain Features\\n18 types of collectibles can be tracked\\nKoroks\\nShrines\\nLightroots\\nCaves\\nBubbuls\\nWells\\nChasms\\nLocations\\nHinoxes\\nTaluses\\nMoldugas\\nFlux Constructs\\nFroxes\\nGleeoks\\nSage's Wills\\nOld Maps\\nAddison Signs\\nSchema Stones\\nYiga Schematics\\n\\nLegend to easily toggle what collectibles to see and also to switch between showing missing, showing completed or showing all collectibles.\\nObject info about collectibles. Name, position, and other info.\\nScan a Qr Code with your phone to see an image of the map to look at while playing\\n\"Korok paths\" are drawn so it is easy to find koroks that involve flower trails, races and transporting a lonely korok back to its friend.\\nQuickly swap between the Depths, Surface and Sky layers"
     },
-    "changelog": "1.0.3\\n\\nMade loading of some (probably newer) savefiles work\\n\\n1.0.2\\n\\nAdded high resolution map images when using the app with title override (4500x4500 instead of 1500x1500)\\nRemoved 3 locations that are not required to be visited for 100% completion\\n\\n1.0.1\\n\\nFixed caves with multiple entrances not being marked correctly as found\\nFixed text overlap\\nDisabled Qr Codes-feature when running the app with title override. See issue #2 for more info",
+    "changelog": "v1.0.4\\nFirmware 21.0.0+ homebrew ABI support. Thanks to JohnDeved!\\n\\n- Updated to support the latest homebrew ABI (FW 21.0.0+)\\n- Updated to the latest libs (libnx 4.12.0+)\\n\\n What's Changed\\n- Update build workflow and ABI support by @lud99 in https://github.com/lud99/totk-unexplored/pull/17\\n\\n New Contributors\\n- @lud99 made their first contribution in https://github.com/lud99/totk-unexplored/pull/17\\n\\n1.0.3\\n\\nMade loading of some (probably newer) savefiles work\\n\\n1.0.2\\n\\nAdded high resolution map images when using the app with title override (4500x4500 instead of 1500x1500)\\nRemoved 3 locations that are not required to be visited for 100% completion\\n\\n1.0.1\\n\\nFixed caves with multiple entrances not being marked correctly as found\\nFixed text overlap\\nDisabled Qr Codes-feature when running the app with title override. See issue #2 for more info",
     "assets": [
         {
-            "url": "https://github.com/lud99/totk-unexplored/releases/download/1.0.3/totk-unexplored.nro",
+            "url": "https://github.com/lud99/totk-unexplored/releases/download/1.0.4/totk-unexplored.nro",
             "dest": "/switch/totk-unexplored/totk-unexplored.nro",
             "type": "update"
         },
