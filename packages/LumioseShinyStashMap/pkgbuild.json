@@ -1,0 +1,29 @@
+{
+    "package": "LumioseShinyStashMap",
+    "info": {
+        "title": "Lumiose Shiny Stash Map",
+        "author": "Insektaure",
+        "category": "tool",
+        "version": "1.0.2",
+        "url": "https://github.com/Insektaure/Shiny-Stash-Live-Map",
+        "license": "GPLv2",
+        "description": "Pokemon Z-A Shiny Stash Live Map",
+        "details": "A Nintendo Switch homebrew application that reads the Shiny Stash from Pokemon Legends: Z-A in real-time and displays each entry's spawn location on an interactive map.\\n\\n- Reads the Shiny Stash block (up to 10 entries) directly from game memory via Atmosphere's dmnt:cht service\\n\\n- Displays an interactive list of all stashed shiny Pokemon with species name, Pokedex number, and spawn location\\n\\n- Shows the selected Pokemon's spawn point on the corresponding map (Lumiose City, Lysandre Labs, The Sewers, The Sewers B)"
+    },
+    "assets": [
+         {
+            "type": "update",
+            "url": "https://github.com/Insektaure/Shiny-Stash-Live-Map/releases/download/1.0.2/Shiny-Stash-Live-Map.nro",
+            "dest": "/switch/Shiny-Stash-Live-Map.nro"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v1.0.2\\nNow display missing Y coordinates for entries\\nFix: skip entries with unknown locations (Hyperspace)"
+}

@@ -1,0 +1,33 @@
+{
+    "package": "pkHouseLocalPokeBank",
+    "info": {
+        "title": "pkHouse - Local PokeBank",
+        "author": "Insektaure",
+        "category": "tool",
+        "version": "1.0.1",
+        "url": "https://github.com/Insektaure/pkHouse",
+        "license": "GPLv2",
+        "description": "A local bank system for Pokemon games",
+        "details": "A local bank system for Pokemon games on Nintendo Switch.\\nMove Pokemon between your save files and local bank storage.\\n\\nFeatures\\n- Profile Selection\\n- Two-Panel Box Viewer\\n- Pick & Place\\n- Multi-Select\\n- Pokemon Details\\n\\nBank System\\n- Create a new bank (up to 32-character name)\\n- Rename an existing bank\\n- Delete a bank (with confirmation)\\n\\nEach bank has the same box capacity as its game family (32 or 40 boxes).\\nThe bank list shows the number of occupied slots for each bank.\\n\\nYou can switch between banks from the main view via the menu, with or without saving first.\\n\\nBackup System\\n- When loading a game save on Switch, an automatic backup is created before any modifications.\\n- This is a full copy of the mounted save directory.\\n\\nSave Integrity\\n- SCBlock saves (ZA, SV, SwSh, LA): Decrypted, modified, and re-encrypted. A round-trip verification runs on load to confirm the cycle is lossless.\\n- BDSP saves: Flat binary with MD5 checksum, recalculated on every save.\\n- All saves are written in-place to preserve "
+    },
+    "assets": [
+        {
+            "url": "https://github.com/Insektaure/pkHouse/releases/download/1.0.1/pkHouse.zip",
+            "type": "zip",
+            "zip": [{
+                    "path": "/switch/pkHouse/pkHouse.nro",
+                    "dest": "/switch/pkHouse/pkHouse.nro",
+                    "type": "update"
+            }]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "1.0.1\\nImplement full swap history to avoid losing pokemon when doing multiple in-place swaps then canceling with B button.\\n\\n1.0.0\\nInitial Release"
+}
