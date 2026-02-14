@@ -4,7 +4,7 @@
         "title": "pkHouse - Local PokeBank",
         "author": "Insektaure",
         "category": "tool",
-        "version": "1.1.0",
+        "version": "1.2.0",
         "url": "https://github.com/Insektaure/pkHouse",
         "license": "GPLv2",
         "description": "A local bank system for Pokemon games",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/Insektaure/pkHouse/releases/download/1.1.0/pkHouse.zip",
+            "url": "https://github.com/Insektaure/pkHouse/releases/download/1.2.0/pkHouse.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v1.1.0\\nFeature Release\\n\\n- Add _Let's Go Pikachu / Eevee_ support (game version 1.0.2)\\n\\n1.0.1\\nImplement full swap history to avoid losing pokemon when doing multiple in-place swaps then canceling with B button.\\n\\n1.0.0\\nInitial Release"
+    "changelog": "v1.2.0\\n- Implement all boxes overview for Save and Bank boxes (access with ZL / ZR)\\n\\nv1.1.0\\nFeature Release\\n\\n- Add _Let's Go Pikachu / Eevee_ support (game version 1.0.2)\\n\\n1.0.1\\nImplement full swap history to avoid losing pokemon when doing multiple in-place swaps then canceling with B button.\\n\\n1.0.0\\nInitial Release"
 }
