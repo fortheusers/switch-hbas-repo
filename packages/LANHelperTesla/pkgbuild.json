@@ -1,0 +1,29 @@
+{
+    "package": "LANHelperTesla",
+    "info": {
+        "title": "LAN Helper",
+        "author": "matteofo",
+        "category": "tool",
+        "version": "1.2.0",
+        "url": "https://github.com/matteofo/LANHelper-Tesla",
+        "license": "GPLv2",
+        "description": "LAN Play/XLink Kai IP Generator for CFW users",
+        "details": "A Tesla Overlay that lets you quickly generate and set valid and unique IP addresses for Switch LAN Play and XLink Kai!\\nOnce you're done playing, you can also use LAN Helper to quickly reset your IP address to be automatically assigned with DHCP."
+    },
+    "changelog": "Release 1.2.0: Network cleanup update\\n\\nThis release allows you to remove any duplicate or \"ghost\" network interfaces created when using the reset feature.\\nUI improvements and QoL changes have been made!\\nFixed compatibility issues with 21.x.x firmwares.",
+    "assets": [
+        {
+            "url": "https://github.com/matteofo/LANHelper-Tesla/releases/download/1.2.0/LANHelper.ovl",
+            "dest": "/switch/.overlays/LANHelper.ovl",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
