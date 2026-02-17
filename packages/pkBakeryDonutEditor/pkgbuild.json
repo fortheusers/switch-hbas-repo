@@ -1,0 +1,35 @@
+{
+    "package": "pkBakeryDonutEditor",
+    "info": {
+        "title": "pkBakery - Donut Editor",
+        "author": "Insektaure",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/Insektaure/pkBakery",
+        "license": "GPLv2",
+        "description": "Edit donuts in Pokemon Legends: Z-A save",
+        "details": "Features\\n- Save File Handling\\n- Reads and writes Pokemon Legends: Z-A save files using SCBlock encryption (SwishCrypto)\\n- Account-based profile selector \u2014 pick which Switch user's save to edit\\n- Automatic save backup before any modification (backups/<profile>/<timestamp>/)\\n- In-place file writing (r+b) to avoid Switch filesystem journal corruption\\n- Round-trip verification after load (encrypt(decrypt(file)) == file)\\n- Donut data accessed via SCBlock key 0xBE007476\\n- Batch Operations\\n- Flavor Radar Chart\\n\\nDonut Legality\\nAll derived stats (Stars, Calories, Level Boost, Berry Name, Sprite) are enforced to match in-game calculations.\\nThe star-based multiplier formula stat = sum * (10 + stars) / 10 was verified against in-game data across multiple berry combinations."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "screen",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Insektaure/pkBakery/releases/download/1.0.0/pkBakery.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "Initial Release\\n- Only compatible with Z-A version 2.0.1 !\\n"
+}
