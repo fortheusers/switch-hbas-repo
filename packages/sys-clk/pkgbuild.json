@@ -1,0 +1,35 @@
+{
+    "package": "sys-clk",
+    "info": {
+        "title": "sys-clk",
+        "author": "RetroNX Team",
+        "category": "advanced",
+        "version": "2.0.1-fix",
+        "url": "https://github.com/retronx-team/sys-clk/",
+        "license": "BEER WARE",
+        "description": "Overclock and underclock your switch's clocks per-app",
+        "details": "NOTE: This package currently requires editing files via an external app or PC to function\\n\\nSwitch sysmodule allowing you to set cpu/gpu/mem clocks according to the running application and docked state.\\n\\nPresets can be customized by adding them to the ini config file located at /config/sys-clk/config.ini, using the following template for each app:\\n\\n[Application Title ID]\\ndocked_cpu=\\ndocked_gpu=\\ndocked_mem=\\nhandheld_cpu=\\nhandheld_gpu=\\nhandheld_mem=\\n\\nReplace Application Title ID with the title id of the game/application you're interested in customizing. A list of games title id can be found in Switchbrew wiki.\\n\\nFrequencies are expressed in mhz, and will be scaled to the nearest possible values, described in the clock table below.\\n\\nIf any key is omitted, value is empty or set to 0, it will be ignored."
+    },
+    "changelog": "2.0.1-fix\\nNOTE: Reuploaded binaries to be compatible with HOS 21.0.0",
+    "assets": [
+        {
+            "url": "https://github.com/retronx-team/sys-clk/releases/download/2.0.1/sys-clk-2.0.1-21fix.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
