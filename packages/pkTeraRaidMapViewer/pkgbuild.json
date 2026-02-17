@@ -1,0 +1,35 @@
+{
+    "package": "pkTeraRaidMapViewer",
+    "info": {
+        "title": "pkTeraRaid - Map Viewer",
+        "author": "Insektaure",
+        "category": "tool",
+        "version": "1.1.0",
+        "url": "https://github.com/Insektaure/pkTeraRaid",
+        "license": "GPLv2",
+        "description": "View Tera Raid details in Pokemon SV",
+        "details": "Nintendo Switch homebrew application for viewing Tera Raid details in Pokemon Scarlet & Violet.\\n\\nCompatibility\\n- Scarlet / Violet game version 3.0.1 / 4.0.0 only !\\n\\nFeatures\\n--Dual mode support\\n- Save file mode : Reads raid data from the game's save file. Supports profile selection and multiple game versions.\\n- Live mode (Applet): Reads raid data directly from the running game's memory. Auto-detects Scarlet or Violet.\\n- Interactive map view with raid locations for all three regions: Paldea / Kitakami / Blueberry Academy\\n- Detailed raid information including\\n- Raid list with scrollable list panel alongside the map\\n- Profile selector with support for multiple Switch user profiles\\n- Game selector for switching between Scarlet and Violet save data (when save available)"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "screen",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Insektaure/pkTeraRaid/releases/download/1.1.0/pkTeraRaid.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
