@@ -4,7 +4,7 @@
         "title": "pkTeraRaid - Map Viewer",
         "author": "Insektaure",
         "category": "tool",
-        "version": "1.1.1",
+        "version": "1.1.2",
         "url": "https://github.com/Insektaure/pkTeraRaid",
         "license": "GPLv2",
         "description": "View Tera Raid details in Pokemon SV",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Insektaure/pkTeraRaid/releases/download/1.1.1/pkTeraRaid.zip",
+            "url": "https://github.com/Insektaure/pkTeraRaid/releases/download/1.1.2/pkTeraRaid.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             ]
         }
     ],
-    "changelog": "v1.1.1\\nUpdate targeting Sword & Shield Den raids :\\n- All Dens toggle — Press X to switch between active Dens only and all 276 Dens across Wild Area, Isle of Armor, and Crown Tundra\\n- Full info for inactive Dens — Inactive Dens now display species, stars, type, level, and shiny prediction, just like active Dens \\n- Event Dens labeling — Event-only Dens slots now show \"Event\" in purple"
+    "changelog": "v1.1.2\\n- Added full IV display (HP/Atk/Def/SpA/SpD/Spe) to Sword / Shield  Den details, generated from the raid seed"
 }
