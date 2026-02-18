@@ -4,7 +4,7 @@
         "title": "pkTeraRaid - Map Viewer",
         "author": "Insektaure",
         "category": "tool",
-        "version": "1.1.0",
+        "version": "1.1.2",
         "url": "https://github.com/Insektaure/pkTeraRaid",
         "license": "GPLv2",
         "description": "View Tera Raid details in Pokemon SV",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Insektaure/pkTeraRaid/releases/download/1.1.0/pkTeraRaid.zip",
+            "url": "https://github.com/Insektaure/pkTeraRaid/releases/download/1.1.2/pkTeraRaid.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             ]
         }
     ],
-    "changelog": ""
+    "changelog": "v1.1.2\\n- Added full IV display (HP/Atk/Def/SpA/SpD/Spe) to Sword / Shield  Den details, generated from the raid seed"
 }
