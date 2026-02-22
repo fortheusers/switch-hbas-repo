@@ -4,16 +4,16 @@
         "title": "TKMM-NX",
         "author": "Lord Bubbles",
         "category": "advanced",
-        "version": "2.0.0-rc1",
+        "version": "2.0.0",
         "url": "https://github.com/TKMM-Team/TKMM-NX",
         "license": "MIT",
         "description": "Tears of the Kingdom Mod Manager",
         "details": "TKMM-NX is a lightweight Linux operating system based on Lakka (LibreELEC) with custom adaptations that allow TKMM to seamlessly run on the Nintendo Switch, without the need for a PC.\\n\\nThis distro does not require modifying the partitions on the SD card. It is directly available from the \"More Configs\" menu in Hekate after installation.\\n\\nTKMM, or Tears of the Kingdom Mod Manager, is a mod merger and manager for TotK (yes, that is a very creative name).\\n\\nUnlike other mod managers, TKMM merges the individual mod files to ensure the best possible compatibility with every mod available.\\n\\nBefore going through the initial setup, please make sure that your keys are dumped using the latest version of Lockpick_RCM, and that both the base game and update are installed on your micro SD card.\\n\\nOtherwise, if those are installed on the internal storage, or if you have the game in a physical cartridge, you will need to dump it with NxDumpTool as a NSP or XCI file (split files work)."
     },
-    "changelog": "v2.0.0-rc1\\n\\n\\nEnabled eMMC in boot script",
+    "changelog": "v2.0.0\\n\\n\\nv2.0.0-rc1\\n\\n\\nEnabled eMMC in boot script",
     "assets": [
         {
-            "url": "https://github.com/TKMM-Team/TKMM-NX/releases/download/v2.0.0-rc1/tkmm-nx.zip",
+            "url": "https://github.com/TKMM-Team/TKMM-NX/releases/download/v2.0.0/tkmm-nx.zip",
             "type": "zip",
             "zip": [
                 {
