@@ -1,0 +1,35 @@
+{
+    "package": "EventRaidInjector",
+    "info": {
+        "title": "Event Raid Injector",
+        "author": "Insektaure",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/Insektaure/Event-Raid-Injector",
+        "license": "GPLv2",
+        "description": "Inject past Raid Events in Pokemon Games",
+        "details": "Inject Tera Raid event data into Pokemon Scarlet & Violet save files directly on Nintendo Switch.\\n\\n- Profile & Game Selection \u2014 Pick any Switch user profile and choose between games\\n- Event Injection \u2014 Inject Tera Raid event data from prepared event folders into your save file\\n- Event Clearing \u2014 Remove all active raid event data (inject null)\\n- Automatic Backups \u2014 Save data is backed up to SD card before any modification\\n- Round-Trip Verification \u2014 Encryption integrity is verified after decryption to ensure data safety\\n- Theme Support \u2014 Switch between Default (dark) and HOME (light pastel) themes\\n- Validity Cache \u2014 Event folder validation results are cached to disk for instant browsing\\n- Joystick & D-Pad Navigation \u2014 Full analog stick support with repeat on all screens\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Insektaure/Event-Raid-Injector/releases/download/1.0.0/EventRaidInjector.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "Initial Release\\n- Comes with Scarlet / Violet Raid Events 001 to 119\\n"
+}
