@@ -4,7 +4,7 @@
         "title": "pkTeraRaid - Map Viewer",
         "author": "Insektaure",
         "category": "tool",
-        "version": "1.1.3",
+        "version": "1.1.4",
         "url": "https://github.com/Insektaure/pkTeraRaid",
         "license": "GPLv2",
         "description": "View Tera Raid details in Pokemon SV",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Insektaure/pkTeraRaid/releases/download/1.1.3/pkTeraRaid.zip",
+            "url": "https://github.com/Insektaure/pkTeraRaid/releases/download/1.1.4/pkTeraRaid.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             ]
         }
     ],
-    "changelog": "v1.1.3\\nSV : Reward Preview\\n- Added item drop preview to raid detail popup, showing all rewards (fixed + lottery) calculated from the raid seed\\n- Rewards are split into shared, Host-only, and Joiner-only sections\\n- Rare drops (Herba Mystica, Ability Patch, Ability Capsule, Bottle Cap, Gold Bottle Cap) are highlighted in gold\\n- Detail popup widened to 3-column layout: Stats | IVs+Moves | Rewards\\n\\nSV : Shiny Counter\\n- Added shiny count to the raid list header (Raids: XX - Shiny: XX) per map tab\\n\\nSV Bugfix : Trainer ID\\n- Fixed incorrect TID display and shiny detection — was reading from wrong offset (0x04 instead of 0x00) in MyStatus block, affecting both save file and live mode\\n\\nv1.1.2\\n- Added full IV display (HP/Atk/Def/SpA/SpD/Spe) to Sword / Shield  Den details, generated from the raid seed"
+    "changelog": "v1.1.4\\nSV Tera Raids — Filtering\\n- Raid filters: Press X to cycle preset filter (All → 5+ Stars → 6 Stars → Rare Rewards), press Y to toggle shiny-only filter\\n- Filters compose freely (e.g., Shiny + Rare Rewards)\\n- Active filters displayed as centered gold tags in the list header\\n- Filters persist across map tab switches (L/R), reset when re-entering raid view\\n- \"No matching raids\" message when no raids match current filters\\n\\nSwSh Dens — Shiny Display\\n- Detail view now shows skip count alongside advance number (e.g., Square in 5 (4 skips))\\n- Advance 1 shown as (current) to clarify no skips needed\\n\\nv1.1.3\\nSV : Reward Preview\\n- Added item drop preview to raid detail popup, showing all rewards (fixed + lottery) calculated from the raid seed\\n- Rewards are split into shared, Host-only, and Joiner-only sections\\n- Rare drops (Herba Mystica, Ability Patch, Ability Capsule, Bottle Cap, Gold Bottle Cap) are highlighted in gold\\n- Detail popup widened to 3-column layout: Stats | IVs+Moves | Rewards\\n\\nSV : Shiny Counter\\n- Added shiny count to the raid list header (Raids: XX - Shiny: XX) per map tab\\n\\nSV Bugfix : Trainer ID\\n- Fixed incorrect TID display and shiny detection — was reading from wrong offset (0x04 instead of 0x00) in MyStatus block, affecting both save file and live mode\\n\\nv1.1.2\\n- Added full IV display (HP/Atk/Def/SpA/SpD/Spe) to Sword / Shield  Den details, generated from the raid seed"
 }
