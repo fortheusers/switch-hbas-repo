@@ -4,7 +4,7 @@
         "title": "Warnel Chawpiovs",
         "author": "Wololo",
         "category": "game",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "url": "https://github.com/frwololo/warnel-chawpiovs",
         "license": "Affero GPLv3",
         "description": "Solo/Coop card game",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/frwololo/warnel-chawpiovs/releases/download/1.0.0/WarnelChawpiovs_1_0_0_Switch_no_img.zip",
+            "url": "https://github.com/frwololo/warnel-chawpiovs/releases/download/1.1.0/MacOS_WarnelChawpiovs_1_1_0_n.zip",
             "type": "zip",
             "zip": [
                 {
@@ -36,5 +36,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v1.0.0\\n- Adds support for \"The Rise of Red Skull\":\\n  - New heroes : Spider-Woman and Hawkeye\\n  - New villains: Absorbing Man, Crossbones, Taskmaster, Zola, Red skull\\n- \"Adventure Mode\" is a new gameplay feature (and now the default) in which you have to win games to unlock heroes/villains. It can be deactivated in the options to unlock everything directly\\n- The game is now much more \"verbose\" with popups that give details on what's going on. These can be dismissed for a given game by selecting \"don't show this tip again\" or entirely deactivated in the options (Options > Gameplay > Notifications > \"Expert\")\\n- \"Text mode\" is now considered playable. This allows to play if you can't or won't download image files. You might want to open the settings.json file and set \"load_cards_online\": false to avoid the game trying to download image resources on startup. (Note: you still need the set definitions to be downloaded from marvelcdb)\\n- Caped FPS to 60FPS\\n- Various bug fixes\\n\\nInitial release. Supports 5 heroes and 3 villains"
+    "changelog": "v1.1.0\\nAdds support for \"The Mad Titan's Shadow\" and \"Captain America\" Hero pack:\\n\\n- New heroes : Adam Warlock, Spectrum, and Captain America\\n- New villains: Ebony Maw, Tower Defense, Thanos, Hela, and Loki\\n- Support for music and sound\\n- Various bug fixes\\n\\nNote: MacOS build is untested\\n\\nv1.0.0\\n- Adds support for \"The Rise of Red Skull\":\\n  - New heroes : Spider-Woman and Hawkeye\\n  - New villains: Absorbing Man, Crossbones, Taskmaster, Zola, Red skull\\n- \"Adventure Mode\" is a new gameplay feature (and now the default) in which you have to win games to unlock heroes/villains. It can be deactivated in the options to unlock everything directly\\n- The game is now much more \"verbose\" with popups that give details on what's going on. These can be dismissed for a given game by selecting \"don't show this tip again\" or entirely deactivated in the options (Options > Gameplay > Notifications > \"Expert\")\\n- \"Text mode\" is now considered playable. This allows to play if you can't or won't download image files. You might want to open the settings.json file and set \"load_cards_online\": false to avoid the game trying to download image resources on startup. (Note: you still need the set definitions to be downloaded from marvelcdb)\\n- Caped FPS to 60FPS\\n- Various bug fixes\\n\\nInitial release. Supports 5 heroes and 3 villains"
 }
