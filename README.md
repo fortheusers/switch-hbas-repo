@@ -3,26 +3,47 @@ This git repository contains package metadata that generates the libget repo pub
 
 The syntax of the pkgbuild.json files here are defined in the [spinarak](https://github.com/fortheusers/spinarak) project README.
 
-If a package folder is missing here, but you can see it on [hb-app.store](https://hb-app.store), then it's being maintained manually on our secondary repo. In this case, the `stage_update.py` script (see below) can be used to help migrate existing package data to this files in this repo.
-
-The [Magnezone](https://github.com/fortheusers/magnezone) README details further how this primary/secondary repo sourcing works. Our long term goal though is to have all packages going forward be managed by pkgbuild metadata in this repo.
+The packages listed here in the `packages` folder are merged with the older manually managed repo. The [Magnezone](https://github.com/fortheusers/magnezone) README details further how this primary/secondary repo sourcing works. Our long term goal though is to have all packages going forward be managed by pkgbuild metadata in this repo.
 
 ### Contributing
 If you want to add a new, or update an existing app, please feel free to open a [Pull request](https://github.com/fortheusers/switch-hbas-repo/pulls) with your changes!
 
 The metadata within this repo is available to use under a [CC-BY-SA license](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 
-### pkgbuild info
-The `assets` section of the pkgbuild.json contains info about how to source the files that will end up in the zip, as well as to which paths they will be downloaded to. This allows for a mapping of URLs to specific folders on the SD card, after downloading.
+**TODO:** More detailed documentation on `pkgbuild.json` still needs to be written. For now, the recommendation is to check other existing [switch-repo packages](https://github.com/fortheusers/switch-hbas-repo/tree/main/packages) to understand the syntax and layout.
 
-For an explanation of the different extraction states (Install, Extract, Update, Get), see the [libget Wiki](https://github.com/fortheusers/libget/wiki/Overview-&-Glossary). Concisely, most files will use the `update` state, which indicates that the file should always be extracted on update or install of the package.
+### Testing your pkgbuild.json
+First, clone the repo recursively:
+```
+git clone --recursive https://github.com/fortheusers/switch-hbas-repo
+cd switch-hbas-repo
+```
 
-### CI Updates
-If the `version` key is bumped, the package will be rebuilt by the CI, including the re-sourcing and re-downloading of any required assets. See the [Spinarak Wiki](https://gitlab.com/4TU/spinarak/-/wikis/pkgbuild.json-specification) for more detailed information on pkgbuild keys and assets.
+Then, remove _all_ of the packages in the packages folder (otherwise, spinarak will build all of them, which is not necessary)
 
-If the `version` key is not bumped, you can still force a manual update by including the name of the package in your git commit. Eg. if my commit message was "fix file layout issue in vgedit", the presence of the string `vgedit` in the commit will ensure that the package is rebuilt.
+```
+rm -rf packages
+mkdir packages
+cd packages
+```
 
-### Migration script
-For migrating an existing package into a pkgbuild, you can run `python3 stage_update.py <package name>` and a template directory, pkgbuild.json, and assets will be created. It includes both an example for extracting a zip, or a simple one-file download.
+Then create your pkgbuild.json and any other assets within a new folder inside of `packages`.
 
-For zip extractions, in most cases there should not be a trailing slash on the `dest` key, or there will be double-slash'd paths in the manifest. If the same file path is matched by another asset, (see McOsu-NX package for an example), the later assets will override the state in the earlier assets. This allows for the first asset to be "extract all, with `update` type" and then the second one to be "extract just songs, with `get` type".
+After your package is created, run spinarak _from the `packages` folder_ as the current directory.
+
+```
+pip3 install -r ../spinarak/requirements.txt
+python3 ../spinarak/spinarak.py
+```
+
+This should report that one package is detected (your folder name, within `packages`) and try to build it, by downloading whatever assets are present. It will also print out the manifest contents for debugging purposes. If successful, you should get your built package zip in `public/zips`, as well as a `public/repo.json` with one entry in it.
+
+**Notice:** Spinarak, while building will add additional files to your package's folder prior to zipping. These can be exluded in your PR. 
+
+**TODO:** An automated script that can test JSON files, and print out the manifest structure, without needing to mess around with the filesystem.
+
+### Using stage_update.py
+
+If your package is already on the non-metadata Switch repo, run: `python3 stage_update.py <YourPackageName>` to create an initial `pkgbuild.json` and assets with most information filled out automatically.
+
+**TODO:** This repo contains copied files from `switch-hbas-repo`, these scripts should be consolidated in the future.
