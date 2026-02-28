@@ -1,0 +1,29 @@
+{
+    "package": "NXBadApple",
+    "info": {
+        "title": "NX Bad Apple",
+        "author": "Meayua",
+        "category": "_misc",
+        "version": "Main",
+        "url": "https://github.com/Meayua/NX-Bad-Apple",
+        "license": "MIT",
+        "description": "Bad Apple, On your Switch.",
+        "details": "Bad Apple, On your Switch.\\nYes, it sucks.\\nYes, it can be improved.\\nNo, I wont."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Meayua/NX-Bad-Apple/releases/download/Main/Bad-Apple.nro",
+            "type": "update",
+            "dest": "/switch/NXBadApple/Bad-Apple.nro"
+        }
+    ],
+    "changelog": ""
+}
