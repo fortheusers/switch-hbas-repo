@@ -1,0 +1,41 @@
+{
+    "package": "COLDSTART",
+    "info": {
+        "title": "COLD START",
+        "author": "etonedemid",
+        "category": "game",
+        "version": "0.5.8",
+        "url": "https://github.com/etonedemid/cold-start-nx",
+        "license": "MIT",
+        "description": "Open Source moddable topdown shooter ",
+        "details": "COLD START is a top-down action shooter built in C++ with SDL2 for PC and Nintendo Switch homebrew. It combines fast combat, local content editing, multiplayer support, and a lightweight modding pipeline aimed at rapid iteration."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v0.5.8/cold-start-nx.nro",
+            "type": "update",
+            "dest": "/switch/COLDSTART/cold-start-nx.nro"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-2.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-3.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-0.png"
+        }
+    ],
+    "changelog": "\\nv0.5.8\\n\\n    No damage invulnerability in PvP \u2014 invulnDuration set to 0 in PvP modes (was 10 ms); rapid hits always register with no grace window\\n    Bomb homing targets enemy players \u2014 dashed bombs now lock onto the nearest enemy player (remote players on opposing teams) in PvP within a 45\u00b0 cone, in addition to AI enemies\\n    Bomb\u2013player collision \u2014 dashed bombs now explode on contact with and proximity to remote enemy players; host-authoritative explosion damage applies to all players hit\\n"
+}
