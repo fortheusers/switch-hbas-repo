@@ -16,6 +16,11 @@
             "type": "update",
             "dest": "/switch/COLDSTART/cold-start-nx.nro"
         },
+        
+        {
+            "type": "banner",
+            "url": "banner.png"
+        },
         {
             "type": "icon",
             "url": "icon.png"
