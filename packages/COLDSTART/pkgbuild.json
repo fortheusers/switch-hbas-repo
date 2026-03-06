@@ -6,7 +6,7 @@
         "category": "game",
         "version": "0.5.8",
         "url": "https://github.com/etonedemid/cold-start-nx",
-        "license": "MIT",
+        "license": "GPLv3",
         "description": "Open Source moddable topdown shooter ",
         "details": "COLD START is a top-down action shooter built in C++ with SDL2 for PC and Nintendo Switch homebrew. It combines fast combat, local content editing, multiplayer support, and a lightweight modding pipeline aimed at rapid iteration."
     },
