@@ -4,7 +4,7 @@
         "title": "COLD START",
         "author": "etonedemid",
         "category": "game",
-        "version": "0.9",
+        "version": "0.9.1",
         "url": "https://github.com/etonedemid/cold-start-nx",
         "license": "GPLv3",
         "description": "Open Source moddable topdown shooter ",
@@ -12,11 +12,10 @@
     },
     "assets": [
         {
-            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v0.7.0/cold-start-nx.nro",
+            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v0.9.1/cold-start-nx.nro",
             "type": "update",
             "dest": "/switch/COLDSTART/cold-start-nx.nro"
         },
-        
         {
             "type": "banner",
             "url": "banner.png"
@@ -42,5 +41,5 @@
             "url": "screen-0.png"
         }
     ],
-    "changelog": "v0.9\n- Updated gameplay balance and enemy behavior\n- Improved performance and stability on Nintendo Switch\n- Refined UI and in-game editor usability\n- Various bug fixes and minor improvements"
+    "changelog": "v0.9.1\\nSee README.md: README.mdchangelog for the full changelog.\\n\\nv0.9\\n- Updated gameplay balance and enemy behavior\\n- Improved performance and stability on Nintendo Switch\\n- Refined UI and in-game editor usability\\n- Various bug fixes and minor improvements"
 }
