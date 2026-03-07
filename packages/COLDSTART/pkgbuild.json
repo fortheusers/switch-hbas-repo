@@ -4,7 +4,7 @@
         "title": "COLD START",
         "author": "etonedemid",
         "category": "game",
-        "version": "0.6",
+        "version": "0.7.0",
         "url": "https://github.com/etonedemid/cold-start-nx",
         "license": "GPLv3",
         "description": "Open Source moddable topdown shooter ",
@@ -12,11 +12,10 @@
     },
     "assets": [
         {
-            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/0.6/cold-start-nx.nro",
+            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v0.7.0/cold-start-nx.nro",
             "type": "update",
             "dest": "/switch/COLDSTART/cold-start-nx.nro"
         },
-        
         {
             "type": "banner",
             "url": "banner.png"
@@ -42,5 +41,5 @@
             "url": "screen-0.png"
         }
     ],
-    "changelog": "v0.6\\nv0.6.0 (2026-03-06)\\n- Map selector in lobby settings- — host can now cycle through Generated / custom maps (.csm files + mod-provided maps) with LEFT/RIGHT on the new \"Map:\" settings row; selected map is sent to all clients and loaded correctly for both generated and custom-map sessions\\n- Mod maps included in lobby map list- — scanMapFiles() now runs after mods are initialised and appends all enabled-mod map paths; mod maps appear alongside local .csm files in the lobby map selector\\n- Map Width / Height disabled for custom maps- — the two dimension rows are greyed out and ignored in the input handler when a custom map is active, preventing confusing mismatches\\n- Ceiling tiles in map editor- — painting a palette entry from the \"ceiling\" category now writes to map_.ceiling[] and leaves the floor tile unchanged, matching in-game behaviour (transparent overlay, no hitbox)\\n- Undo / Redo in map editor- — 64-level undo stack; Ctrl+Z / Ctrl+Y / Ctrl+Shift+Z on keyboard, L3 / R3 on gamepad; snapshot is taken once per continuous stroke\\n- Custom tile textures bundled with maps- — custom PNG tiles are saved alongside .csm files and reloaded correctly in both solo test-play and multiplayer\\n- Editor direct re-save- — Ctrl+S on an already-saved map skips the mod-save dialog and writes directly to the existing path\\n- Wayland-first display driver- — game prefers Wayland over X11 on Linux (SDL_VIDEODRIVER=wayland,x11), overridable by environment\\n- Bomb explosions leave scorch marks- — explosion decals use DecalType::Scorch (dark, near-black) instead of blood-coloured particles; enemy-death blood remains red\\n\\n\\nv0.5.8\\n\\n    No damage invulnerability in PvP — invulnDuration set to 0 in PvP modes (was 10 ms); rapid hits always register with no grace window\\n    Bomb homing targets enemy players — dashed bombs now lock onto the nearest enemy player (remote players on opposing teams) in PvP within a 45° cone, in addition to AI enemies\\n    Bomb–player collision — dashed bombs now explode on contact with and proximity to remote enemy players; host-authoritative explosion damage applies to all players hit\\n"
+    "changelog": "v0.7.0\\nSee README.md: README.mdchangelog for the full changelog.\\n\\nv0.6\\nv0.6.0 (2026-03-06)\\n- Map selector in lobby settings- — host can now cycle through Generated / custom maps (.csm files + mod-provided maps) with LEFT/RIGHT on the new \"Map:\" settings row; selected map is sent to all clients and loaded correctly for both generated and custom-map sessions\\n- Mod maps included in lobby map list- — scanMapFiles() now runs after mods are initialised and appends all enabled-mod map paths; mod maps appear alongside local .csm files in the lobby map selector\\n- Map Width / Height disabled for custom maps- — the two dimension rows are greyed out and ignored in the input handler when a custom map is active, preventing confusing mismatches\\n- Ceiling tiles in map editor- — painting a palette entry from the \"ceiling\" category now writes to map_.ceiling[] and leaves the floor tile unchanged, matching in-game behaviour (transparent overlay, no hitbox)\\n- Undo / Redo in map editor- — 64-level undo stack; Ctrl+Z / Ctrl+Y / Ctrl+Shift+Z on keyboard, L3 / R3 on gamepad; snapshot is taken once per continuous stroke\\n- Custom tile textures bundled with maps- — custom PNG tiles are saved alongside .csm files and reloaded correctly in both solo test-play and multiplayer\\n- Editor direct re-save- — Ctrl+S on an already-saved map skips the mod-save dialog and writes directly to the existing path\\n- Wayland-first display driver- — game prefers Wayland over X11 on Linux (SDL_VIDEODRIVER=wayland,x11), overridable by environment\\n- Bomb explosions leave scorch marks- — explosion decals use DecalType::Scorch (dark, near-black) instead of blood-coloured particles; enemy-death blood remains red\\n\\n\\nv0.5.8\\n\\n    No damage invulnerability in PvP — invulnDuration set to 0 in PvP modes (was 10 ms); rapid hits always register with no grace window\\n    Bomb homing targets enemy players — dashed bombs now lock onto the nearest enemy player (remote players on opposing teams) in PvP within a 45° cone, in addition to AI enemies\\n    Bomb–player collision — dashed bombs now explode on contact with and proximity to remote enemy players; host-authoritative explosion damage applies to all players hit\\n"
 }
