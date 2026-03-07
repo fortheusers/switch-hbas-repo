@@ -4,7 +4,7 @@
         "title": "COLD START",
         "author": "etonedemid",
         "category": "game",
-        "version": "0.7.0",
+        "version": "0.9",
         "url": "https://github.com/etonedemid/cold-start-nx",
         "license": "GPLv3",
         "description": "Open Source moddable topdown shooter ",
@@ -42,5 +42,5 @@
             "url": "screen-0.png"
         }
     ],
-    "changelog": "UI Overhaul, Multiplayer fixes. See Readme.md"
+    "changelog": ""
 }
