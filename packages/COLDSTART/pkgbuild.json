@@ -4,7 +4,7 @@
         "title": "COLD START",
         "author": "etonedemid",
         "category": "game",
-        "version": "0.9.1",
+        "version": "1.0.1",
         "url": "https://github.com/etonedemid/cold-start-nx",
         "license": "GPLv3",
         "description": "Open Source moddable topdown shooter ",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v0.9.1/cold-start-nx.nro",
+            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v1.0.1/cold-start-nx.nro",
             "type": "update",
             "dest": "/switch/COLDSTART/cold-start-nx.nro"
         },
