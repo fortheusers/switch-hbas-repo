@@ -1,0 +1,40 @@
+{
+    "package": "NPShop",
+    "info": {
+        "title": "NPShop",
+        "author": "Arthur Freitas",
+        "category": "_misc",
+        "version": "2.2.8",
+        "url": "https://github.com/arthur-moebios/NPShopHomebrew",
+        "license": "GPLv3",
+        "description": "A cloud library & save manager",
+        "details": "NPShop is a homebrew library manager for the Nintendo Switch that allows users to browse, download and manage community content directly from their console.\\n\\nThe application provides an integrated interface for discovering and installing homebrew applications, mods, translations and cheats, while also helping users organize their existing library.\\n\\nNPShop is designed to simplify the process of managing homebrew software by providing a fast and user-friendly interface optimized for the Nintendo Switch.\\n\\nFeatures include:\\n\\n\u2022 Homebrew browser with searchable library\\n\u2022 Direct downloads from integrated repositories\\n\u2022 Automatic detection of updates and additional content\\n\u2022 Cheat compatibility checking based on game version\\n\u2022 Translation patch distribution\\n\u2022 Save management tools\\n\u2022 Simple and intuitive user interface designed for controller navigation\\n\\nThe project aims to provide a centralized tool for managing community-driven content on the Nintendo Switch while maintaining a smooth and reliable user experience."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/arthur-moebios/NPShopHomebrew/releases/download/2.2.8/NPShopSwitch.nro",
+            "type": "update",
+            "dest": "/switch/NPShop/NPShopSwitch.nro"
+        },
+        {
+            "url": "https://github.com/arthur-moebios/NPShopHomebrew/releases/download/2.2.8/NPShopZip.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "Version 2.2.7\\n\\nNew Features\\n\u2022 Automatic detection and management of updates, DLC and additional content available on the server\\n\u2022 Initial implementation of cheat downloads with compatibility verification based on installed version\\n\u2022 Forwarder installer added in Settings for easier launching of the application\\n\\nImprovements\\n\u2022 Improved download performance and stability\\n\u2022 General tuning of the download system for better reliability\\n\\nFixes\\n\u2022 Fixed issues affecting downloads from Google Drive\\n\u2022 Various internal stability improvements\\n"
+}
