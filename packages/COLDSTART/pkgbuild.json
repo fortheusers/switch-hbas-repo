@@ -4,7 +4,7 @@
         "title": "COLD START",
         "author": "etonedemid",
         "category": "game",
-        "version": "1.0.6",
+        "version": "1.1.1",
         "url": "https://github.com/etonedemid/cold-start-nx",
         "license": "GPLv3",
         "description": "Open Source moddable topdown shooter ",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v1.0.6/cold-start-nx.nro",
+            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v1.1.1/cold-start-nx.nro",
             "type": "update",
             "dest": "/switch/COLDSTART/cold-start-nx.nro"
         },
@@ -41,5 +41,5 @@
             "url": "screen-0.png"
         }
     ],
-    "changelog": "v1.0.6\\n- Network: instant disconnect notification- — clients now send an app-level Disconnect packet before tearing down the ENet connection; the server handles it immediately in handlePacket() rather than waiting for keepalive timeout. ENET_EVENT_TYPE_DISCONNECT is guarded against double-calling onPlayerLeft when both events arrive\\n\\nv0.9.5\\nSee README.md: README.mdchangelog for the full changelog.\\n\\nv0.9\\n- Updated gameplay balance and enemy behavior\\n- Improved performance and stability on Nintendo Switch\\n- Refined UI and in-game editor usability\\n- Various bug fixes and minor improvements"
+    "changelog": "v1.1.1\\n- Security: mod sync path traversal fix- — deserializeAndInstallMods now validates both the mod ID and each file's relative path before touching the filesystem; crafted payloads containing .. components, absolute paths, backslashes, or null bytes are rejected and skipped, preventing arbitrary file writes outside the mod sync directory\\n\\nv1.0.6\\n- Network: instant disconnect notification- — clients now send an app-level Disconnect packet before tearing down the ENet connection; the server handles it immediately in handlePacket() rather than waiting for keepalive timeout. ENET_EVENT_TYPE_DISCONNECT is guarded against double-calling onPlayerLeft when both events arrive\\n\\nv0.9.5\\nSee README.md: README.mdchangelog for the full changelog.\\n\\nv0.9\\n- Updated gameplay balance and enemy behavior\\n- Improved performance and stability on Nintendo Switch\\n- Refined UI and in-game editor usability\\n- Various bug fixes and minor improvements"
 }
