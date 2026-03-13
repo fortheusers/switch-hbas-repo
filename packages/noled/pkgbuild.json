@@ -12,6 +12,11 @@
     },
     "assets": [
         {
+            "type": "update",
+            "url": "https://github.com/kemalsanli/noled/releases/download/v1.0.0/noled.ovl",
+            "dest": "/switch/.overlays/noled.ovl"
+        },
+        {
             "type": "icon",
             "url": "icon.png"
         },
