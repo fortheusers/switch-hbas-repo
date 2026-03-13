@@ -1,0 +1,29 @@
+{
+    "package": "noled",
+    "info": {
+        "title": "noled",
+        "author": "kemalsanli",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/kemalsanli/noled",
+        "license": "GPLv2",
+        "description": "Screen-off overlay for Nintendo Switch.",
+        "details": "Note: Make sure you have Ultrahand Overlay or Tesla Menu installed with nx-ovlloader.\\n\\n * Turns off the screen backlight during idle periods (e.g. downloads, file\\n * transfers).  Prevents OLED burn-in and saves battery on all Switch models.\\n * Two activation modes are available:\\n *\\n *   Quick tap  -> Screen off only. Device may auto-sleep normally.\\n *   Long press -> Screen off + stay awake. Periodically signals user activity\\n *                to the idle service so the device never auto-sleeps.\\n *\\n * When the device sleeps and wakes (e.g. power button), the overlay detects\\n * the time gap between frames and exits cleanly without flashing the screen."
+    },
+    "assets": [
+        {
+            "type": "update",
+            "url": "https://github.com/kemalsanli/noled/releases/download/v1.0.0/noled.ovl",
+            "dest": "/switch/.overlays/noled.ovl"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "Initial Release v1.0.0"
+}
