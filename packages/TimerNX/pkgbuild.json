@@ -4,7 +4,7 @@
         "title": "Timer-NX",
         "author": "SudoTronics",
         "category": "tool",
-        "version": "1.0",
+        "version": "2.0",
         "url": "https://github.com/Sudachi-E/Timer-NX",
         "license": "GPLv3",
         "description": "A countdown timer for Nintendo Switch",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/Sudachi-E/Timer-NX/releases/download/V1.0/SwitchTimer.nro",
+            "url": "https://github.com/Sudachi-E/Timer-NX/releases/download/V2.0/SwitchTimer.nro",
             "dest": "/switch/TimerNX/TimerNX.nro",
             "type": "update"
         },
@@ -25,5 +25,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "Initial release"
+    "changelog": "v2.0\\nWhat's been added :\\n\\n- Now using @Borialis: https://github.com/xfangfang/borealis for the UI.\\n- Added the ability to save timers.\\n\\nInitial release"
 }
