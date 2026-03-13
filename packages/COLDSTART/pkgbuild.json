@@ -4,7 +4,7 @@
         "title": "COLD START",
         "author": "etonedemid",
         "category": "game",
-        "version": "1.1.1",
+        "version": "1.3.0",
         "url": "https://github.com/etonedemid/cold-start-nx",
         "license": "GPLv3",
         "description": "Open Source moddable topdown shooter ",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v1.1.1/cold-start-nx.nro",
+            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v1.3.0/cold-start-nx.nro",
             "type": "update",
             "dest": "/switch/COLDSTART/cold-start-nx.nro"
         },
@@ -41,5 +41,5 @@
             "url": "screen-0.png"
         }
     ],
-    "changelog": "v1.1.1\\n- Security: mod sync path traversal fix- — deserializeAndInstallMods now validates both the mod ID and each file's relative path before touching the filesystem; crafted payloads containing .. components, absolute paths, backslashes, or null bytes are rejected and skipped, preventing arbitrary file writes outside the mod sync directory\\n\\nv1.0.6\\n- Network: instant disconnect notification- — clients now send an app-level Disconnect packet before tearing down the ENet connection; the server handles it immediately in handlePacket() rather than waiting for keepalive timeout. ENET_EVENT_TYPE_DISCONNECT is guarded against double-calling onPlayerLeft when both events arrive\\n\\nv0.9.5\\nSee README.md: README.mdchangelog for the full changelog.\\n\\nv0.9\\n- Updated gameplay balance and enemy behavior\\n- Improved performance and stability on Nintendo Switch\\n- Refined UI and in-game editor usability\\n- Various bug fixes and minor improvements"
+    "changelog": "v1.3.0\\n- P1 hotfix- — the gamepad that opened host/join now stays assigned to P1 during multiplayer splitscreen, instead of falling back to keyboard-only slot 0 input on PC\\n- Multiplayer splitscreen PvP hotfix- — networked subplayers now receive bullet damage and melee targeting as distinct local slots, with replicated HP/death updates so remote splitscreen opponents can actually be damaged\\n- Splitscreen presentation cleanup- — post-processing shader composite is now disabled automatically during local and multiplayer splitscreen, keeping each viewport crisp and easier to read\\n- Primary controller routing fix- — P1 now consistently keeps the lobby-selected main gamepad instead of accidentally reading a sub-player controller during multiplayer splitscreen sessions\\n- Gamepad crosshair expansion- — the analog-stick crosshair now appears for P1 across singleplayer, custom maps, packs, and multiplayer when using a gamepad; splitscreen P1 also gets a slightly farther aim marker for better readability\\n- Fresh media pass- — README and HB App Store package screenshots now use the latest Switch captures from the local Screenshots/ set\\n\\nv1.1.1\\n- Security: mod sync path traversal fix- — deserializeAndInstallMods now validates both the mod ID and each file's relative path before touching the filesystem; crafted payloads containing .. components, absolute paths, backslashes, or null bytes are rejected and skipped, preventing arbitrary file writes outside the mod sync directory\\n\\nv1.0.6\\n- Network: instant disconnect notification- — clients now send an app-level Disconnect packet before tearing down the ENet connection; the server handles it immediately in handlePacket() rather than waiting for keepalive timeout. ENET_EVENT_TYPE_DISCONNECT is guarded against double-calling onPlayerLeft when both events arrive\\n\\nv0.9.5\\nSee README.md: README.mdchangelog for the full changelog.\\n\\nv0.9\\n- Updated gameplay balance and enemy behavior\\n- Improved performance and stability on Nintendo Switch\\n- Refined UI and in-game editor usability\\n- Various bug fixes and minor improvements"
 }
