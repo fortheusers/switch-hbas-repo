@@ -4,7 +4,7 @@
         "title": "COLD START",
         "author": "etonedemid",
         "category": "game",
-        "version": "1.3.0",
+        "version": "1.4.0",
         "url": "https://github.com/etonedemid/cold-start-nx",
         "license": "GPLv3",
         "description": "Open Source moddable topdown shooter ",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v1.3.0/cold-start-nx.nro",
+            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v1.4.0/cold-start-nx.nro",
             "type": "update",
             "dest": "/switch/COLDSTART/cold-start-nx.nro"
         },
@@ -41,5 +41,5 @@
             "url": "screen-0.png"
         }
     ],
-    "changelog": "v1.3.0\n- Disable post-processing shader composite in splitscreen\n- Fix P1 primary gamepad routing in local multiplayer network sessions\n- Add gamepad crosshair for P1 across gameplay modes\n- Refresh README and HB App Store screenshots\n\nv1.2.0\n- Controller rumble support\n- Automatic update checker\n- Unified menu + creator overhaul\n- Multiplayer character sync completed\n- Full multiplayer mod sync\n- Mod sync hardening\n\nv1.1.1\n- Security: mod sync path traversal fix\n- Character creator rebuilt\n- PNG sprite import\n- Enhanced parry system\n- Player sprites upscaled\n- Texture editor removed"
+    "changelog": "v1.4.0\\n- Upgrade rarity tiers- — upgrades now roll from quality tiers (Common 50%, Uncommon 30%, Rare 15%, Epic 4%, Cursed 1%) instead of a flat weighted table; added UpgradeQuality enum assignable per upgrade so mod authors can tune rarity\\n- Three new upgrades- — Auto Reloader (Uncommon): fires reload automatically on empty magazine; Vampire (Rare): each enemy kill restores 1 HP; Last Stand (Epic): at 1 HP gain +100% bullet damage and +30% movement speed\\n- Multi-bomb- — holding the bomb button with multiple bombs queued now launches them in rapid succession instead of gating on the first bomb's expiry\\n- PvE kills in co-op scoreboard- — enemy kill credits now always accumulate per co-op slot so PvE kills appear on the split-screen and multiplayer K/D board\\n- Discord Rich Presence- — zero-dependency IPC client on Linux ($XDG_RUNTIME_DIR/discord-ipc-N) and Windows (\\\\.\\pipe\\discord-ipc-N) that shows current game state in the Discord activity panel; stubs cleanly on Switch and dedicated server builds\\n- AmmoUp fix- — apply() now correctly grants +5 max ammo matching the displayed description (was +3)\\n- Split-screen visual improvements- — co-op viewports now show HP bars above nameplate tags, invulnerability blink on player bodies, parry tint, and box-fragment age fade/shrink\\n\\nv1.3.0\n- Disable post-processing shader composite in splitscreen\n- Fix P1 primary gamepad routing in local multiplayer network sessions\n- Add gamepad crosshair for P1 across gameplay modes\n- Refresh README and HB App Store screenshots\n\nv1.2.0\n- Controller rumble support\n- Automatic update checker\n- Unified menu + creator overhaul\n- Multiplayer character sync completed\n- Full multiplayer mod sync\n- Mod sync hardening\n\nv1.1.1\n- Security: mod sync path traversal fix\n- Character creator rebuilt\n- PNG sprite import\n- Enhanced parry system\n- Player sprites upscaled\n- Texture editor removed"
 }
