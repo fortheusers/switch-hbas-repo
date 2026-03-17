@@ -1,0 +1,29 @@
+{
+    "package": "NXDonut",
+    "info": {
+        "title": "NX Donut",
+        "author": "ToyotaAE86Trueno",
+        "category": "_misc",
+        "version": "1.0",
+        "url": "https://github.com/Peugeot205GTI/NXDonut",
+        "license": "n/a",
+        "description": "A spinning donut for your Switch!",
+        "details": "A recreation of \"Wii Donut\" by jornmann."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Peugeot205GTI/NXDonut/releases/download/1.0/NXDonut.nro",
+            "type": "update",
+            "dest": "/switch/NXDonut/NXDonut.nro"
+        }
+    ],
+    "changelog": ""
+}
