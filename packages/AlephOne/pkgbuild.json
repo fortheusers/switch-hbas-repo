@@ -24,12 +24,12 @@
             "type": "zip",
             "zip": [
                 {
-                    "path": "/**/*",
-                    "dest": "/",
+                    "path": "/alephone.nro",
+                    "dest": "/switch/alephone.nro",
                     "type": "update"
                 }
             ]
         }
     ],
-    "changelog": ""
+    "changelog": "Initial release"
 }
