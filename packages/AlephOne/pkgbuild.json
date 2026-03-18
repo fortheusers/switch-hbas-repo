@@ -1,0 +1,35 @@
+{
+    "package": "AlephOne",
+    "info": {
+        "title": "Aleph One",
+        "author": "dguenther",
+        "category": "game",
+        "version": "0.1.0",
+        "url": "https://github.com/dguenther/alephone-switch",
+        "license": "GPLv3",
+        "description": "The open-source Marathon game engine.",
+        "details": "Aleph One is the open source continuation of Bungie\u2122\u2019s Marathon\u00ae 2 and Marathon Infinity game engines. Aleph One plays Marathon, Marathon 2, Marathon Infinity, and third-party content.\\n\\nAleph One is available under the terms of the GNU General Public License (GPL 3).\\n\\nThis fork is an unofficial port of Aleph One to the Switch. For officially supported platforms, including versions for macOS, Windows, and Linux Flatpak, visit https://alephone.lhowon.org\\n\\n## Installation\\n\\nDownload a scenario (available here: https://alephone.lhowon.org/scenarios.html) and extract it to /switch/alephone\\n\\n## Features\\n\\n* OpenGL renderer (4.3 Core wrapper)\\n* LAN multiplayer. Tested crossplay between Switch and PC\\n* Controller support, keyboard/mouse support\\n* Resolution change on dock/undock\\n\\n### Needs Testing\\n\\n* Community-made scenarios \\n\\n### Not Implemented\\n* Film recording\\n* Internet multiplayer\\n* Touch support\\n* Gyro controls"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/dguenther/alephone-switch/releases/download/v0.1.0/alephone-switch-v0.1.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/alephone.nro",
+                    "dest": "/switch/alephone.nro",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "Initial release"
+}
