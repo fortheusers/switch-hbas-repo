@@ -1,0 +1,24 @@
+{
+    "package": "SwitchBluelightFilter",
+    "info": {
+        "title": "Switch Bluelight Filter",
+        "author": "IMXNOOBX",
+        "category": "_misc",
+        "version": "1.0.0",
+        "url": "https://github.com/IMXNOOBX/switch-bluelight-filter",
+        "license": "GPLv2",
+        "description": "Easy to use bluelight filter overlay!",
+        "details": "\u26fa Blue Light Filter\\n\\nA homebrew application for the Nintendo Switch that tries to reduces blue light emission from the screen by creating a yellow-ish overlay on top of all applications.\\n\\n\ud83c\udfaf Features\\n - Adjustable intensity of the blue light filter\\n - Configurable via a simple menu in the Tesla Overlay\\n - No-to-little performance impact\\n\\n\ud83e\udde9 Contribute\\nThis project its a work in progress and any help/improvements are welcomed! \\nhttps://github.com/IMXNOOBX/switch-bluelight-filter"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
