@@ -1,0 +1,37 @@
+{
+    "package": "owooinstaler",
+    "info": {
+        "title": "owoo instaler",
+        "author": "HookedBehemoth",
+        "category": "tool",
+        "version": "1.3.6",
+        "url": "https://github.com/Huntereb/Awoo-Installer/releases",
+        "license": "All Rights Reserved",
+        "description": "NSP instaler",
+        "details": "A easy to use NSP installer for switch"
+    },
+    "assets": [
+        {
+            "data": "icon.png",
+            "format": "base64",
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Huntereb/Awoo-Installer/releases/download/1.3.6/Awoo-Installer.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
