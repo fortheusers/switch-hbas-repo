@@ -1,0 +1,29 @@
+{
+    "package": "NXFetchRem",
+    "info": {
+        "title": "NX-Fetch-Rem",
+        "author": "remn9k",
+        "category": "tool",
+        "version": "0.1.0",
+        "url": "https://github.com/remn9k/NX-Fetch-Rem",
+        "license": "MIT",
+        "description": "NX-Fetch with custom modules ",
+        "details": "NX-Fetch-Rem is a lightweight and customizable fetch-style homebrew app for Nintendo Switch. It shows useful console information in a clean, readable layout and is designed for people who want a simple system overview without digging through menus.\\n\\nThe app supports flexible visual customization, so you can change the appearance to match your style. You can switch color palettes directly in the app, hide or reorder sections, and customize the displayed text to make the screen feel more personal. It also supports external logo files, which makes it easy to give the app a unique look without modifying the source code.\\n\\nNX-Fetch-Rem is made for users who want a fast, easy-to-read status screen with a lot of room for personal styling. Whether you prefer a minimal layout or something more expressive, the app gives you enough control to make it feel your own."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/remn9k/NX-Fetch-Rem/releases/download/0.1.0/NX-Fetch-Rem.nro",
+            "type": "update",
+            "dest": "/switch/NX-Fetch-Rem.nro"
+        }
+    ],
+    "changelog": "Initial release of NX-Fetch-Rem.\\n\\nMajor changes:\\n- Added external configuration support through `sdmc:/switch/NX-Fetch-Rem/config.ini`\\n- Added automatic config generation on first launch\\n- Added configurable color palettes with in-app switching\\n- Added support for custom labeled modules\\n- Added support for text-only lines without `label: value`\\n- Added support for overriding built-in module values from config\\n- Added support for formatting module output with tokens\\n- Added external logo loading from a text file\\n- Added a more flexible, customizable layout\\n- Added updated documentation and example config files\\n- Added release-ready source archive and `.nro` build\\n"
+}
