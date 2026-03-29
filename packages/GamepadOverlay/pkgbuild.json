@@ -18,7 +18,12 @@
         {
             "type": "banner",
             "url": "screen.png"
+        },
+        {
+            "type": "update",
+            "url": "https://github.com/etonedemid/gamepad-overlay-nx/releases/download/v1.0.1/gamepadoverlay.ovl",
+            "dest": "/switch/.overlays/gamepadoverlay.ovl"
         }
     ],
-    "changelog": ""
+    "changelog": "Initial release"
 }
