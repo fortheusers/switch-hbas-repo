@@ -20,20 +20,9 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/remn9k/NX-Fetch-Rem/releases/download/0.1.0/NX-Fetch-Rem-source.zip",
-            "type": "zip",
-            "zip": [
-                {
-                    "path": "/**/*",
-                    "dest": "/",
-                    "type": "update"
-                }
-            ]
-        },
-        {
             "url": "https://github.com/remn9k/NX-Fetch-Rem/releases/download/0.1.0/NX-Fetch-Rem.nro",
             "type": "update",
-            "dest": "/switch/NXFetchRem/NX-Fetch-Rem.nro"
+            "dest": "/switch/NX-Fetch-Rem.nro"
         }
     ],
     "changelog": "Initial release of NX-Fetch-Rem.\\n\\nMajor changes:\\n- Added external configuration support through `sdmc:/switch/NX-Fetch-Rem/config.ini`\\n- Added automatic config generation on first launch\\n- Added configurable color palettes with in-app switching\\n- Added support for custom labeled modules\\n- Added support for text-only lines without `label: value`\\n- Added support for overriding built-in module values from config\\n- Added support for formatting module output with tokens\\n- Added external logo loading from a text file\\n- Added a more flexible, customizable layout\\n- Added updated documentation and example config files\\n- Added release-ready source archive and `.nro` build\\n"
