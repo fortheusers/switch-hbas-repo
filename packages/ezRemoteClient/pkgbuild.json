@@ -4,16 +4,16 @@
         "title": "ezRemote Client",
         "author": "cy33hc",
         "category": "tool",
-        "version": "1.13",
+        "version": "1.14",
         "url": "https://github.com/cy33hc/switch-ezremote-client",
         "license": "GPLv3",
         "description": "Remote File Manager for FTP, SMB, WebDAV",
         "details": "A File Manager application that allows you to connect the Switch to remote FTP, SMB, WebDAV servers to transfer and manage files."
     },
-    "changelog": "v1.13\\nUpdated OnScreen Keyboard to global version which allows all language input\\n\\n1.12\\nAdd support for browse and download release artifacts from github repos. Under the server just enter the git repo of the homebrew",
+    "changelog": "v1.14\\n- rebuilt with latest libnx to support higher firmwares\\n- minor update to cut/paste to move files instead of copy then delete\\n- bug fix when edit file from Edit menu\\n\\nv1.13\\nUpdated OnScreen Keyboard to global version which allows all language input\\n\\n1.12\\nAdd support for browse and download release artifacts from github repos. Under the server just enter the git repo of the homebrew",
     "assets": [
         {
-            "url": "https://github.com/cy33hc/switch-ezremote-client/releases/download/1%2C13/ezremote-client.nro",
+            "url": "https://github.com/cy33hc/switch-ezremote-client/releases/download/1.14/ezremote-client.nro",
             "dest": "/switch/ezremote-client.nro",
             "type": "update"
         },
