@@ -1,0 +1,24 @@
+{
+    "package": "WookReadercomics",
+    "info": {
+        "title": "WookReader (comics)",
+        "author": "exorevan",
+        "category": "tool",
+        "version": "0.6.7",
+        "url": "https://github.com/exorevan/WookReader",
+        "license": "MIT",
+        "description": "Read comics on Nintendo Switch!",
+        "details": "A comic and e-book reader for the Nintendo Switch.\\n\\nFormat support: PDF, EPUB, XPS, CBZ, CBR, CBT, CB7\\nReading modes: Portrait, Landscape, Vertical (fit-to-width), Spread (two-page)\\nCover grid browser with folder navigation and thumbnail previews\\nAsync prefetch \u2014 next/previous pages pre-rendered for instant page turns\\nRaw image LRU cache \u2014 revisited pages load instantly\\nEarly first-page display \u2014 cover shown in ~0.5s while large archives enumerate in background\\nPage-name disk cache \u2014 second+ open of any comic skips enumeration entirely\\nRAR3 fast enumeration \u2014 header-only scan (~50ms for 500MB solid RAR)\\nProgressive navigation \u2014 flip through pages while archive is still scanning\\nAnalog stick scrolling \u2014 full 360\u00b0 proportional panning with left stick\\nPinch-to-zoom and right-stick zoom\\nDark and light mode\\nSaves last page, orientation, and dark mode settings\\nSorted file browser (folders first A-Z, files A-Z, case-insensitive)"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
