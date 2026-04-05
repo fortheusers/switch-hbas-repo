@@ -4,7 +4,7 @@
         "title": "Gamepad Overlay ",
         "author": "etonedemid",
         "category": "tool",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "url": "https://github.com/etonedemid/gamepad-overlay-nx",
         "license": "n/a",
         "description": "Gamepad input overlay",
@@ -21,9 +21,9 @@
         },
         {
             "type": "update",
-            "url": "https://github.com/etonedemid/gamepad-overlay-nx/releases/download/v1.0.1/gamepadoverlay.ovl",
+            "url": "https://github.com/etonedemid/gamepad-overlay-nx/releases/download/v1.0.2/gamepadoverlay.ovl",
             "dest": "/switch/.overlays/gamepadoverlay.ovl"
         }
     ],
-    "changelog": "Initial release"
+    "changelog": "v1.0.2\\nReference libtesla as git submodule and apply your custom patches via Makefile, so build \"just works\"\\nInclude Docker build script\\nPressing \"B\" now closes the overlay menu like standard, not custom \"X\" which can be confusing\\nGamepad overlay continues to ignore \"B\", while on overlay key combo, it shows config menu instead of closing entirely\\nHome button still ignored\\nSystem overlays like power menu are still usable\\n\\nInitial release"
 }
