@@ -1,0 +1,29 @@
+{
+    "package": "switchnewpipe",
+    "info": {
+        "title": "switch-newpipe",
+        "author": "mirusu400",
+        "category": "_misc",
+        "version": "0.0.2",
+        "url": "https://github.com/mirusu400/switch-newpipe",
+        "license": "GPLv3",
+        "description": "Switch port of newpipe.",
+        "details": "A free, open-source YouTube client for Nintendo Switch homebrew.\\nInspired by NewPipe \u2014 no Google account required, no ads, no tracking."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/mirusu400/switch-newpipe/releases/download/v0.0.2/switch_newpipe.nro",
+            "type": "update",
+            "dest": "/switch/switchnewpipe/switch_newpipe.nro"
+        }
+    ],
+    "changelog": ""
+}
