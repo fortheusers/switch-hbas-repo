@@ -1,0 +1,40 @@
+{
+    "package": "Akira",
+    "info": {
+        "title": "Akira",
+        "author": "xlanor",
+        "category": "_misc",
+        "version": "0.4.13",
+        "url": "https://github.com/xlanor/akira",
+        "license": "Affero GPLv3",
+        "description": "GUI for chiaki-ng",
+        "details": "PS Remote Play GUI based on chiaki-ng"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/xlanor/akira/releases/download/v0.4.13/akira-0.4.13.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/xlanor/akira/releases/download/v0.4.13/akira.nro",
+            "type": "update",
+            "dest": "/switch/Akira/akira.nro"
+        }
+    ],
+    "changelog": ""
+}
