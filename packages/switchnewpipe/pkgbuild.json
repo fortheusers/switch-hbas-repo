@@ -22,7 +22,7 @@
         {
             "url": "https://github.com/mirusu400/switch-newpipe/releases/download/v0.0.2/switch_newpipe.nro",
             "type": "update",
-            "dest": "/switch/switchnewpipe/switch_newpipe.nro"
+            "dest": "/switch/switch_newpipe.nro"
         }
     ],
     "changelog": ""
