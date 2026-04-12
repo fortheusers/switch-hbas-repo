@@ -29,11 +29,6 @@
                     "type": "update"
                 }
             ]
-        },
-        {
-            "url": "https://github.com/xlanor/akira/releases/download/v0.4.13/akira.nro",
-            "type": "update",
-            "dest": "/switch/Akira/akira.nro"
         }
     ],
     "changelog": ""
