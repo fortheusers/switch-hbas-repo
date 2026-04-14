@@ -1,0 +1,29 @@
+{
+    "package": "NXShare",
+    "info": {
+        "title": "NXShare",
+        "author": "musebrot",
+        "category": "tool",
+        "version": "NXShare",
+        "url": "https://github.com/musebrot1/NXShare",
+        "license": "MIT",
+        "description": "access the Album via a web browser",
+        "details": "NXShare starts a small web server on your Switch. Open the displayed URL in any browser on your phone or PC (same WiFi required), and you get a clean gallery view of all your screenshots and videos \u2014 with thumbnails, filters, and one-click downloads.\\n\\n    - Browse all screenshots with thumbnails\\n    - Browse all videos with thumbnails\\n    - Download individual files or select multiple at once\\n    - Filter by screenshots or videos\\n    - Works on any browser \u2014 phone, tablet, PC\\n    - Refresh the gallery without restarting the app\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/musebrot1/NXShare/releases/download/NXShare/NXShare.nro",
+            "type": "update",
+            "dest": "/switch/NXShare/NXShare.nro"
+        }
+    ],
+    "changelog": "v1.3.0\\n- first official release"
+}
