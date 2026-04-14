@@ -1,0 +1,24 @@
+{
+    "package": "ExampleApp",
+    "info": {
+        "title": "Example App",
+        "author": "The Human",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/",
+        "license": "n/a",
+        "description": "This is an app that is an example, an isn't a real app",
+        "details": "These also aren't real details, cause there's no app here"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
