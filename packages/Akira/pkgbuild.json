@@ -4,7 +4,7 @@
         "title": "Akira",
         "author": "xlanor",
         "category": "_misc",
-        "version": "0.4.13",
+        "version": "0.5.0",
         "url": "https://github.com/xlanor/akira",
         "license": "Affero GPLv3",
         "description": "GUI for chiaki-ng",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/xlanor/akira/releases/download/v0.4.13/akira-0.4.13.zip",
+            "url": "https://github.com/xlanor/akira/releases/download/v0.5.0/akira-0.5.0.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             ]
         }
     ],
-    "changelog": ""
+    "changelog": "v0.5.0\\nPlease read the README: https://github.com/xlanor/akirareadme before getting started.\\n\\n- Features: https://github.com/xlanor/akira/wiki/Additional-changes\\n- Registering and Connecting (Local Network): https://github.com/xlanor/akira/wiki/Registering-and-Connecting-(Local-Network)\\n- Registering and Connecting (Remote Network): https://github.com/xlanor/akira/wiki/Registering-and-Connecting-(Remote-Network)\\n\\nFSR Screens:\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nDithering (for color banding) and FSR (720p->1080p, 540p->720p) are now avaliable under settings.\\n\\nFSR is decomposed into two settings: selecting FSR from the resolution will enable EASU, while sharpness is left as an independent setting that you can use without EASU\\n\\nIf you encounter issues, please turn them off.\\n\\n What's Changed\\n- debanding by @xlanor in https://github.com/xlanor/akira/pull/58\\n- debug: add ipc server for overlay debug by @xlanor in https://github.com/xlanor/akira/pull/59\\n- implement fsr 1.0 by @xlanor and @kelvin8906 in https://github.com/xlanor/akira/pull/60"
 }
