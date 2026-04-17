@@ -12,16 +12,16 @@
     },
     "assets": [
         {
-            "url": "https://github.com/frwololo/warnel-chawpiovs/releases/download/1.2.0/WarnelChawpiovs_1_2_0_Linux.zip",
+            "url": "https://github.com/frwololo/warnel-chawpiovs/releases/download/1.2.0/WarnelChawpiovs_1_2_0_Switch.zip",
             "type": "zip",
             "zip": [
                 {
-                    "path": "/WarnelChawpiovs_*_Switch_no_img/WC.nro",
+                    "path": "/WarnelChawpiovs_*_Switch/WC.nro",
                     "dest": "/switch/WarnelChawpiovs/WC.nro",
                     "type": "update"
                 },
                 {
-                    "path": "/WarnelChawpiovs_*_Switch_no_img/WC.pck",
+                    "path": "/WarnelChawpiovs_*_Switch/WC.pck",
                     "dest": "/switch/WarnelChawpiovs/WC.pck",
                     "type": "update"
                 }
