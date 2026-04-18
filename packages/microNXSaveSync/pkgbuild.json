@@ -1,0 +1,35 @@
+{
+    "package": "microNXSaveSync",
+    "info": {
+        "title": "micro NX Save Sync",
+        "author": "prodeveloper0",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/prodeveloper0/uNSS",
+        "license": "MIT",
+        "description": "Sync save data between multiple devices",
+        "details": "uNX Save Sync (aka. uNSS) is a Nintendo Switch application that allows synchronization of save data between multiple devices through a central remote server."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/prodeveloper0/uNSS/releases/download/1.0.0/uNSS.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "* Support creating title's save data file system. Now don't need to run game first time to restore save data.\\n* Support title probing policies (when restore, when archive)\\n* Support title exclusion filter by ID or name\\n* Support profile selection in applet \\n* Support profile selector applet in full memory application\\n* Support fallback account name to run on applet mode"
+}
