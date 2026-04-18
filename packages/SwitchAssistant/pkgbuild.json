@@ -1,0 +1,29 @@
+{
+    "package": "SwitchAssistant",
+    "info": {
+        "title": "Switch Assistant",
+        "author": "ErSeraph",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/ErSeraph/switch-assistant",
+        "license": "n/a",
+        "description": "An Home Assistant MQTT Connector",
+        "details": "Switch Assistant is a Nintendo Switch homebrew app that connects your console to Home Assistant through MQTT.\\n\\nThe project has two parts:\\n\\nswitch-ha.nro: the foreground configuration app.\\nAtmosphere sysmodule: the background process that publishes sensors to MQTT.\\nThe NRO is only used to configure the app, test the connection, and install or update the bundled sysmodule. The NRO does not publish sensors while closed. The sysmodule reads the saved configuration and runs in the background after a console reboot."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/ErSeraph/switch-assistant/releases/download/v1.0/switch-ha.nro",
+            "type": "update",
+            "dest": "/switch/SwitchAssistant/switch-ha.nro"
+        }
+    ],
+    "changelog": "First release on 1.0"
+}
