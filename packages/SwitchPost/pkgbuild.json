@@ -1,0 +1,29 @@
+{
+    "package": "SwitchPost",
+    "info": {
+        "title": "SwitchPost",
+        "author": "ameOverflow",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/ameoverflow/SwitchPost/",
+        "license": "n/a",
+        "description": "Unofficial InPost client for Switch",
+        "details": "Unofficial InPost Mobile client for Nintendo Switch (only in Polish language as of right now)\\nBased on InPost3DS by TehFridge\\n\\nNew features:\\n - Resource pack support\\n - Custom voice pack support\\n - 6 backgrounds to choose from\\n - Parcel status icons"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/ameoverflow/SwitchPost/releases/download/1.0/SwitchPost.nro",
+            "type": "update",
+            "dest": "/switch/SwitchPost/SwitchPost.nro"
+        }
+    ],
+    "changelog": ""
+}
