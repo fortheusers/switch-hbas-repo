@@ -12,6 +12,11 @@
     },
     "assets": [
         {
+            "type": "update",
+            "url": "https://github.com/etonedemid/lakka-installer-nx/releases/download/v1.0.1/lakka-install-nx.nro",
+            "dest": "/switch/lakkainstaller/lakka-install-nx.nro"
+        },
+        {
             "type": "icon",
             "url": "icon.png"
         },
