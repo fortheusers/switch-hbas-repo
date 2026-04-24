@@ -1,0 +1,29 @@
+{
+    "package": "YamaNXTurkishPatcher",
+    "info": {
+        "title": "YamaNX - Turkish Patcher",
+        "author": "SertAy",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/sertay1/YamaNX",
+        "license": "n/a",
+        "description": "Easy Turkish game localization",
+        "details": "[TR] Switch oyunlar\u0131n\u0131z\u0131 kolayca T\u00fcrk\u00e7ele\u015ftirmek i\u00e7in tasarlanm\u0131\u015f hepsi bir arada \u00e7\u00f6z\u00fcm.\\n\\n- Online Ar\u015fiv: Geni\u015f bir yama listesine an\u0131nda eri\u015fin ve indirin.\\n- Otomatik Kurulum: Yamalar do\u011frudan do\u011fru dizine kurulur.\\n- Yama Y\u00f6netimi: Cihaz\u0131n\u0131zdaki y\u00fckl\u00fc yamalar\u0131 listeleyin ve d\u00fczenleyin.\\n- Arama \u00d6zelli\u011fi: Arama kutusu ile istedi\u011finiz oyunu saniyeler i\u00e7inde bulun.\\n- Modern ve H\u0131zl\u0131: Ak\u0131c\u0131 aray\u00fcz\u00fc ile en h\u0131zl\u0131 yama deneyimini ya\u015fay\u0131n.\\n\\nDaha fazla detay i\u00e7in: https://github.com/sertay1/YamaNX\\n\\n\\n[EN] All-in-one solution for translating your Nintendo Switch games.\\n\\n- Online Archive: Access and download a vast list of patches instantly.\\n- Auto Install: Patches are placed directly in the correct directory.\\n- Patch Management: List and manage the patches installed on your device.\\n- Search Function: Find any game in seconds with the search box.\\n- Fast & Modern: Enjoy the fastest patch experience with a sleek UI.\\n\\nFor more information: https://github.com/sertay1/YamaNX"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/sertay1/YamaNX/releases/download/v1.0.0/YamaNX.nro",
+            "type": "update",
+            "dest": "/switch/YamaNXTurkishPatcher/YamaNX.nro"
+        }
+    ],
+    "changelog": ""
+}
