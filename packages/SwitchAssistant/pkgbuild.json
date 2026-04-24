@@ -22,7 +22,7 @@
         {
             "url": "https://github.com/ErSeraph/switch-assistant/releases/download/v1.0/switch-ha.nro",
             "type": "update",
-            "dest": "/switch/SwitchAssistant/switch-ha.nro"
+            "dest": "/switch/switch-ha/switch-ha.nro"
         }
     ],
     "changelog": "First release on 1.0"
