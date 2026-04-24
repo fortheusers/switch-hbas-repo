@@ -23,6 +23,18 @@
         {
             "type": "banner",
             "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "home.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "stable.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "nightly.png"
         }
     ],
     "changelog": ""
