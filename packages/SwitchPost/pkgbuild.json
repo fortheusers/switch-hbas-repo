@@ -23,6 +23,10 @@
             "url": "https://github.com/ameoverflow/SwitchPost/releases/download/1.0/SwitchPost.nro",
             "type": "update",
             "dest": "/switch/SwitchPost/SwitchPost.nro"
+        },
+        {
+            "type": "screenshot",
+            "url": "https://raw.githubusercontent.com/ameoverflow/SwitchPost/refs/heads/main/.github/screenshot.png"
         }
     ],
     "changelog": ""
