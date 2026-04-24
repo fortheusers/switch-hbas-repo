@@ -4,7 +4,7 @@
         "title": "SwitchPost",
         "author": "ameOverflow",
         "category": "tool",
-        "version": "1.0",
+        "version": "1.0.1",
         "url": "https://github.com/ameoverflow/SwitchPost/",
         "license": "n/a",
         "description": "Unofficial InPost client for Switch",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/ameoverflow/SwitchPost/releases/download/1.0/SwitchPost.nro",
+            "url": "https://github.com/ameoverflow/SwitchPost/releases/download/1.0.1/SwitchPost.nro",
             "type": "update",
             "dest": "/switch/SwitchPost/SwitchPost.nro"
         },
@@ -29,5 +29,5 @@
             "url": "https://raw.githubusercontent.com/ameoverflow/SwitchPost/refs/heads/main/.github/screenshot.png"
         }
     ],
-    "changelog": ""
+    "changelog": "v1.0.1\\n- Hotfix naprawiający sprawdzanie internetu na starcie"
 }
