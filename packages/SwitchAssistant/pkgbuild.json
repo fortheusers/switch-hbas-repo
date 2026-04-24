@@ -4,7 +4,7 @@
         "title": "Switch Assistant",
         "author": "ErSeraph",
         "category": "tool",
-        "version": "1.0",
+        "version": "1.3",
         "url": "https://github.com/ErSeraph/switch-assistant",
         "license": "n/a",
         "description": "An Home Assistant MQTT Connector",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/ErSeraph/switch-assistant/releases/download/v1.0/switch-ha.nro",
+            "url": "https://github.com/ErSeraph/switch-assistant/releases/download/v1.3/switch-ha.nro",
             "type": "update",
             "dest": "/switch/switch-ha/switch-ha.nro"
         }
     ],
-    "changelog": "First release on 1.0"
+    "changelog": "v1.3\\nChangelog\\n\\n- Fix saved video recordings showing a green screen by excluding the notification overlay from the recording layer stack.\\n- Resolve the current game name from a bundled title database.\\n- Install the bundled title database alongside the Switch Assistant config files.\\n\\nFirst release on 1.0"
 }
