@@ -4,7 +4,7 @@
         "title": "NXShare",
         "author": "musebrot",
         "category": "tool",
-        "version": "1.5.0",
+        "version": "1.6.0",
         "url": "https://github.com/musebrot1/NXShare",
         "license": "MIT",
         "description": "access the Album via a web browser",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/musebrot1/NXShare/releases/download/1.5.0/NXShare.nro",
+            "url": "https://github.com/musebrot1/NXShare/releases/download/1.6.0/NXShare.nro",
             "type": "update",
             "dest": "/switch/NXShare/NXShare.nro"
         }
     ],
-    "changelog": "v1.5.0\\n- some fixes\\n- new UI\\n- now shows app icon in browser tab\\n\\nv1.4.0\\n- URL now shows as QR code too\\n- some layout adjustments for both desktop and mobile browsers\\n\\nv1.3.1\\n- some minor fixes and layout changes\\n- exit the app with [+]\\n\\nv1.3.0\\nNintendo Switch Homebrew app to transfer screenshots and videos via browser\\n\\nv1.3.0\\n- first official release"
+    "changelog": "v1.6.0\\n- added games filter\\n\\nv1.5.0\\n- some fixes\\n- new UI\\n- now shows app icon in browser tab\\n\\nv1.4.0\\n- URL now shows as QR code too\\n- some layout adjustments for both desktop and mobile browsers\\n\\nv1.3.1\\n- some minor fixes and layout changes\\n- exit the app with [+]\\n\\nv1.3.0\\nNintendo Switch Homebrew app to transfer screenshots and videos via browser\\n\\nv1.3.0\\n- first official release"
 }
