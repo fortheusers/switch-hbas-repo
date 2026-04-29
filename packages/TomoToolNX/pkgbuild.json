@@ -1,0 +1,29 @@
+{
+    "package": "TomoToolNX",
+    "info": {
+        "title": "TomoToolNX",
+        "author": "miiazertyy",
+        "category": "tool",
+        "version": "1.0.1",
+        "url": "https://github.com/miiazertyy/TomoToolNX",
+        "license": "n/a",
+        "description": "Edit Tomodachi Life save file",
+        "details": "Browse, preview, import and export textures either through a web browser on any device on the same network, or directly on the console. Automatically backs up your save before making any changes."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/miiazertyy/TomoToolNX/releases/download/1.0.1/TomoToolNX.nro",
+            "type": "update",
+            "dest": "/switch/TomoToolNX/TomoToolNX.nro"
+        }
+    ],
+    "changelog": "thumb files not listed anymore for ugcs\\nadded a savefile backup feature and prompt\\nlogs now goes to \"TomoToolNX\" folder instead of \"tomodachi-ugc\"\\nmade the ui cleaner (yes I used Claude I hate doing UIs)\\nadded ability to choose either webui or directly on switch\\nfixed certain pixels going invisible with certain color scheme\\nqol features"
+}
