@@ -1,0 +1,29 @@
+{
+    "package": "FixCheat",
+    "info": {
+        "title": "Fix Cheat",
+        "author": "jiraiya78",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/jiraiya78/nxfixcheat",
+        "license": "MIT",
+        "description": "Disable the auto-enabled cheat!",
+        "details": "A simple Nintendo Switch homebrew tool for easily toggling Atmosphere cheat settings, including auto-enable cheats and remembering cheat states.\\n\\nNXFixCheat provides a user-friendly graphical interface to quickly enable or disable cheat options without editing config files manually."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/jiraiya78/nxfixcheat/releases/download/v1.0/nxfixcheat.nro",
+            "type": "update",
+            "dest": "/switch/nxfixcheat/nxfixcheat.nro"
+        }
+    ],
+    "changelog": "v1.0 - First release"
+}
