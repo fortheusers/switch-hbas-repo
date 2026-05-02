@@ -22,7 +22,7 @@
         {
             "url": "https://github.com/jiraiya78/nxfixcheat/releases/download/v1.0/nxfixcheat.nro",
             "type": "update",
-            "dest": "/switch/FixCheat/nxfixcheat.nro"
+            "dest": "/switch/nxfixcheat/nxfixcheat.nro"
         }
     ],
     "changelog": "v1.0 - First release"
