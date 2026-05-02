@@ -1,0 +1,29 @@
+{
+    "package": "TomoToolNX",
+    "info": {
+        "title": "TomoToolNX",
+        "author": "miiazertyy",
+        "category": "tool",
+        "version": "1.1.6",
+        "url": "https://github.com/miiazertyy/TomoToolNX",
+        "license": "MIT",
+        "description": "Edit Tomodachi Life save file",
+        "details": "Browse, preview, import and export textures either through a web browser on any device on the same network, or directly on the console. Automatically backs up your save before making any changes."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/miiazertyy/TomoToolNX/releases/download/1.1.6/TomoToolNX.nro",
+            "type": "update",
+            "dest": "/switch/TomoToolNX/TomoToolNX.nro"
+        }
+    ],
+    "changelog": "v1.1.6\\nadded touch screen support\\nadded the ability to choose the export path\\nexporting now shows the path where its importing"
+}
