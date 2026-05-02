@@ -4,7 +4,7 @@
         "title": "SwitchPost",
         "author": "ameOverflow",
         "category": "tool",
-        "version": "1.0.2",
+        "version": "1.0.3",
         "url": "https://github.com/ameoverflow/SwitchPost/",
         "license": "n/a",
         "description": "Unofficial InPost client for Switch",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/ameoverflow/SwitchPost/releases/download/1.0.2/SwitchPost.nro",
+            "url": "https://github.com/ameoverflow/SwitchPost/releases/download/1.0.3/SwitchPost.nro",
             "type": "update",
             "dest": "/switch/SwitchPost/SwitchPost.nro"
         },
@@ -29,5 +29,5 @@
             "url": "https://raw.githubusercontent.com/ameoverflow/SwitchPost/refs/heads/main/.github/screenshot.png"
         }
     ],
-    "changelog": "v1.0.2\\n(reupload ups)\\n\\n- Możliwość zmiany nazwy paczki\\n\\n\\n\\n\\nBugfixy:\\n- SwitchPost pokazywał paczki dopiero co nadane jako odebrane\\n- Naprawiono crashowanie przy próbie wyświetlenia samouczka (występowało głównie na Linuxie ale nie zaszkodzi XD)\\n\\nv1.0.1\\n- Hotfix naprawiający sprawdzanie internetu na starcie"
+    "changelog": "v1.0.3\\n- Naprawiono zmienianie nazw paczek - w konfiguracji były one zapisywane pod kodem odbioru a nie numerem paczki\\n- Naprawiono błąd sieci który mógł wystąpić podczas odświeżania - aplikacja nie obsługiwała poprawnie kodu HTTP 304 Not Modified\\n\\nv1.0.1\\n- Hotfix naprawiający sprawdzanie internetu na starcie"
 }
