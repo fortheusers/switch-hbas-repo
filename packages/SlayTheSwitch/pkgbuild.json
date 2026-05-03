@@ -1,0 +1,29 @@
+{
+    "package": "SlayTheSwitch",
+    "info": {
+        "title": "Slay The Switch",
+        "author": "Owen",
+        "category": "game",
+        "version": "1.0.0",
+        "url": "https://github.com/omueller5/SlayTheSwitch",
+        "license": "MIT",
+        "description": "A Switch roguelike deck builder.",
+        "details": "Slay the Switch is a simple roguelike deck builder built for Nintendo Switch. Each run has you climbing through a series of encounters, choosing your path, fighting enemies, and improving your deck along the way.\\n\\nStart with a small set of cards and grow it over time by picking rewards, buying from shops, and upgrading at campfires. Different enemy types, branching paths, and random events keep each run a little different.\\n\\nYou can play in standard runs with a set ending or switch to endless mode and see how far you can go. Track your best runs with stats like floors climbed, enemies defeated, and total coins collected.\\n\\nBuilt as a lightweight project, the focus is on quick runs, simple mechanics, and a clean gameplay loop that\u2019s easy to pick up and play."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/omueller5/SlayTheSwitch/releases/download/v1.0.0/slaytheswitch.nro",
+            "type": "update",
+            "dest": "/switch/SlayTheSwitch/slaytheswitch.nro"
+        }
+    ],
+    "changelog": "v1.0.0\\n\\nInitial release\\n\\nFull roguelike deckbuilder experience with map progression, combat, cards, shops, campfires, endless mode, and run tracking.\\n\\nFor full details, see:\\nhttps://github.com/omueller5/SlayTheSwitch/releases/tag/v1.0.0"
+}
