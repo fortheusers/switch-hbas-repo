@@ -7,7 +7,7 @@
         "version": "1.1.6",
         "url": "https://github.com/miiazertyy/TomoToolNX",
         "license": "MIT",
-        "description": "Edit Tomodachi Life save file",
+        "description": "Tools for Tomodachi life ltd directly on Switch",
         "details": "Browse, preview, import and export textures either through a web browser on any device on the same network, or directly on the console. Automatically backs up your save before making any changes."
     },
     "assets": [
