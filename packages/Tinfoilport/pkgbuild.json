@@ -1,0 +1,24 @@
+{
+    "package": "Tinfoilport",
+    "info": {
+        "title": "Tinfoil port",
+        "author": "ZappyHB",
+        "category": "game",
+        "version": "v.001",
+        "url": "https://limewire.com/d/wCSvJ#SzpD4SSae3",
+        "license": "n/a",
+        "description": "Tinfoil port for switch :)",
+        "details": "infoil is a powerful and user-friendly content manager designed for Nintendo Switch homebrew environments. It provides a streamlined interface for browsing, installing, and managing content directly from your console, making it easy to keep your library organized and up to date.\\n\\nWith a focus on performance and usability, Tinfoil offers a smooth, controller-friendly experience that integrates seamlessly into your setup. Whether you\u2019re managing locally stored files or connecting to remote sources, Tinfoil simplifies the entire process with fast navigation and reliable installation tools.\\n\\nFeatures\\nIntuitive and responsive user interface\\nBrowse and manage installed content\\nInstall content from local storage or network sources\\nQueue-based downloads and installations\\nFile browser with advanced management options\\nAutomatic metadata and organization support\\nOptimized for speed and stability\\n\\nTinfoil is built for users who want a flexible and efficient way to manage their content, all from a single app."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "V001 nothing added, first release :)"
+}
