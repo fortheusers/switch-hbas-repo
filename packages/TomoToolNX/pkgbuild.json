@@ -4,7 +4,7 @@
         "title": "TomoToolNX",
         "author": "miiazertyy",
         "category": "tool",
-        "version": "1.2.0",
+        "version": "1.2.1",
         "url": "https://github.com/miiazertyy/TomoToolNX",
         "license": "MIT",
         "description": "Tools for Tomodachi life ltd directly on Switch",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/miiazertyy/TomoToolNX/releases/download/1.2.0/TomoToolNX.nro",
+            "url": "https://github.com/miiazertyy/TomoToolNX/releases/download/1.2.1/TomoToolNX.nro",
             "type": "update",
             "dest": "/switch/TomoToolNX/TomoToolNX.nro"
         }
     ],
-    "changelog": "v1.2.0\\nadded save editing features for player file and miis\\nqol changes and bug fixes\\n\\nv1.1.6\\nadded touch screen support\\nadded the ability to choose the export path\\nexporting now shows the path where its importing"
+    "changelog": "v1.2.1\\nSO MUCH UI and WebUI bug fixes, better logic and additions\\nAdded more editing features in mii stats and player tabs\\n\\nv1.2.0\\nadded save editing features for player file and miis\\nqol changes and bug fixes\\n\\nv1.1.6\\nadded touch screen support\\nadded the ability to choose the export path\\nexporting now shows the path where its importing"
 }
