@@ -1,0 +1,29 @@
+{
+    "package": "Clanbomber",
+    "info": {
+        "title": "Clanbomber",
+        "author": "Mayo0x0",
+        "category": "game",
+        "version": "1.0",
+        "url": "https://github.com/Mayo0x0/Clanbomber2-Nintendo-Switch-Port",
+        "license": "GPLv2",
+        "description": "Multiplayer Bomberman-style action",
+        "details": "ClanBomber for Nintendo Switch is a homebrew port of ClanBomber2, the SDL2 fork of the classic Linux Bomberman-style multiplayer game by Andreas Hundt and Denis Oliver Kropp.\\n\\nDrop bombs, kick boxes, dodge explosions, and outlast everyone else on screen. Up to 8 players battle simultaneously across 33 hand-crafted maps \u2014 from tight death corridors to wide arenas. Drop your own .map files into sdmc:/switch/clanbomber/maps/ to extend the rotation. Two AI difficulty modes fill in for missing humans.\\n\\nFeatures:\\n- 1 to 8 local players, JoyCon / Pro Controller / split JoyCons\\n- D-Pad or left analog stick for movement, A or B to drop bombs\\n- Minus button quits to main menu\\n- 8 selectable character skins, team play, configurable round timer\\n- 33 bundled maps plus user maps from SD card\\n- Chiptune soundtrack and original SFX\\n- Handheld and docked mode\\n\\nFree, open source under GPLv2-or-later. Source on GitHub."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Mayo0x0/Clanbomber2-Nintendo-Switch-Port/releases/download/v1.0/clanbomber.nro",
+            "type": "update",
+            "dest": "/switch/Clanbomber/clanbomber.nro"
+        }
+    ],
+    "changelog": ""
+}
