@@ -1,0 +1,29 @@
+{
+    "package": "NexPS",
+    "info": {
+        "title": "NexPS",
+        "author": "joaqmiu",
+        "category": "tool",
+        "version": "1.1",
+        "url": "https://github.com/joaqmiu/NexPS",
+        "license": "n/a",
+        "description": "PC-free way for retro games",
+        "details": "NexPS is a comprehensive tool for the Nintendo Switch that allows you to manage your retro game library completely independent of a computer. The app features native integration with NoPayStation databases (PSP and PSX) and allows you to add custom collections using Internet Archive item IDs."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/joaqmiu/NexPS/releases/download/v1.1/NexPS.nro",
+            "type": "update",
+            "dest": "/switch/NexPS/NexPS.nro"
+        }
+    ],
+    "changelog": ""
+}
