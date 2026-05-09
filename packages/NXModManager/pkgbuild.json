@@ -6,7 +6,7 @@
         "category": "tool",
         "version": "3.0.0",
         "url": "https://github.com/TOM-BadEN/NX-Mod-Manager",
-        "license": "GPL-2.0",
+        "license": "GPLv2",
         "description": "A mod management tool designed specifically for the Nintendo Switch",
         "details": "A mod management tool designed specifically for the Nintendo Switch platform. The current version features a complete code rewrite and architecture redesign, with significant improvements in both functionality and stability.\\nUsers still on version 2.x should uninstall all installed mods using the old version before upgrading to the new version.\\n\\nFeatures:\\n\\n- Modern, aesthetically pleasing interface with excellent user experience.\\n- Supports online mod browsing, downloading, and uploading via built-in mod store.\\n- Complete on-device mod management without manually handling the SD card.\\n- Game management with favorites, custom names, and manual TID entry.\\n- Smart detection for non-standard directory structures and file conflicts between mods.\\n- Automatic pchtxt to IPS patch conversion during installation.\\n- Supports MTP (USB) and FTP (Wi-Fi) file transfer.\\n- Smart search with pinyin, fuzzy matching, and initials support.\\n- One-click mod toggle for quick troubleshooting.\\n- Multi-language support (Simplified Chinese, Traditional Chinese, English).\\n- Light and dark themes with auto system-following.\\n- In-app auto update."
     },
