@@ -4,7 +4,7 @@
         "title": "NX-Mod-Manager",
         "author": "TOM (Bad EN)",
         "category": "tool",
-        "version": "3.0.1",
+        "version": "3.0.2",
         "url": "https://github.com/TOM-BadEN/NX-Mod-Manager",
         "license": "GPLv2",
         "description": "A mod management tool designed specifically for the Nintendo Switch",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/TOM-BadEN/NX-Mod-Manager/releases/download/v3.0.1/NX-Mod-Manager.nro",
+            "url": "https://github.com/TOM-BadEN/NX-Mod-Manager/releases/download/v3.0.2/NX-Mod-Manager.nro",
             "dest": "/switch/NX-Mod-Manager/NX-Mod-Manager.nro",
             "type": "update"
         },
@@ -25,5 +25,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v3.0.1\\n中文\\n\\n- 修复使用禁用模组、恢复模组、强制清理这三个功能时，未能够正确处理ips（exefs_pachtes）文件的问题\\n\\n EN\\n\\n- Fixed the issue where using the Disable Mod, Restore Mod, or Force Clean functions failed to correctly handle IPS (exefs_patches) files\\n\\nv3.0.0\\n\\n- Major overhaul: entire project rewritten with redesigned architecture. Incompatible with 2.x — uninstall all mods using the old version before upgrading.\\n- Completely new UI design, improved quality.\\n- Redesigned interactions, enhanced user experience.\\n- Added online mod download feature, covering 200+ games and 380 mods in total, including hundreds of exclusive mods.\\n- Two theme color schemes available, freely switchable.\\n- Mod store content supports Simplified Chinese, Traditional Chinese, and English, auto-adapts to system language.\\n- Mod store supports fuzzy search by Pinyin, initials, or English.\\n- Supports PCHTXT files, automatically converted to IPS files during installation.\\n- New custom keyboard in multiple places, improving aesthetics and smoothness.\\n- Full touch support, can be used entirely without a controller.\\n- In-app self-update, no need to monitor release pages.\\n- Game names customizable, can be fetched from server database in three languages.\\n- Multi-language plugin text (Simplified Chinese, Traditional Chinese, English).\\n- One-click disable all mods for quick debugging.\\n- Added forced clean-up feature.\\n- Optimized multi-mod file conflict detection and resolution.\\n- Intelligent mod file path recognition, no longer need to follow the old mod file structure.\\n- Added FTP feature for wireless mod file transfer.\\n- Rewritten MTP feature for more stable transfer."
+    "changelog": "v3.0.2\\n中文\\n\\n- 修复移除最后一个游戏时，焦点异常的问题\\n- 修复首次使用本项目时，通过网络或者本地添加模组后，主页不显示游戏的问题\\n- 减少自动添加游戏时，SD卡游戏目录名使用TID的次数（感谢 @WE1ZARD 提供的清洗算法）\\n- 新增“重置状态”功能，位于主页-菜单-管理游戏-重置状态，主页用于当用户采用删除重装的方式，重装大气层整合包后，清除项目内部保存的所有状态数据，如模组的安装状态、冲突文件记录等等\\n\\n EN\\n\\n- Fixed an issue where the focus behaved incorrectly when removing the last game\\n- Fixed an issue where the homepage would not display games after adding mods via network or locally on first use of the project\\n- Reduced the number of times the SD card game directory name uses the TID when automatically adding games (thanks to @WE1ZARD for the cleaning algorithm)\\n- Added a \"Reset Status\" feature, located at Home → Menu → Manage Games → Reset Status. This allows users to clear all internally saved project state data, such as mod installation status and conflict records, after reinstalling the Atmosphère modpack using a delete-and-reinstall method\\n\\nv3.0.0\\n\\n- Major overhaul: entire project rewritten with redesigned architecture. Incompatible with 2.x — uninstall all mods using the old version before upgrading.\\n- Completely new UI design, improved quality.\\n- Redesigned interactions, enhanced user experience.\\n- Added online mod download feature, covering 200+ games and 380 mods in total, including hundreds of exclusive mods.\\n- Two theme color schemes available, freely switchable.\\n- Mod store content supports Simplified Chinese, Traditional Chinese, and English, auto-adapts to system language.\\n- Mod store supports fuzzy search by Pinyin, initials, or English.\\n- Supports PCHTXT files, automatically converted to IPS files during installation.\\n- New custom keyboard in multiple places, improving aesthetics and smoothness.\\n- Full touch support, can be used entirely without a controller.\\n- In-app self-update, no need to monitor release pages.\\n- Game names customizable, can be fetched from server database in three languages.\\n- Multi-language plugin text (Simplified Chinese, Traditional Chinese, English).\\n- One-click disable all mods for quick debugging.\\n- Added forced clean-up feature.\\n- Optimized multi-mod file conflict detection and resolution.\\n- Intelligent mod file path recognition, no longer need to follow the old mod file structure.\\n- Added FTP feature for wireless mod file transfer.\\n- Rewritten MTP feature for more stable transfer."
 }
