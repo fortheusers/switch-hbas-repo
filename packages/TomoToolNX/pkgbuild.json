@@ -4,7 +4,7 @@
         "title": "TomoToolNX",
         "author": "miiazertyy",
         "category": "tool",
-        "version": "1.3.0",
+        "version": "1.3.1",
         "url": "https://github.com/miiazertyy/TomoToolNX",
         "license": "MIT",
         "description": "Tools for Tomodachi life ltd directly on Switch",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/miiazertyy/TomoToolNX/releases/download/1.3.0/TomoToolNX.nro",
+            "url": "https://github.com/miiazertyy/TomoToolNX/releases/download/1.3.1/TomoToolNX.nro",
             "type": "update",
             "dest": "/switch/TomoToolNX/TomoToolNX.nro"
         }
     ],
-    "changelog": "v1.3.0\\nAdded multiple Language support, you can contribute with pull requests\\nAdded TomodachiShare Mii browser in the stats subtab (little export logo button)\\nAdded more bulk unlock features\\nAdded a straight forward Housing subtab to assign houses to Miis\\nItems tab now straightforward on the app\\nBug fixes and qol features\\n\\nv1.2.5\\nAdded MTP file sharing for people that doesn't want to enable Wifi\\nAdded color encoding settings\\nBug fixes\\n\\nv1.2.4\\nImporting now supports every ugc files\\nTouch screen now works in the belonging and habits tab\\nUpdater fixed\\nBug fixes\\n\\nv1.2.3\\nAdded U-2-Netp: https://huggingface.co/BritishWerewolf/U-2-Netp ai to remove background of ugcs easily (+5mo sorry)\\nThumb is now written automatically\\nTouch screen fixes\\nNew Habits tab\\nQol UI additions\\n\\nv1.2.2\\nSubtabs are now implemented in the WebUI\\nNow shows a prompt when running applet mode because of the \"Error - User not found\" confusion\\nAdded ability to change encounter dates in the relation tab\\nBackup now saves up to 8 saves by default so there's less chances of overwriting an incorrect backup.\\nAdded a belongings tab\\nShareMii: https://github.com/Star-F0rce/ShareMii version v3.2.3 fixes implemented\\nBetter UI logic and bug fixes\\n\\nv1.2.1\\nSO MUCH UI and WebUI bug fixes, better logic and additions\\nAdded more editing features in mii stats and player tabs\\n\\nv1.2.0\\nadded save editing features for player file and miis\\nqol changes and bug fixes\\n\\nv1.1.6\\nadded touch screen support\\nadded the ability to choose the export path\\nexporting now shows the path where its importing"
+    "changelog": "v1.3.1\\nRemoved the auto updater, it's a pain in the ass to maintain and because the app was added to the homebrew appstore it's more straight forward to update than before\\nAdded game assets icon for the item tab (only webui)\\nNew Credits button\\nNew Map tab\\nNew batch know relations buttons\\nBug fixes\\n\\nv1.3.0\\nAdded multiple Language support, you can contribute with pull requests\\nAdded TomodachiShare Mii browser in the stats subtab (little export logo button)\\nAdded more bulk unlock features\\nAdded a straight forward Housing subtab to assign houses to Miis\\nItems tab now straightforward on the app\\nBug fixes and qol features\\n\\nv1.2.5\\nAdded MTP file sharing for people that doesn't want to enable Wifi\\nAdded color encoding settings\\nBug fixes\\n\\nv1.2.4\\nImporting now supports every ugc files\\nTouch screen now works in the belonging and habits tab\\nUpdater fixed\\nBug fixes\\n\\nv1.2.3\\nAdded U-2-Netp: https://huggingface.co/BritishWerewolf/U-2-Netp ai to remove background of ugcs easily (+5mo sorry)\\nThumb is now written automatically\\nTouch screen fixes\\nNew Habits tab\\nQol UI additions\\n\\nv1.2.2\\nSubtabs are now implemented in the WebUI\\nNow shows a prompt when running applet mode because of the \"Error - User not found\" confusion\\nAdded ability to change encounter dates in the relation tab\\nBackup now saves up to 8 saves by default so there's less chances of overwriting an incorrect backup.\\nAdded a belongings tab\\nShareMii: https://github.com/Star-F0rce/ShareMii version v3.2.3 fixes implemented\\nBetter UI logic and bug fixes\\n\\nv1.2.1\\nSO MUCH UI and WebUI bug fixes, better logic and additions\\nAdded more editing features in mii stats and player tabs\\n\\nv1.2.0\\nadded save editing features for player file and miis\\nqol changes and bug fixes\\n\\nv1.1.6\\nadded touch screen support\\nadded the ability to choose the export path\\nexporting now shows the path where its importing"
 }
