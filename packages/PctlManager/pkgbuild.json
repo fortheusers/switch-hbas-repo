@@ -1,0 +1,24 @@
+{
+    "package": "PctlManager",
+    "info": {
+        "title": "Pctl Manager",
+        "author": "Taylor",
+        "category": "tool",
+        "version": "3.0.0",
+        "url": "https://github.com/tailiang2008/NX-Pctl-Manager",
+        "license": "GPLv3",
+        "description": "Parental controls without the phone app",
+        "details": "Configure the Switch daily play-time limit offline \u2014 no phone app, no Nintendo account, no internet. Talks to the system `pctl` service directly so the limit lives on the console.\\n\\nFeatures:\\n- Set one daily limit for all days, or per-day limits (Sun\u2013Sat).\\n- Remove the play-time limit entirely.\\n- Set / change the parental-controls PIN (via the system passcode applet).\\n- Delete all parental controls \u2014 your recovery when the PIN has been forgotten.\\n- Unlink the Nintendo Switch Parental Controls companion phone app.\\n- View status: PIN length, restrictions on/off, play-timer state.\\n\\nWhen the play timer is currently active, writes first turn parental controls off temporarily (it reads the PIN automatically \u2014 no need to remember it) so writing the new limit doesn't destabilise Atmosph\u00e8re; the new limit takes effect once parental controls re-engage.\\n\\nHorizon-style graphical UI built on borealis.\\n\\nRequires CFW (Atmosph\u00e8re recommended). Tested on fw 22.1.0 / Atmosph\u00e8re 1.11.1; other versions unverified."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v3.0.0\\nUI rewrite onto borealis \u2014 Horizon-system-style graphical UI replaces the v2 text console. No functional changes \u2014 every action behaves the same."
+}
