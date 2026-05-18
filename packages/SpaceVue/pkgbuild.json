@@ -1,0 +1,29 @@
+{
+    "package": "SpaceVue",
+    "info": {
+        "title": "SpaceVue",
+        "author": "estyxq",
+        "category": "tool",
+        "version": "3.0.1",
+        "url": "https://github.com/esteban-cz/SpaceVue",
+        "license": "GPLv3",
+        "description": "A modern storage dashboard",
+        "details": "SpaceVue is a lightweight Nintendo Switch homebrew app that shows internal NAND and microSD storage usage in a clean SDL2 dashboard. It displays free space, used space, total capacity, usage percentage, and simple status badges for each storage device.\\n\\nThe interface is designed to be readable on the Switch screen, with large cards, progress bars, combined storage totals, and quick refresh controls. Press A to refresh storage stats, press - to cycle between color themes, and press + to exit.\\n\\nSpaceVue is read-only and does not modify files or storage contents."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/esteban-cz/SpaceVue/releases/download/v3.0.1/SpaceVue.nro",
+            "dest": "/switch/SpaceVue.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v3.0.1\\n- Added SDL2 graphical interface.\\n- Added internal NAND and microSD storage cards.\\n- Added free, used, total, and percentage display.\\n- Added combined storage summary in the footer.\\n- Added color theme switching with the - button.\\n- Added A button manual refresh.\\n- Added custom app icon and author label.\\n- Improved text sizing and readability.\\n"
+}
