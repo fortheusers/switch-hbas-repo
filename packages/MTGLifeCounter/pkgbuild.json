@@ -1,0 +1,29 @@
+{
+    "package": "MTGLifeCounter",
+    "info": {
+        "title": "MTG Life Counter",
+        "author": " brenzodotdev",
+        "category": "_misc",
+        "version": "1.0.0",
+        "url": "https://github.com/enzo-beltrami/switch-mtg-life-counter",
+        "license": "n/a",
+        "description": "Magic the gathering EDH life counter",
+        "details": "A touch-only Commander life counter for the Nintendo Switch, built with SDL2 and devkitPro. Made for handheld / tabletop mode.\\nFeatures\\n- Up to 6 players\\n- Track commander damage for all players\\n- Tap the right half of a tile to add life, the left half to subtract\\n- The screen is always active while playing for convenience\\n- See addition and deduction deltas while adding or removing life\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/enzo-beltrami/switch-mtg-life-counter/releases/download/v1.0.0/switch-mtg-life-counter.nro",
+            "type": "update",
+            "dest": "/switch/MTGLifeCounter/switch-mtg-life-counter.nro"
+        }
+    ],
+    "changelog": "v1.0.0\\nIntiial release "
+}
