@@ -22,7 +22,7 @@
         {
             "url": "https://github.com/esteban-cz/CustomBootScreen/releases/download/v1.3.0/CustomBootScreen.nro",
             "type": "update",
-            "dest": "/switch/CustomBootScreen/CustomBootScreen.nro"
+            "dest": "/switch/CustomBootScreen.nro"
         }
     ],
     "changelog": "v1.3.0\\n- Initial public Homebrew App Store release.\\n- Added support for Switch CFW bootlogo presets.\\n- Added support for Hekate bootlogo.bmp presets.\\n- Added bootlogo previews.\\n- Added automatic SD card preset directory creation.\\n- Added backup handling before replacing existing bootlogos.\\n- Added active preset tracking.\\n- Added themed CBS user interface.\\n- Added embedded app icon.\\n- Added loading indicator when switching modes.\\n- Added Hekate and Switch CFW bootlogo tutorials.\\n- Refactored source code into smaller modules.\\n"
