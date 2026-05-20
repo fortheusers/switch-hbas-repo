@@ -1,0 +1,29 @@
+{
+    "package": "CustomBootScreen",
+    "info": {
+        "title": "CustomBootScreen",
+        "author": "estyxq",
+        "category": "tool",
+        "version": "1.3.0",
+        "url": "https://github.com/esteban-cz/CustomBootScreen",
+        "license": "GPLv3",
+        "description": "Switch and Hekate bootlogo manager",
+        "details": "CustomBootScreen is a Nintendo Switch homebrew app for managing custom boot logos directly from the console. It supports both Atmosphere/Switch CFW logo patch folders and Hekate bootlogo.bmp files. Presets are stored on the SD card under /switch/CustomBootScreen/, with separate folders for Switch CFW and Hekate logos. The app lets you browse presets, preview images, apply the selected bootlogo, and automatically back up the current bootlogo before replacing it. It also tracks the active preset and includes tutorial files for creating compatible Hekate and Switch CFW bootlogos.\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/esteban-cz/CustomBootScreen/releases/download/v1.3.0/CustomBootScreen.nro",
+            "type": "update",
+            "dest": "/switch/CustomBootScreen.nro"
+        }
+    ],
+    "changelog": "v1.3.0\\n- Initial public Homebrew App Store release.\\n- Added support for Switch CFW bootlogo presets.\\n- Added support for Hekate bootlogo.bmp presets.\\n- Added bootlogo previews.\\n- Added automatic SD card preset directory creation.\\n- Added backup handling before replacing existing bootlogos.\\n- Added active preset tracking.\\n- Added themed CBS user interface.\\n- Added embedded app icon.\\n- Added loading indicator when switching modes.\\n- Added Hekate and Switch CFW bootlogo tutorials.\\n- Refactored source code into smaller modules.\\n"
+}
