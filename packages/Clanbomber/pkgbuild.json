@@ -1,0 +1,29 @@
+{
+    "package": "Clanbomber",
+    "info": {
+        "title": "Clanbomber",
+        "author": "Mayo0x0",
+        "category": "game",
+        "version": "1.1",
+        "url": "https://github.com/Mayo0x0/Clanbomber2-Nintendo-Switch-Port",
+        "license": "GPLv2",
+        "description": "Multiplayer Bomberman-style action",
+        "details": "ClanBomber for Nintendo Switch is a homebrew port of ClanBomber2, the SDL2 fork of the classic Linux Bomberman-style multiplayer game by Andreas Hundt and Denis Oliver Kropp.\\n\\nDrop bombs, kick boxes, dodge explosions, and outlast everyone else on screen. Up to 8 players battle simultaneously across 33 hand-crafted maps \u2014 from tight death corridors to wide arenas. Drop your own .map files into sdmc:/switch/clanbomber/maps/ to extend the rotation. Two AI difficulty modes fill in for missing humans.\\n\\nFeatures:\\n- 1 to 8 local players, JoyCon / Pro Controller / split JoyCons\\n- D-Pad or left analog stick for movement, A or B to drop bombs\\n- Minus button quits to main menu\\n- 8 selectable character skins, team play, configurable round timer\\n- 33 bundled maps plus user maps from SD card\\n- Chiptune soundtrack and original SFX\\n- Handheld and docked mode\\n\\nFree, open source under GPLv2-or-later. Source on GitHub."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Mayo0x0/Clanbomber2-Nintendo-Switch-Port/releases/download/v1.1/clanbomber.nro",
+            "type": "update",
+            "dest": "/switch/Clanbomber/clanbomber.nro"
+        }
+    ],
+    "changelog": "v1.1\\nSwitch UX overhaul: editor, swkbd, gamepad-driven dialogs\\n\\nMap Editor: full Switch workflow via palette model. ZL/ZR cycle the\\n10-tile palette, A places, B erases, X cycles bomber slot 1-8, Y\\nplaces spawn, L/R/+/- for author/mode/help/save, stick clicks adjust\\nplayer count. Switch-specific HUD + help screen.\\nlibnx software keyboard (swkbd) wired in for all text input: player\\nnames, new map names, author edits. Shared switch_swkbd_input()\\nhelper in switch_main.cpp.\\nRound-end screen (GameStatus + GameStatus_Team) accepts Switch A\\n(synth RETURN) and shows \"PRESS A TO CONTINUE\" instead of SPACE.\\nL/R/ZL/ZR mapped to A/S/N/D shortcut keys for MapSelector and\\nMapEditor selection screens, on-screen labels adapted.\\nSwitch Controls help screen extended (Player Setup + Map Selection\\nsections, smaller value column moved to x=440 to fit longer labels).\\nAsset override mechanism: src/{fonts,maps,pics,wavs}/* take precedence\\nover upstream romfs assets at build time.\\nQuit Game removed from main menu on Switch (audren teardown crash);\\nMayo0x0 added to credits roll as Switch port author.\\nPlayerSetup help text adapted for gamepad labels (\"Y ENABLES OR\\nDISABLES A PLAYER, X TOGGLES HIGHLIGHTING\")"
+}
