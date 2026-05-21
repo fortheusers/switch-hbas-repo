@@ -12,6 +12,17 @@
     },
     "assets": [
         {
+            "url": "https://github.com/SamMarg/samswitchsuite/releases/download/release/Sam.s.Switch.Suite.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
             "type": "icon",
             "url": "icon.png"
         },
