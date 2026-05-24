@@ -1,0 +1,35 @@
+{
+    "package": "JoyVibe",
+    "info": {
+        "title": "JoyVibe",
+        "author": "zAcwK",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/zAcwK27/JoyVibe",
+        "license": "GPLv3",
+        "description": "Take control of the Joy-Con's vibration.",
+        "details": "A homebrew app for manually controlling the four vibration parameters of each Joy-Con individually. With this app, you can discover how Nintendo\u2019s \u201cHD Rumble\u201d system works, as well as find certain parameter settings for\u2026 other interesting uses.\\n\\nThe interface is simple but functional, and includes a guide to explain what each button does.\\n\\nInspired by the homebrew app with the same functionality available for PS3 and PS4 and their respective DualShocks. Now available on Nintendo Switch with its Joy-Cons.\\n\\nEnjoy whatever you do with this."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/zAcwK27/JoyVibe/releases/download/1.0.0/joyvibe.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
