@@ -8,7 +8,7 @@
         "url": "https://github.com/etonedemid/gamepad-overlay-nx",
         "license": "n/a",
         "description": "Gamepad input overlay",
-        "details": "A Nintendo Switch Tesla overlay that shows a compact live preview gamepad inputs.\\n\\nFeatures\\n\\n    Live controller preview\\n    Customizable corner, scale, highlight color, and backdrop alpha\\n"
+        "details": "A Nintendo Switch Tesla overlay that shows a compact live preview of gamepad inputs.\\nFeatures:\\n  Customizable Accent color, button/stick position, two dpad styles, stick size/travel,\\n   background toggling, saving/loading to/from 3 preset slots."
     },
     "assets": [
         {
