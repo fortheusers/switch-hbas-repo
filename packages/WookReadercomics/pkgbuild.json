@@ -4,7 +4,7 @@
         "title": "WookReader (comics)",
         "author": "exorevan",
         "category": "tool",
-        "version": "0.6.9",
+        "version": "0.7.0",
         "url": "https://github.com/exorevan/WookReader",
         "license": "MIT",
         "description": "Read comics on Nintendo Switch!",
@@ -25,5 +25,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v0.6.9\\nAccidentally the notes inside comics replaced the rotation. Sorry! FIxed it, now notes are working from button L.\\n\\nv0.6.8\\nAdd notes for comics/books. You can open them in the folder or while reading!"
+    "changelog": "v0.7.0\\nHi! I've been busy recently, but got a lucky feedback, so here are some new ideas:\\n- Page swipes: Added swipe gestures for both vertical and horizontal modes (touchscreen and buttons). Customizable in the settings outside a book.\\n- Recent folder: Added a \"Recent\" folder that appears on startup and displays the last 4 opened files.\\n- Fixed bugs\\n\\nv0.6.9\\nAccidentally the notes inside comics replaced the rotation. Sorry! FIxed it, now notes are working from button L.\\n\\nv0.6.8\\nAdd notes for comics/books. You can open them in the folder or while reading!"
 }
