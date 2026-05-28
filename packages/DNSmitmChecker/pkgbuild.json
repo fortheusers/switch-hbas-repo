@@ -4,7 +4,7 @@
         "title": "DNS.mitm Checker",
         "author": "Taylor Rodr\u00edguez",
         "category": "tool",
-        "version": "0.3.2",
+        "version": "0.4.0",
         "url": "https://git.tayri.dev/dns-mitm-checker/",
         "license": "BSD v3",
         "description": "Test Atmosph\u00e8re's DNS.mitm configuration",
@@ -31,5 +31,5 @@
             ]
         }
     ],
-    "changelog": "v0.3.2\\n\\n- Added several minor performance improvements.\\n- Improved stability with additional compile-time checks.\\n- Fixed instance of undefined behaviour (introduced in v0.1.0).\\n\\nv0.3.1\\n\\n- Added support for detecting BrowseDNS and Nintendo Homebrew IP addresses.\\n- Optimized resolution of unblocked domain names.\\n- Improved stability with additional compile-time checks.\\n- Improved console responsiveness (regressed in v0.3.0).\\n\\nv0.3.0\\n\\n- Added check to ensure DNS.mitm is actually enabled.\\n- Removed superfluous domain name checks.\\n  - This focuses on domains actually used on the Nintendo Switch and avoids validating speculative blocking practices (security theatre).\\n- Fixed error display bug (introduced in v0.2.0)."
+    "changelog": "v0.4.0\n\n- Revamped the user interface to be easier to read.\n- Added additional runtime and compile-time verification.\n- Reduced setsys service lifetime.\n- Optimized application size.\n\nv0.3.2\\n\\n- Added several minor performance improvements.\\n- Improved stability with additional compile-time checks.\\n- Fixed instance of undefined behaviour (introduced in v0.1.0).\\n\\nv0.3.1\\n\\n- Added support for detecting BrowseDNS and Nintendo Homebrew IP addresses.\\n- Optimized resolution of unblocked domain names.\\n- Improved stability with additional compile-time checks.\\n- Improved console responsiveness (regressed in v0.3.0).\\n\\nv0.3.0\\n\\n- Added check to ensure DNS.mitm is actually enabled.\\n- Removed superfluous domain name checks.\\n  - This focuses on domains actually used on the Nintendo Switch and avoids validating speculative blocking practices (security theatre).\\n- Fixed error display bug (introduced in v0.2.0)."
 }
