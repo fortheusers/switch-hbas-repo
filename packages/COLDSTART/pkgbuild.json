@@ -4,15 +4,15 @@
         "title": "COLD START",
         "author": "etonedemid",
         "category": "game",
-        "version": "1.8.0",
+        "version": "1.8.0-buildfix",
         "url": "https://github.com/etonedemid/cold-start-nx",
         "license": "GPLv3",
-        "description": "Open Source moddable topdown shooter ",
+        "description": "Open Source moddable topdown shooter",
         "details": "COLD START is a top-down action shooter built in C++ with SDL2 for PC and Nintendo Switch homebrew. It combines fast combat, local content editing, multiplayer support, and a lightweight modding pipeline aimed at rapid iteration."
     },
     "assets": [
         {
-            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v1.8.0/cold_start-linux-v1.8.0.zip",
+            "url": "https://github.com/etonedemid/cold-start-nx/releases/download/v1.8.0/cold-start-nx.nro",
             "type": "update",
             "dest": "/switch/COLDSTART/cold-start-nx.nro"
         },
