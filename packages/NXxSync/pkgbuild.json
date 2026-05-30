@@ -1,0 +1,33 @@
+{
+    "package": "NXxSync",
+    "info": {
+        "title": "NXxSync",
+        "author": "JPMSDEV",
+        "category": "tool",
+        "version": "NXxSync",
+        "url": "https://github.com/jpmsdev/NXxSync",
+        "license": "All Rights Reserved",
+        "description": "Sync saves and files to cloud",
+        "details": "NXxSync allows you to seamlessly backup, restore, and synchronize local directories with remote servers directly from your device.\\n\\nSuports MEGA, FTP, WebDav."
+    },
+    "assets": [
+        {
+            "data": "icon.png",
+            "format": "base64",
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "data": "screen.png",
+            "format": "base64",
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/jpmsdev/NXxSync/releases/download/NXxSync/NXxSync.nro",
+            "type": "update",
+            "dest": "/switch/NXxSync/NXxSync.nro"
+        }
+    ],
+    "changelog": ""
+}
