@@ -1,0 +1,24 @@
+{
+    "package": "MiSTerCompanionNX",
+    "info": {
+        "title": "MiSTer Companion NX",
+        "author": "Anime0t4ku",
+        "category": "tool",
+        "version": "v0.2.0-PoC",
+        "url": "https://github.com/Anime0t4ku/mister-companion-nx",
+        "license": "GPLv2",
+        "description": "Switch port of MiSTer Companion ",
+        "details": "MiSTer Companion NX PoC is a small experimental Nintendo Switch homebrew project inspired by MiSTer Companion.\\n\\nI created this mainly as a fun learning project to explore Switch homebrew development with devkitPro and libnx. It is not intended to replace or represent the desktop or mobile versions of MiSTer Companion.\\n\\nAbout\\nThis project is a proof of concept focused on basic MiSTer interaction from the Nintendo Switch.\\n\\nAt this stage, the goal is simple: learn how Switch homebrew development works while experimenting with a lightweight MiSTer Companion-style interface. The project currently focuses on basic Connection and Device features using SSH."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
