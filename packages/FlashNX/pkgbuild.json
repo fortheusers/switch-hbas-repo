@@ -22,7 +22,12 @@
         {
             "url": "https://github.com/Jonathan8520/FlashNX/releases/download/v1.0.0/FlashNX.nro",
             "type": "update",
-            "dest": "/switch/FlashNX/FlashNX.nro"
+            "dest": "/switch/FlashNX.nro"
+        },
+        {
+            "url": "./empty_file.txt",
+            "type": "get",
+            "dest": "/flashnx/place_swf_files_here.txt"
         },
         {
             "type": "screenshot",
