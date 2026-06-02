@@ -8,7 +8,7 @@
         "url": "https://git.tayri.dev/dns-mitm-checker/",
         "license": "BSD v3",
         "description": "Test Atmosphere's DNS.mitm configuration",
-        "details": "A Homebrew application that checks if Atmospere's DNS.mitm configuration is working correctly.\\n\\n- Minimal and fast.\\n- Checks if telemetry, connection tests, and firmware updates are blocked. \\n- Recognizes custom DNS redirection.\\n\\nI initially developed this software because Switch 90DNS Tester hadn't been updated in a long time. Now it's kind of its own thing. I think the primary use-case for this software is to ensure firmware updates are blocked, as future Atmosphere updates aren't as guaranteed without SciresM."
+        "details": "A Homebrew application that checks if Atmosphere's DNS.mitm configuration is working correctly.\\n\\n- Minimal and fast.\\n- Checks if telemetry, connection tests, and firmware updates are blocked. \\n- Recognizes custom DNS redirection.\\n\\nI initially developed this software because Switch 90DNS Tester hadn't been updated in a long time. Now it's kind of its own thing. I think the primary use-case for this software is to ensure firmware updates are blocked, as future Atmosphere updates aren't as guaranteed without SciresM."
     },
     "assets": [
         {
