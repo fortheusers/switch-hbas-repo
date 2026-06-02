@@ -23,6 +23,18 @@
             "url": "https://github.com/Jonathan8520/FlashNX/releases/download/v1.0.0/FlashNX.nro",
             "type": "update",
             "dest": "/switch/FlashNX/FlashNX.nro"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-0.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-2.png"
         }
     ],
     "changelog": "v1.0.0 \u2014 First official release. Flash playback (AS1/AS2 + partial AS3) via Ruffle, joycon library UI, remappable controls, native .sol saves, archive.org HTTPS import."
