@@ -1,0 +1,31 @@
+{
+    "package": "Meruem",
+    "info": {
+        "title": "Meruem",
+        "author": "Endevor",
+        "category": "tool",
+        "version": "0.18.2",
+        "url": "https://github.com/Tonsoaresmt/meruem-switch",
+        "license": "MIT",
+        "description": "Leitor de Mang\u00e1s e HQs para Nintendo Swi",
+        "details": "Meruem \u00e9 um leitor de Mang\u00e1s e HQs desenvolvido para Nintendo Switch.\\n\\nCom ele voc\u00ea pode acessar sua biblioteca da plataforma Meruem diretamente pelo console, sincronizando favoritos, hist\u00f3rico de leitura e progresso entre dispositivos.\\n\\nPrincipais recursos:\\n\\n\u2022 Cat\u00e1logo de Mang\u00e1s e HQs\\n\u2022 Login com conta Meruem\\n\u2022 Continuar leitura automaticamente\\n\u2022 Favoritos sincronizados\\n\u2022 Modo capas e modo lista\\n\u2022 Navega\u00e7\u00e3o por controle ou tela touch\\n\u2022 Zoom por pin\u00e7a durante a leitura\\n\u2022 Arrastar p\u00e1ginas ampliadas\\n\u2022 Avan\u00e7o autom\u00e1tico para o pr\u00f3ximo cap\u00edtulo\\n\u2022 Atualiza\u00e7\u00f5es autom\u00e1ticas pelo pr\u00f3prio aplicativo\\n\\nO aplicativo foi projetado para oferecer uma experi\u00eancia confort\u00e1vel de leitura port\u00e1til, aproveitando os controles e a tela sens\u00edvel ao toque do Nintendo Switch.\\n\\nFormatos atualmente suportados:\\n\u2022 CBZ\\n\u2022 CBR compat\u00edveis\\n\u2022 Obras baseadas em p\u00e1ginas de imagem\\n\\nO Meruem \u00e9 um projeto independente e n\u00e3o possui qualquer afilia\u00e7\u00e3o com a Nintendo.\\n\\nReposit\u00f3rio:\\nhttps://github.com/Tonsoaresmt/meruem-switch\\n\\nSuporte:\\nmeruemsuporte@"
+    },
+    "assets": [
+        {
+            "data": "icon.png",
+            "format": "base64",
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Tonsoaresmt/meruem-switch/releases/download/v0.18.2/Meruem.nro",
+            "type": "update",
+            "dest": "/switch/Meruem/Meruem.nro"
+        }
+    ],
+    "changelog": "v0.18.2\\n\\nMelhorias:\\n- Otimiza\u00e7\u00e3o do carregamento de obras\\n- Ajustes na interface do usu\u00e1rio\\n- Melhorias na navega\u00e7\u00e3o e responsividade\\n- Corre\u00e7\u00f5es de estabilidade durante a leitura\\n- Ajustes no sistema de atualiza\u00e7\u00e3o\\n\\nCorre\u00e7\u00f5es:\\n- Corre\u00e7\u00f5es de bugs gerais\\n- Melhor tratamento de erros de conex\u00e3o\\n- Ajustes em elementos visuais da interface\\n\\nEm desenvolvimento:\\n- Zoom por gestos\\n- Continua\u00e7\u00e3o autom\u00e1tica de cap\u00edtulos\\n- Melhorias na biblioteca\\n- Suporte a novos formatos de leitura"
+}
