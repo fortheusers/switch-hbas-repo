@@ -1,0 +1,24 @@
+{
+    "package": "NXSAND",
+    "info": {
+        "title": "NXSAND",
+        "author": "Antoine BOucher",
+        "category": "game",
+        "version": "0.0.1",
+        "url": "https://github.com/antoinebou12/nxsand",
+        "license": "MIT",
+        "description": "GPU falling-sand sandbox for Nintendo Sw",
+        "details": "NXSand is a falling-sand sandbox game for Nintendo Switch homebrew. Paint sand, water, lava, fire, smoke, plants, ice, oil, acid, glass, metal, wood, and more on a live pixel grid, then watch the materials fall, flow, burn, melt, dissolve, and react. The game supports Joy-Con and touchscreen controls, a material ring, brush size controls, quick save, and up to three saved worlds.\\n\\nThe simulation runs on the GPU using OpenGL ES, with a Margolus-style cellular automaton fast material updates. NXSand is designed mainly for Switch, with desktop builds available for testing and development."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "Initial v0.0.1 release.\\n\\nAdded Nintendo Switch homebrew build with NRO packaging.\\nAdded GPU-based falling-sand simulation.\\nAdded multiple materials and reactions, including sand, water, lava, fire, smoke, oil, acid, plant, ice, glass, wood, metal, gunpowder, and salt.\\nAdded Joy-Con, touchscreen, and desktop input support.\\nAdded material ring, brush controls, quick save, and save slots.\\nAdded release packaging for Switch, Linux, and Windows."
+}
