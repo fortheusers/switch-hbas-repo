@@ -1,0 +1,29 @@
+{
+    "package": "AuroraChatforSwitch",
+    "info": {
+        "title": "AuroraChat for Switch",
+        "author": "3pm",
+        "category": "_misc",
+        "version": "0.6.0",
+        "url": "https://github.com/Unitendo/aurorachat-switch/",
+        "license": "n/a",
+        "description": "A cross-platform chatting application.",
+        "details": "A chatting application for the 3DS and Wii U, now on the Nintendo Switch.\\nAuroraChat is a real-time chatting application made originally for the 3DS family, now cross-platform.\\nThis is the official Switch port of AuroraChat.\\nAll messages are moderated. The Code of Conduct is available on the GitHub repository."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Unitendo/aurorachat-switch/releases/download/v0.6.0/aurorachat-switch.nro",
+            "type": "update",
+            "dest": "/switch/AuroraChatforSwitch/aurorachat-switch.nro"
+        }
+    ],
+    "changelog": "v0.6.0: Brand New Switch Beginnings\\nFirst ever Switch Release of AuroraChat. Same functionality as the 3DS version, with some advantages:\\n- 720p Support\\n- Auto-Scrolling"
+}
