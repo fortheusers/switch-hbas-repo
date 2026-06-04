@@ -4,43 +4,28 @@
         "title": "FlashNX",
         "author": "Jonathan8520",
         "category": "emu",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "url": "https://github.com/Jonathan8520/FlashNX",
         "license": "MIT",
-        "description": "Play your Flash (.swf) games on Switch \u2014",
-        "details": "FlashNX is a homebrew Flash player for the Nintendo Switch, powered by Ruffle. Play your .swf games (AS1/AS2 and partial AS3) straight from your SD card \u2014 Super Mario 63, Super Mario World Flash, and many more. Features a joycon-navigable game library, in-game remappable controls (48 Flash keys), native game saves (.sol), and remote import from archive.org over HTTPS. Heavy games may be limited by Ruffle's ActionScript interpreter (CPU-bound, no JIT). Atmosph\u00e8re required. Powered by Ruffle (ruffle.rs) \u2014 all Flash emulation credit goes to the Ruffle project."
+        "description": "Play your Flash (.swf) games on Switch, powered by Ruffle.",
+        "details": "FlashNX is a homebrew Flash player for the Nintendo Switch, powered by Ruffle. Play your .swf games (AS1/AS2 and partial AS3) straight from your SD card. Features a joycon-navigable game library, in-game remappable controls (48 Flash keys, with a global default), native game saves (.sol), remote import from archive.org over HTTPS, and a UI available in English, French, Spanish and Russian (auto-detected from the console language). Heavy games may be limited by Ruffle's ActionScript interpreter (CPU-bound, no JIT). Atmosphère required. Powered by Ruffle (ruffle.rs); all Flash emulation credit goes to the Ruffle project."
     },
     "assets": [
+        { "type": "icon", "url": "icon.png" },
+        { "type": "banner", "url": "screen.png" },
         {
-            "type": "icon",
-            "url": "icon.png"
-        },
-        {
-            "type": "banner",
-            "url": "screen.png"
-        },
-        {
-            "url": "https://github.com/Jonathan8520/FlashNX/releases/download/v1.0.0/FlashNX.nro",
+            "url": "https://github.com/Jonathan8520/FlashNX/releases/download/v1.1.0/FlashNX.nro",
             "type": "update",
-            "dest": "/switch/FlashNX.nro"
+            "dest": "/switch/FlashNX/FlashNX.nro"
         },
         {
             "url": "./empty_file.txt",
             "type": "get",
             "dest": "/flashnx/place_swf_files_here.txt"
         },
-        {
-            "type": "screenshot",
-            "url": "screen-0.png"
-        },
-        {
-            "type": "screenshot",
-            "url": "screen-1.png"
-        },
-        {
-            "type": "screenshot",
-            "url": "screen-2.png"
-        }
+        { "type": "screenshot", "url": "screen-0.png" },
+        { "type": "screenshot", "url": "screen-1.png" },
+        { "type": "screenshot", "url": "screen-2.png" }
     ],
-    "changelog": "v1.0.0 \u2014 First official release. Flash playback (AS1/AS2 + partial AS3) via Ruffle, joycon library UI, remappable controls, native .sol saves, archive.org HTTPS import."
+    "changelog": "v1.1.0: UI now in English, French, Spanish and Russian (auto-detected, switchable in the new + Settings screen), global default controls, URL history management, and UI polish. v1.0.0: First official release. Flash playback (AS1/AS2 + partial AS3) via Ruffle, joycon library UI, remappable controls, native .sol saves, archive.org HTTPS import."
 }
