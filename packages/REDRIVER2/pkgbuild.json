@@ -1,0 +1,35 @@
+{
+    "package": "REDRIVER2",
+    "info": {
+        "title": "REDRIVER 2",
+        "author": "jamyaro",
+        "category": "game",
+        "version": "0.1.0",
+        "url": "https://github.com/jamyaro/REDRIVER2-switch",
+        "license": "MIT",
+        "description": "Driver 2 port for Switch",
+        "details": "A port of REDRIVER2 (https://github.com/OpenDriver2/REDRIVER2), a disassembled version of Driver 2 for PSX.\\n\\n## Installation\\n\\nFirst, set up a working install of REDRIVER 2 on PC using your copy of Driver 2:\\n\\n1. Follow the [installation instructions for the PC version](https://github.com/OpenDriver2/REDRIVER2/wiki/Installation-instructions).\\n2. Test that FMVs play back and that levels load. You should end up with a DRIVER2 folder that has:\\n* New folders, like `MAPS`\\n* `avi` files in the FMV folders\\n3. Copy the DRIVER2 folder from your PC install folder to your SD card at `/switch/redriver2`. **Skip overwriting** existing assets when prompted.\\n\\n## Gameplay Notes\\n* Controls use dpad by default. Press - and + to switch to analog mode\\n* Rebind controls, change resolution etc. by editing `/switch/redriver2/config.ini`."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/jamyaro/REDRIVER2-switch/releases/download/v0.1.0/REDRIVER2-switch-v0.1.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
