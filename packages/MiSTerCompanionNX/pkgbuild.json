@@ -4,16 +4,16 @@
         "title": "MiSTer Companion NX",
         "author": "Anime0t4ku",
         "category": "tool",
-        "version": "1.0.0",
+        "version": "1.0.3",
         "url": "https://github.com/Anime0t4ku/mister-companion-nx",
         "license": "GPL-2.0",
         "description": "MiSTer Companion for Nintendo Switch",
         "details": "MiSTer Companion NX is an experimental Nintendo Switch homebrew app for interacting with a MiSTer FPGA.\n\nIt allows you to connect to your MiSTer over SSH, manage saved profiles, scan the local network, view basic device information, adjust supported MiSTer settings, run supported scripts such as Update All, use the Switch controller as a remote for MiSTer OSD navigation and supported in-game input, manage supported wallpaper options, and install or update supported extras such as Zaparoo Frontend and RetroAchievement Cores.\n\nMiSTer Companion NX is unofficial and not affiliated with Nintendo."
     },
-    "changelog": "v1.0.0\nInitial release of MiSTer Companion NX.\n\nHighlights:\n- Connect to MiSTer manually or with saved profiles\n- Scan the local network for MiSTer devices\n- View basic device information\n- Edit supported MiSTer settings\n- Run supported scripts such as Update All\n- Use the Switch controller as a MiSTer remote\n- Browse and manage supported wallpaper options\n- Install, update, uninstall, and check supported extras\n- Automatic reconnect handling after supported reboot actions",
+    "changelog": "v1.0.3\\nMiSTer Companion NX v1.0.3\\n\\n- Added Zaparoo to the Update All configuration.\\n- Added an option to enable Zaparoo Frontend from Update All config.\\n- Improved Zaparoo Frontend status handling in Extras.\\n- Added support for enabling Zaparoo Frontend when it is installed but not enabled.\\n- Fixed connection attempts getting stuck when trying to connect to an inactive IP.\\n\\nv1.0.0\nInitial release of MiSTer Companion NX.\n\nHighlights:\n- Connect to MiSTer manually or with saved profiles\n- Scan the local network for MiSTer devices\n- View basic device information\n- Edit supported MiSTer settings\n- Run supported scripts such as Update All\n- Use the Switch controller as a MiSTer remote\n- Browse and manage supported wallpaper options\n- Install, update, uninstall, and check supported extras\n- Automatic reconnect handling after supported reboot actions",
     "assets": [
         {
-            "url": "https://github.com/Anime0t4ku/mister-companion-nx/releases/download/v1.0.0/mister-companion-nx.nro",
+            "url": "https://github.com/Anime0t4ku/mister-companion-nx/releases/download/v1.0.3/mister-companion-nx.nro",
             "dest": "/switch/mister-companion-nx/mister-companion-nx.nro",
             "type": "update"
         },
