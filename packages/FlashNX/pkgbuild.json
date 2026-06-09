@@ -4,17 +4,23 @@
         "title": "FlashNX",
         "author": "Jonathan8520",
         "category": "emu",
-        "version": "1.1.0",
+        "version": "1.1.1",
         "url": "https://github.com/Jonathan8520/FlashNX",
         "license": "MIT",
         "description": "Play your Flash (.swf) games on Switch, powered by Ruffle.",
         "details": "FlashNX is a homebrew Flash player for the Nintendo Switch, powered by Ruffle. Play your .swf games (AS1/AS2 and partial AS3) straight from your SD card. Features a joycon-navigable game library, in-game remappable controls (48 Flash keys, with a global default), native game saves (.sol), remote import from archive.org over HTTPS, and a UI available in English, French, Spanish and Russian (auto-detected from the console language). Heavy games may be limited by Ruffle's ActionScript interpreter (CPU-bound, no JIT). Atmosphère required. Powered by Ruffle (ruffle.rs); all Flash emulation credit goes to the Ruffle project."
     },
     "assets": [
-        { "type": "icon", "url": "icon.png" },
-        { "type": "banner", "url": "screen.png" },
         {
-            "url": "https://github.com/Jonathan8520/FlashNX/releases/download/v1.1.0/FlashNX.nro",
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Jonathan8520/FlashNX/releases/download/v1.1.1/FlashNX.nro",
             "type": "update",
             "dest": "/switch/FlashNX/FlashNX.nro"
         },
@@ -23,9 +29,18 @@
             "type": "get",
             "dest": "/flashnx/place_swf_files_here.txt"
         },
-        { "type": "screenshot", "url": "screen-0.png" },
-        { "type": "screenshot", "url": "screen-1.png" },
-        { "type": "screenshot", "url": "screen-2.png" }
+        {
+            "type": "screenshot",
+            "url": "screen-0.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen-2.png"
+        }
     ],
-    "changelog": "v1.1.0: UI now in English, French, Spanish and Russian (auto-detected, switchable in the new + Settings screen), global default controls, URL history management, and UI polish. v1.0.0: First official release. Flash playback (AS1/AS2 + partial AS3) via Ruffle, joycon library UI, remappable controls, native .sol saves, archive.org HTTPS import."
+    "changelog": "v1.1.1\\nData-safety and import-diagnostics fixes, plus library search.\\n\\n Fixes\\n\\n- URL history no longer disappears in applet mode: history (and saves, settings, renamed-game sidecars) is now read with a bounded reader and committed to the SD card after every write, so it survives switching between applet (album takeover) and full title-takeover modes. Previously the history could read empty in applet mode, or get overwritten by the next change.\\n- HTTPS import errors are now readable: a failed import shows the real cause (libcurl code and message, HTTP status) instead of an opaque \"code -2\", so you can tell whether it is the console clock, DNS, the certificate bundle, or a blocked link.\\n\\n Features\\n\\n- Search the local library: press X- to filter the game list by name (empty input clears the filter), the same way the archive.org screen already works.\\n- Clear applet-mode notice: trying to launch a game without the full app memory now shows a readable message (\"launch via title takeover\") instead of a red screen.\\n\\n Changes\\n\\n- More consistent controls: X- is search on every list, and ZL- manages the selected item (game options in the library, delete URL in the import history). The on-screen footers reflect the new layout.\\n- The default example URL is now a neutral placeholder.\\n\\nv1.1.0: UI now in English, French, Spanish and Russian (auto-detected, switchable in the new + Settings screen), global default controls, URL history management, and UI polish. v1.0.0: First official release. Flash playback (AS1/AS2 + partial AS3) via Ruffle, joycon library UI, remappable controls, native .sol saves, archive.org HTTPS import."
 }
