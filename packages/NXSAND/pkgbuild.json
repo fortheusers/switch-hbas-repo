@@ -12,6 +12,14 @@
     },
     "assets": [
         {
+            "type": "zip",
+            "zip": {
+                "url": "https://github.com/antoinebou12/nxsand/releases/download/v0.0.1/NXSand-switch-v0.0.1.zip",
+                "dest": "/switch/NXSand/NXSand.nro",
+                "type": "update"
+            }
+        },
+        {
             "type": "icon",
             "url": "icon.png"
         },
