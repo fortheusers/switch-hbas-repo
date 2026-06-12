@@ -1,0 +1,29 @@
+{
+    "package": "sillydoom",
+    "info": {
+        "title": "sillydoom",
+        "author": "sewerfilth",
+        "category": "game",
+        "version": "0.1",
+        "url": "https://github.com/sewerfilth/sillydoom",
+        "license": "GPLv3",
+        "description": "A Doom launcher proof of concept",
+        "details": "Title Image generated using AI for convenience.\\n\\nPlace WAD in switch/ named DOOM1.WAD \\nThis has only been tested with DOOM v1.9 using the ID Software 1.10 Engine authorized under GPL.\\nhttps://github.com/id-Software/DOOM\\n\\nSillyDoom is a modern wrapper for the ID Doom engine using a custom framework written specifically to take advantage of the switch architecture. The engine is running deterministically fully on the GPU with minimal CPU orchestration. No game data is included."
+    },
+    "assets": [
+        {
+            "url": "https://github.com/sewerfilth/sillydoom/releases/download/reference/sillydoom.nro",
+            "dest": "/switch/SillyDoom/sillydoom.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "Initial Release\\n- Audio Should be handled \\n- WAD Loading externally instead of embedded filesystem"
+}
