@@ -1,22 +1,29 @@
+{
+    "package": "YamaNXTurkishPatcher",
+    "info": {
+        "title": "YamaNX - Turkish Patcher",
+        "author": "SertAy",
+        "category": "tool",
+        "version": "1.1.0",
+        "url": "https://github.com/sertay1/YamaNX",
+        "license": "n/a",
+        "description": "Easy Turkish game localization",
+        "details": "[TR] Switch oyunlarınızı kolayca Türkçeleştirmek için tasarlanmış hepsi bir arada çözüm.\\n\\n- Online Arşiv: Geniş bir yama listesine anında erişin ve indirin.\\n- Otomatik Kurulum: Yamalar doğrudan doğru dizine kurulur.\\n- Yama Yönetimi: Cihazınızdaki yüklü yamaları listeleyin ve düzenleyin.\\n- Arama Özelliği: Arama kutusu ile istediğiniz oyunu saniyeler içinde bulun.\\n- Modern ve Hızlı: Akıcı arayüzü ile en hızlı yama deneyimini yaşayın.\\n\\nDaha fazla detay için: https://github.com/sertay1/YamaNX\\n\\n\\n[EN] All-in-one solution for translating your Nintendo Switch games.\\n\\n- Online Archive: Access and download a vast list of patches instantly.\\n- Auto Install: Patches are placed directly in the correct directory.\\n- Patch Management: List and manage the patches installed on your device.\\n- Search Function: Find any game in seconds with the search box.\\n- Fast & Modern: Enjoy the fastest patch experience with a sleek UI.\\n\\nFor more information: https://github.com/sertay1/YamaNX"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
             "url": "https://github.com/sertay1/YamaNX/releases/download/v1.1.0/YamaNX.nro",
             "type": "update",
-            "dest": "/switch/YamaNX/YamaNX.nro"
-        },
-        {
-            "type": "screenshot",
-            "url": "tumyamalar.png"
-        },
-        {
-            "type": "screenshot",
-            "url": "indirvekur.png"
-        },
-        {
-            "type": "screenshot",
-            "url": "yukluicerikler.png"
-        },
-        {
-            "type": "screenshot",
-            "url": "hakkinda.png"
+            "dest": "/switch/YamaNXTurkishPatcher/YamaNX.nro"
         }
     ],
-    "changelog": ""
+    "changelog": "v1.1.0\\n✨ YamaNX Büyük Güncelleme Geldi!\\n\\nUygulamayı baştan aşağı yeniledim. İşte bu sürümde neler değişti:\\n\\n🖥️ Çok daha güzel bir arayüz Uygulama açılışında artık animasyonlu bir karşılama ekranı sizi karşılıyor. Menü geçişleri, seçim çerçevesi, indirme ekranı — her şey artık akıcı ve modern bir his veriyor.\\n\\n🏷️ Artık hangi yamayı kurduğunuzu görebiliyorsunuz Oyun kartalarının üzerinde artık küçük rozetler var. Yeşil \"Yüklü\", turuncu \"Yüklü Değil\" — bir bakışta her şey belli.\\n\\n✅ Yama sürümünüz uyumlu mu? Artık biliyorsunuz Bir yamaya tıkladığınızda, o yamanın konsolunuzdaki oyun sürümüyle uyumlu olup olmadığını anında görüyorsunuz. UYUMLU, UYUMSUZ veya BELİRSİZ — yanlış yama kurma devri bitti.\\n\\n🎮 \"Yüklü İçerikler\" artık çok daha kullanışlı Konsolunuzda yüklü olan oyunlar artık bu sekmede otomatik olarak görünüyor. Yaması olan ama henüz kurmadığınız oyunlar listenin en başına geliyor, böylece neyi kaçırdığınızı hemen görebiliyorsunuz.\\n\\n🗑️ Yama kaldırma artık temiz çalışıyor Yüklediğiniz yamayı kaldırdığınızda uygulama yalnızca kendi kurduğu dosyaları siliyor, başka hiçbir şeye dokunmuyor.\\n\\n📦 Büyük yamaları da indirip kurabiliyorsunuz. Artık 2 GB üzeri yamalar bile sorunsuz indiriliyor. Bağlantı kopsa bile uygulama otomatik olarak yeniden deniyor. (Saatler sürebilir, manuel indirip üstüne YamaNX_Manifest_Oluşturucu.bat'ı kullanın.)\\n\\n\\nÖNEMLİ\\n\\n📁 Yamayı elle yükleyenlere özel araç: YamaNX_Manifest_Oluşturucu.bat Yamayı Discord'dan bilgisayara indirip SD karta elle kopyalayanlar için küçük ama çok işe yarayan bir araç ekledik.\\n\\nUygulama yalnızca kendi indirdiği yamaları \"Yüklü\" olarak tanıyor. Elle kopyaladıklarınızı da tanıtmak için şunu yapın:\\n\\nYamaNX_Manifest_Oluşturucu.bat dosyasını indirin\\nDosyayı yamanın klasörünün içine atın (örnek: 010012101468C000 klasörü)\\nÜzerine çift tıklayın — işlem saniyeler içinde tamamlanır\\nMasaüstünde oluşan YamaNX_manifest.txt dosyasıyla birlikte yamanızı Switch'e kopyalayın\\nYamaNX artık bu yamayı \"Yüklü\" olarak gösterecek ✅"
+}
