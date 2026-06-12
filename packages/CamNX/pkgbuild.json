@@ -1,0 +1,45 @@
+{
+    "package": "CamNX",
+    "info": {
+        "title": "CamNX",
+        "author": "SertAy",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/sertay1/CamNX",
+        "license": "n/a",
+        "description": "Nintendo Switch IR Sensor Camera App",
+        "details": "CamNX is a powerful and easy-to-use homebrew camera application that allows you to take photos and record videos using the IR (Infrared) sensor located on the Right Joy-Con of your Nintendo Switch.\\n\\nRecord your surroundings from a different perspective with CamNX, adding a completely new feature to your console!\\n\\n\ud83c\udf1f Features\\n\ud83d\udcf8 Wide Capture Options: Record both photos and videos for fun or practical purposes.\\n\ud83c\udfa8 Filter Support: Add style to your photos with 6 different filters \u2014 Black & White, Night Vision, Thermal, Matrix, Barbie, Sepia.\\n\ud83d\udda5\ufe0f Display Settings: Adjustable resolution settings according to your needs.\\n\ud83d\uddc2\ufe0f Media Management: Instantly review your captured photos and videos with the built-in gallery.\\n\ud83d\udd79\ufe0f Wireless Freedom: Completely wireless usage by detaching the Joy-Con from the console.\\n\ud83c\udf10 Easy Sharing: Easily access your files through a web browser from your phone or computer on the same Wi-Fi network.\\n\ud83c\udf0d Language Support: Full support for 10 different languages for worldwide usability."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/sertay1/CamNX/releases/download/v1.0.0/CamNX.nro",
+            "type": "update",
+            "dest": "/switch/CamNX/CamNX.nro"
+        },
+        {
+            "type": "screenshot",
+            "url": "camera.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "gallery.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "language.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "photoshare.png"
+        }
+    ],
+    "changelog": ""
+}
