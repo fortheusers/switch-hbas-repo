@@ -1,0 +1,35 @@
+{
+    "package": "SamsSwitchSuite",
+    "info": {
+        "title": "Sam's Switch Suite",
+        "author": "Sam Marg",
+        "category": "tool",
+        "version": "1.1.1",
+        "url": "https://github.com/SamMarg/samswitchsuite",
+        "license": "GPLv3",
+        "description": "A mostly text-based reboot manager",
+        "details": "A side-project of mine of a simpler app to reboot my switch. The helper script in the repo is for generating the expected .bin files to replace the star icon with whatever 256x256 (STRICT RESOLUTION) icon you want.\\n\\nSource: https://github.com/SamMarg/samswitchsuite"
+    },
+    "assets": [
+        {
+            "url": "https://github.com/SamMarg/samswitchsuite/releases/download/release/Sam.s.Switch.Suite.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
