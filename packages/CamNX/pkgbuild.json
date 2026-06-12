@@ -23,6 +23,22 @@
             "url": "https://github.com/sertay1/CamNX/releases/download/v1.0.0/CamNX.nro",
             "type": "update",
             "dest": "/switch/CamNX/CamNX.nro"
+        },
+        {
+            "type": "screenshot",
+            "url": "camera.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "gallery.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "language.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "photoshare.png"
         }
     ],
     "changelog": ""
