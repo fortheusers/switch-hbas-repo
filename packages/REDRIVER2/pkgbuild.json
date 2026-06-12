@@ -27,6 +27,11 @@
                     "path": "/**/*",
                     "dest": "/",
                     "type": "update"
+                },
+                {
+                    "path": "/switch/redriver2/config.ini",
+                    "dest": "/switch/redriver2/config.ini",
+                    "type": "get"
                 }
             ]
         }
