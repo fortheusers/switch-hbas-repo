@@ -1,0 +1,29 @@
+{
+    "package": "switchinfoNX",
+    "info": {
+        "title": "switch info NX",
+        "author": "dodosi",
+        "category": "tool",
+        "version": "0.0.2",
+        "url": "https://github.com/dodosiiii/SwitchInfoNX",
+        "license": "n/a",
+        "description": "All-in-one hardware monitor, diagnostics",
+        "details": "SwitchInfoNX is a feature-rich homebrew application that turns your Nintendo Switch into a diagnostics workstation. It provides a real-time overview of CPU/GPU/memory clocks, FPS, RAM & thermal status, Wi-Fi analytics, controller diagnostics with gyroscope/accelerometer, MTP & HTTP file transfer, and a full SD card file browser. It also includes system information (firmware, serial, battery, display), configurable alerts, built-in pixel/haptic test tools, a custom theme editor with 15 presets, and exportable perf/system reports  all wrapped in a clean, tabbed SDL2 interface with touch support and full i18n in 11 languages.\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/dodosiiii/SwitchInfoNX/releases/download/v0.0.2/SwitchInfoNX.nro",
+            "type": "update",
+            "dest": "/switch/switchinfoNX/SwitchInfoNX.nro"
+        }
+    ],
+    "changelog": ""
+}
