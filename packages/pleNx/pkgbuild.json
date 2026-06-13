@@ -4,11 +4,11 @@
         "title": "pleNx",
         "author": "thcolin",
         "category": "_misc",
-        "version": "0.1.4",
+        "version": "0.1.6",
         "url": "https://github.com/thcolin/pleNx",
         "license": "Apache v2",
-        "description": "A native Plex client \u2014 browse, stream an",
-        "details": "A native Plex client \u2014 browse, stream and download from your own Plex server\\n\\nDetails (description longue) :\\npleNx is a native, controller-first Plex client for the Nintendo Switch \u2014 a fork of Switchfin (the Jellyfin client) fully migrated to the Plex API, with a redesigned interface.\\n\\nSign in with your own Plex account via plex.tv/link (4-character code, Plex Home profiles with PIN supported) and browse your own Plex Media Server: home hubs (Continue Watching first), libraries, collections, genres, search, cast and person pages, and your Plex Watchlist (browse, sort, filter, add/remove).\\n\\nPlayback is powered by MPV: direct play for H.264/H.265/VP9/AV1 with hardware decode (deko3d), and HLS transcode through your own server for everything else. Subtitles (external and embedded), audio track selection, chapters and resume are supported.\\n\\nOffline downloads in original quality: grab an episode, a full season or a whole show in one tap, with a storage gauge for your SD card \u2014 then watch anywhere, even docked on a"
+        "description": "A native Plex client — browse, stream an",
+        "details": "A native Plex client — browse, stream and download from your own Plex server\\n\\nDetails (description longue) :\\npleNx is a native, controller-first Plex client for the Nintendo Switch — a fork of Switchfin (the Jellyfin client) fully migrated to the Plex API, with a redesigned interface.\\n\\nSign in with your own Plex account via plex.tv/link (4-character code, Plex Home profiles with PIN supported) and browse your own Plex Media Server: home hubs (Continue Watching first), libraries, collections, genres, search, cast and person pages, and your Plex Watchlist (browse, sort, filter, add/remove).\\n\\nPlayback is powered by MPV: direct play for H.264/H.265/VP9/AV1 with hardware decode (deko3d), and HLS transcode through your own server for everything else. Subtitles (external and embedded), audio track selection, chapters and resume are supported.\\n\\nOffline downloads in original quality: grab an episode, a full season or a whole show in one tap, with a storage gauge for your SD card — then watch anywhere, even docked on a"
     },
     "assets": [
         {
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/thcolin/pleNx/releases/download/v0.1.4/pleNx.nro",
+            "url": "https://github.com/thcolin/pleNx/releases/download/v0.1.6/pleNx.nro",
             "type": "update",
             "dest": "/switch/pleNx/pleNx.nro"
         }
     ],
-    "changelog": ""
+    "changelog": "v0.1.6\\nFixes\\n\\n- PS Vita: transparent images no longer render as opaque black blocks.\\n  Every non-WebP image was GPU-compressed to DXT1, a format with no alpha\\n  channel, so transparent PNGs (movie clear-logos) exposed the RGB residue\\n  hidden under their transparent pixels. Images with real transparency now\\n  use DXT5 (8-bit alpha); opaque ones keep the compact DXT1"
 }
