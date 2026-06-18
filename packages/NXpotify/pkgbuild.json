@@ -4,7 +4,7 @@
         "title": "NXpotify",
         "author": "etonedemid",
         "category": "tool",
-        "version": "1.3.3.7",
+        "version": "2.0.0.0",
         "url": "https://github.com/etonedemid/NXpotify",
         "license": "MIT",
         "description": "Spotify connect client",
@@ -25,5 +25,5 @@
             "dest": "/switch/NXpotify/nxpotify.nro"
         }
     ],
-    "changelog": "initial release i don't have a changelog"
+    "changelog": "v2.0.0.0\\nModernized backend, fixed 2, added basic theming, removed olv, fixed gamepad inputs.\\n\\ninitial release i don't have a changelog"
 }
