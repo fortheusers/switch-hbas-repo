@@ -1,0 +1,35 @@
+{
+    "package": "TranslateNX",
+    "info": {
+        "title": "TranslateNX",
+        "author": "SertAy",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/sertay1/TranslateNX",
+        "license": "All Rights Reserved",
+        "description": "Translate games in real time ",
+        "details": "\u2757Read the requirements at the bottom\u2757\\n\\nTranslateNX is a revolutionary real-time translation overlay for the Nintendo Switch. It seamlessly reads text directly from your games and translates it on-the-fly, breaking language barriers without needing any game-specific patches or mods.\\n\\n\u2728 Features\\nReal-time Translation: Translate on-screen game text instantly.\\nOCR Technology: Directly reads text from the screen, no game mods required.\\nWide Language Support: Supports over 20 languages.\\nPractical Use: Translate quickly without leaving the game using the UltraHand Overlay menu.\\nMultiple Service Options: Supports Google Cloud Vision, OCR.space, DeepL, Google Cloud Translate, and MyMemory.\\n\\n\u26a0\ufe0f Step 1: Critical Prep (Required)\\n\\n1)Requirements: You MUST have nx-ovlloader and Ultrahand-Overlay installed for this app to work!\\n\\n2) To prevent your console from crashing, you must increase the UltraHand memory limit:\\nOpen the UltraHand menu.\\nPress + to open settings, then go to System.\\nChange Overlay Memory from 4MB to 8MB."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/sertay1/TranslateNX/releases/download/V1.0.0/TranslateNX_1.0.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
