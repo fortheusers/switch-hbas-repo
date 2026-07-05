@@ -1,0 +1,35 @@
+{
+    "package": "SSBot",
+    "info": {
+        "title": "SSBot",
+        "author": "fspores",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/fungalspores/SSBot",
+        "license": "n/a",
+        "description": "Sending screenshots on Telegram",
+        "details": "Send screenshots from your Nintendo Switch to Telegram directly \u2014 no PC needed.\\n\\nFeatures\\n\\nBrowse screenshots from emuMMC/RAW1/Nintendo/Album/ with SDL2 GUI\\nA \u2014 send selected screenshot to Telegram (with optional caption)\\nY \u2014 fullscreen preview\\nD-Pad \u2014 navigation\\nB \u2014 refresh list\\nPLUS \u2014 exit\\nLazy loading \u2014 only loads visible images\\nSupports JPEG, PNG, BMP"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/fungalspores/SSBot/releases/download/v1.0/telegram-bot.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
