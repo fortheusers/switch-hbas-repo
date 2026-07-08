@@ -1,0 +1,29 @@
+{
+    "package": "sLaunch",
+    "info": {
+        "title": "sLaunch",
+        "author": "etonedemid",
+        "category": "advanced",
+        "version": "0.2.1-beta",
+        "url": "https://github.com/etonedemid/slaunch/",
+        "license": "n/a",
+        "description": "Fast text based HOME replacement",
+        "details": "sLaunch is a fast text based HOME menu replacement inspired by niagara launcher."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/etonedemid/slaunch/releases/download/v0.2.1-beta/sInstaller.nro",
+            "type": "update",
+            "dest": "/switch/sLaunch/sInstaller.nro"
+        }
+    ],
+    "changelog": ""
+}
