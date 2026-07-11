@@ -1,0 +1,29 @@
+{
+    "package": "StreamFinEX",
+    "info": {
+        "title": "StreamFinEX",
+        "author": "Kirbosh",
+        "category": "tool",
+        "version": "0.3.9",
+        "url": "https://github.com/kirbosh/StreamFinEX",
+        "license": "Apache v2",
+        "description": "Stremio client for homebrewed Switches.",
+        "details": "A streaming-only Stremio client for homebrewed Nintendo Switch. This is a fork of StreamFin (itself built on Switchfin, with the Jellyfin data layer replaced by the Stremio addon protocol), reworked to look and feel like actual Stremio: a dark ocean-blue/purple theme, glowing focus, a fully customizable home screen, a Library, anime support, and smooth controller navigation.\\n\\nBrowse Cinemeta catalogs, search, open a title page with cast & plot, pick a stream, and play \u2014 all natively on the Switch with MPV. No content is included: you bring your own Stremio stream addon URL, which the app asks for on first launch.\\n\\nThis doesn't work with torrents, only HTTPS \u2014 most\\n\\nCredits\\nStreamFin by scamNscoot \u2014 the Stremio-on-Switch base this repository forks\\nSwitchfin by dragonflylee \u2014 the original app (player, UI framework integration, build system)\\nborealis \u2014 Switch-style UI library\\nAnime Kitsu \u2014 anime catalog & metadata addon\\nStremio \u2014 the addon protocol, the public Cinemeta catalog, and the logo used for the app icon"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Kirbosh/StreamFinEX/releases/download/v0.3.9/StreamFin.nro",
+            "type": "update",
+            "dest": "/switch/StreamFinEX/StreamFin.nro"
+        }
+    ],
+    "changelog": "Customizable row order.\\nKitsu anime Integration.\\nLibrary Functionality.\\n"
+}
