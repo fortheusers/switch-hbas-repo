@@ -1,0 +1,35 @@
+{
+    "package": "FinalFantasyIV",
+    "info": {
+        "title": "Final Fantasy IV",
+        "author": "GlitchedDeveloper",
+        "category": "game",
+        "version": "1.0.2",
+        "url": "https://github.com/GlitchedDeveloper/ff4_nx",
+        "license": "MIT",
+        "description": "Final Fantasy IV (3D Remake) on Switch",
+        "details": "An unofficial, fan-made wrapper that allows for the AARCH64 Android version of Final Fantasy IV (3D Remake) to run natively on the Nintendo Switch with modern enhancements."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/GlitchedDeveloper/ff4_nx/releases/download/1.0.2/ff4_nx.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "1.0.2\\n- Changed file paths\\n- Changed default config values\\n\\n1.0.1\\n- Font-related bugfixes and improvements\\n\\n1.0.0\\n- Improved stick movement\\n- Full achievement support\\n- In-game overlay menu\\n- Per user savefiles\\n- Debug menu\\n- User interface\\n- Adjustable speed\\n- Opening video playback\\n- Local multiplayer\\n- Boosts\\n  - Encounters (On/Off)\\n  - EXP multiplier (0.5x/1x/2x/4x)\\n  - Gil multiplier (0.5x/1x/2x/4x)\\n- Cheats\\n  - Save anywhere\\n  - Remove NG+ limit\\n  - Guaranteed encounter\\n  - Equip anything\\n  - Reobtainable limit break\\n  - Augmentless stat growth\\n- Controller rumble\\n- Customizable controls\\n- Mods\\n- Fonts\\n- Pause battle keybind\\n- Accessible chocobo menu from anywhere\\n- Fixed title screen navigation"
+}
