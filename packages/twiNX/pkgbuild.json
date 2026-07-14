@@ -1,0 +1,40 @@
+{
+    "package": "twiNX",
+    "info": {
+        "title": "twiNX",
+        "author": "HiroshiYamauchi",
+        "category": "tool",
+        "version": "0.9.0",
+        "url": "https://github.com/DomazinUS/twiNX",
+        "license": "GPLv3",
+        "description": "Twitch client for Nintendo Switch",
+        "details": "twiNX is an independent Twitch client built specifically for the Nintendo Switch. It combines native playback, Twitch browsing and interactive chat in an interface designed around Joy-Con, Pro Controller and touchscreen use in handheld, tabletop and television play.\\n\\nVersion 0.9.0 introduces an automatic smartphone-style portrait experience and embedded-player stream resolution that avoids Twitch's generic commercial-break presentation in supported streams."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/DomazinUS/twiNX/releases/download/v0.9.0/twiNX-0.9.0-Switch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/DomazinUS/twiNX/releases/download/v0.9.0/twiNX.nro",
+            "type": "update",
+            "dest": "/switch/twiNX/twiNX.nro"
+        }
+    ],
+    "changelog": "twiNX 0.9.0\\n\\ntwiNX 0.9.0 is a major update to the controller-first Twitch client for\\nNintendo Switch homebrew. It adds a complete smartphone-style portrait\\nexperience, expands live search and chat interaction, and incorporates the\\nplayback and performance work completed since 0.8.1.\\n\\nHighlights\\nAdded automatic portrait orientation using either attached Joy-Con, with\\nclockwise and counter-clockwise layouts.\\nAdded a portrait player combining the live stream, chat, persistent message\\ndraft, touch keyboard and emote sheet on one screen.\\nAdded touch switching between the portrait keyboard and emote sheet, inline\\nemote previews and adjustable keyboard haptics.\\nAdded a touch-accessible Send button to the full chat composer.\\nAdded live search by broadcaster or game/category name with current viewer\\ncounts.\\nAdded audio-only live quality alongside source and transcoded qualities.\\nAdded immediate Software, Hardware and Hybrid decoder switching for the\\nactive stream.\\nAdded experimental audio-reactive Joy-Con vibration with Balanced, Quiet,\\nExtreme and High Peaks Only profiles.\\nValidated animated Twitch emotes as a supported chat option.\\nAdded embedded-player live resolution that avoids Twitch's generic\\ncommercial-break presentation in current testing.\\nReduced high-activity chat work by rendering and retaining only the visible\\nmessage pool.\\nHardened MPV, FFmpeg and NVTEGRA playback handling for damaged or\\ndiscontinuous Twitch media.\\n\\n\\ntwiNX 0.8.1\\n\\nThis is the first public GitHub-ready twiNX release package.\\n\\nHighlights\\nCorrected the visible application branding to twiNX\\nAdded the in-app About page with feature overview, credits and full release history\\nAdded right-stick scrolling to the About page\\nAdded separate live and offline followed-channel rows\\nAdded Twitch channel pages with recent broadcasts and clips\\nAdded native live, VOD and clip playback\\nAdded read/write Twitch chat, badges, emotes and message composer\\nAdded docked, full-height overlay and compact four-corner chat layouts\\nAdded Software, Hardware and experimental Hybrid decoder modes\\nIncluded the accumulated playback, navigation and stability fixes through 0.8.1"
+}
