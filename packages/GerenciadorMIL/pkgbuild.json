@@ -1,0 +1,29 @@
+{
+    "package": "GerenciadorMIL",
+    "info": {
+        "title": "Gerenciador M.I.L.",
+        "author": "M.I.L. Tradu\u00e7\u00f5es",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/nekkk/mil-manager",
+        "license": "All Rights Reserved",
+        "description": "Baixar tradu\u00e7\u00f5es para jogos",
+        "details": "Na homebrew vc vai encontrar;\\nTradu\u00e7\u00f5es e Dublagens:\\nModifica\u00e7\u00f5es (Mods):\\nCat\u00e1logo de Cheats: \\nSave Games:"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/nekkk/mil-manager/releases/download/v1.0/mil_manager.nro",
+            "type": "update",
+            "dest": "/switch/GerenciadorMIL/mil_manager.nro"
+        }
+    ],
+    "changelog": "https://github.com/nekkk/mil-manager/releases/tag/v1.0"
+}
