@@ -1,0 +1,24 @@
+{
+    "package": "BouncyBrawl",
+    "info": {
+        "title": "Bouncy Brawl",
+        "author": "willsta",
+        "category": "game",
+        "version": "0.1",
+        "url": "https://github.com/TechMaster85/bouncy_brawl and https://github.com/TechMaster85/a3_engine",
+        "license": "GPLv3",
+        "description": "Knock the other player off stage",
+        "details": "A 2-player game where each player has to knock the other ball off stage. Damage is dealt when a ball collides into another at a higher velocity.\\n\\nSupports two controllers in any orientation. Use D-pad for pro controller and joy-con pair and control stick for single joy-cons.\\n\\nDeveloped with A3 Engine: https://github.com/TechMaster85/a3_engine"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "Initial release for Switch"
+}
