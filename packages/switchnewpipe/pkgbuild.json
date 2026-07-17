@@ -4,7 +4,7 @@
         "title": "switch-newpipe",
         "author": "mirusu400",
         "category": "_misc",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "url": "https://github.com/mirusu400/switch-newpipe",
         "license": "GPLv3",
         "description": "Switch port of newpipe.",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/mirusu400/switch-newpipe/releases/download/v0.0.3/switch_newpipe.nro",
+            "url": "https://github.com/mirusu400/switch-newpipe/releases/download/v0.0.4/switch_newpipe.nro",
             "type": "update",
             "dest": "/switch/switch_newpipe.nro"
         }
     ],
-    "changelog": "v0.0.3\\n"
+    "changelog": "v0.0.4\\n\\n\\nv0.0.3\\n"
 }
