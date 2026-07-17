@@ -4,7 +4,7 @@
         "title": "bbloc",
         "author": "Romain337",
         "category": "tool",
-        "version": "alpha_4",
+        "version": "alpha_5",
         "url": "https://github.com/notnotme/bbloc/tree/nintendo_switch",
         "license": "n/a",
         "description": "A text and code editor.",
@@ -21,9 +21,9 @@
         },
         {
             "type": "update",
-            "url": "https://github.com/notnotme/bbloc/releases/download/alpha_4/bbloc.nro",
+            "url": "https://github.com/notnotme/bbloc/releases/download/alpha_5/bbloc.nro",
             "dest": "/switch/bbloc/bbloc.nro"
         }
     ],
-    "changelog": "valpha_4\\n- fix update logic (refresh only when necessary on all platforms)\\n- fix wrong mapping bol -> bof\\n- fix wrong mapping bof <-> eof\\n- cursor column position stick to column when possible\\n\\nvalpha_3\\nLatest build including all refactoring.\\n\\nRelease \"0\" pre-alpha.\\n\\nRight now I cannot work more on it, as I need to rampup in my new work, and it will take some times. But I like this project and will update it later when free times will allow it."
+    "changelog": "valpha_5\\nChanges:\\n- Added Undo (Ctrl+Z) and Redo (Ctrl+Shift+Z) features.\\n- Added light (\"Ctrl+Shift+L\") and dark (\"Ctrl+Shift+D\") theme.\\n- Changed text storage buffer from VectorBuffer to LineBuffer.\\n- Reworked command flow (ex: Cut/Copy/Paste working from prompt).\\n- Proper syntax highlight (JSON, CPP).\\n- Better auto complete for path and arguments.\\n- General system stability improvements to enhance the user's experience.\\n\\nNote:\\n- Light or dark theme are not by default. You must select one of theme manually.\\n- When auto completing a path, to enter a listed folder, type \"/\", then auto complete will list what is inside that folder.\\n\\nPlanned:\\n- More syntax highlight (INI, YAML, ???).\\n- Automatic theme selection according to user switch theme will comes in later release.\\n\\nLight\\n\\n\\nDark\\n\\nvalpha_4\\n- fix update logic (refresh only when necessary on all platforms)\\n- fix wrong mapping bol -> bof\\n- fix wrong mapping bof <-> eof\\n- cursor column position stick to column when possible\\n\\nvalpha_3\\nLatest build including all refactoring.\\n\\nRelease \"0\" pre-alpha.\\n\\nRight now I cannot work more on it, as I need to rampup in my new work, and it will take some times. But I like this project and will update it later when free times will allow it."
 }
