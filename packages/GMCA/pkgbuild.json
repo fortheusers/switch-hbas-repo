@@ -1,0 +1,29 @@
+{
+    "package": "GMCA",
+    "info": {
+        "title": "GMCA",
+        "author": "thcolin",
+        "category": "_misc",
+        "version": "1.0.5",
+        "url": "https://github.com/thcolin/gamepad-media-center-aggregator",
+        "license": "Apache v2",
+        "description": "Every media server, gamepad-first",
+        "details": "GMCA (Gamepad Media Center Aggregator) is one native, controller-first client for the media servers you already run \u2014 Plex, Jellyfin, Emby and Stremio \u2014 on the screens the big apps forget.\\n\\nPoint it at a server and browse, search and play with the gamepad alone. The interface never changes between backends; only the accent colour and the tabs follow your server.\\n\\n\u2022 Plex \u2014 plex.tv sign-in, Home profiles, Watchlist, hubs, universal transcode\\n\u2022 Jellyfin / Emby \u2014 URL + Quick Connect (no keyboard) or user & password; resume, Next Up, favourites\\n\u2022 Stremio \u2014 one login syncs your add-on catalogues and library, debrid included\\n\u2022 Offline downloads, subtitles and a built-in mpv player\\n\\nIndependent third-party project. Not affiliated with Plex, Jellyfin, Emby or Stremio."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/thcolin/gamepad-media-center-aggregator/releases/download/v1.0.5/GMCA.nro",
+            "type": "update",
+            "dest": "/switch/GMCA/GMCA.nro"
+        }
+    ],
+    "changelog": "First release on the Homebrew App Store (v1.0.5).\\n\\nGMCA is the multi-backend evolution of pleNx: alongside Plex it now speaks Jellyfin, Emby and Stremio through one shared, gamepad-first interface. Recent fixes harden Stremio artwork and playback on low-memory devices and clean up the Now Playing queue. Existing pleNx installs migrate their data automatically on first launch."
+}
