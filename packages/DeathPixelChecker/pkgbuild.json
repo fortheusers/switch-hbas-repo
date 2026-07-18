@@ -1,0 +1,31 @@
+{
+    "package": "DeathPixelChecker",
+    "info": {
+        "title": "DeathPixelChecker",
+        "author": "Lumn",
+        "category": "_misc",
+        "version": "0.1.1",
+        "url": "https://github.com/Lumn0/DeadPixelChecker",
+        "license": "n/a",
+        "description": "Check if your have any dead pixels.",
+        "details": "You can change the screen color to check if there are any dead pixels."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "data": "screen.png",
+            "format": "base64",
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Lumn0/DeadPixelChecker/releases/download/v0.1.1/DPC.nro",
+            "type": "update",
+            "dest": "/switch/DeathPixelChecker/DPC.nro"
+        }
+    ],
+    "changelog": "- Add homebrew version and author (v0.1.1)"
+}
