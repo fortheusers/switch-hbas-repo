@@ -24,8 +24,13 @@
             "type": "zip",
             "zip": [
                 {
-                    "path": "/TranslateNX*/switch/**/*",
-                    "dest": "/switch",
+                    "path": "/TranslateNX*/switch/TranslateNX.nro",
+                    "dest": "/switch/TranslateNX.nro",
+                    "type": "update"
+                },
+                {
+                    "path": "/TranslateNX*/switch/.overlays/**/*",
+                    "dest": "/switch/.overlays",
                     "type": "update"
                 },
                 {
