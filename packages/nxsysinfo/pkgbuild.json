@@ -1,0 +1,29 @@
+{
+    "package": "nxsysinfo",
+    "info": {
+        "title": "nx-sys-info",
+        "author": "panquake",
+        "category": "tool",
+        "version": "release2",
+        "url": "https://github.com/hdhw/nx-sys-info",
+        "license": "MIT",
+        "description": "an amazing system information viewer.",
+        "details": "An amazing system information viewer. called nx-sys-info. simplier, System Information. This was made for a first project! I expect to see a few bugs. If so report them at the Github!"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/hdhw/nx-sys-info/releases/download/release2/sysinfo.nro",
+            "type": "update",
+            "dest": "/switch/nxsysinfo/sysinfo.nro"
+        }
+    ],
+    "changelog": "Release: 2.0.0: Made the app, Uploaded and made a logo. "
+}
