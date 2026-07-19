@@ -1,0 +1,29 @@
+{
+    "package": "ChatNX",
+    "info": {
+        "title": "ChatNX",
+        "author": "Jonathan8520",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/Jonathan8520/ChatNX",
+        "license": "MIT",
+        "description": "Chat with AI and generate/analyse images",
+        "details": "ChatNX turns your Nintendo Switch into an AI companion. It talks to Puter's AI gateway over Wi-Fi, so you chat straight from the console.\\n\\nFeatures:\\n- Chat with multiple AI models (Claude, GPT, and more)\\n- Generate images from a text prompt, saved to a built-in gallery with a full-screen zoom/pan viewer\\n- Analyze any Switch screenshot by attaching it to your question\\n- Voice dictation with a USB microphone\\n- Live usage and quota tracking, with a per-model cost breakdown\\n- Wireless setup: scan a QR code to enter your Puter token\\n- Full interface and AI responses in 28 languages\\n\\nRequires Atmosph\u00e8re custom firmware, a Wi-Fi connection, and a free Puter account. Unofficial homebrew, not affiliated with Nintendo."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Jonathan8520/ChatNX/releases/download/v1.0.0/ChatNX.nro",
+            "type": "update",
+            "dest": "/switch/ChatNX/ChatNX.nro"
+        }
+    ],
+    "changelog": "1.0.0 \u2014 Initial release."
+}
