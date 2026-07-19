@@ -1,0 +1,29 @@
+{
+    "package": "Foldery",
+    "info": {
+        "title": "Foldery",
+        "author": "Umm12many",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/Umm12many/foldery",
+        "license": "GPLv3",
+        "description": "Modding tool for folder creation",
+        "details": "An NX.JS based homebrew app that lets you create folders, and identification files for installed titles for modding purposes."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Umm12many/foldery/releases/download/1.0/foldery.nro",
+            "type": "update",
+            "dest": "/switch/Foldery/foldery.nro"
+        }
+    ],
+    "changelog": "1.0: Created the app"
+}
