@@ -1,0 +1,45 @@
+{
+    "package": "TranslateNX",
+    "info": {
+        "title": "TranslateNX",
+        "author": "SertAy",
+        "category": "tool",
+        "version": "1.1.0",
+        "url": "https://github.com/sertay1/TranslateNX",
+        "license": "All Rights Reserved",
+        "description": "Translate games in real time ",
+        "details": "\u2757Read the requirements at the bottom\u2757\\n\\nTranslateNX is a revolutionary real-time translation overlay for the Nintendo Switch. It seamlessly reads text directly from your games and translates it on-the-fly, breaking language barriers without needing any game-specific patches or mods.\\n\\n\u2728 Features\\nReal-time Translation: Translate on-screen game text instantly.\\nOCR Technology: Directly reads text from the screen, no game mods required.\\nWide Language Support: Supports over 20 languages.\\nPractical Use: Translate quickly without leaving the game using the UltraHand Overlay menu.\\nMultiple Service Options: Supports Google Cloud Vision, OCR.space, DeepL, Google Cloud Translate, and MyMemory.\\n\\n\u26a0\ufe0f Step 1: Critical Prep (Required)\\n\\n1)Requirements: You MUST have nx-ovlloader and Ultrahand-Overlay installed for this app to work!\\n\\n2) To prevent your console from crashing, you must increase the UltraHand memory limit:\\nOpen the UltraHand menu.\\nPress + to open settings, then go to System.\\nChange Overlay Memory from 4MB to 8MB."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/sertay1/TranslateNX/releases/download/V1.1.0/TranslateNX_1.1.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/TranslateNX*/switch/TranslateNX.nro",
+                    "dest": "/switch/TranslateNX.nro",
+                    "type": "update"
+                },
+                {
+                    "path": "/TranslateNX*/switch/.overlays/translatenx.ovl",
+                    "dest": "/switch/.overlays/translatenx.ovl",
+                    "type": "update"
+                },
+                {
+                    "path": "/TranslateNX*/config/translate/config.ini",
+                    "dest": "/config/translate/config.ini",
+                    "type": "get"
+                }
+            ]
+        }
+    ],
+    "changelog": "v.1.1.0\\n(EN) Update🔥\\n\\n🚀 Introducing the new version of my TranslateNX project, which completely revolutionizes the real-time in-game translation experience on the Nintendo Switch! With this application, you can instantly translate on-screen game text into your own language. Moreover, this release brings brand new, lifesaver features!\\n\\n🌟 Key Features\\n\\n📱 Easy API Management via PC and Phone (Web Server): You no longer need to type your API keys one by one using the Switch keyboard or plug your SD card into a computer to edit the config.ini file! Thanks to the embedded Local Web Server feature, you can easily save all your API keys in seconds via copy-paste by accessing the address (or scanning the QR code) provided by the app from your mobile phone or PC on the same Wi-Fi network!\\n\\n🤖 AI Mode Added: We've brought revolutionary artificial intelligence support to game translations! In addition to classic translation engines, you can now use the AI Mode exclusively with Puter AI or Google Gemini AI to get much more fluent translations that understand the context of sentences perfectly and fit the game's storyline.\\n\\n🌍 104 Different Language Options: A total of 104 different languages have been added to the application. We now provide support for players from almost anywhere in the world!\\n\\n⚙️ Overlay Control via NRO App: Configuring Overlay settings used to be quite tedious. Now, thanks to the TranslateNX (.nro) application accessible from the HB menu, you can easily configure the app modes, API services, target languages, and interface options through a sleek menu. The settings you apply are instantly reflected in the Overlay running in the background.\\n\\n🛠️ Bug Fixes and Stability\\n"
+}
