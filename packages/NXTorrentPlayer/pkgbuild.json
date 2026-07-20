@@ -1,0 +1,33 @@
+{
+    "package": "NXTorrentPlayer",
+    "info": {
+        "title": "NX Torrent Player",
+        "author": "shodowlo",
+        "category": "_misc",
+        "version": "0.1.1",
+        "url": "https://github.com/shodowlo/NX-torrent-player",
+        "license": "Apache v2",
+        "description": "Stremio and  torrent on Nintendo Switch",
+        "details": "A homebrew video player with a BitTorrent engine built in. Streams local torrent files or integrates directly with your Stremio account to stream movies and TV shows without waiting for full downloads.\\n\\nFeatures:\\n\\nTorrent Streaming: Downloads pieces sequentially so playback starts in seconds. Automatically re-centers ahead of the playhead when seeking.\\n\\nStremio Integration: Sign in to sync your library, browse seasons/episodes, and stream directly from your configured addons.\\n\\nLocal Playback: Drop .torrent files directly into /switch/NX-torrent-player/torrents/.\\n\\nBorealis UI: Horizon-styled interface optimized for controllers and touch controls.\\n\\nAuto-Updates: Built-in updater keeps the app up to date from inside the UI."
+    },
+    "assets": [
+        {
+            "data": "icon.png",
+            "format": "base64",
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "data": "screen.png",
+            "format": "base64",
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/shodowlo/NX-torrent-player/releases/download/v0.1.1/NX-torrent-player.nro",
+            "type": "update",
+            "dest": "/switch/NXTorrentPlayer/NX-torrent-player.nro"
+        }
+    ],
+    "changelog": "v0.1.1\\n\\nStream pieces directly from RAM to eliminate per-piece playback stutter.\\n\\nUpdated CMake build configuration and project versioning."
+}
