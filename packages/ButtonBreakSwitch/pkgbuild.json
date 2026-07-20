@@ -1,0 +1,29 @@
+{
+    "package": "ButtonBreakSwitch",
+    "info": {
+        "title": "ButtonBreakSwitch",
+        "author": "StrongEnough",
+        "category": "game",
+        "version": "0.1",
+        "url": "https://github.com/StrongEnough295/ButtonBreakSwitch/releases/download/v0.1/ButtonBreakSwitch.nro",
+        "license": "n/a",
+        "description": "Button Break for the Switch.",
+        "details": "This is a port of the Button Break homebrew app for the Wii U.\\n\\nThis port is very similar to the homebrew app on the Wii U, but it is unfinished but still being worked on build by build."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/StrongEnough295/ButtonBreakSwitch/releases/download/v0.1/ButtonBreakSwitch.nro",
+            "type": "update",
+            "dest": "/switch/ButtonBreakSwitch/ButtonBreakSwitch.nro"
+        }
+    ],
+    "changelog": "v0.1 - Added all the buttons that are pressable. (except the SL and SR buttons, I will try to figure that out in the next update.)"
+}
