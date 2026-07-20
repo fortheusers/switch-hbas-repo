@@ -15,7 +15,7 @@
         {
             "url": "https://github.com/StrongEnough295/ButtonBreakSwitch/releases/download/v0.1/ButtonBreakSwitch.nro",
             "dest": "/switch/ButtonBreakSwitch.nro",
-            "type": "update"
+            "type": "app"
         },
         {
             "type": "icon",
