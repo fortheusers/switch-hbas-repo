@@ -1,0 +1,29 @@
+{
+    "package": "IPTVPlayer",
+    "info": {
+        "title": "IPTV Player",
+        "author": "gomprime",
+        "category": "tool",
+        "version": "1.0.1",
+        "url": "https://github.com/gomprime/switchiptv",
+        "license": "GPLv3",
+        "description": "Player for Iptv Xstream or m3u",
+        "details": "IPTV Player is a homebrew media player for Nintendo Switch (Atmosphere/hbmenu) built in C++ with borealis for native, controller-driven navigation and mpv/FFmpeg for hardware-accelerated video playback.\\n\\nIt supports Xtream Codes providers (server URL, username, password) and direct M3U playlists, with dedicated tabs for Live TV, Movies, and Series (or playlist categories in M3U mode). Live channels include an EPG panel and zapping with Up/Down; Movies and Series support pause, seek, a progress bar, and resume playback (\"Continue where you left off\" or \"Start over\"). A dedicated search screen finds content across every section without losing your place in the catalog.\\n\\nFavorites and watch history are stored entirely on the SD card - no account, no external server, nothing leaves the console.\\n\\nThis is just a player: it does not host, provide, or distribute any content. You supply your own IPTV provider credentials or M3U playlist. Interface in Portuguese. Licensed under GPLv3."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/gomprime/switchiptv/releases/download/v1.0.1/IptvPlayerSwitch.nro",
+            "type": "update",
+            "dest": "/switch/IPTVPlayer/IptvPlayerSwitch.nro"
+        }
+    ],
+    "changelog": ""
+}
