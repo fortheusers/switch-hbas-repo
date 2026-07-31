@@ -1,0 +1,29 @@
+{
+    "package": "NetSurf",
+    "info": {
+        "title": "NetSurf",
+        "author": "Who else but etonedemid",
+        "category": "tool",
+        "version": "0.1.0",
+        "url": "https://github.com/etonedemid/netsurf-switch",
+        "license": "n/a",
+        "description": "Small web browser ",
+        "details": "Netsurf is a small web browser which i ported to Nintendo switch and added JavaScript via QuickJS and basic media support\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/etonedemid/netsurf-switch/releases/download/v0.1.0/netsurf.nro",
+            "type": "update",
+            "dest": "/switch/NetSurf/netsurf.nro"
+        }
+    ],
+    "changelog": ""
+}
