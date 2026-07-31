@@ -4,7 +4,7 @@
         "title": "AuroraChat for Switch",
         "author": "3pm",
         "category": "_misc",
-        "version": "0.6.0",
+        "version": "26.7.14",
         "url": "https://github.com/Unitendo/aurorachat-switch/",
         "license": "n/a",
         "description": "A cross-platform chatting application.",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Unitendo/aurorachat-switch/releases/download/v0.6.0/aurorachat-switch.nro",
+            "url": "https://github.com/Unitendo/aurorachat-switch/releases/download/v26.7.14/aurorachat-switch.nro",
             "type": "update",
             "dest": "/switch/AuroraChatforSwitch/aurorachat-switch.nro"
         }
     ],
-    "changelog": "v0.6.0: Brand New Switch Beginnings\\nFirst ever Switch Release of AuroraChat. Same functionality as the 3DS version, with some advantages:\\n- 720p Support\\n- Auto-Scrolling"
+    "changelog": "v26.7.14\\nThis is the first major update to AuroraChat Switch, It brings in:\\n- Touch Screen Support\\n- A Brand new designed-from-scratch UI\\n- SFX and Multiple BGMs\\n\\nThat's it. Trust me, It's a lot, and i'm glad i could finish this off in time.\\nThank you.\\n\\nv0.6.0: Brand New Switch Beginnings\\nFirst ever Switch Release of AuroraChat. Same functionality as the 3DS version, with some advantages:\\n- 720p Support\\n- Auto-Scrolling"
 }
