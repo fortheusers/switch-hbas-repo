@@ -24,9 +24,14 @@
             "type": "zip",
             "zip": [
                 {
-                    "path": "/**/*",
-                    "dest": "/",
+                    "path": "/ssbot.nro",
+                    "dest": "/switch/telegram-bot/ssbot.nro",
                     "type": "update"
+                },
+                {
+                    "path": "/config.txt",
+                    "dest": "/switch/telegram-bot/config.txt",
+                    "type": "get"
                 }
             ]
         }
