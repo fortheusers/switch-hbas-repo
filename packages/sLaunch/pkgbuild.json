@@ -1,0 +1,29 @@
+{
+    "package": "sLaunch",
+    "info": {
+        "title": "sLaunch",
+        "author": "etonedemid",
+        "category": "advanced",
+        "version": "0.7.0",
+        "url": "https://github.com/etonedemid/slaunch/",
+        "license": "MIT",
+        "description": "Fast text based HOME replacement",
+        "details": "sLaunch is a fast text based HOME menu replacement inspired by niagara launcher."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/etonedemid/slaunch/releases/download/v0.7.0/sInstaller.nro",
+            "type": "update",
+            "dest": "/switch/sLaunch/sInstaller.nro"
+        }
+    ],
+    "changelog": "v0.7.0\\nsLaunch now says hello. On boot (and right after setup) you get a welcome screen that greets you by your Switch profile name over the opening jingle, with a different line each time. Don't want it? Theming > Welcome screen.\\n\\nYou can also clean up the menu now - every system entry (Album, Browser, Settings, Power, Homebrew...) can be shown or hidden in Theming > Menu entries. Theming itself stays put so you can always get back.\\n\\nNew Random game entry: it rolls through your library like a slot machine, lands on something, and launches it.\\n\\nSetup got restyled to match the rest of the menu instead of looking like its own thing."
+}
