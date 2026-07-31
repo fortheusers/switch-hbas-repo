@@ -12,14 +12,6 @@
     },
     "assets": [
         {
-            "type": "icon",
-            "url": "icon.png"
-        },
-        {
-            "type": "banner",
-            "url": "screen.png"
-        },
-        {
             "type": "update",
             "url": "https://github.com/TechMaster85/bouncy_brawl/releases/download/release/bouncy_brawl.nro",
             "dest": "/switch/BouncyBrawl/bouncy_brawl.nro"
