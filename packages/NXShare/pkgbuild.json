@@ -8,7 +8,7 @@
         "url": "https://github.com/musebrot1/NXShare",
         "license": "MIT",
         "description": "access the Album via a web browser",
-        "details": "NXShare starts a small web server on your Switch. Open the displayed URL in any browser on your phone or PC (same WiFi required), and you get a clean gallery view of all your screenshots and videos — with thumbnails, filters, and one-click downloads.\\n\\n    - Browse all screenshots with thumbnails\\n    - Browse all videos with thumbnails\\n    - Download individual files or select multiple at once\\n    - Filter by screenshots or videos\\n    - Works on any browser — phone, tablet, PC\\n    - Refresh the gallery without restarting the app\\n"
+        "details": "NXShare lets you view and download screenshots/videos of your Switch Album on any device connected to the same network.\\nIt starts a local web server and shows an URL you can open in a web browser.\\n\\n    - Browse files with thumbnails\\n    - Filter by screenshot/video, date and/or game\\n    - Download single files or select multiple files to download all at once"
     },
     "assets": [
         {
@@ -25,5 +25,5 @@
             "dest": "/switch/NXShare/NXShare.nro"
         }
     ],
-    "changelog": "v1.8.2\\n- Fixed server recovery after sleep and network loss\\n\\nv1.8.1\\n- Web UI layout adjustments\\n\\nv1.8.0\\nadded Date filter\\n\\nv1.7.6\\n- fixed JSON escaping for control characters\\n\\nv1.7.5\\n- fixed media sorting issue\\n\\nv1.7.3\\n- fixed how png files are getting saved\\n\\nv1.7.2\\n- more fixes\\n\\nv1.7.1\\n- some fixes\\n\\nv1.7.0\\n- in full size view there are now left/right buttons to jump to the previous/next file\\n- now also reads PNG files\\n\\nv1.6.0\\n- added games filter\\n\\nv1.5.0\\n- some fixes\\n- new UI\\n- now shows app icon in browser tab\\n\\nv1.4.0\\n- URL now shows as QR code too\\n- some layout adjustments for both desktop and mobile browsers\\n\\nv1.3.1\\n- some minor fixes and layout changes\\n- exit the app with [+]\\n\\nv1.3.0\\nNintendo Switch Homebrew app to transfer screenshots and videos via browser\\n\\nv1.3.0\\n- first official release"
+    "changelog": "v1.8.2\\n- fixed server recovery after sleep and network loss\\n\\nv1.8.1\\n- web UI layout adjustments\\n\\nv1.8.0\\n- added date filter\\n\\nv1.7.6\\n- fixed JSON escaping for control characters\\n\\nv1.7.5\\n- fixed media sorting issue\\n\\nv1.7.3\\n- fixed how png files are getting saved\\n\\nv1.7.2\\n- more fixes\\n\\nv1.7.1\\n- some fixes\\n\\nv1.7.0\\n- in full size view there are now left/right buttons to jump to the previous/next file\\n- now also reads PNG files\\n\\nv1.6.0\\n- added games filter\\n\\nv1.5.0\\n- some fixes\\n- new UI\\n- fixed app icon in browser tab\\n\\nv1.4.0\\n- added QR code\\n- some layout adjustments \\n\\nv1.3.1\\n- some minor fixes and layout changes\\n- exit the app with [+]\\n\\nv1.3.0\\n- first official release"
 }

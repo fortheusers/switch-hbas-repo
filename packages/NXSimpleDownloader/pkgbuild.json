@@ -1,0 +1,29 @@
+{
+    "package": "NXSimpleDownloader",
+    "info": {
+        "title": "NX Simple Downloader",
+        "author": "Mayo0x0",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/Mayo0x0/NXSimpleDownloader",
+        "license": "n/a",
+        "description": "A simple file downloader",
+        "details": "A Nintendo Switch homebrew application that reads a download URL from a `.ini` configuration file, fetches the file over HTTP or HTTPS, and saves it to a predefined directory on the SD card \u2014 overwriting any existing file.\\n\\nFeatures\\n\\n- HTTP & HTTPS support via libnx BSD sockets and the native Switch SSL service\\n- Automatic redirects \u2014 follows up to 5 HTTP 3xx redirects\\n- Progress bar with KB counter and percentage (when Content-Length is known)\\n- Chunked transfer (Transfer-Encoding: chunked) support\\n- Self-signed certificate support via `ssl_verify = false`\\n- SD card enforcement \u2014 the app refuses to write anywhere other than `sdmc:/`, protecting the Switch NAND from accidental or malicious writes\\n- Path traversal protection \u2014 `..` sequences in `destination` and `filename` are rejected\\n\\nconfiguration file is created at first launch:\\n/switch/NXSimpleDownloader/config.ini"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Mayo0x0/NXSimpleDownloader/releases/download/v1.0/NXSimpleDownloader.nro",
+            "type": "update",
+            "dest": "/switch/NXSimpleDownloader/NXSimpleDownloader.nro"
+        }
+    ],
+    "changelog": ""
+}

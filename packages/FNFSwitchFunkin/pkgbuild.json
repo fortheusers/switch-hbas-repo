@@ -4,21 +4,23 @@
         "title": "FNF: Switch Funkin'",
         "author": "Slushi",
         "category": "game",
-        "version": "1.0.4",
+        "version": "1.1.0",
         "url": "https://github.com/Slushi-Github/Switch-Funkin",
         "license": "Apache v2",
         "description": "Real FNF' for Nintendo Switch, why not?",
-        "details": "Enjoy the Psych Engine 1.0.4 experience on your Nintendo Switch!\\n\\nYou must always open the game from an official game (usually by holding the R button while launching a game from the HOME menu).\\n\\nInstalling mods:\\n\\nInstalling mods on Switch Funkin' is easy. Once you open the game at least once, on your SD card, inside the \"switch\" folder, you will see a new folder called \"Switch-Funkin\" Inside it, you will find the \u201cmods\u201d folder, which works exactly the same as normal Psych Engine."
+        "details": "Enjoy the Psych Engine 1.0.4 experience on your Nintendo Switch!\\n\\nYou must always open the game from an official game (usually by holding the R button while launching a game from the HOME menu).\\n\\nInstalling mods:\\n\\nInstalling mods on Switch Funkin' is easy. Once you open the game at least once, on your SD card, inside the \"switch\" folder, you will see a new folder called \"Switch-Funkin\" Inside it, you will find the “mods” folder, which works exactly the same as normal Psych Engine."
     },
     "assets": [
         {
-            "url": "https://github.com/Slushi-Github/Switch-Funkin/releases/download/1.0.4/SwitchFunkin.nro.zip",
+            "url": "https://github.com/Slushi-Github/Switch-Funkin/releases/download/1.1.0/SwitchFunkin.nro.zip",
             "type": "zip",
-            "zip": [{
+            "zip": [
+                {
                     "path": "/SwitchFunkin.nro",
                     "dest": "/switch/SwitchFunkin.nro",
                     "type": "update"
-            }]
+                }
+            ]
         },
         {
             "type": "icon",
@@ -29,5 +31,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "FIxes:\\n- The way to check if the current version is really old has been corrected (I forgot to upload the changes to GitHub).\\n- Fixed an issue that prevented mods from being disabled. "
+    "changelog": "v1.1.0\\nFixes:\\n- FIxed a bug when the engine crashes  on reset a song (https://github.com/Slushi-Github/Switch-Funkin/issues/4, https://github.com/Slushi-Github/Switch-Funkin/issues/6, https://github.com/Slushi-Github/Switch-Funkin/issues/7, https://github.com/Slushi-Github/Switch-Funkin/issues/8, https://github.com/Slushi-Github/Switch-Funkin/issues/10, https://github.com/Slushi-Github/Switch-Funkin/issues/11, https://github.com/Slushi-Github/Switch-Funkin/issues/12)\\n- Fixed a bug with dialogues on the week 6 (https://github.com/Slushi-Github/Switch-Funkin/issues/5)\\n\\nAdditions:\\n- Songs should now load faster since some issues with the LoadingState have been fixed and all of the console's CPU threads are being used to preload content.\\n\\nA HUGE apology to everyone who had to wait so long for these issues to be fixed, especially the bug related to restarting a song :3\\n\\nFIxes:\\n- The way to check if the current version is really old has been corrected (I forgot to upload the changes to GitHub).\\n- Fixed an issue that prevented mods from being disabled. "
 }
