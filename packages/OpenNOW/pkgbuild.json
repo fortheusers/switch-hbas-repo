@@ -1,0 +1,29 @@
+{
+    "package": "OpenNOW",
+    "info": {
+        "title": "OpenNOW",
+        "author": "OpenCloudGaming",
+        "category": "_misc",
+        "version": "0.0.6",
+        "url": "https://github.com/OpenCloudGaming/OpenNOW-Switch",
+        "license": "MIT",
+        "description": "GeForce NOW for Nintendo Switch.",
+        "details": "OpenNOW is an independent, community-built GeForce NOW client for Nintendo Switch. Sign in with your NVIDIA account, browse supported games, search and filter the catalog, and launch cloud sessions directly from your console.\\n\\nFeatures include configurable resolution, bitrate, frame rate, server region and decoder settings; controller, touch and inline-keyboard input; support for up to four controllers; live stream and network statistics; session recovery; and optional HOME Menu shortcuts for individual games.\\n\\nA GeForce NOW account and stable internet connection are required. Launch through Homebrew Menu using title override/application mode for sufficient memory. OpenNOW is unofficial and is not affiliated with NVIDIA or Nintendo.\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/OpenCloudGaming/OpenNOW-Switch/releases/download/v0.0.6/SwitchNOW.nro",
+            "type": "update",
+            "dest": "/switch/OpenNOW/SwitchNOW.nro"
+        }
+    ],
+    "changelog": "Version 0.0.6\\n\\n- Added input support for up to four controllers.\\n- Added controller assignment and connection handling.\\n- Added inline-keyboard shortcuts for Escape, Tab, Alt+Tab and the Windows key.\\n- Improved gamepad-friendly CloudMatch session launches.\\n- Improved controller input delivery and neutral-state handling.\\n- Updated OpenNOW branding, documentation and release metadata.\\n"
+}
