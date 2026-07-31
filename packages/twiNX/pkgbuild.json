@@ -20,17 +20,6 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/DomazinUS/twiNX/releases/download/v0.9.0/twiNX-0.9.0-Switch.zip",
-            "type": "zip",
-            "zip": [
-                {
-                    "path": "/**/*",
-                    "dest": "/",
-                    "type": "update"
-                }
-            ]
-        },
-        {
             "url": "https://github.com/DomazinUS/twiNX/releases/download/v0.9.0/twiNX.nro",
             "type": "update",
             "dest": "/switch/twiNX/twiNX.nro"
