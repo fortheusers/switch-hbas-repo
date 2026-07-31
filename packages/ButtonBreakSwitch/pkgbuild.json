@@ -4,7 +4,7 @@
         "title": "ButtonBreakSwitch",
         "author": "StrongEnough",
         "category": "game",
-        "version": "0.1",
+        "version": "0.5",
         "url": "https://github.com/StrongEnough295/ButtonBreakSwitch/releases/download/v0.1/ButtonBreakSwitch.nro",
         "license": "n/a",
         "description": "Button Break for the Switch.",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/StrongEnough295/ButtonBreakSwitch/releases/download/v0.1/ButtonBreakSwitch.nro",
+            "url": "https://github.com/StrongEnough295/ButtonBreakSwitch/releases/download/v0.5/ButtonBreakSwitch.nro",
             "type": "update",
             "dest": "/switch/ButtonBreakSwitch/ButtonBreakSwitch.nro"
         }
     ],
-    "changelog": "v0.1 - Added all the buttons that are pressable. (except the SL and SR buttons, I will try to figure that out in the next update.)"
+    "changelog": ""
 }
