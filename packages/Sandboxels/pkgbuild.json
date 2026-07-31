@@ -1,0 +1,29 @@
+{
+    "package": "Sandboxels",
+    "info": {
+        "title": "Sandboxels",
+        "author": "R74n and Souldbminer",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/souldbminerr/sandboxels-nx",
+        "license": "All Rights Reserved",
+        "description": "Sandbox with voxels!",
+        "details": "Note: The js engine is licensed under GPLv2 but sandboxels is under NonCommercial so the final binary is ARR\\n\\nA falling sand simulation game with hundreds of elements, heat simulation, chemical reactions, fire, density, electricity, and more.\\n\\nPowered by SpiderMonkey-NX"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/souldbminerr/sandboxels-nx/releases/download/1.0.0/sandboxels.nro",
+            "type": "update",
+            "dest": "/switch/Sandboxels/sandboxels.nro"
+        }
+    ],
+    "changelog": "1.0.0\\n - Initial release"
+}
