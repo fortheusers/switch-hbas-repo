@@ -2,7 +2,7 @@
     "package": "NetSurf",
     "info": {
         "title": "NetSurf",
-        "author": "Who else but etonedemid",
+        "author": "etonedemid",
         "category": "tool",
         "version": "0.1.0",
         "url": "https://github.com/etonedemid/netsurf-switch",
