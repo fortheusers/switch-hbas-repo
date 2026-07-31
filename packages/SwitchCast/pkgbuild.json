@@ -1,0 +1,46 @@
+{
+    "package": "SwitchCast",
+    "info": {
+        "title": "SwitchCast",
+        "author": "Butt_Fartington",
+        "category": "tool",
+        "version": "0.4.1",
+        "url": "https://github.com/Butt-Fartington/SwitchCast",
+        "license": "GPLv2",
+        "description": "Cast your screen to a Chromecast",
+        "details": "In this modified version of SysDVR you can select a Chromecast on the network and cast natively.   No audio for now to Prioritize Low latency.  Also has a USB dock mode and a companion Pi zero 2 W iso for a low latency USB dock.  FYI, Needs good WIFI for both the Switch and Cast reciever for best experience.   Thanks for checking this out!"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Butt-Fartington/SwitchCast/releases/download/v0.4.1/SwitchCast-Standalone-v0.4.1-source.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/Butt-Fartington/SwitchCast/releases/download/v0.4.1/SwitchCast-Standalone-v0.4.1.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
