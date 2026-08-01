@@ -4,7 +4,7 @@
         "title": "Bouncy Brawl",
         "author": "willsta",
         "category": "game",
-        "version": "0.1",
+        "version": "release",
         "url": "https://github.com/TechMaster85/bouncy_brawl",
         "license": "GPLv3",
         "description": "Knock the other player off stage",
@@ -17,5 +17,5 @@
             "dest": "/switch/BouncyBrawl/bouncy_brawl.nro"
         }
     ],
-    "changelog": "Initial release for Switch"
+    "changelog": "vrelease\\nInitial release for Nintendo Switch.\\n\\nInitial release for Switch"
 }
