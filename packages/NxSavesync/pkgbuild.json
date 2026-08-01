@@ -1,0 +1,29 @@
+{
+    "package": "NxSavesync",
+    "info": {
+        "title": "Nx Savesync",
+        "author": "Angelpro09_Dev",
+        "category": "tool",
+        "version": "5.4",
+        "url": "https://github.com/Angelpro09xd/nxsavesync",
+        "license": "n/a",
+        "description": "Sync your savedata with yours emulators",
+        "details": "Sync your savedata with yours emulators automatycally.\\nYou play on the Switch, put it down, open the emulator on your PC, and your save file is there. You play on your PC, go back to the console, and it's there too. No cables, no manually copying folders, no need to remember anything."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Angelpro09xd/nxsavesync/releases/download/v5.4/nxsavesync.nro",
+            "type": "update",
+            "dest": "/switch/NxSavesync/nxsavesync.nro"
+        }
+    ],
+    "changelog": ""
+}
