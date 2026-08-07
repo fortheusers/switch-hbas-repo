@@ -1,0 +1,24 @@
+{
+    "package": "OshawottPlush",
+    "info": {
+        "title": "Oshawott Plush",
+        "author": "Diflic",
+        "category": "game",
+        "version": "1.0",
+        "url": "https://github.com/Diflic/Oshawott-Plush-Game/releases/tag/Game",
+        "license": "GPLv3",
+        "description": "OSHAWOTT PLUSH",
+        "details": "Oshawott Plush voted as the worlds best Oshawott Plush game!! \\n\\nPLAY AT YOUR OWN RISK \\n\\n**WARNING JUMPSCARES**"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
