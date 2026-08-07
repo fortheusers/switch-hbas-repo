@@ -1,0 +1,29 @@
+{
+    "package": "NXStation",
+    "info": {
+        "title": "NXStation",
+        "author": "jiraiya78",
+        "category": "loader",
+        "version": "0.1.8",
+        "url": "https://github.com/jiraiya78/NXStation",
+        "license": "Apache v2",
+        "description": "Retro game frontend for Nintendo Switch",
+        "details": "Retro game frontend for Nintendo Switch with RetroArch+Cores integration, batch scrapping ScreenScrapper support and themes.\\n\\nNXStation is a Switch-native launcher for retro game libraries. It is not a web wrapper or a PC port squeezed onto handheld hardware. It is written in C++ for the Switch, tuned for controller and touchscreen, and designed to feel as responsive as the games you launch from it.\\n\\nWhether you are curating a modest SD card collection or a multi-system archive, NXStation helps you see your library \u2014 box art, thumbnails, descriptions, and video previews \u2014 without leaving the console.\\n\\nMedia collection compatibility\\nFully compatible with ES-DE-style media layouts. Drop your collection\u2019s artwork, thumbnails, and gamelist.xml into your roms folders and NXStation recognizes them immediately. No tedious re-import ritual.\\n\\nBatch scraping\\nOnline scraper integration with ScreenScraper.fr \u2014 pull box art, screenshots, metadata, and preview videos in a single pass, per game or across an entire system.\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/jiraiya78/NXStation/releases/download/v0.1.8/NXStation.nro",
+            "type": "update",
+            "dest": "/switch/NXStation/NXStation.nro"
+        }
+    ],
+    "changelog": "Update v0.1.8 adds in-app updates from GitHub, proper Last Played date/time stamps, RetroArch boot-banner / core-path sync, and a quieter log file. Recommended if you are on v0.1.7 or earlier.\\n\\nWebsite: https://nxstation.com\\nDownloads: https://github.com/jiraiya78/NXStation/releases\\n\\nHighlights\\nCheck for Updates in Settings \u2014 fetch the latest NXStation.nro from GitHub Releases (restart after install)\\nLast Played shows real date and time (YYYY-MM-DD HH:MM), newest first, using the Switch system clock / timezone\\nFixed Last Played times collapsing to the same clock time after relaunch (JSON number precision bug)\\nRetroArch no longer sticks on the \u201cNintendo Wii/GameCube (Dolphin)\u201d boot banner for other systems (including zip/7z)\\nNXStation.log auto-trims at launch when larger than 512 KiB\\nAdded\\nSettings \u2192 Check for Updates: queries jiraiya78/NXStation releases, compares tag_name to the build version, and can download NXStation.nro over the installed app\\nLast Played rows show date and time next to the system acronym\\nChanged / Fixed\\nLast Played timestamps use the Switch user/network clock and console timezone rules\\nLast Played order stays most recent first (no A\u2013Z re-sort on that section)\\nBefore each launch, rewrite sdmc:/retroarch/retroarch-salamander.cfg libretro_path to the core being launched so RetroArch\u2019s boot banner / core info match the game\\nNXStation.log is trimmed at startup when over 512 KiB (keeps the last ~256 KiB; under the limit this is a single stat)\\nRemoved\\nNintendo 3DS (3ds) from the default roms_config.json (no practical RetroArch 3DS core on Switch). Existing SD configs and user_cores.json auto-prune 3ds on load.\\nNotes after upgrading\\nRe-launch a few games once if Last Played times still look identical \u2014 older saved timestamps may already be collapsed; new plays rewrite them correctly.\\nIn-app updater needs internet and writes over sdmc:/switch/NXStation/NXStation.nro.\\nRequirements\\nModded Switch (e.g. Atmosphere) with homebrew enabled\\nTitle Override is required \u2014 hold R while launching any game, open the Homebrew Menu, then start NXStation\\nRetroArch for Switch at sdmc:/switch/retroarch_switch.nro\\nRetroArch cores under sdmc:/retroarch/cores/\\nROMs under sdmc:/roms/ (or your custom ROMs path in Settings)\\nInstallation\\nDownload NXStation.nro from this release (or use Settings \u2192 Check for Updates once you already have a build that includes the updater).\\nCopy to sdmc:/switch/NXStation/NXStation.nro\\nLaunch via Title Override (hold R \u2192 Homebrew Menu \u2192 NXStation).\\nUpgrading from an older build keeps your existing settings/ and data/ on SD.\\n\\nThank you to everyone who tests, reports issues, and keeps the homebrew scene going.\\n\\n"
+}
