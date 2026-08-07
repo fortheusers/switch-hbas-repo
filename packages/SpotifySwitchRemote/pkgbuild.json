@@ -4,11 +4,11 @@
         "title": "Spotify Switch Remote",
         "author": "David Abejon",
         "category": "tool",
-        "version": "0.1.2",
+        "version": "0.1.3",
         "url": "https://github.com/davidabejon/spotify-switch-remote",
         "license": "MIT",
         "description": "Control your Spotify playback",
-        "details": "Display and control your Spotify playback from your Nintendo Switch!\\n\\n- Real-time playback state (track, artist, album art)\\n- Artist panel \u2014 photo, genres, followers, popularity\\n- Album panel \u2014 thumbnail, type, release year, track count, label\\n- Play / pause, previous and next controls\\n- OAuth 2.0 PKCE login flow via QR code (no credentials stored in plaintext)\\n- Auto token refresh in the background"
+        "details": "Display and control your Spotify playback from your Nintendo Switch!\\n\\n- Real-time playback state (track, artist, album art)\\n- Artist panel — photo, genres, followers, popularity\\n- Album panel — thumbnail, type, release year, track count, label\\n- Play / pause, previous and next controls\\n- OAuth 2.0 PKCE login flow via QR code (no credentials stored in plaintext)\\n- Auto token refresh in the background"
     },
     "assets": [
         {
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/davidabejon/spotify-switch-remote/releases/download/v0.1.2/spotify-switch.nro",
+            "url": "https://github.com/davidabejon/spotify-switch-remote/releases/download/v0.1.3/spotify-switch.nro",
             "type": "update",
             "dest": "/switch/SpotifySwitchRemote/spotify-switch.nro"
         }
     ],
-    "changelog": "v0.1.0\\n\\n- Display current activity\\n- Display artist and album info\\n- Display next 4 elements in queue\\n- Display user's information (name, pfp, country...)\\n- Play, pause and skip actions"
+    "changelog": "v0.1.3\\nWhat's Changed\\n- Added 'Settings' tab, allowing for language change and logout functionalities\\n- Added touchscreen controls\\n- Fixed fetching HTTP calls using a worker thread so the main UI thread won't get interrupted\\n\\nv0.1.0\\n\\n- Display current activity\\n- Display artist and album info\\n- Display next 4 elements in queue\\n- Display user's information (name, pfp, country...)\\n- Play, pause and skip actions"
 }
