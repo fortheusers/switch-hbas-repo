@@ -1,0 +1,43 @@
+{
+  "package": "SwitchSaveSync",
+  "info": {
+    "title": "SwitchSaveSync",
+    "author": "Miguel",
+    "category": "tool",
+    "version": "0.4.0",
+    "license": "GPLv3",
+    "url": "https://github.com/NspxMiguel/SwitchSaveSync",
+    "description": "Save sync to Google Drive or WebDAV",
+    "binary": "/switch/SwitchSaveSync.nro",
+    "details": "Copies your Switch saves to a cloud you already own, and brings them back — the way Steam Cloud does it. No server in the middle, no account to create here: it talks to your own Google Drive, or to any WebDAV server (Nextcloud, ownCloud, Synology, QNAP, Box).\n\nNothing is written over a save without a way back. A restore copies the save to the SD card first and aborts if that copy fails; when the cloud copy and the local one disagree, the app asks which one wins instead of choosing for you; and no savedata is touched while its game is running.\n\nAlso here: a backup that stays on the SD card with no network at all, and an optional autosync sysmodule that backs a save up when you close the game. The sysmodule does NOT start with the console, on purpose — there is no boot2.flag in this package. You start it from the Ultrahand overlay that comes with it, which is also where autosync is turned on and off. The app on its own is one file and needs none of that.\n\nOpen source, GPLv3."
+  },
+  "changelog": "One folder per game in the cloud, with an account folder inside it, instead of the old flat pile. Uploads over 5 MB now go through Drive's resumable protocol, downloads no longer stop at 30 seconds, and a cloud folder with more than 60 files is no longer read as empty. New optional autosync sysmodule plus an Ultrahand overlay to control it. Several ways a save could be damaged were closed: the idle download could write into a game that had just been opened, a download could report success with nothing written, and a hiccup mid-backup could create a duplicate file in the cloud.",
+  "assets": [
+    {
+      "url": "https://github.com/NspxMiguel/SwitchSaveSync/releases/download/v0.4.0/SwitchSaveSync-0.4.0-sd.zip",
+      "type": "zip",
+      "zip": [
+        {
+          "path": "/switch/SwitchSaveSync.nro",
+          "dest": "/switch/SwitchSaveSync.nro",
+          "type": "update"
+        },
+        {
+          "path": "/switch/.overlays/SwitchSaveSync.ovl",
+          "dest": "/switch/.overlays/SwitchSaveSync.ovl",
+          "type": "update"
+        },
+        {
+          "path": "/atmosphere/contents/00FF0000535953FF/exefs.nsp",
+          "dest": "/atmosphere/contents/00FF0000535953FF/exefs.nsp",
+          "type": "update"
+        },
+        {
+          "path": "/atmosphere/contents/00FF0000535953FF/toolbox.json",
+          "dest": "/atmosphere/contents/00FF0000535953FF/toolbox.json",
+          "type": "update"
+        }
+      ]
+    }
+  ]
+}
