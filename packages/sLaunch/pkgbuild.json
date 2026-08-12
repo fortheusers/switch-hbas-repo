@@ -4,7 +4,7 @@
         "title": "sLaunch",
         "author": "etonedemid",
         "category": "advanced",
-        "version": "0.7.0",
+        "version": "0.8.0",
         "url": "https://github.com/etonedemid/slaunch/",
         "license": "MIT",
         "description": "Fast text based HOME replacement",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/etonedemid/slaunch/releases/download/v0.7.0/sInstaller.nro",
+            "url": "https://github.com/etonedemid/slaunch/releases/download/v0.8.0/sInstaller.nro",
             "type": "update",
             "dest": "/switch/sLaunch/sInstaller.nro"
         }
     ],
-    "changelog": "v0.7.0\\nsLaunch now says hello. On boot (and right after setup) you get a welcome screen that greets you by your Switch profile name over the opening jingle, with a different line each time. Don't want it? Theming > Welcome screen.\\n\\nYou can also clean up the menu now - every system entry (Album, Browser, Settings, Power, Homebrew...) can be shown or hidden in Theming > Menu entries. Theming itself stays put so you can always get back.\\n\\nNew Random game entry: it rolls through your library like a slot machine, lands on something, and launches it.\\n\\nSetup got restyled to match the rest of the menu instead of looking like its own thing."
+    "changelog": "v0.8.0\\nThe cross-media bar comes to sLaunch. New XMB mode (Theming > UI mode) does the PSP thing properly: categories ride a bar across the screen, your games hang below the selected one, and the whole thing is touch-driven - tap a category to open it, drag the column to flick through, tap an entry twice to launch.\\n\\nTwo long-standing annoyances are gone. Closing a homebrew now brings you back to the menu instead of relaunching the homebrew forever, and Restart / Power off now actually restart and power off instead of leaving the console in a weird half-asleep state.\\n\\nIcon packs are in: drop PNG sets into slaunch/icon_packs// and switch between them in Theming > Icon pack. A clean Minimal pack by @meepcat55 ships in the box. Themes also gained an icon background colour, so packs sit right on any look.\\n\\nsLaunch now speaks Russian, Japanese, German, Spanish and Chinese - it follows your console's language automatically, and slaunch/lang/template.txt is there if you want to add yours. Korean and Chinese consoles get their proper system font too, and a full Noto Sans CJK is bundled under Theming > Fonts.\\n\\nAlso: dragging anywhere now moves the content under your finger (not the cursor), taps in submenus land where you actually tap, and the welcome screen slimmed down to a quiet two lines that fade in and out.\\n\\nInstall:- run sInstaller.nro, or extract slaunch-v0.8.0-sd.zip to your SD root. Reboot after.\\n\\nv0.7.0\\nsLaunch now says hello. On boot (and right after setup) you get a welcome screen that greets you by your Switch profile name over the opening jingle, with a different line each time. Don't want it? Theming > Welcome screen.\\n\\nYou can also clean up the menu now - every system entry (Album, Browser, Settings, Power, Homebrew...) can be shown or hidden in Theming > Menu entries. Theming itself stays put so you can always get back.\\n\\nNew Random game entry: it rolls through your library like a slot machine, lands on something, and launches it.\\n\\nSetup got restyled to match the rest of the menu instead of looking like its own thing."
 }
