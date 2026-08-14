@@ -24,17 +24,17 @@
             "type": "zip",
             "zip": [
                 {
-                    "path": "/switch/**/*",
+                    "path": "/switch/*",
                     "dest": "/switch",
                     "type": "update"
                 },
                 {
-                    "path": "/config/**/*",
+                    "path": "/config/*",
                     "dest": "/config",
                     "type": "update"
                 },
                 {
-                    "path": "/atmosphere/**/*",
+                    "path": "/atmosphere/*",
                     "dest": "/atmosphere",
                     "type": "update"
                 }
