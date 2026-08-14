@@ -24,18 +24,28 @@
             "type": "zip",
             "zip": [
                 {
-                    "path": "/switch/*",
-                    "dest": "/switch",
+                    "path": "/switch/SwitchCast.nro",
+                    "dest": "/switch/SwitchCast.nro",
                     "type": "update"
                 },
                 {
-                    "path": "/config/*",
-                    "dest": "/config",
+                    "path": "/config/switchcast/README.txt",
+                    "dest": "/config/switchcast/README.txt",
                     "type": "update"
                 },
                 {
-                    "path": "/atmosphere/*",
-                    "dest": "/atmosphere",
+                    "path": "/atmosphere/contents/00FF000053434153/exefs.nsp",
+                    "dest": "/atmosphere/contents/00FF000053434153/exefs.nsp",
+                    "type": "update"
+                },
+                {
+                    "path": "/atmosphere/contents/00FF000053434153/toolbox.json",
+                    "dest": "/atmosphere/contents/00FF000053434153/toolbox.json",
+                    "type": "update"
+                },
+                {
+                    "path": "/atmosphere/contents/00FF000053434153/flags/boot2.flag",
+                    "dest": "/atmosphere/contents/00FF000053434153/flags/boot2.flag",
                     "type": "update"
                 }
             ]
