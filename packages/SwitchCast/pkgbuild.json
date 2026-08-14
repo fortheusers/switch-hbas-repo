@@ -4,7 +4,7 @@
         "title": "SwitchCast",
         "author": "Butt_Fartington",
         "category": "tool",
-        "version": "0.4.1",
+        "version": "0.4.4",
         "url": "https://github.com/Butt-Fartington/SwitchCast",
         "license": "GPLv2",
         "description": "Cast your screen to a Chromecast",
@@ -20,18 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Butt-Fartington/SwitchCast/releases/download/v0.4.1/SwitchCast-Standalone-v0.4.1-source.zip",
-            "type": "zip",
-            "zip": [
-                {
-                    "path": "/**/*",
-                    "dest": "/",
-                    "type": "update"
-                }
-            ]
-        },
-        {
-            "url": "https://github.com/Butt-Fartington/SwitchCast/releases/download/v0.4.1/SwitchCast-Standalone-v0.4.1.zip",
+            "url": "https://github.com/Butt-Fartington/SwitchCast/releases/download/v0.4.4/SwitchCast-Standalone-v0.4.4.zip",
             "type": "zip",
             "zip": [
                 {
