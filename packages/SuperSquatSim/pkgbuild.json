@@ -1,0 +1,29 @@
+{
+    "package": "SuperSquatSim",
+    "info": {
+        "title": "Super Squat Sim",
+        "author": "Porkey27",
+        "category": "game",
+        "version": "1.0",
+        "url": "https://github.com/Porkey27/SUPER-SQUAT-SIMULATOR-SWITCH",
+        "license": "All Rights Reserved",
+        "description": "SUPER SQUAT SIM",
+        "details": "Squatting couldn't be easier\\n\\nup/down to squat"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Porkey27/SUPER-SQUAT-SIMULATOR-SWITCH/releases/download/1.0/SuperSquatSim.nro",
+            "type": "update",
+            "dest": "/switch/SuperSquatSim/SuperSquatSim.nro"
+        }
+    ],
+    "changelog": "The game fully functions"
+}
