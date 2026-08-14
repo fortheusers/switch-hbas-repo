@@ -1,0 +1,55 @@
+{
+    "package": "SwitchCast",
+    "info": {
+        "title": "SwitchCast",
+        "author": "Butt_Fartington",
+        "category": "tool",
+        "version": "0.4.4",
+        "url": "https://github.com/Butt-Fartington/SwitchCast",
+        "license": "GPLv2",
+        "description": "Cast your screen to a Chromecast",
+        "details": "In this modified version of SysDVR you can select a Chromecast on the network and cast natively.   No audio for now to Prioritize Low latency.  Also has a USB dock mode and a companion Pi zero 2 W iso for a low latency USB dock.  FYI, Needs good WIFI for both the Switch and Cast reciever for best experience.   Thanks for checking this out!"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Butt-Fartington/SwitchCast/releases/download/v0.4.4/SwitchCast-Standalone-v0.4.4.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/switch/SwitchCast.nro",
+                    "dest": "/switch/SwitchCast.nro",
+                    "type": "update"
+                },
+                {
+                    "path": "/config/switchcast/README.txt",
+                    "dest": "/config/switchcast/README.txt",
+                    "type": "update"
+                },
+                {
+                    "path": "/atmosphere/contents/00FF000053434153/exefs.nsp",
+                    "dest": "/atmosphere/contents/00FF000053434153/exefs.nsp",
+                    "type": "update"
+                },
+                {
+                    "path": "/atmosphere/contents/00FF000053434153/toolbox.json",
+                    "dest": "/atmosphere/contents/00FF000053434153/toolbox.json",
+                    "type": "update"
+                },
+                {
+                    "path": "/atmosphere/contents/00FF000053434153/flags/boot2.flag",
+                    "dest": "/atmosphere/contents/00FF000053434153/flags/boot2.flag",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
