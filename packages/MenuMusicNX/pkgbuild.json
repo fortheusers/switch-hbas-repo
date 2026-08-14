@@ -1,0 +1,35 @@
+{
+    "package": "MenuMusicNX",
+    "info": {
+        "title": "MenuMusicNX",
+        "author": "Fimochi",
+        "category": "tool",
+        "version": "1.0.1",
+        "url": "https://github.com/Fimochi/MenuMusicNX",
+        "license": "GPLv2",
+        "description": "Proper Background Music for Switch",
+        "details": "HOME Menu background music for Nintendo Switch.\\n\\nMenuMusicNX automatically plays music while the HOME Menu is in the foreground, pauses when you launch a game, and resumes from the same position when you return HOME. Version 1.0.1 adds a smooth fade-out when entering games and fade-in when returning to HOME.\\n\\nFeatures:\\n\u2022 Automatic HOME Menu/game detection\\n\u2022 Smooth fade-in/out transitions\\n\u2022 MP3, FLAC and WAV support\\n\u2022 Tesla music browser\\n\u2022 Startup playlists\\n\u2022 Volume control\\n\u2022 No manual play/pause required\\n\\nMenuMusicNX is a fork of sys-tune, redesigned specifically for HOME Menu music using pdm:qry focus events and qlaunch detection.\\n\\nIMPORTANT: MenuMusicNX uses the same sysmodule title as sys-tune and will overwrite an existing sys-tune installation, so uninstall sys-tune first.\\n\\nTested on Atmosph\u00e8re firmware 20.1.5.\\n\\nBring proper HOME Menu music to your Switch \u2014 like the Wii, Wii U and 3DS!\\n\\n\\n...o yeah also theres the github page for more info: https://github.com/Fimochi/MenuMusicNX"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Fimochi/MenuMusicNX/releases/download/v1.0.1/MenuMusicNX-1.0.1.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "Smooth fade in/out when pausing for games or resuming on HOME (~500 ms)."
+}
