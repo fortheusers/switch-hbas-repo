@@ -1,0 +1,29 @@
+{
+    "package": "Ferry",
+    "info": {
+        "title": "Ferry",
+        "author": "DanilKhmyrov",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/DanilKhmyrov/Ferry-Switch",
+        "license": "GPLv3",
+        "description": "FTP server and file browser",
+        "details": "Ferry turns your Switch into an FTP server so you can move files to and from it over Wi-Fi using any FTP client on the same network. It shows a live status screen with the console's address as a QR code, who is connected, and what is transferring and how fast.\\n\\nYou choose which filesystem to expose: the SD card (read/write), NAND's User partition (strictly read-only), installed games, or save data. Installed games appear as downloadable .nsp files assembled on the fly. Save data mounts read/write, so saves can be backed up and restored.\\n\\nFerry never installs anything and never writes to system storage. Uploaded .nsp/.nsz/.xci/.xcz files are simply stored on the SD card in a staging folder for you to install afterwards with DBI or another installer.\\n\\nUp to 4 clients can transfer at once. An optional PIN can be required as the FTP password. Light and dark themes included."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/DanilKhmyrov/Ferry-Switch/releases/download/v1.0.0/Ferry.nro",
+            "type": "update",
+            "dest": "/switch/Ferry/Ferry.nro"
+        }
+    ],
+    "changelog": ""
+}
