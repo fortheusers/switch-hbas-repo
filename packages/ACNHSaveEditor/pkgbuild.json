@@ -1,0 +1,40 @@
+{
+    "package": "ACNHSaveEditor",
+    "info": {
+        "title": "ACNH Save Editor",
+        "author": "cbreezy210",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/cbreezy210/acnh-save-editor",
+        "license": "MIT",
+        "description": "Edit Bells and inject items by name, rig",
+        "details": "A native Nintendo Switch homebrew save editor for Animal Crossing: New Horizons - no PC required.\\n\\nFeatures:\\n- Reads/writes the live save directly from/to NAND\\n- Edits wallet & bank Bells (encrypted ints, healed Murmur3 hashes)\\n- Pocket item injector with full English item-name lookup\\n- Automatic SD backup before every NAND write\\n\\nHow to use:\\n1. Put acnh_editor.nro and items.txt in /switch/acnh_editor/ on your SD.\\n2. Fully close ACNH from the Home Menu.\\n3. Launch via the Homebrew Menu and select acnh_editor.\\n\\nitems.txt (NHSE's English item name list) is on the GitHub Releases page.\\nBuilt with devkitPro/libnx. Educational project - always keep backups!"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/cbreezy210/acnh-save-editor/releases/download/v1.0/acnh_editor.nro",
+            "type": "update",
+            "dest": "/switch/ACNHSaveEditor/acnh_editor.nro"
+        },
+        {
+            "url": "https://github.com/cbreezy210/acnh-save-editor/releases/download/v1.0/acnh_editor_v1.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "v1.0.0 - Initial public release."
+}
