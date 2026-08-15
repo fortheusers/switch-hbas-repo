@@ -1,0 +1,29 @@
+{
+    "package": "CryptoDeck",
+    "info": {
+        "title": "CryptoDeck",
+        "author": "DanilKhmyrov",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/DanilKhmyrov/CryptoDeck",
+        "license": "MIT",
+        "description": "Live crypto prices on your Switch",
+        "details": "CryptoDeck turns a Nintendo Switch on a stand into a crypto price display.\\n\\nIt shows a grid of 23 coins by default, 16 per screen, each card tinted by its 24-hour direction so the grid answers \"what's up, what's down\" before you read a number. Sort by 24-hour change or keep your own order, and open any coin for a chart from 1 hour to 7 days with the high and low marked.\\n\\nA coin pulses when it moves more than its own 24-hour range would suggest, so the alert threshold is per coin rather than one number for everything.\\n\\nAdd any Binance pair by ticker; icons are downloaded and cached to the SD card. Prices in USD, EUR or RUB at a real daily exchange rate. Pairs Binance has stopped trading are detected and reported instead of showing a frozen price.\\n\\nThe screen never dims or blanks \u2014 burn-in is handled by slow drift instead. Light and dark themes, true black in dark mode.\\n\\nWritten in TypeScript on nx.js."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/DanilKhmyrov/CryptoDeck/releases/download/v1.0.0/cryptodeck.nro",
+            "type": "update",
+            "dest": "/switch/CryptoDeck/cryptodeck.nro"
+        }
+    ],
+    "changelog": "1.0.0: Created the app"
+}
