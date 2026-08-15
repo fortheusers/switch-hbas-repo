@@ -1,0 +1,29 @@
+{
+    "package": "greennx",
+    "info": {
+        "title": "green-nx",
+        "author": "rmrf404",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/rmrf404/green-nx",
+        "license": "GPLv3",
+        "description": "Xbox Cloud Gaming client",
+        "details": "Standalone Xbox Cloud Gaming (xCloud) client for the Switch. Sign in with your Microsoft account using a device code, browse your Game Pass Ultimate library with box art and search, and stream games at 720p / 1080p/ 1080p HQ with 60 fps video, Opus audio and full controller support. Streaming is fully native: WebRTC connection, hardware H.264 decoding (NVDEC) and zero-copy GPU rendering happen on the console itself. \\n\\nRequires an active Game Pass Ultimate subscription and launching in title mode (hold R while starting an installed game) for hardware decoding. Fun, experimental, non-commercial project, not affiliated with Microsoft or Nintendo."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/rmrf404/green-nx/releases/download/v1.0.0/green-nx.nro",
+            "type": "update",
+            "dest": "/switch/greennx/green-nx.nro"
+        }
+    ],
+    "changelog": ""
+}
