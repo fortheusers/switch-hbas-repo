@@ -1,0 +1,29 @@
+{
+    "package": "NXmanga",
+    "info": {
+        "title": "NXmanga",
+        "author": "David Abejon",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/davidabejon/nxmanga",
+        "license": "MIT",
+        "description": "Read manga and comic on the fly",
+        "details": "Read manga and comic right on your Nintendo Switch! Track your progress, read horizontally or vertically, interact using touch controls, zoom in and out, and much more.\\nEnglish and Spanish language support. More to come.\\n\\nHow to setup\\n\\nCopy your manga into sdmc:/manga on your SD card. Each entry directly under it can be either:\\n\\n- a single chapter/one-shot: a .cbz/.zip file, or a folder of loose image files, shown and opened directly; or\\n- a series folder: a folder containing further chapters (each a .cbz/.zip or an image folder, following the same rule), which nxmanga will browse as its own sub-list."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/davidabejon/nxmanga/releases/download/v1.0.0/nxmanga.nro",
+            "type": "update",
+            "dest": "/switch/NXmanga/nxmanga.nro"
+        }
+    ],
+    "changelog": "- Library grid \u2014 browse your manga collection as a grid of covers, organized however you already have it on your SD card: single chapters, or series folders containing multiple chapters. Sorting coming soon...\\n- CBZ/ZIP and loose image folders \u2014 a manga/chapter can be a .cbz/.zip archive, or a plain folder of .jpg/.jpeg/.png/.webp images.\\n- Reading progress, remembered automatically \u2014 reopening a chapter picks up exactly where you left off. Chapters you've finished show a tick on their cover; chapters you've started but not finished show a current/total page badge. A series folder shows the tick once every chapter inside it is done.\\n- Two reading modes \u2014 flip page by page, or switch to a continuous vertical cascade (webtoon-style) scroll.\\n- Horizontal/vertical orientation \u2014 read normally, or rotate the console on its side for an e-reader-like vertical layout.\\n- Zoom & pan \u2014 pinch-to-zoom (touch) or right stick, drag/left-stick to pan, in both reading modes.\\n- Touch and button controls \u2014 fully playable with the touchscreen, the D-pad/sticks, or both.\\n- Multi-language UI \u2014 currently English and Spanish; cycle languages from the side menu."
+}
