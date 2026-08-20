@@ -1,0 +1,29 @@
+{
+    "package": "MTGnx",
+    "info": {
+        "title": "MTGnx",
+        "author": "LostMagus",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/lostmaguss/MTGnx",
+        "license": "n/a",
+        "description": "A sleek, feature-rich mtg app",
+        "details": "# MTG Companion (Nintendo Switch)\\n\\nA sleek, feature-rich Magic: The Gathering companion app and life tracker built natively for Nintendo Switch homebrew using SDL2.\\n\\n## Features\\n\\n- **2, 3, or 4 Player Support**: Dynamic split-screen layouts based on player count.\\n- **Life Tracking**: Tap the left side of a player's panel to decrease life, and the right side to increase life.\\n- **Commander Damage**: Toggle Commander Damage view in the tools menu. Tap the section corresponding to the attacking player to track damage taken.\\n- **Dice & Coin**: Built-in D20 roller and Coin Flipper.\\n- **Slick UI**: Includes CRT post-processing effects, neon borders, dynamic floating damage indicators, and particle effects.\\n- **Immersive Feedback**: Supports HD Rumble (joystick vibration on damage and critical rolls) and sound effects.\\n\\n## Controls\\n\\nThe app primarily uses the **Touch Screen** for interaction.\\n\\n- **Tap Left/Right side of a player panel**: -1 / +1 Life (or Commander Damage)\\n- **Tap Center Orb**: Opens the Tools Menu.\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/lostmaguss/MTGnx/releases/download/1.0.0/MTG_Companion.nro",
+            "type": "update",
+            "dest": "/switch/MTGnx/MTG_Companion.nro"
+        }
+    ],
+    "changelog": ""
+}
