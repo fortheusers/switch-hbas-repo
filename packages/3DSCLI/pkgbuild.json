@@ -1,0 +1,68 @@
+{
+    "package": "3DSCLI",
+    "info": {
+        "title": "3DS-CLI",
+        "author": "cmdada",
+        "category": "emu",
+        "version": "4.0",
+        "url": "https://github.com/cmdada/3DS-CLI/",
+        "license": "GPLv3",
+        "description": "Run RISCV Linux on Nintendo consoles!",
+        "details": "3DS-CLI boots a stock RV32 Linux 6.6 kernel with a glibc userspace off your SD card, using mini-rv32ima-mmu.\\n\\nControls:\\nButton \tAction\\nL / Y \tZoom out\\nR / X \tZoom in\\nZL \tToggle auto-follow cursor\\nZR \tToggle font (8x8 / 5x7 compact)\\nCircle Pad \tPan the viewport (turns off auto-follow)\\nD-Pad \tArrow keys\\nSTART \tQuit to the Homebrew Launcher\\nSELECT \tOpen settings menu, it's pretty self explanatory\\nKey \tAction\\nSHF \tShift (uppercase)\\n?#1 / #+= \tSymbol layers\\nABC \tBack to letters\\nCTL \tCtrl modifier. Tap CTL, then a letter\\nTAB / ESC / ENT / DEL \tTab, escape, enter, backspace"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/cmdada/3DS-CLI/releases/download/4.0/3ds_cli.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/cmdada/3DS-CLI/releases/download/4.0/hbas-switch-3ds-cli.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/cmdada/3DS-CLI/releases/download/4.0/hbas-wiiu-3ds-cli.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/cmdada/3DS-CLI/releases/download/4.0/oscwii-3ds-cli.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "V4.0: Added support for the Wii U, Wii, Gamecube, and Switch! "
+}
