@@ -1,0 +1,29 @@
+{
+    "package": "haulNX",
+    "info": {
+        "title": "haulNX",
+        "author": "digdat0",
+        "category": "tool",
+        "version": "2.1.0",
+        "url": "https://github.com/digdat0/HaulNX",
+        "license": "GPLv3",
+        "description": "A ROM library manager for emulators",
+        "details": "A ROM library manager for Nintendo Switch homebrew. HaulNX builds and maintains one central library at sdmc:/roms/<console> you fill it from your legit backup sources, and it keeps that library organized, verified, and tidy. It checks against No-Intro/Redump DATs, deduplicated, misfiled files sorted, folders per console. Point your emulators at sd:/roms once and everything you add shows up. It also keeps your installed emulators and apps up to date from GitHub, and ships with a companion you run on your PC."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/digdat0/HaulNX/releases/download/2.1.0/HaulNX.nro",
+            "type": "update",
+            "dest": "/switch/haulNX/HaulNX.nro"
+        }
+    ],
+    "changelog": "v2.1.0 adds box art from SteamGrid and Accent colors.\\nv2.0.0 adds library verifiaction against No-Intro/Redump DATs, native RAR3 support and integration with desktop app\\nv1.1.2 adds Install a game straight from your PC, plus a live verify progress bar.\\nv1.1.0 adds per-console install folders, a live speed test, and a much wider console list (53 total)\\n\\n\\n\\n"
+}
