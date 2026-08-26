@@ -8,7 +8,7 @@
         "url": "https://github.com/Jonathan8520/FlashNX",
         "license": "MIT",
         "description": "Play your Flash (.swf) games on Switch, powered by Ruffle.",
-        "details": "FlashNX is a homebrew Flash player for the Nintendo Switch, powered by Ruffle. Play your .swf games (AS1/AS2 and partial AS3) from your SD card, or get them on the console itself: the Import tab searches the Flashpoint Archive and downloads a game with its real title, its cover art and its companion files, no PC needed. Your library is a cover gallery you can sort, search and favorite. Controls are remappable per game from a visual keyboard (88 Flash keys, mouse clicks, combo layers), and you can share your bindings or apply another player's. Also: local two-player, the Switch keyboard for games that ask for text, native saves (.sol), an in-app bug report that needs no account, and 9 languages. Hold R when opening the Homebrew Menu, otherwise FlashNX lacks the memory to launch a game. Heavy games are limited by Ruffle's ActionScript interpreter (no JIT). Atmosphère required. All Flash emulation credit goes to Ruffle (ruffle.rs)."
+        "details": "Plays .swf games from your SD card, or downloads them on the console: the Import tab searches the Flashpoint Archive and fetches a game with its title, its cover and its companion files. AS1/AS2 run well, AS3 partially. Controls are remapped per game on a picture of the controller. Each game keeps its own screen mode, rotation, zoom, filter and CPU overclock. Hold R when opening the Homebrew Menu, or FlashNX will not have the memory to launch a game. Atmosphère required. Flash emulation by Ruffle (ruffle.rs)."
     },
     "assets": [
         {
