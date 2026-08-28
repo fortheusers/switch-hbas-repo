@@ -1,0 +1,29 @@
+{
+    "package": "TmcExplorerNX",
+    "info": {
+        "title": "TmcExplorer-NX",
+        "author": "TM_C0M8U570RZ",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/TM-C0M8U570RZ/TmcExplorer-NX",
+        "license": "n/a",
+        "description": "A File explorer for the Nintendo Switch ",
+        "details": "TmcExplorer-NX\\n\\nA File explorer for the Nintendo Switch brought to you by TM_C0M8U570RZ!\\n\\nWARNING!  THIS SOFTWARE WAS WRITTEN BY A FURRY WHO LOOKS LIKE TOBEY MAGUIRE!  \\n\\nWe are not responsible for any damage caused by modifying eMMC partitions!\\nWhy we made this:\\n\\nN-Xplorer and NXshell are dead. The devs haven't touched them for years and thus, they don't use the new ABI. That left Tegra Explorer as the only file explorer that works on the newer firmwares, but it's a bare metal payload and we wanted something that doesn't require rebooting your Switch.\\nPlanned features:\\n\\nViewing common file types."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/TM-C0M8U570RZ/TmcExplorer-NX/releases/download/v1.0.0/TmcExplorer-NX.nro",
+            "type": "update",
+            "dest": "/switch/TmcExplorerNX/TmcExplorer-NX.nro"
+        }
+    ],
+    "changelog": "v1.0.0\\nInitial release"
+}
