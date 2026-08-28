@@ -1,0 +1,29 @@
+{
+    "package": "SuperSquatSim",
+    "info": {
+        "title": "Super Squat Sim",
+        "author": "Porkey27",
+        "category": "game",
+        "version": "1.0",
+        "url": "https://github.com/Porkey27/SUPER-SQUAT-SIMULATOR-SWITCH",
+        "license": "n/a",
+        "description": "SUPER SQUAT SIM",
+        "details": "Super Squat Sim ported to the switch\\n\\nREQUIRES THE ACTUAL GAMES EXE from (https://gamejolt.com/games/super-squat-simulator/11729)"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Porkey27/SUPER-SQUAT-SIMULATOR-SWITCH/releases/download/1.0/SuperSquatSim.nro",
+            "type": "update",
+            "dest": "/switch/SuperSquatSim/SuperSquatSim.nro"
+        }
+    ],
+    "changelog": ""
+}
