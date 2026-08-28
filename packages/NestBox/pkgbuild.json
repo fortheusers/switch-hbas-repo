@@ -1,0 +1,29 @@
+{
+    "package": "NestBox",
+    "info": {
+        "title": "NestBox",
+        "author": "Matheus Nobre",
+        "category": "advanced",
+        "version": "0.9.16",
+        "url": "https://github.com/mnnobre/NestBox",
+        "license": "Apache v2",
+        "description": "Pok\u00e9mon HOME",
+        "details": "Um \"Pok\u00e9mon HOME\" que roda dentro do pr\u00f3prio Nintendo Switch\\nHomebrew, sem PC, sem nuvem \u2014 as caixas na tela do console."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/mnnobre/NestBox/releases/download/v0.9.16/nestbox.nro",
+            "type": "update",
+            "dest": "/switch/NestBox/nestbox.nro"
+        }
+    ],
+    "changelog": ""
+}
