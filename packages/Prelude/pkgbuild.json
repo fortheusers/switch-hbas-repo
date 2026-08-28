@@ -1,0 +1,29 @@
+{
+    "package": "Prelude",
+    "info": {
+        "title": "Prelude",
+        "author": "NextendoNetwork",
+        "category": "_misc",
+        "version": "3.3.9",
+        "url": "https://github.com/NextendoNetwork/Prelude-Nro",
+        "license": "Affero GPLv3",
+        "description": "The Nextendo homebrew",
+        "details": "Prelude is the Nintendo Switch homebrew that switches your console between the Nextendo Network and Nintendo's official servers.\\nPrelude does not patch games and does not touch the network stack. It writes configuration that Atmosph\u00e8re already understands, then reboots so the changes take effect because it only writes files Atmosph\u00e8re reads at boot, everything it does is reversible by switching modes \u2014 or by deleting those files by hand."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/NextendoNetwork/Prelude-Nro/releases/download/v3.3.9/nextendo.nro",
+            "type": "update",
+            "dest": "/switch/Prelude/nextendo.nro"
+        }
+    ],
+    "changelog": ""
+}
