@@ -1,0 +1,29 @@
+{
+    "package": "MiiPortOnline",
+    "info": {
+        "title": "MiiPort Online",
+        "author": "KakarottoCake, Genwald",
+        "category": "tool",
+        "version": "0.1.3-Online",
+        "url": "https://github.com/KakarottoCake/MiiPort-Online",
+        "license": "n/a",
+        "description": "Download and import Miis to your Switch!",
+        "details": "MiiPort Online lets you find Miis on a Switch and add them to your local Mii database. It adds an online browser to Genwald's MiiPort, so you don't have to find a Mii on a website, download a file on another device, and move it to the console by hand.\\n\\nThe online browser uses InfiniMii. You can search by name, creator, description, or uploader. You can also browse Popular This Week, New, Top Miis, Official Miis, and Random Miis. Results show as a 4\u00d73 image grid. Use the D-pad or control stick to move around, L and R to change pages, and A to view a Mii and download it.\\n\\nThe original local import and export features are still included."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/KakarottoCake/MiiPort-Online/releases/download/v0.1.3-Online/MiiPort.nro",
+            "type": "update",
+            "dest": "/switch/MiiPortOnline/MiiPort.nro"
+        }
+    ],
+    "changelog": "Browse and search Miis through InfiniMii.\\nPaged image grid with cached previews.\\nDownload and import CHARINFO files.\\nController and analog-stick navigation."
+}
