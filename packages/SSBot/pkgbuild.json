@@ -1,0 +1,29 @@
+{
+    "package": "SSBot",
+    "info": {
+        "title": "SSBot",
+        "author": "fungalspores",
+        "category": "tool",
+        "version": "2.0",
+        "url": "https://github.com/fungalspores/SSBot",
+        "license": "MIT",
+        "description": "Send screenshots from Switch to Telegram",
+        "details": "Features\\n\\nBrowse all screenshots from emuMMC/RAW1/Nintendo/Album/ with a dark SDL2 GUI\\n\\nSend to one or multiple Telegram chats (supports ALL option)\\n\\nOptional caption via on-screen keyboard before sending\\n\\nFullscreen preview\\n\\nLazy thumbnail loading \u2014 only decodes visible images\\n\\nSupports JPEG, PNG, BMP\\n\\nWeb Config \u2014 configure bot token and chat IDs from any browser on the same WiFi (port 7777)\\n\\nCatppuccin Mocha color palette"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/fungalspores/SSBot/releases/download/v2.0/ssbot.nro",
+            "type": "update",
+            "dest": "/switch/SSBot/ssbot.nro"
+        }
+    ],
+    "changelog": "What's new in v2.0\\n\\nWeb Config \u2014 configure bot token and chat IDs from any browser on the same WiFi (port 7777)\\n\\nMulti-chat support \u2014 send to multiple Telegram chats, with an ALL option to send to all at once\\n\\nDark SDL2 GUI \u2014 Catppuccin Mocha palette, rounded cards, thumbnail gallery with lazy loading\\n\\n2\u00d7 scaled text for better readability on Switch Lite\\n\\nAbout screen (\u2212 button) with controls reference and web config URL\\n\\nNew app icon\\n\\nConfig path: sdmc:/switch/ssbot/config.txt (auto-migrates from old path)"
+}
