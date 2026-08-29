@@ -4,7 +4,7 @@
         "title": "PKSE",
         "author": "Kiasta",
         "category": "tool",
-        "version": "1.0.2",
+        "version": "1.1.3",
         "url": "https://github.com/kiasta/PKSE",
         "license": "Affero GPLv3",
         "description": "Open-source Pok\u00e9mon save editor",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/kiasta/PKSE/releases/download/v1.0.2/PKSE.nro",
+            "url": "https://github.com/kiasta/PKSE/releases/download/v1.1.3/PKSE.nro",
             "type": "update",
             "dest": "/switch/PKSE/PKSE.nro"
         }
