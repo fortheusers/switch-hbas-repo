@@ -1,0 +1,29 @@
+{
+    "package": "NXStationB",
+    "info": {
+        "title": "NXStationB",
+        "author": "jiraiya78",
+        "category": "emu",
+        "version": "1.0",
+        "url": "https://github.com/jiraiya78/NXStationB",
+        "license": "Lesser GPLv3",
+        "description": "Nintendo Switch port of Batocera Emulati",
+        "details": "## What it is\\n\\nA port of Batocera\u2019s EmulationStation (GPL) to libnx. It is **not** a reskin of NXStation (Borealis). It is the Batocera UI, scraper, themes, and gamelists running on Switch.\\n\\n- **Open source roots:** Batocera ES is GPL. Switch port sources will be released in due time.\\n- **Stock RetroArch** (`sdmc:/switch/retroarch_switch.nro` + `sdmc:/retroarch/cores/`). Rax is optional.\\n- **ScreenScraper only** (set your website login in Scraper settings).\\n- **Title Override required** (hold **R** on a game). Album / applet mode does not have enough RAM.\\n\\n## Install\\n\\n1. Copy `NXStationB.nro` to `sdmc:/switch/nxstationb/NXStationB.nro`.\\n2. Hold **R** on any installed title and launch the NRO from hbmenu.\\n3. ROMs go in `sdmc:/roms/{system}/` (same as NXStation / ES-DE)."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/jiraiya78/NXStationB/releases/download/v1.0/NXStationB.nro",
+            "type": "update",
+            "dest": "/switch/NXStationB/NXStationB.nro"
+        }
+    ],
+    "changelog": ""
+}
