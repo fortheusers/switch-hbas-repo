@@ -1,0 +1,29 @@
+{
+    "package": "PKSE",
+    "info": {
+        "title": "PKSE",
+        "author": "Kiasta",
+        "category": "tool",
+        "version": "1.1.3",
+        "url": "https://github.com/kiasta/PKSE",
+        "license": "Affero GPLv3",
+        "description": "Open-source Pok\u00e9mon save editor",
+        "details": "PKSE (Pok\u00e9mon Save Editor) is a Pok\u00e9mon save editor for Nintendo Switch consoles -- no PC or save transfers needed.\\n\\nSupported games:\\n- FireRed/LeafGreen\\n- Let's Go, Pikachu!/Eevee!\\n- Sword/Shield\\n- Brilliant Diamond/Shining Pearl\\n- Legends: Arceus\\n- Scarlet/Violet\\n- Legends: Z-A\\n\\nFeatures:\\n- Edit party and box Pok\u00e9mon: species, level, IVs/EVs, nature, ability, moves, held item, ball, OT and met data, shininess and gender\\n- Trainer info and item pouches, with per-game item and count limits\\n- Pok\u00e9mon creator -- build one from scratch in any supported game's format\\n- Legality checker flags illegal values as you edit; it never blocks or alters your data\\n- Cross-game bank: deposit from one game, withdraw into another, converted to the destination format with origin preserved\\n- HOME-style interface with full touch support\\n- On-console save backup and restore with retained history\\n\\nFree, open source, built using PKHeX as a reference."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/kiasta/PKSE/releases/download/v1.1.3/PKSE.nro",
+            "type": "update",
+            "dest": "/switch/PKSE/PKSE.nro"
+        }
+    ],
+    "changelog": "Version 1.0 Release\\nThis release brings several new features, title support, a whole new UI interface and a plethora of bug fixes.  \\n\\nNewly supported titles:\\n- FireRed/LeafGreen\\n- Let's Go, Pikachu!/Eevee!\\n- Brilliant Diamond/Shining Pearl\\n- Legends: Arceus\\n- Scarlet/Violet\\n\\nEditing:\\n- Party & box Pok\u00e9mon: species, level, stats, IVs/EVs (AVs in Let's Go),\\n    nature, ability, moves, held item, ball, OT/met/origin, shininess and gender. Ribbons are still read-only.\\n- Trainer info and item pouches, with per-game item and count limits.\\n- Pok\u00e9mon creator: build one from scratch in any game's format, with legal\\n    values highlighted.\\n- Legality checker: flags illegal values as you edit (informational; it never\\n    blocks or changes anything). Legality still a WIP.\\n- Cross-game bank: PKSE-native storage every supported game shares. A Pok\u00e9mon\\n    deposited from one game is converted into the destination's format on\\n    withdrawal, preserving its origin (OT, IDs, met data, IVs, nature, PID).\\n\\nInterface & save handling:\\n- HOME-style UI (NanoVG) with better 256px HD sprites, full touch controls, and\\n    scrollable storage and lists.\\n- On-console backup and restore, with retained backup history.\\n- Per-game save-version and DLC detection.\\n- On-screen error reporting (including when no backups are present)."
+}
