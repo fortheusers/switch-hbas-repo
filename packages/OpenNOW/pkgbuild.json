@@ -4,7 +4,7 @@
         "title": "OpenNOW",
         "author": "OpenCloudGaming",
         "category": "_misc",
-        "version": "0.0.6",
+        "version": "0.0.8",
         "url": "https://github.com/OpenCloudGaming/OpenNOW-Switch",
         "license": "MIT",
         "description": "GeForce NOW for Nintendo Switch.",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/OpenCloudGaming/OpenNOW-Switch/releases/download/v0.0.6/SwitchNOW.nro",
+            "url": "https://github.com/OpenCloudGaming/OpenNOW-Switch/releases/download/v0.0.8/SwitchNOW-0.0.8.nro",
             "type": "update",
             "dest": "/switch/OpenNOW/SwitchNOW.nro"
         }
     ],
-    "changelog": "Version 0.0.6\\n\\n- Added input support for up to four controllers.\\n- Added controller assignment and connection handling.\\n- Added inline-keyboard shortcuts for Escape, Tab, Alt+Tab and the Windows key.\\n- Improved gamepad-friendly CloudMatch session launches.\\n- Improved controller input delivery and neutral-state handling.\\n- Updated OpenNOW branding, documentation and release metadata.\\n"
+    "changelog": ""
 }
