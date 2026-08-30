@@ -1,0 +1,35 @@
+{
+    "package": "NXPlazaStreetPass",
+    "info": {
+        "title": "NX Plaza - StreetPass",
+        "author": "Insektaure",
+        "category": "_misc",
+        "version": "0.1.0",
+        "url": "https://github.com/Insektaure/NX-Plaza",
+        "license": "GPLv2",
+        "description": "An Online StreetPass System for Switch",
+        "details": "StreetPass for the Switch, over the internet.\\n\\nYour console quietly swaps a small pass with other consoles that share your network or your corner of the internet, and you come back later to a stack of them.\\n\\nWhat it does :\\n\\nA pass of your own - a name, a greeting, a card theme, up to four things you are \"carrying\", and a place label you type yourself.\\nA Mii maker - face shape, skin, hair, eyes, eyebrows, nose, mouth, glasses, facial hair, headwear and build, all drawn from real part outlines.\\nThe plaza - who crossed your path while you were away, newest first.\\nThe radar - who else has the app open right now, in the reach you chose.\\nA collection - everyone you have met, how long ago, and how many times.\\nTrade back or block, per person.\\nThe title you last played, picked from your five most recent - never typed, never guessed, and off entirely if you would.\\n\\nA pass never carries your account name, your friend code, your IP, or position."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Insektaure/NX-Plaza/releases/download/0.1.0/nx-plaza.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
