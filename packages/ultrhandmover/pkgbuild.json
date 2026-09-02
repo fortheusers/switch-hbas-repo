@@ -1,0 +1,29 @@
+{
+    "package": "ultrhandmover",
+    "info": {
+        "title": "ultrhand-mover",
+        "author": "miyqwx",
+        "category": "tool",
+        "version": "build",
+        "url": "https://github.com/miyqwx-dev/ultrahand-mover",
+        "license": "MIT",
+        "description": "Move Ultrahand out so TOTK can run.",
+        "details": "Some sysmodules stop certain games from launching. With Ultrahand or Mission Control installed, The Legend of Zelda: Tears of the Kingdom can fail to run or crash Atmosphere\\n\\nThe usual workaround is to pull those folders out of atmosphere/contents by hand before playing, then drag them back afterwards. Ultrahand Mover does it for you from the console itself, with no PC and no SD card reader."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/miyqwx-dev/ultrahand-mover/releases/download/build/ultrahand-mover.nro",
+            "type": "update",
+            "dest": "/switch/ultrhandmover/ultrahand-mover.nro"
+        }
+    ],
+    "changelog": ""
+}
