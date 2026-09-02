@@ -1,0 +1,40 @@
+{
+    "package": "LunarNX",
+    "info": {
+        "title": "LunarNX",
+        "author": "thinkzhou",
+        "category": "tool",
+        "version": "0.3.0",
+        "url": "https://github.com/thinkzhou/LunarNX",
+        "license": "Affero GPLv3",
+        "description": "Xbox and PlayStation streaming client",
+        "details": "LunarNX is an unofficial Xbox and PlayStation game-streaming client for Nintendo Switch homebrew. Stream from your own Xbox One or Xbox Series console, use Xbox Cloud Gaming, or connect to a paired PS4 or PS5 locally or through PSN. It features hardware-accelerated H.264 and PS5 HEVC video, low-latency audio, controller remapping, PlayStation touchpad gestures, Switch motion forwarding, in-stream statistics, and stream recovery after returning from the HOME menu. Xbox Cloud Gaming availability depends on account entitlement and region. Remote streaming depends on console settings, platform services, NAT behavior, and network quality. Launch LunarNX from Homebrew Menu using title override/full-memory mode."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/thinkzhou/LunarNX/releases/download/v0.3.0/LunarNX-0.3.0.nro",
+            "type": "update",
+            "dest": "/switch/LunarNX/LunarNX-0.3.0.nro"
+        },
+        {
+            "url": "https://github.com/thinkzhou/LunarNX/releases/download/v0.3.0/LunarNX-0.3.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "v0.2.0\\n- Added local PS4/PS5 Remote Play with discovery, pairing, wake-up, and streaming.\\n- Added PSN QR sign-in, PS5 discovery, and remote PS5 streaming through PSN.\\n- Added PS5 HEVC playback.\\n- Added separate Xbox and PlayStation button mapping, PlayStation touchpad gestures, and Switch motion forwarding.\\n- Redesigned the Xbox/PlayStation interface and About page.\\n- Improved Xbox sign-in, stream recovery, console caching, long-session statistics, and connection diagnostics."
+}
