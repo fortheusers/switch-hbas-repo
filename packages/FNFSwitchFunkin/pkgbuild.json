@@ -4,7 +4,7 @@
         "title": "FNF: Switch Funkin'",
         "author": "Slushi",
         "category": "game",
-        "version": "1.1.0",
+        "version": "1.2.0",
         "url": "https://github.com/Slushi-Github/Switch-Funkin",
         "license": "Apache v2",
         "description": "Real FNF' for Nintendo Switch, why not?",
@@ -12,7 +12,7 @@
     },
     "assets": [
         {
-            "url": "https://github.com/Slushi-Github/Switch-Funkin/releases/download/1.1.0/SwitchFunkin.nro.zip",
+            "url": "https://github.com/Slushi-Github/Switch-Funkin/releases/download/1.2.0/SwitchFunkin.nro.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "v1.1.0\\nFixes:\\n- FIxed a bug when the engine crashes  on reset a song (https://github.com/Slushi-Github/Switch-Funkin/issues/4, https://github.com/Slushi-Github/Switch-Funkin/issues/6, https://github.com/Slushi-Github/Switch-Funkin/issues/7, https://github.com/Slushi-Github/Switch-Funkin/issues/8, https://github.com/Slushi-Github/Switch-Funkin/issues/10, https://github.com/Slushi-Github/Switch-Funkin/issues/11, https://github.com/Slushi-Github/Switch-Funkin/issues/12)\\n- Fixed a bug with dialogues on the week 6 (https://github.com/Slushi-Github/Switch-Funkin/issues/5)\\n\\nAdditions:\\n- Songs should now load faster since some issues with the LoadingState have been fixed and all of the console's CPU threads are being used to preload content.\\n\\nA HUGE apology to everyone who had to wait so long for these issues to be fixed, especially the bug related to restarting a song :3\\n\\nFIxes:\\n- The way to check if the current version is really old has been corrected (I forgot to upload the changes to GitHub).\\n- Fixed an issue that prevented mods from being disabled. "
+    "changelog": "v1.2.0\\nFixes:\\n- Videos support has been added thanks to the new HxSwitchVideo library.\\n- Some aspects of the Weekend event have been optimized, including the return of the Abot Speaker audio visualizer on the Switch and an optimization of the rain shader. Now, all songs in the Weekend will run at between 50 and 60 FPS.\\n- Lime-NX: https://github.com/Slushi-Github/lime-nx has sought to resolve the audio issues that occur on the Switch target; it is hoped that these issues will be permanently resolved or that their frequency will be reduced.\\n\\nAll of this thanks to @doggywatty: https://github.com/doggywatty heh.\\n\\nv1.1.0\\nFixes:\\n- FIxed a bug when the engine crashes  on reset a song (https://github.com/Slushi-Github/Switch-Funkin/issues/4, https://github.com/Slushi-Github/Switch-Funkin/issues/6, https://github.com/Slushi-Github/Switch-Funkin/issues/7, https://github.com/Slushi-Github/Switch-Funkin/issues/8, https://github.com/Slushi-Github/Switch-Funkin/issues/10, https://github.com/Slushi-Github/Switch-Funkin/issues/11, https://github.com/Slushi-Github/Switch-Funkin/issues/12)\\n- Fixed a bug with dialogues on the week 6 (https://github.com/Slushi-Github/Switch-Funkin/issues/5)\\n\\nAdditions:\\n- Songs should now load faster since some issues with the LoadingState have been fixed and all of the console's CPU threads are being used to preload content.\\n\\nA HUGE apology to everyone who had to wait so long for these issues to be fixed, especially the bug related to restarting a song :3\\n\\nFIxes:\\n- The way to check if the current version is really old has been corrected (I forgot to upload the changes to GitHub).\\n- Fixed an issue that prevented mods from being disabled. "
 }
