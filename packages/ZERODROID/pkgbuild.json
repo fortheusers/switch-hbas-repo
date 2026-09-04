@@ -1,0 +1,31 @@
+{
+    "package": "ZERODROID",
+    "info": {
+        "title": "ZERODROID",
+        "author": "Zero Data",
+        "category": "tool",
+        "version": "0.8.2",
+        "url": "https://github.com/elzerdodata/ZERODROID",
+        "license": "Apache v2",
+        "description": "Unofficial Boosteroid cloud-gaming client for Nintendo Switch homebrew.",
+        "details": "ZERODROID is an open-source, unofficial Boosteroid cloud-gaming client for Nintendo Switch homebrew. It provides QR device login, a controller-first library, native H.264 video, Opus audio and full Joy-Con/Pro Controller input. v0.8.2 adds system-keyboard search, Favorites and Recently Played tabs, Spanish/English UI, server-region preferences and a live gateway ping meter. It requires a legitimate Boosteroid account and title takeover; Album/applet mode lacks enough memory. ZERODROID contains no games, CFW, DRM bypasses or Nintendo software and is not affiliated with Boosteroid or Nintendo. Application data stays under sdmc:/switch/ZERODROID/."
+    },
+    "assets": [
+        {
+            "data": "icon.png",
+            "format": "base64",
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/elzerdodata/ZERODROID/releases/download/v0.8.2/ZERODROID_v0.8.2.nro",
+            "type": "update",
+            "dest": "/switch/ZERODROID/ZERODROID_v0.8.2.nro"
+        }
+    ],
+    "changelog": "v0.8.2 adds native library search, All/Favorites/Recently Played tabs, persistent favorites and a 30-game recent history, plus a Spanish/English selector. The beta also includes QR login, preferred server/region settings, H.264/Opus streaming, a live ping display, Nintendo/Xbox button layouts, Guide/Home input and in-stream touch settings."
+}
