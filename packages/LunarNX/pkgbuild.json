@@ -4,7 +4,7 @@
         "title": "LunarNX",
         "author": "thinkzhou",
         "category": "tool",
-        "version": "0.3.0",
+        "version": "0.3.1",
         "url": "https://github.com/thinkzhou/LunarNX",
         "license": "Affero GPLv3",
         "description": "Xbox and PlayStation streaming client",
@@ -20,16 +20,16 @@
             "url": "screen.png"
         },
         {
-          "url": "https://github.com/thinkzhou/LunarNX/releases/download/v0.3.0/LunarNX-0.3.0.zip",
-          "type": "zip",
-          "zip": [
-            {
-              "path": "/LunarNX-0.3.0/**/*",
-              "dest": "/switch/LunarNX",
-              "type": "update"
-            }
-          ]
+            "url": "https://github.com/thinkzhou/LunarNX/releases/download/v0.3.1/LunarNX.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/LunarNX-0.3.0/**/*",
+                    "dest": "/switch/LunarNX",
+                    "type": "update"
+                }
+            ]
         }
     ],
-    "changelog": "v0.3.0\\n- Improved Xbox and PlayStation streaming policies, packet-loss recovery, and long-session stability.\\n- Hardened PS4/PS5 discovery, pairing, PSN startup, haptics, HEVC, and high-bitrate playback.\\n- Fixed 720p rendering artifacts, controller input leakage, and audio/video recovery edge cases.\\n- Refreshed the About, community, support, diagnostics, and release packaging experience."
+    "changelog": "v0.3.1\\n0.3.1\\n\\nLunarNX 0.3.1 focuses on faster reconnection, safer stream teardown, and predictable release packaging. It reuses successful Xbox and PlayStation network routes, improves cancellation and UI lifecycle handling, and publishes stable assets for Sphaira installation.\\n\\n Streaming and stability\\n\\n- Reuse successful Xbox ICE and PlayStation remote routes.\\n- Speed up stream exit and harden asynchronous UI teardown.\\n- Improve cancellation handling and stream-exit rendering.\\n\\n Release and documentation\\n\\n- Generate the in-app changelog from CHANGELOG.md.\\n- Publish stable LunarNX.nro and LunarNX.zip assets with SHA-256 checksums.\\n\\nv0.3.0\\n- Improved Xbox and PlayStation streaming policies, packet-loss recovery, and long-session stability.\\n- Hardened PS4/PS5 discovery, pairing, PSN startup, haptics, HEVC, and high-bitrate playback.\\n- Fixed 720p rendering artifacts, controller input leakage, and audio/video recovery edge cases.\\n- Refreshed the About, community, support, diagnostics, and release packaging experience."
 }
