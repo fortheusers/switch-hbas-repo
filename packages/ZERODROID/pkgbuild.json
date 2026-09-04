@@ -4,7 +4,7 @@
         "title": "ZERODROID",
         "author": "Zero Data",
         "category": "tool",
-        "version": "0.8.2",
+        "version": "1.0.1",
         "url": "https://github.com/elzerdodata/ZERODROID",
         "license": "Apache v2",
         "description": "Unofficial Boosteroid cloud-gaming client for Nintendo Switch homebrew.",
@@ -22,10 +22,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/elzerdodata/ZERODROID/releases/download/v0.8.2/ZERODROID_v0.8.2.nro",
+            "url": "https://github.com/elzerdodata/ZERODROID/releases/download/v1.0.1/ZERODROID_v1.0.1.nro",
             "type": "update",
-            "dest": "/switch/ZERODROID/ZERODROID_v0.8.2.nro"
+            "dest": "/switch/ZERODROID/ZERODROID.nro"
         }
     ],
-    "changelog": "v0.8.2 adds native library search, All/Favorites/Recently Played tabs, persistent favorites and a 30-game recent history, plus a Spanish/English selector. The beta also includes QR login, preferred server/region settings, H.264/Opus streaming, a live ping display, Nintendo/Xbox button layouts, Guide/Home input and in-stream touch settings."
+    "changelog": "v1.0.1 is the first complete official launch release of ZERODROID, tailored specifically for Nintendo Switch homebrew with native 60 FPS rendering, NVDEC hardware H.264 video decoding, Opus audio playback, and customizable streaming profiles.\\n\\n✨ Key Features & Improvements in v1.0.1\\n\\nHigh-Definition Poster Artwork:\\nReplaced letterboxed card artwork with vertical poster slots (v101-poster / v101-banner), featuring centered source crop and slim navy borders. Cover art is never stretched or distorted.\\nComplete Paginated Library & Touch Navigation:\\nFull tabbed browsing: My Games, Catalog, Favorites, and Recent.\\nNative search bar, license badges (Free, License Required, Install & Play), and persistent favorites.\\nDual controller (ZL/ZR for section switching, L/R for pagination) and release-on-tap Switch touch navigation.\\nIn-Stream Control Center (Top-Right Purple X):\\nAccessible in-game via the top-right purple X touch overlay.\\nActions: Xbox Guide, Steam Menu (Shift + Tab), ALT+TAB, Keyboard Info, Virtual Mouse / Trackpad, UDP Reconnection, Graphic Presets, and Return to Game.\\nHardware-rendered purple virtual cursor via deko3d GPU quad with 3-second auto-hide.\\nResolution Modes & Image Profiles:\\nResolution selector: Auto (720p handheld / 1080p docked), 720p, 1080p, and 1440p experimental.\\nPreset color profiles: Natural, Sharp, Vivid, Cinema, Soft, and Custom."
 }
