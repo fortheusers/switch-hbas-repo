@@ -12,12 +12,6 @@
     },
     "assets": [
         {
-            "data": "icon.png",
-            "format": "base64",
-            "type": "icon",
-            "url": "icon.png"
-        },
-        {
             "type": "banner",
             "url": "screen.png"
         },
