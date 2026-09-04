@@ -4,16 +4,16 @@
         "title": "Switchfin",
         "author": "dragonflylee",
         "category": "tool",
-        "version": "0.9.3",
+        "version": "0.9.4",
         "url": "https://github.com/dragonflylee/switchfin",
         "license": "Apache v2",
         "description": "Nintendo Switch Jellyfin client",
         "details": "Switchfin is third-party PC player for Jellyfin that provides a native user interface to browse and play movies and series.\\nSupported media items: movies, series, seasons, episodes\\nDirect play and transcoding"
     },
-    "changelog": "v0.9.3\\nAdded\\nadd chapter select on player view\\nadd config for max nextup\\nadd soft keyboard support for trimui\\n\\nFixed\\nshow 'Title - Language' in subtitle/audio track selector, matching Jellyfin style (#236) @mr-brune\\nchange seek parameter type from int64_t to double for improved precision\\nremove unused lastProgress assignment in VideoProgressSlider constructor\\ni18n: sync missing translation keys across all languages",
+    "changelog": "v0.9.4\\nAdded\\n\\n- add eBook viewer with MuPDF support\\n- add local file gallery viewing\\n- add unplayed item count badge to media cards\\n\\n Fixed\\n\\n- improve websocket receive loop to handle stop condition correctly\\n- PS4: improve shader handling of libmpv\\n\\nv0.9.3\\nAdded\\nadd chapter select on player view\\nadd config for max nextup\\nadd soft keyboard support for trimui\\n\\nFixed\\nshow 'Title - Language' in subtitle/audio track selector, matching Jellyfin style (#236) @mr-brune\\nchange seek parameter type from int64_t to double for improved precision\\nremove unused lastProgress assignment in VideoProgressSlider constructor\\ni18n: sync missing translation keys across all languages",
     "assets": [
         {
-            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.9.3/Switchfin.nro",
+            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.9.4/Switchfin.nro",
             "dest": "/switch/Switchfin/Switchfin.nro",
             "type": "update"
         },
