@@ -20,21 +20,16 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/thinkzhou/LunarNX/releases/download/v0.3.0/LunarNX-0.3.0.nro",
-            "type": "update",
-            "dest": "/switch/LunarNX/LunarNX-0.3.0.nro"
-        },
-        {
-            "url": "https://github.com/thinkzhou/LunarNX/releases/download/v0.3.0/LunarNX-0.3.0.zip",
-            "type": "zip",
-            "zip": [
-                {
-                    "path": "/**/*",
-                    "dest": "/",
-                    "type": "update"
-                }
-            ]
+          "url": "https://github.com/thinkzhou/LunarNX/releases/download/v0.3.0/LunarNX-0.3.0.zip",
+          "type": "zip",
+          "zip": [
+            {
+              "path": "/LunarNX-0.3.0/**/*",
+              "dest": "/switch/LunarNX",
+              "type": "update"
+            }
+          ]
         }
     ],
-    "changelog": "v0.2.0\\n- Added local PS4/PS5 Remote Play with discovery, pairing, wake-up, and streaming.\\n- Added PSN QR sign-in, PS5 discovery, and remote PS5 streaming through PSN.\\n- Added PS5 HEVC playback.\\n- Added separate Xbox and PlayStation button mapping, PlayStation touchpad gestures, and Switch motion forwarding.\\n- Redesigned the Xbox/PlayStation interface and About page.\\n- Improved Xbox sign-in, stream recovery, console caching, long-session statistics, and connection diagnostics."
+    "changelog": "v0.3.0\\n- Improved Xbox and PlayStation streaming policies, packet-loss recovery, and long-session stability.\\n- Hardened PS4/PS5 discovery, pairing, PSN startup, haptics, HEVC, and high-bitrate playback.\\n- Fixed 720p rendering artifacts, controller input leakage, and audio/video recovery edge cases.\\n- Refreshed the About, community, support, diagnostics, and release packaging experience."
 }
