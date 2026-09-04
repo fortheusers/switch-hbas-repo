@@ -1,0 +1,35 @@
+{
+    "package": "LunarNX",
+    "info": {
+        "title": "LunarNX",
+        "author": "thinkzhou",
+        "category": "tool",
+        "version": "0.3.0",
+        "url": "https://github.com/thinkzhou/LunarNX",
+        "license": "Affero GPLv3",
+        "description": "Xbox and PlayStation streaming client",
+        "details": "LunarNX is an unofficial Xbox and PlayStation game-streaming client for Nintendo Switch homebrew. Stream from your own Xbox One or Xbox Series console, use Xbox Cloud Gaming, or connect to a paired PS4 or PS5 locally or through PSN. It features hardware-accelerated H.264 and PS5 HEVC video, low-latency audio, controller remapping, PlayStation touchpad gestures, Switch motion forwarding, in-stream statistics, and stream recovery after returning from the HOME menu. Xbox Cloud Gaming availability depends on account entitlement and region. Remote streaming depends on console settings, platform services, NAT behavior, and network quality. Launch LunarNX from Homebrew Menu using title override/full-memory mode."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+          "url": "https://github.com/thinkzhou/LunarNX/releases/download/v0.3.0/LunarNX-0.3.0.zip",
+          "type": "zip",
+          "zip": [
+            {
+              "path": "/LunarNX-0.3.0/**/*",
+              "dest": "/switch/LunarNX",
+              "type": "update"
+            }
+          ]
+        }
+    ],
+    "changelog": "v0.3.0\\n- Improved Xbox and PlayStation streaming policies, packet-loss recovery, and long-session stability.\\n- Hardened PS4/PS5 discovery, pairing, PSN startup, haptics, HEVC, and high-bitrate playback.\\n- Fixed 720p rendering artifacts, controller input leakage, and audio/video recovery edge cases.\\n- Refreshed the About, community, support, diagnostics, and release packaging experience."
+}
