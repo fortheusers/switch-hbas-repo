@@ -1,0 +1,29 @@
+{
+    "package": "Brewser",
+    "info": {
+        "title": "Brewser",
+        "author": "natureglass",
+        "category": "_misc",
+        "version": "0.1.114",
+        "url": "https://github.com/natureglass/Brewser",
+        "license": "Mozilla PLv2",
+        "description": "Run web apps on your Switch",
+        "details": "Brewser turns your Switch into a platform for web apps. Browse a curated catalogue of 28 apps at launch, a Three.js planetarium, a MIDI control surface, WS2812B LED panel control through an ESP32, a Home Assistant dashboard, an audio visualizer, and even an unmodified Unity WebGL game.\\n\\nUnder the hood: a real browser-grade engine (V8 with JIT, Skia, WebGL1/2) with hardware APIs the stock browser will never have: Web MIDI, WebSerial, WebUSB, WebBluetooth, all verified on real hardware.\\n\\nFully themeable from plain files on your SD card: wallpapers (including animated GLSL shader wallpapers), styles, cursors, and keyboards. Install once, Brewser self-updates from cryptographically signed releases.\\n\\nNo piracy: it runs web apps only, never commercial games or ROMs. It never contacts Nintendo servers and works fine with DNS.MITM/90DNS. Anyone can submit apps at brewser.io, every submission is security-scanned before publication.\\n\\nRequires Atmosph\u00e8re 1.10+ (older may work)."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/natureglass/Brewser/releases/download/v0.1.114/brewser.nro",
+            "type": "update",
+            "dest": "/switch/Brewser/brewser.nro"
+        }
+    ],
+    "changelog": "0.1.114 - Initial public release. Web runtime (V8 + JIT, Skia, WebGL1/2 via Mesa) with Web MIDI, WebSerial, WebUSB, WebBluetooth and WebNN, curated 28-app catalogue with security scanning, HLS video and broad codec support via FFmpeg, themeable shell (GLSL shader wallpapers), signed self-updates with downgrade protection."
+}
