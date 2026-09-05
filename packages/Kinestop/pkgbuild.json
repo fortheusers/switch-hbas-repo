@@ -24,9 +24,14 @@
             "type": "zip",
             "zip": [
                 {
-                    "path": "/**/*",
-                    "dest": "/",
+                    "path": "/kinestop_v*/switch/.overlays/kinestop.ovl",
+                    "dest": "/switch/.overlays/kinestop.ovl",
                     "type": "update"
+                },
+                {
+                    "path": "/kinestop_v*/config/kinestop/config.ini",
+                    "dest": "/config/kinestop/config.ini",
+                    "type": "get"
                 }
             ]
         }
