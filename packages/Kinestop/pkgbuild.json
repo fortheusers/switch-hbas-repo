@@ -1,0 +1,40 @@
+{
+    "package": "Kinestop",
+    "info": {
+        "title": "Kinestop",
+        "author": "SertAy",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/sertay1/kinestop",
+        "license": "All Rights Reserved",
+        "description": "Vehicle motion sickness relief overlay",
+        "details": "\u2757Read the requirements at the bottom\u2757\\n--------------------------------------------------\\nKinestop is an anti-motion sickness (kinetosis) overlay for the Nintendo Switch. It renders smooth 60 FPS floating motion cues synchronized with hardware sensors, eliminating nausea while playing games in moving vehicles (cars, buses, trains).\\n\\n\u2728 Features:\\n\u2022 Prevents Motion Sickness: Syncs visual cues with physical motion.\\n\u2022 100% Compatibility: Works in all games and the Switch Home Menu.\\n\u2022 Free Floating Mode: Dots drift naturally beyond screen edges.\\n\u2022 Visual Styles: 12 color themes, 6 placement patterns, size & opacity.\\n\u2022 Sensitivity: 10 adjustable levels (0.2x - 6.0x) with tremor filter.\\n\u2022 Zero Calibration: Calibrate center angle with a single click.\\n\u2022 Languages: English and Turkish language support.\\n\\n\u26a0\ufe0fCritical Prep (Required)\\n\\n1) You MUST have nx-ovlloader and Ultrahand-Overlay installed.\\n2) To avoid crashes: Open UltraHand, press + -> System -> change Overlay Memory from 4MB to 8MB."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/sertay1/kinestop/releases/download/V1.0.0/kinestop_v1.0.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/kinestop_v*/switch/.overlays/kinestop.ovl",
+                    "dest": "/switch/.overlays/kinestop.ovl",
+                    "type": "update"
+                },
+                {
+                    "path": "/kinestop_v*/config/kinestop/config.ini",
+                    "dest": "/config/kinestop/config.ini",
+                    "type": "get"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
