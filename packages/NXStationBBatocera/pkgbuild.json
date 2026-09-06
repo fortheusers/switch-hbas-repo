@@ -1,0 +1,29 @@
+{
+    "package": "NXStationBBatocera",
+    "info": {
+        "title": "NXStationB Batocera",
+        "author": "jiraiya78",
+        "category": "emu",
+        "version": "1.0",
+        "url": "https://github.com/jiraiya78/NXStationB",
+        "license": "GPLv3",
+        "description": "Nintendo Switch port of EmulationStation",
+        "details": "NXStation B is a Nintendo Switch port of Batocera EmulationStation. It sits next to NXStation on the same site: NXStation is the custom Borealis frontend; NXStation B is the Batocera UI running as an NRO.\\n\\nWhat you get\\nBatocera systems, gamelists, detailed views, screensaver, and theme XML\\nStock RetroArch Switch (retroarch_switch.nro + libnx cores). Rax is optional\\nScreenScraper (your website login in settings; developer API is built in)\\nBundled themes: Simple_Life (default), Minimal, Simple\\nPer-system core picker \u2014 including standalone NROs such as Tico\\nIf you also use NXStation, playtime from B is logged into NXStation analytics\\nReturning from a game restores the last system and title, with a faster boot\\n\\nRequirements\\nAtmosphere, Title Override (hold R on a game \u2014 not Album)\\nNXStationB.nro \u2192 sdmc:/switch/nxstationb/\\nROMs in sdmc:/roms/{system}/\\nRetroArch Switch + cores on SD\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/jiraiya78/NXStationB/releases/download/v1.0/NXStationB.nro",
+            "type": "update",
+            "dest": "/switch/NXStationBBatocera/NXStationB.nro"
+        }
+    ],
+    "changelog": ""
+}
