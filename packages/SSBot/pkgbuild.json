@@ -4,11 +4,11 @@
         "title": "SSBot",
         "author": "fungalspores",
         "category": "tool",
-        "version": "2.0",
+        "version": "2.2",
         "url": "https://github.com/fungalspores/SSBot",
         "license": "MIT",
         "description": "Send screenshots from Switch to Telegram",
-        "details": "Features\\n\\nBrowse all screenshots from emuMMC/RAW1/Nintendo/Album/ with a dark SDL2 GUI\\n\\nSend to one or multiple Telegram chats (supports ALL option)\\n\\nOptional caption via on-screen keyboard before sending\\n\\nFullscreen preview\\n\\nLazy thumbnail loading \u2014 only decodes visible images\\n\\nSupports JPEG, PNG, BMP\\n\\nWeb Config \u2014 configure bot token and chat IDs from any browser on the same WiFi (port 7777)\\n\\nCatppuccin Mocha color palette"
+        "details": "Features\\n\\nBrowse all screenshots from emuMMC/RAW1/Nintendo/Album/ with a dark SDL2 GUI\\n\\nFilter by game — L/R cycle through the games in your album, with real game names read from the console\\n\\nMulti-select — mark several screenshots and send them as one Telegram album (up to 10 per message)\\n\\nSend as photo or as file — photo shows inline in the chat, file keeps the original quality\\n\\nSend to one or multiple Telegram chats (supports ALL option)\\n\\nOptional caption via on-screen keyboard before sending\\n\\nFullscreen preview\\n\\nLazy thumbnail loading — only decodes visible images\\n\\nSupports JPEG, PNG, BMP\\n\\nWeb Config — configure everything from any browser on the same WiFi (port 7777), protected by a PIN\\n\\nVerified TLS to the Telegram API — the CA bundle ships inside the app, nothing to download\\n\\nCatppuccin Mocha color palette"
     },
     "assets": [
         {
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/fungalspores/SSBot/releases/download/v2.0/ssbot.nro",
+            "url": "https://github.com/fungalspores/SSBot/releases/download/v2.2/ssbot.nro",
             "type": "update",
             "dest": "/switch/SSBot/ssbot.nro"
         }
     ],
-    "changelog": "What's new in v2.0\\n\\nWeb Config \u2014 configure bot token and chat IDs from any browser on the same WiFi (port 7777)\\n\\nMulti-chat support \u2014 send to multiple Telegram chats, with an ALL option to send to all at once\\n\\nDark SDL2 GUI \u2014 Catppuccin Mocha palette, rounded cards, thumbnail gallery with lazy loading\\n\\n2\u00d7 scaled text for better readability on Switch Lite\\n\\nAbout screen (\u2212 button) with controls reference and web config URL\\n\\nNew app icon\\n\\nConfig path: sdmc:/switch/ssbot/config.txt (auto-migrates from old path)"
+    "changelog": "What's new in v2.2\\n\\nFilter by game — L/R cycle through the games in your album; real titles are read from the console's own album database\\n\\nMulti-select — X marks screenshots and ZL clears them; the whole selection is sent as a single Telegram album, up to 10 per message\\n\\nSend as photo or as file — toggle with ZR, in the web config, or with send_as in config.txt\\n\\nVerified TLS — the Telegram server certificate is now checked; a CA bundle ships inside the app and is unpacked on first run\\n\\nWeb config is protected by a 6-digit PIN shown on the console screen, and no longer displays the saved bot token\\n\\nFixed: a config save split across TCP segments could parse as empty and silently wipe the stored config\\n\\nFaster gallery — thumbnails are cached as textures instead of being rebuilt every frame\\n\\nScreenshot list limit raised to 4096, and the app shows when it is reached"
 }
