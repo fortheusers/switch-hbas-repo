@@ -4,17 +4,17 @@
         "title": "MusicPlayer2",
         "author": "zhongyang219, Schweik7 (Switch port)",
         "category": "tool",
-        "version": "0.8.0",
+        "version": "0.8.3",
         "url": "https://github.com/Schweik7/MusicPlayer2-Switch",
         "license": "GPL-3.0",
         "binary": "/switch/MusicPlayer2.nro",
         "description": "Music player with synced lyrics, embedded cover art and online lyric download",
-        "details": "A Nintendo Switch port of MusicPlayer2. Plays MP3, FLAC, OGG, Opus, WAV, MOD and MIDI.\n\n- Synced LRC lyrics with per-character highlighting, bilingual display (single or two column), and drag-to-browse\n- Reads title/artist/album and embedded cover art from the files themselves (ID3v2, FLAC and Ogg Vorbis comments), so Chinese and Japanese track names show correctly even though the Switch filesystem cannot store non-ASCII filenames\n- Downloads lyrics and cover art from NetEase Cloud Music or QQ Music, optionally writing them back into the audio file\n- Full touch support: every function is reachable both by controller and by touch. Turning touch off switches to an immersive view with a larger cover\n- Spectrum view, sleep-friendly screen dimming, and in-app updates\n\nSource: https://github.com/Schweik7/MusicPlayer2-Switch"
+        "details": "A Nintendo Switch port of MusicPlayer2. Plays MP3, FLAC, OGG, Opus, WAV, MOD and MIDI.\n\n- Synced LRC lyrics with per-character highlighting, bilingual display (single or two column), and drag-to-browse\n- Reads title/artist/album and embedded cover art from the files themselves (ID3v2, FLAC and Ogg Vorbis comments), so Chinese and Japanese track names show correctly even though the Switch filesystem cannot store non-ASCII filenames\n- Downloads lyrics and cover art from NetEase Cloud Music or QQ Music, optionally writing them back into the audio file\n- Full touch support: every function is reachable both by controller and by touch. Turning touch off switches to an immersive view with a larger cover\n- Spectrum view, sleep-friendly screen dimming, and in-app updates\\n- Interface language: Simplified Chinese or English\\n- Dark and light themes, switchable in Settings\n\nSource: https://github.com/Schweik7/MusicPlayer2-Switch"
     },
-    "changelog": "v0.8.0\n- Moved to its own repository\n\nv0.7.7\n- Lyric time offset is now off by default; press B twice to exit\n\nv0.7.6\n- Fixed in-app updates not being able to replace the running NRO\n\nv0.7.0\n- Immersive mode, lyric background image, on-screen control clusters that mirror the physical inputs",
+    "changelog": "v0.8.3\\n- Header items now share one baseline; the centre label no longer collides with the track counter\\n- App icon marked with a tilted Switch\\n\\nv0.8.2\\n- Interface language: Simplified Chinese or English, switchable in Settings\\n- Slimmer settings list, so the download progress at the bottom stays visible\\n\\nv0.8.1\\n- Battery indicator in the top bar; light theme added alongside the dark one\\nv0.8.0\n- Moved to its own repository\n\nv0.7.7\n- Lyric time offset is now off by default; press B twice to exit\n\nv0.7.6\n- Fixed in-app updates not being able to replace the running NRO\n\nv0.7.0\n- Immersive mode, lyric background image, on-screen control clusters that mirror the physical inputs",
     "assets": [
         {
-            "url": "https://github.com/Schweik7/MusicPlayer2-Switch/releases/download/v0.8.0/MusicPlayer2.nro",
+            "url": "https://github.com/Schweik7/MusicPlayer2-Switch/releases/download/v0.8.3/MusicPlayer2.nro",
             "dest": "/switch/MusicPlayer2.nro",
             "type": "update"
         },
