@@ -4,7 +4,7 @@
         "title": "LunarNX",
         "author": "thinkzhou",
         "category": "tool",
-        "version": "0.3.0",
+        "version": "0.3.3",
         "url": "https://github.com/thinkzhou/LunarNX",
         "license": "Affero GPLv3",
         "description": "Xbox and PlayStation streaming client",
@@ -20,16 +20,16 @@
             "url": "screen.png"
         },
         {
-          "url": "https://github.com/thinkzhou/LunarNX/releases/download/v0.3.0/LunarNX-0.3.0.zip",
-          "type": "zip",
-          "zip": [
-            {
-              "path": "/LunarNX-0.3.0/**/*",
-              "dest": "/switch/LunarNX",
-              "type": "update"
-            }
-          ]
+            "url": "https://github.com/thinkzhou/LunarNX/releases/download/v0.3.3/LunarNX.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/LunarNX-0.3.0/**/*",
+                    "dest": "/switch/LunarNX",
+                    "type": "update"
+                }
+            ]
         }
     ],
-    "changelog": "v0.3.0\\n- Improved Xbox and PlayStation streaming policies, packet-loss recovery, and long-session stability.\\n- Hardened PS4/PS5 discovery, pairing, PSN startup, haptics, HEVC, and high-bitrate playback.\\n- Fixed 720p rendering artifacts, controller input leakage, and audio/video recovery edge cases.\\n- Refreshed the About, community, support, diagnostics, and release packaging experience."
+    "changelog": "v0.3.3\\n0.3.3: https://github.com/thinkzhou/LunarNX/compare/v0.3.2...v0.3.3 (2026-09-07)\\n\\n\\n Bug Fixes\\n\\n- xbox:- restore Home WAN recovery and latest-frame presentation (1a9b361: https://github.com/thinkzhou/LunarNX/commit/1a9b361409a77f91e0fd01111999bb5aaa1b85b3)\\n- xbox:- restore Home WAN recovery and latest-frame presentation (6bd2583: https://github.com/thinkzhou/LunarNX/commit/6bd2583f62aafe6c22e0cfc124ce3bc22ff1a609)\\n\\nv0.3.0\\n- Improved Xbox and PlayStation streaming policies, packet-loss recovery, and long-session stability.\\n- Hardened PS4/PS5 discovery, pairing, PSN startup, haptics, HEVC, and high-bitrate playback.\\n- Fixed 720p rendering artifacts, controller input leakage, and audio/video recovery edge cases.\\n- Refreshed the About, community, support, diagnostics, and release packaging experience."
 }
