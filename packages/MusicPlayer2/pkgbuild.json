@@ -4,17 +4,17 @@
         "title": "MusicPlayer2",
         "author": "zhongyang219, Schweik7 (Switch port)",
         "category": "tool",
-        "version": "0.8.0",
+        "version": "0.8.6",
         "url": "https://github.com/Schweik7/MusicPlayer2-Switch",
         "license": "GPL-3.0",
         "binary": "/switch/MusicPlayer2.nro",
         "description": "Music player with synced lyrics, embedded cover art and online lyric download",
         "details": "A Nintendo Switch port of MusicPlayer2. Plays MP3, FLAC, OGG, Opus, WAV, MOD and MIDI.\n\n- Synced LRC lyrics with per-character highlighting, bilingual display (single or two column), and drag-to-browse\n- Reads title/artist/album and embedded cover art from the files themselves (ID3v2, FLAC and Ogg Vorbis comments), so Chinese and Japanese track names show correctly even though the Switch filesystem cannot store non-ASCII filenames\n- Downloads lyrics and cover art from NetEase Cloud Music or QQ Music, optionally writing them back into the audio file\n- Full touch support: every function is reachable both by controller and by touch. Turning touch off switches to an immersive view with a larger cover\n- Spectrum view, sleep-friendly screen dimming, and in-app updates\n\nSource: https://github.com/Schweik7/MusicPlayer2-Switch"
     },
-    "changelog": "v0.8.0\n- Moved to its own repository\n\nv0.7.7\n- Lyric time offset is now off by default; press B twice to exit\n\nv0.7.6\n- Fixed in-app updates not being able to replace the running NRO\n\nv0.7.0\n- Immersive mode, lyric background image, on-screen control clusters that mirror the physical inputs",
+    "changelog": "v0.8.6\\n沉浸模式防误触\\n\\n关掉触摸进入沉浸模式后，两根摇杆（含按下右摇杆）和 L / R / ZL / ZR 全部锁定，手持时手掌、指根怎么蹭都不会跳进度或翻页。只留按下左摇杆（LS）用来退出。底栏提示在沉浸模式下也换成了对应的一套。\\n\\n另外去掉了两处平时也容易误触的键位：\\n\\n- 左摇杆上下不再调音量：Switch 机身自带音量键；摇杆上再放一份，推左右逐秒进退时会被斜向带出来。歌词区左上角的 +/− 格子保留，给触摸用\\n- 右摇杆左右不再拖进度：推右摇杆上下翻歌词时很难推得笔直。拖进度还有 ZL/ZR、左摇杆左右和触摸进度条\\n\\n 自建歌单与「我喜欢的音乐」\\n\\n播放列表界面改成左右两栏：左边是「正在播放」和自建歌单，右边是选中那一项里的曲目。\\n\\n- 新建歌单：可选摇滚、流行、安静、古典、民谣、电子等预设分类，或用系统键盘自己起名\\n- 我喜欢的音乐：固定的特殊歌单，按 Y 或点曲目行上的心形收藏 / 取消\\n- X 打开更多操作：加入某个歌单、新建歌单并加入、从歌单移除；在歌单上按 X 是播放整个歌单 / 删除\\n- 从歌单里点一首，整个歌单就成为播放队列；之后往这个歌单里加歌、删歌会同步到正在播放的队列\\n- 歌单存在 sdmc:/config/MusicPlayer2/playlists/，格式与桌面版相同，喜爱沿用桌面版的 favourite.playlist，拷到电脑上能直接用\\n\\n顺带修了一个旧问题：从某个歌单切到「播放整个目录」之后，下次启动恢复的仍是那个旧歌单。\\n\\n 可下载的界面字体\\n\\n设置 → 界面字体。内置霞鹭文楷，另有一份放在服务器上的字体列表（加减字体不用发版）。\\n\\n- 按 A：已下载的直接切换，没下载的先下载、下完自动换上\\n- 切换即时生效，不用重启；字体缓存在 sdmc:/config/MusicPlayer2/fonts/，X 删除不要的\\n- 字体文件损坏或解析失败时保留原来的字体，不会变成一个字都画不出来\\n- Switch 系统字体始终留作缺字时的兜底；老办法（往数据目录放 font.ttf）仍然有效\\n\\n\\n\\n图标没有变化，用 sphaira 装了前端的话不需要重装。\\n\\n主机测试 932 条断言全绿（新增歌单与字体清单的测试，重点覆盖非法歌单名和清单里的路径穿越），Switch 全量重建零警告。\\n\\nv0.8.0\n- Moved to its own repository\n\nv0.7.7\n- Lyric time offset is now off by default; press B twice to exit\n\nv0.7.6\n- Fixed in-app updates not being able to replace the running NRO\n\nv0.7.0\n- Immersive mode, lyric background image, on-screen control clusters that mirror the physical inputs",
     "assets": [
         {
-            "url": "https://github.com/Schweik7/MusicPlayer2-Switch/releases/download/v0.8.0/MusicPlayer2.nro",
+            "url": "https://github.com/Schweik7/MusicPlayer2-Switch/releases/download/v0.8.6/MusicPlayer2.nro",
             "dest": "/switch/MusicPlayer2.nro",
             "type": "update"
         },
