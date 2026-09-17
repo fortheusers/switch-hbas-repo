@@ -4,11 +4,11 @@
         "title": "ChatNX",
         "author": "Jonathan8520",
         "category": "tool",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "url": "https://github.com/Jonathan8520/ChatNX",
         "license": "MIT",
         "description": "Chat with AI and generate/analyse images",
-        "details": "ChatNX turns your Nintendo Switch into an AI companion. It talks to Puter's AI gateway over Wi-Fi, so you chat straight from the console.\\n\\nFeatures:\\n- Chat with multiple AI models (Claude, GPT, and more)\\n- Generate images from a text prompt, saved to a built-in gallery with a full-screen zoom/pan viewer\\n- Analyze any Switch screenshot by attaching it to your question\\n- Voice dictation with a USB microphone\\n- Live usage and quota tracking, with a per-model cost breakdown\\n- Wireless setup: scan a QR code to enter your Puter token\\n- Full interface and AI responses in 28 languages\\n\\nRequires Atmosph\u00e8re custom firmware, a Wi-Fi connection, and a free Puter account. Unofficial homebrew, not affiliated with Nintendo."
+        "details": "ChatNX turns your Nintendo Switch into an AI companion. It talks to Puter's AI gateway over Wi-Fi, so you chat straight from the console.\\n\\nFeatures:\\n- Chat with multiple AI models (Claude, GPT, and more)\\n- Generate images from a text prompt, saved to a built-in gallery with a full-screen zoom/pan viewer\\n- Analyze any Switch screenshot by attaching it to your question\\n- Voice dictation with a USB microphone\\n- Live usage and quota tracking, with a per-model cost breakdown\\n- Wireless setup: scan a QR code to enter your Puter token\\n- Full interface and AI responses in 28 languages\\n\\nRequires Atmosphère custom firmware, a Wi-Fi connection, and a free Puter account. Unofficial homebrew, not affiliated with Nintendo."
     },
     "assets": [
         {
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Jonathan8520/ChatNX/releases/download/v1.0.0/ChatNX.nro",
+            "url": "https://github.com/Jonathan8520/ChatNX/releases/download/v1.0.1/ChatNX.nro",
             "type": "update",
             "dest": "/switch/ChatNX/ChatNX.nro"
         }
     ],
-    "changelog": "1.0.0 \u2014 Initial release."
+    "changelog": "v1.0.1\\nPuter, the AI gateway ChatNX talks to, made its chat endpoint subscription-only\\nin September 2026. Free accounts -- which is what ChatNX uses -- started getting\\n\"A subscription is required for this action\" on every message, and chat stopped\\nworking entirely. This release restores it.\\n\\nIf you are running 1.0.0, you need this update: chat is dead without it.\\n\\n Fixed\\n\\n- Chat.- Requests go through Puter's current free path again. All seven\\n  built-in models reply, and gpt-5.5 no longer fails on every message.\\n- Image generation.- The default engine (Cloudflare FLUX) is broken on\\n  Puter's side, so image generation failed for everyone, including fresh\\n  installs. It has been replaced and existing configs are migrated\\n  automatically. Two OpenAI engines are now offered, standard and HD.\\n- Usage screen.- Puter switched its metering unit from dollars to credits,\\n  so the screen read 0.00 throughout; it now shows credits out of the\\n  monthly allowance. The per-resource table also displayed three rows that\\n  were not resources at all while silently hiding three that were, and its\\n  \"sort by number\" ordered on a column you could not see.\\n- Messages after a failed send.- They were glued together without a\\n  separator, so the model answered a mangled word instead of the question.\\n- Unwanted images.- A bare \"yes\" with nothing proposed could make the app\\n  draw a picture instead of replying.\\n- Keyboard.- Text entry was locked to Latin layouts. The keyboards the\\n  console provides for Japanese, Russian, Korean and Chinese are now\\n  reachable, and long text in those scripts is no longer truncated.\\n\\nNote that the Switch itself only ships keyboards for eleven languages, so\\nHebrew, Arabic, Thai, Hindi and Greek remain readable but not typeable.\\n\\n Install\\n\\nCopy ChatNX.nro into the /switch/ folder on your SD card, or send it over\\nthe network with nxlink.\\n\\nRequires custom firmware (Atmosphere), a Wi-Fi connection, and a free Puter\\naccount with an API token.\\n\\nUnofficial homebrew project, not affiliated with Nintendo.\\n\\n1.0.0 — Initial release."
 }
