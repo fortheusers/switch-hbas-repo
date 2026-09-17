@@ -4,11 +4,11 @@
         "title": "SSBot",
         "author": "fungalspores",
         "category": "tool",
-        "version": "2.0",
+        "version": "2.2",
         "url": "https://github.com/fungalspores/SSBot",
         "license": "MIT",
         "description": "Send screenshots from Switch to Telegram",
-        "details": "Features\\n\\nBrowse all screenshots from emuMMC/RAW1/Nintendo/Album/ with a dark SDL2 GUI\\n\\nSend to one or multiple Telegram chats (supports ALL option)\\n\\nOptional caption via on-screen keyboard before sending\\n\\nFullscreen preview\\n\\nLazy thumbnail loading \u2014 only decodes visible images\\n\\nSupports JPEG, PNG, BMP\\n\\nWeb Config \u2014 configure bot token and chat IDs from any browser on the same WiFi (port 7777)\\n\\nCatppuccin Mocha color palette"
+        "details": "Features\\n\\nBrowse all screenshots from emuMMC/RAW1/Nintendo/Album/ with a dark SDL2 GUI\\n\\nSend to one or multiple Telegram chats (supports ALL option)\\n\\nOptional caption via on-screen keyboard before sending\\n\\nFullscreen preview\\n\\nLazy thumbnail loading — only decodes visible images\\n\\nSupports JPEG, PNG, BMP\\n\\nWeb Config — configure bot token and chat IDs from any browser on the same WiFi (port 7777)\\n\\nCatppuccin Mocha color palette"
     },
     "assets": [
         {
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/fungalspores/SSBot/releases/download/v2.0/ssbot.nro",
+            "url": "https://github.com/fungalspores/SSBot/releases/download/v2.2/ssbot.nro",
             "type": "update",
             "dest": "/switch/SSBot/ssbot.nro"
         }
     ],
-    "changelog": "What's new in v2.0\\n\\nWeb Config \u2014 configure bot token and chat IDs from any browser on the same WiFi (port 7777)\\n\\nMulti-chat support \u2014 send to multiple Telegram chats, with an ALL option to send to all at once\\n\\nDark SDL2 GUI \u2014 Catppuccin Mocha palette, rounded cards, thumbnail gallery with lazy loading\\n\\n2\u00d7 scaled text for better readability on Switch Lite\\n\\nAbout screen (\u2212 button) with controls reference and web config URL\\n\\nNew app icon\\n\\nConfig path: sdmc:/switch/ssbot/config.txt (auto-migrates from old path)"
+    "changelog": "v2.2\\nЧто нового\\n\\n- Фильтр по игре- — L/R листают игры альбома, названия читаются с самой консоли (capsa + ns)\\n- Мультивыбор- — X отмечает скриншоты, ZL сбрасывает; отправка одним альбомом до 10 в сообщении\\n- Отправка фото или файлом- — переключение на ZR, в веб-конфиге или ключом send_as в конфиге\\n- Проверка TLS-сертификата Telegram- — сертификаты вшиты в приложение и распаковываются на карту при первом запуске, скачивать нечего\\n- Веб-конфиг под PIN- — 6 цифр с экрана консоли, токен больше не показывается на странице\\n\\n Исправления\\n\\n- POST-запрос веб-конфига читается целиком: раньше тело, разбитое на TCP-сегменты, молча затирало конфиг\\n- Миниатюры кэшируются текстурами вместо пересоздания каждый кадр\\n- curl_formadd заменён на curl_mime — файлы отдаются потоком, а не грузятся в память целиком\\n- Значения экранируются при подстановке в страницу конфига\\n- Лимит списка поднят до 4096, видно когда он упёрся\\n- Версия в NACP исправлена — hbmenu больше не показывает 2.0\\n\\n Установка\\n\\nСкопируйте ssbot.nro в sdmc:/switch/ssbot/ и запустите через hbmenu. Сертификаты и конфиг приложение создаст само; токен бота и chat ID удобнее задать через веб-конфиг по адресу из топбара.\\n\\n\\n\\nУправление:- A отправить · X отметить · ZL сбросить выбор · L/R фильтр по игре · ZR фото/файл · Y предпросмотр · B обновить · − о программе · + выход\\n\\nWhat's new in v2.0\\n\\nWeb Config — configure bot token and chat IDs from any browser on the same WiFi (port 7777)\\n\\nMulti-chat support — send to multiple Telegram chats, with an ALL option to send to all at once\\n\\nDark SDL2 GUI — Catppuccin Mocha palette, rounded cards, thumbnail gallery with lazy loading\\n\\n2× scaled text for better readability on Switch Lite\\n\\nAbout screen (− button) with controls reference and web config URL\\n\\nNew app icon\\n\\nConfig path: sdmc:/switch/ssbot/config.txt (auto-migrates from old path)"
 }
