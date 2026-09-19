@@ -1,0 +1,29 @@
+{
+    "package": "OpenHomeNX",
+    "info": {
+        "title": "OpenHomeNX",
+        "author": "JostenSypn",
+        "category": "tool",
+        "version": "0.2.98",
+        "url": "https://github.com/JostenSyon/OpenHomeNX",
+        "license": "GPLv3",
+        "description": "CrossGen Local Pokemon Bank ",
+        "details": "OpenHomeNX is a homebrew box manager for Pokemon saves on Nintendo Switch. Browse boxes and party side by side, move Pokemon with pick and place, and transfer them across generations (Gen 1-9, LGPE, BDSP, Legends Arceus, Scarlet/Violet) with explicit dex-cut and move warnings \u2014 nothing is ever lost silently. Supports native saves (GB/GBC/GBA/DS/3DS-decrypted/Switch titles) plus SD/USB import, automatic backups with one-tap restore, Wondercard injection, 7 themes and 9 languages. Self-updates from GitHub releases. Your saves stay yours: every operation is verified against real game data."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/JostenSyon/OpenHomeNX/releases/download/v0.2.98/OpenHomeNX.nro",
+            "type": "update",
+            "dest": "/switch/OpenHomeNX/OpenHomeNX.nro"
+        }
+    ],
+    "changelog": "First public release. Box and party manager with pick & place across all generations: native saves GB/GBC/GBA/DS/3DS-decrypted and Switch titles (LGPE, SwSh, BDSP, Arceus, Scarlet/Violet, Z-A) plus SD/USB import. Cross-gen transfers with explicit dex-cut/move warnings, automatic backups with one-tap restore, Wondercard injection, 7 themes, 9 languages, self-update from GitHub. Tested on hardware across 8 games."
+}
