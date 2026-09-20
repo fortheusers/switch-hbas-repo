@@ -1,0 +1,24 @@
+{
+    "package": "sporegram",
+    "info": {
+        "title": "sporegram",
+        "author": "fungalspores",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/fungalspores/sporegram",
+        "license": "GPLv3",
+        "description": "Unofficial Telegram client for Nintendo ",
+        "details": "Sporegram is a Nintendo Switch port of AAhead, the Telegram client for the New Nintendo 3DS by Alex Gakh (Memetrix).\\n\\nEverything below the interface comes from there and is unchanged in substance: the MTProto transport, the application layer, storage, calls, and the text engine that does UTF-8, wrapping and Telegram's entities. That part was already proven against Telegram on real hardware, which is the only reason a port was affordable at all.\\n\\nThe interface is new. AAhead's views are composed for two stacked 400\u00d7240 panels; reshaping them into one 1280\u00d7720 screen turned out to cost more than writing an interface meant for it. So switch/ is written from scratch on SDL2 and FreeType, and none of source/ui/'s views are linked.\\n\\nSporegram is licensed GPL-3.0, like its upstream, and the whole source is here."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "Telegram on a Nintendo Switch you already own. First public release."
+}
