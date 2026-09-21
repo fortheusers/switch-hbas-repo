@@ -1,0 +1,35 @@
+{
+    "package": "BookReader",
+    "info": {
+        "title": "BookReader",
+        "author": "DigitalVlad",
+        "category": "_misc",
+        "version": "0.2.0",
+        "url": "https://github.com/DigitalVlad/BookReader-for-Nintendo-Switch",
+        "license": "Affero GPLv3",
+        "description": "Offline ebook reader for Nintendo Switch",
+        "details": "BookReader is an offline ebook and comic reader for Nintendo Switch homebrew.\\nIt supports PDF, EPUB, TXT, FB2, HTML, HTM, CBZ and Markdown files.\\nFeatures include Joy-Con and touchscreen controls, portrait and landscape modes,\\nPDF zoom and pan, EPUB chapters, reading progress, favorites, recent books,\\nLight, Sepia and Dark themes, and persistent reading settings."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/DigitalVlad/BookReader-for-Nintendo-Switch/releases/download/v0.2.0/BookReader_v2.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "Version 0.2.0 adds English and Russian interfaces, portrait mode,\\ntouchscreen gestures, PDF zoom and pan, EPUB navigation, reading progress,\\nfavorites, recent books, themes, and improved Switch OLED support."
+}
