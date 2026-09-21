@@ -20,17 +20,6 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Terremotixx/PokeDoku-NX/releases/download/v1.2.1/PokeDoku-NX-v1.2.1.zip",
-            "type": "zip",
-            "zip": [
-                {
-                    "path": "/**/*",
-                    "dest": "/",
-                    "type": "update"
-                }
-            ]
-        },
-        {
             "url": "https://github.com/Terremotixx/PokeDoku-NX/releases/download/v1.2.1/PokeDoku-NX.nro",
             "type": "update",
             "dest": "/switch/PokeDokuNX/PokeDoku-NX.nro"
