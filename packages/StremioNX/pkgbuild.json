@@ -1,0 +1,33 @@
+{
+    "package": "StremioNX",
+    "info": {
+        "title": "Stremio NX",
+        "author": "jrgf",
+        "category": "_misc",
+        "version": "0.1.0",
+        "url": "https://github.com/jrgf/stremio-nx/releases/tag/0.1.0",
+        "license": "GPLv3",
+        "description": "An independent Nintendo Switch homebrew ",
+        "details": "Stremio NX is an independent Nintendo Switch homebrew video player compatible with Stremio add-ons.\\n\\nFeatures\\nBrowse catalogs and play torrents or direct HTTP video links, including compatible debrid streams.\\nSelect subtitles and audio tracks during playback.\\nInstall and manage add-ons using manifest URLs, with phone-based setup for add-ons that require a browser.\\nHardware-accelerated video decoding and read-ahead buffering for HTTP and torrent playback.\\nController and touch controls."
+    },
+    "assets": [
+        {
+            "data": "icon.png",
+            "format": "base64",
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "data": "screen.png",
+            "format": "base64",
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/jrgf/stremio-nx/releases/download/0.1.0/stremio-nx.nro",
+            "type": "update",
+            "dest": "/switch/StremioNX/stremio-nx.nro"
+        }
+    ],
+    "changelog": ""
+}
