@@ -20,11 +20,6 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/DigitalVlad/BookReader-for-Nintendo-Switch/releases/download/v0.2.0/BookReader_v2.nro",
-            "type": "update",
-            "dest": "/switch/BookReader/BookReader_v2.nro"
-        },
-        {
             "url": "https://github.com/DigitalVlad/BookReader-for-Nintendo-Switch/releases/download/v0.2.0/BookReader_v2.zip",
             "type": "zip",
             "zip": [
