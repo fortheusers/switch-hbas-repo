@@ -1,0 +1,40 @@
+{
+    "package": "UAE4ALL2HDSwitch",
+    "info": {
+        "title": "UAE4ALL2 HD Switch",
+        "author": "theheroGAC",
+        "category": "emu",
+        "version": "1.06",
+        "url": "https://github.com/theheroGAC/UAE4ALL2-HD-SWITCH",
+        "license": "GPLv2",
+        "description": "New Amiga Emulator for Switch",
+        "details": "A modern, high-performance, and user-friendly Amiga emulator for Nintendo Switch, supporting Amiga 500, 500+, 600, 1200 (AGA), and CD32 hardware.\\nUAE4ALL2 HD supports the complete spectrum of Amiga computer and console hardware, along with all standard retro disk and storage formats:\\n\\nSupported Amiga Systems\\nAmiga 500 & 500+: OCS and ECS chipsets, Motorola 68000 CPU (7 MHz), 512 KB to 1 MB Chip RAM + Slow/Fast expansion RAM.\\nAmiga 600: ECS chipset, Motorola 68000 CPU, IDE hard disk support, 2 MB Chip RAM + up to 8 MB Fast RAM.\\nAmiga 1200 (AGA): AGA 256-color chipset, Motorola 68020 CPU (14 MHz), 2 MB Chip RAM + up to 8 MB Fast RAM.\\nAmiga CD32: Dedicated 32-bit CD-ROM console, Motorola 68020 CPU, AGA chipset, and custom Akiko chip emulation (Chunky-to-Planar converter and CD-ROM sub-system).\\nSupported File Formats\\nAmiga RTG / Picasso96 graphics: Optional UAEGFX-compatible RTG video memory for Amiga software that explicitly uses Picasso96 or RTG. RTG is isolated from the normal OCS/ECS/AGA, WHDLoad, floppy ecc."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/theheroGAC/UAE4ALL2-HD-SWITCH/releases/download/1.06/uae4all2hd.nro",
+            "type": "update",
+            "dest": "/switch/UAE4ALL2HDSwitch/uae4all2hd.nro"
+        },
+        {
+            "url": "https://github.com/theheroGAC/UAE4ALL2-HD-SWITCH/releases/download/1.06/uae4all2hd_switch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "Version 1.06\\nPicasso96 / RTG\\nOptional Picasso96/RTG support: Added an isolated UAEGFX-compatible RTG path for Workbench, productivity software, demos, and games that explicitly use Picasso96 screens.\\nSeparate RTG VRAM: Added configurable Disabled, 2 MB, and 4 MB RTG VRAM options, kept separate from Chip RAM, Fast RAM, Kickstart, WHDLoad, floppy, and hard-disk memory.\\nZorro/autoconfig integration: RTG VRAM is exposed through the emulated UAEGFX board and Picasso96-compatible autoconfig path without replacing the normal OCS/ECS/AGA chipset.\\nRTG framebuffer modes: Added mode enumeration and framebuffer conversion for common 8-bit CLUT, 15-bit, 16-bit, 24-bit, and 32-bit formats.\\nRTG drawing operations: Implemented or adapted common fill, copy, invert, pattern, template, and planar-to-chunky/direct operations with validation and software-safe fallbacks where available.\\nSwitch framebuffer fix: Corrected FAME word-swapped memory access for RTG framebuffer reads, including 8-bit CLUT output. This fixes incorrect or flat-color output in affected modes such as 800x600.\\nRetro CRT shader: Added a Switch-compatible Classic CRT preset with curved geometry, scanlines, phosphor grille, vignette, and subtle RGB separation. It is implemented in the existing GLES2 inline shader path and adds no external runtime dependency.\\nMode compatibility fixes: Improved Picasso96 resolution-list ABI handling, SetPanning()/SetGC() call ordering, virtual dimensions, pitch validation, and screen-mode creation.\\nRTG lifecycle: Added isolated RTG reset, shutdown, VRAM cleanup, mapping recovery, and controlled behavior when RTG memory is unavailable.\\nSavestate integration: Added Picasso96 state, palette, allocation metadata, and RTG VRAM snapshot/restore handling while preserving compatibility with existing non-RTG states."
+}
