@@ -4,16 +4,16 @@
         "title": "Fireplace-NX",
         "author": "marice, ELY3M",
         "category": "tool",
-        "version": "8",
+        "version": "09-22-2026-01.42.11.AM",
         "url": "https://github.com/ELY3M/Fireplace-NX",
         "license": "n/a",
         "description": "A lovely pixelated retro fireplace simulator",
         "details": "This project should be helpful to anyone trying to learn SDL2 on Nintendo Switch in c++.\\n\\nPRESS PLUS TO RETURN TO HBMENU.\\n- Ported to Nintendo Switch from: https://www.hanshq.net/fire.html\\n\\nSource:\\nhttps://github.com/Marice/Fireplace-NX"
     },
-    "changelog": "v8\\ntest\\n\\nv6\\nThe app code is fixed and updated to work with latest libnx and Atmosphere.\\n\\nv2\\n- Updated and fixed to run on newer firmwares by ELY3M.",
+    "changelog": "v09-22-2026-01.42.11.AM\\ntag\\n\\nv8\\ntest\\n\\nv6\\nThe app code is fixed and updated to work with latest libnx and Atmosphere.\\n\\nv2\\n- Updated and fixed to run on newer firmwares by ELY3M.",
     "assets": [
         {
-            "url": "https://github.com/ELY3M/Fireplace-NX/releases/download/8/Fireplace-NX.nro",
+            "url": "https://github.com/ELY3M/Fireplace-NX/releases/download/09-22-2026-01.42.11.AM/Fireplace-NX.nro",
             "dest": "/switch/Fireplace-NX.nro",
             "type": "update"
         },
