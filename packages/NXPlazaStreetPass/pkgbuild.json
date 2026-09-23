@@ -18,7 +18,15 @@
         {
             "type": "banner",
             "url": "screen.png"
-        }
+        },
+        {
+            "url": "https://github.com/Insektaure/NX-Plaza/releases/download/0.10.0/nx-plaza.zip",
+            "type": "zip",
+            "zip": {
+                "path": "/*/**",
+                "dest": "/",
+                "type": "update"
+            }
     ],
     "changelog": ""
 }
