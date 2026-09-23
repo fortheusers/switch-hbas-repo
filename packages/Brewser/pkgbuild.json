@@ -4,7 +4,7 @@
         "title": "Brewser",
         "author": "natureglass",
         "category": "_misc",
-        "version": "0.1.114",
+        "version": "0.1.1.31",
         "url": "https://github.com/natureglass/Brewser",
         "license": "Mozilla PLv2",
         "description": "Run web apps on your Switch",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/natureglass/Brewser/releases/download/v0.1.114/brewser.nro",
+            "url": "https://github.com/natureglass/Brewser/releases/download/v0.1.1.31/brewser.nro",
             "type": "update",
             "dest": "/switch/Brewser/brewser.nro"
         }
     ],
-    "changelog": "0.1.114 - Initial public release. Web runtime (V8 + JIT, Skia, WebGL1/2 via Mesa) with Web MIDI, WebSerial, WebUSB, WebBluetooth and WebNN, curated 28-app catalogue with security scanning, HLS video and broad codec support via FFmpeg, themeable shell (GLSL shader wallpapers), signed self-updates with downgrade protection."
+    "changelog": "See: https://github.com/natureglass/Brewser/releases/tag/v0.1.1.31"
 }
