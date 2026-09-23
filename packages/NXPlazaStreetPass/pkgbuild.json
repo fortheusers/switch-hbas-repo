@@ -23,7 +23,7 @@
             "url": "https://github.com/Insektaure/NX-Plaza/releases/download/0.10.0/nx-plaza.zip",
             "type": "zip",
             "zip": [{
-                "path": "/*/**",
+                "path": "/**/*",
                 "dest": "/",
                 "type": "update"
             }]
