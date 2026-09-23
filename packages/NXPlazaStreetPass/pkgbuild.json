@@ -27,6 +27,7 @@
                 "dest": "/",
                 "type": "update"
             }
+        }
     ],
     "changelog": ""
 }
