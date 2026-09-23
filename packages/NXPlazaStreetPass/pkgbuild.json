@@ -4,7 +4,7 @@
         "title": "NX Plaza - StreetPass",
         "author": "Insektaure",
         "category": "_misc",
-        "version": "0.1.0",
+        "version": "0.10.0",
         "url": "https://github.com/Insektaure/NX-Plaza",
         "license": "GPLv2",
         "description": "An Online StreetPass System for Switch",
@@ -22,12 +22,14 @@
         {
             "url": "https://github.com/Insektaure/NX-Plaza/releases/download/0.10.0/nx-plaza.zip",
             "type": "zip",
-            "zip": [{
-                "path": "/**/*",
-                "dest": "/",
-                "type": "update"
-            }]
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
         }
     ],
-    "changelog": ""
+    "changelog": "v0.10.0\\nThe quest\\n\\n- Every shadow has a name, worked out from its floor number like its face already was - floor seven is _Selenneth_ on every console. It is over its head on the field and in the fight log.\\n- The bestiary, on ZL: every floor you have put down, and the next one. Beating a floor unmasks it - the ones behind you are drawn as the face under the shadow. A- opens its card: its numbers, and the real drop odds for that floor.\\n- Start higher up the tower.- Once the week has paid its way to floor ten, chevrons beside the Climb button start you at 10, 20 and so on. Nothing below pays twice and the blessings start again from there - the quick way into the deep floors for gear, not a shortcut to a record.\\n- The bag holds 250 items- rather than 120, and ZR- in it can throws away a whole item rank at once. Nothing worn and nothing locked goes with it, and it follows the peg filter.\\n- The week says when it resets: floors up to 14 have paid this week | resets in 3 days.\\n\\n Fixed\\n\\n- The weekly reset turned on a Sunday.- Everything said Monday; the shift that moves the boundary off the epoch's Thursday was a day too big. Correcting it spends one reset, so the week pays from the bottom again.\\n- The focus ring sat on the scrollbar- on every scrolling list - the games shelf, the puzzles, the trophies, the shop, the bag, your pass, the collection and the settings.\\n- A long question ran out of the confirmation box.- Titles wrap now, in every language.\\n\\n Updates\\n\\n- X no longer starts a climb.- A- on the Climb button, or a finger on it - that button is where the start floor lives now, and X means carry on by itself- on the screens after."
 }
