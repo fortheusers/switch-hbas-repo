@@ -1,0 +1,35 @@
+{
+    "package": "Edizon",
+    "info": {
+        "title": "EdiZon-SE",
+        "author": "tomvita / WerWolv",
+        "category": "tool",
+        "version": "3.8.37a",
+        "url": "https://github.com/tomvita/EdiZon-SE/releases",
+        "license": "GPLv2",
+        "description": "A homebrew save management, editing tool and memory trainer for Horizon",
+        "details": "This fork is based on the foundation of EdiZon 3.1 nightly. The changes made are on the game memory hack aspect.\\n\\nHere are the added features:\\n\\nRange search.\\nCompare with previous value search.\\nBookmark memory location found.\\nSpeed enhancement to make small integer value in first search practicle.\\nBookmark adjust to changing main and heap start address on subsequent launch of the game. Bookmark with pointer chain attached updates memory address dynamically when the chain is able to resolve into a valid memory address.\\nExtract memory address from dmnt cheat code and add it to bookmark for exploration of the memory location.\\nRebase feature to extract potential pointer chain form dmnt cheat code made for previous version of the game.\\nIn app pointer chain search for address on bookmark.\\nExport dump to PC app (forked from pointersearcher 0.4) for more powerful pointer chain search.\\nImport PC app search result for validation and testing.\\nCreate dmnt cheat code from pointer chain found.\\nAbility to detach dmnt from game process.\\nAdding/Removing conditional button to cheat code.\\nPS: Please refer to https://github.com/tomvita/EdiZon-SE/wiki for instructions on how to use the app.\\n\\nTo establish common base for support please start from a clean boot with the latest atmosphere and only Sigpatches needed to run the game and latest releases from https://github.com/tomvita. Please state the url you downloaded from. No extra software unless it is related to the topic underdiscussoin.\\n\\nOriginal functinality of Edizon on game save is available when launched without a game running.\\n\\nMore Info here : https://github.com/tomvita/EdiZon-SE\\n\\n\\n"
+    },
+    "changelog": "v3.8.37a\\nThis release has the recompiled 3.8.37 ( recompilation required for Atmosphere 1.10.0+ compatibility ).\\n\\nThe bundled Breeze version has been updated to the latest beta.",
+    "assets": [
+        {
+            "url": "https://github.com/tomvita/EdiZon-SE/releases/download/3.8.37a/edizon.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
