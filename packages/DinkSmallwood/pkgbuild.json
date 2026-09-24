@@ -1,0 +1,36 @@
+{
+    "package": "DinkSmallwood",
+    "info": {
+        "title": "Dink Smallwood HD",
+        "author": "Seth A. Robinson, type0labs",
+        "category": "game",
+        "version": "0.3.2",
+        "url": "https://github.com/type0labs-dev/dink-smallwood-switch",
+        "license": "Zlib",
+        "description": "Native Switch port of the 1997 action-RPG by Seth Robinson.",
+        "details": "Dink Smallwood HD for Nintendo Switch.\n\nOriginally created by Robinson Technologies (Seth A. Robinson) in 1997, Dink Smallwood is an isometric action-RPG following a pig farmer turned hero on an epic, humorous quest.\n\nThis port brings the complete HD version to the Nintendo Switch with native widescreen presentation, gamepad controls, full high-quality MIDI soundtrack synthesis, and dual English / Brazilian Portuguese (PT-BR) language support.\n\nFeatures:\n- Native 60 FPS gameplay\n- Full Joy-Con and Pro Controller mapping\n- Real-time software MIDI synthesis\n- Bilingual: English and Portuguese (PT-BR) first-boot selection\n- Widescreen UI\n\nControls:\n- D-Pad / Left Stick: Movement\n- A: Talk / Attack / Confirm\n- B: Magic / Cancel\n- X: Inventory / Status\n- Y: Use Item\n- Plus / Minus: Menu / Map",
+        "binary": "/switch/dink-smallwood/DinkSmallwood.nro"
+    },
+    "changelog": "v0.3.2\n- Dual-language support: English and Portuguese (PT-BR) with first-boot selector\n- Improved widescreen side HUD layout\n- High quality MIDI synthesis",
+    "assets": [
+        {
+            "url": "https://github.com/type0labs-dev/dink-smallwood-switch/releases/download/v0.3.2/DinkSmallwoodHD-Switch-PTBR-v0.3.2.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
