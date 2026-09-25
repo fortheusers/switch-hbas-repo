@@ -1,0 +1,31 @@
+{
+    "package": "nCloud",
+    "info": {
+        "title": "nCloud",
+        "author": "rjojjr",
+        "category": "tool",
+        "version": "1.1.1",
+        "url": "https://github.com/rjojjr/ncloud",
+        "license": "n/a",
+        "description": "Nextcloud client for Switch",
+        "details": "**nCloud** is a homebrew [Nextcloud](https://nextcloud.com/) client for the **Nintendo Switch**. It lets you browse, download, upload, and install files directly to your Switch from your own self-hosted Nextcloud server \u2014 a private, cloud-based alternative to sideloading over USB or copying files back and forth from your SD card.\\n\\nIf you run custom firmware (CFW) such as **Atmosph\u00e8re** and want to manage your files and install `.nsp` / `.xci` packages straight from your own cloud storage, nCloud is built for you.\\n\\n> \u26a0\ufe0f nCloud is a closed-source homebrew application. See the disclaimer below \u2014 **use at your own risk.**\\n\\n## Features\\n\\n- \ud83d\udcc2 Browse remote Nextcloud files and folders from your Switch\\n- \u2b07\ufe0f Download files from Nextcloud to your SD card\\n- \u2b06\ufe0f Upload files from your SD card to Nextcloud\\n- \ud83d\udce6 Install `.nsp` and `.xci` files directly from your Nextcloud instance\\n- \u2601\ufe0f Use your own self-hosted, private cloud storage \u2014 no third-party file host required"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "data": "screen.png",
+            "format": "base64",
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/rjojjr/ncloud/releases/download/1.1.1/ncloud.nro",
+            "type": "update",
+            "dest": "/switch/nCloud/ncloud.nro"
+        }
+    ],
+    "changelog": "## v1.1.1\\n\\n- fix toggle stream install of `.nsp` & `.xci` files\\n- flatten persisted directories when downloading files\\n- optimize stream install `.nsp` & `.xci` files for increased speed\\n\\n## v1.1.0\\n\\n- optimize install/download for increased speed\\n- tweak install `.nsp` & `.xci` files UI/dialogs to be more intuitive\\n- enable touch input\\n\\n## v1.0.1\\n\\n- added ability to upload files from SD to Nextcloud\\n\\n## v1.0.0\\n\\n- initial release"
+}
