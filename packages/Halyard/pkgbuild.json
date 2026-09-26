@@ -1,0 +1,54 @@
+{
+    "package": "Halyard",
+    "info": {
+        "title": "Halyard",
+        "author": "Wasabules",
+        "category": "tool",
+        "version": "0.1.0",
+        "url": "https://github.com/Wasabules/Halyard",
+        "license": "GPLv3",
+        "binary": "/switch/halyard/halyard.nro",
+        "description": "Unofficial client for the Shadow cloud PC service",
+        "details": "Halyard is an unofficial client for the Shadow cloud PC service: it streams your own Shadow machine to the Switch, with hardware video decoding, sound, and your controls going back the other way.\\n\\nYou need your own Shadow subscription. Halyard is not affiliated with, endorsed by or sponsored by Shadow or Nintendo. Using an unofficial client may breach Shadow's terms of service - read docs/LEGAL.md in the repository before installing.\\n\\nFeatures:\\n- Hardware video decoding (H.264 and HEVC)\\n- Opus or FLAC audio, with a 5-band equaliser per console mode\\n- Your controllers reach the machine as an Xbox 360 gamepad, with rumble\\n- Touchscreen as a mouse, on-screen keyboard, controller mouse (L3+R3), gyro aiming\\n- Performance panel: frame rate, bitrate, loss and round trip while you play\\n\\nFirst launch: a code and a QR code appear. Sign in to Shadow on a phone or a computer and type the code - nothing to type on the console.\\n\\nPause menu: hold + for half a second.\\nOn-screen keyboard: hold - for half a second.\\n\\nUser guide: https://wasabules.github.io/Halyard/docs/"
+    },
+    "changelog": "v0.1.0\\nFirst public release.",
+    "assets": [
+        {
+            "url": "https://github.com/Wasabules/Halyard/releases/download/v0.1.0/halyard.nro",
+            "dest": "/switch/halyard/halyard.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen2.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen3.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen4.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen5.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen6.png"
+        }
+    ]
+}
