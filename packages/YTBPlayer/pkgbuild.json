@@ -1,0 +1,29 @@
+{
+    "package": "YTBPlayer",
+    "info": {
+        "title": "YTB Player",
+        "author": "muratgokce",
+        "category": "tool",
+        "version": "1.1.0",
+        "url": "https://github.com/murat303/ytb-player",
+        "license": "GPLv3",
+        "description": "YouTube, laid out like the tablet app",
+        "details": "YTB Player is a YouTube client for Switch homebrew, built on Switch-NewPipe (mirusu400) with the screens redone after YouTube's tablet app. It works with the buttons and the touch screen.\\n\\n- Home with category chips, Shorts with their own player, channel pages with tabs\\n- A watch page with comments and replies, related videos and playlists\\n- Signed in: subscriptions with filters, Watch later, Liked videos, your playlists, notifications\\n- Player: up to 1080p docked and 720p handheld, a quality and speed menu, chapters, subtitles, SponsorBlock, resume, autoplay\\n- Sign in over Wi-Fi from a computer: no Google password is typed on the Switch\\n- English, Turkish and Korean\\n\\nIts files live in sdmc:/switch/ytb-player/; coming from Switch-NewPipe, the settings, history and login are copied over. Not affiliated with YouTube or Google."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/murat303/ytb-player/releases/download/v1.1.0/ytb-player.nro",
+            "type": "update",
+            "dest": "/switch/YTBPlayer/ytb-player.nro"
+        }
+    ],
+    "changelog": "1.1.0: the first release."
+}
