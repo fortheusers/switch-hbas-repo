@@ -4,7 +4,7 @@
         "title": "NetSurf",
         "author": "etonedemid",
         "category": "tool",
-        "version": "0.1.0",
+        "version": "0.2.0",
         "url": "https://github.com/etonedemid/netsurf-switch",
         "license": "n/a",
         "description": "Small web browser ",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/etonedemid/netsurf-switch/releases/download/v0.1.0/netsurf.nro",
+            "url": "https://github.com/etonedemid/netsurf-switch/releases/download/v0.2.0/netsurf.nro",
             "type": "update",
             "dest": "/switch/NetSurf/netsurf.nro"
         }
     ],
-    "changelog": ""
+    "changelog": "v0.2.0\\nmodernized css to today's standarts\\njavascript\\ninline audio/video\\nenjoy"
 }
