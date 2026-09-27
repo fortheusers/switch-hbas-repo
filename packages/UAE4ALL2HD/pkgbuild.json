@@ -1,0 +1,40 @@
+{
+    "package": "UAE4ALL2HD",
+    "info": {
+        "title": "UAE4ALL2 HD",
+        "author": "theheroGAC",
+        "category": "emu",
+        "version": "1.01",
+        "url": "https://github.com/theheroGAC/UAE4ALL2-HD-SWITCH",
+        "license": "GPLv2",
+        "description": "Amiga emulator for Switch",
+        "details": "A modern, high-performance Nintendo Switch release of UAE4ALL2 HD, the Amiga emulator for OCS, ECS, and AGA chipsets.\\nFeatures in this Nintendo Switch Release\\nFull Amiga Emulation: Amiga 500, 500+, 600, 1200 and CD32 hardware emulation (OCS, ECS, and AGA).\\nHigh-Performance CPU Cores: Optimized 68000 and 68020 processor emulation.\\nFloppy Disk Support: ADF, ADZ, DMS, IPF, FDI, and ZIP floppy disk images across DF0-DF3.\\nCAPS / IPF Support: Built-in CAPS decoder for original commercial Amiga floppy dumps with copy-protection support.\\nHard Disk Support (HDF & Folders): 4 HDF image slots and Amiga directory mounting (DH0:).\\nIntegrated HDF Manager: Create, format, and backup Fast File System (FFS) hard disks (from 50 MB to 4000 MB) directly within the GUI.\\nDedicated WHDLoad Library & Launcher:\\n1-click game execution with automatic Amiga 1200 AGA hardware preset configuration.\\nNative high-performance LHA decompressor (-lh5-, -lh4-, -lh0-) with real-time extraction progress indicator.\\nPre-bundled official WHDLoad bina"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/theheroGAC/UAE4ALL2-HD-SWITCH/releases/download/1.01/uae4all2hd.nro",
+            "type": "update",
+            "dest": "/switch/UAE4ALL2HD/uae4all2hd.nro"
+        },
+        {
+            "url": "https://github.com/theheroGAC/UAE4ALL2-HD-SWITCH/releases/download/1.01/uae4all2hd_switch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "Fix WHDLoad & LHA Game Launching\\nFix FTP\\nStability & Crash Prevention"
+}
