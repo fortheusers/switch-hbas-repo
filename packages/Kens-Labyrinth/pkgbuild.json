@@ -13,7 +13,7 @@
     "changelog": "v4.3.0\\n- Brand new port for the Commodore Amiga running AmigaOS 3\\n- Deduplication of game assets\\n- Recompile with latest libnx to support latest Atmosphère OS / CFW for Nintendo Switch",
     "assets": [
         {
-            "url": "https://github.com/sacredbanana/lab3d-sdl/releases/download/4.3.0/Kens-Labyrinth-Nintendo-Switch.zip",
+            "url": "https://github.com/sacredbanana/lab3d-sdl/releases/download/4.3.0-1/Kens-Labyrinth-Nintendo-Switch.zip",
             "type": "zip",
             "zip": [
                 {
