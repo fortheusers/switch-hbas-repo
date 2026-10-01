@@ -1,0 +1,24 @@
+{
+    "package": "Kirikiroid2NX",
+    "info": {
+        "title": "Kirikiroid2-NX",
+        "author": "Erige005",
+        "category": "emu",
+        "version": "0.1.2",
+        "url": "https://github.com/Erige005/Kirikiroid2-NX",
+        "license": "BSD v3",
+        "description": "Kirikiroid2 visual novel player (krkr)",
+        "details": "Kirikiroid2-NX is a port of Kirikiroid2 1.3.9 (by zeas2), the Android/iOS player for KiriKiri engine visual novels, to the Nintendo Switch.\\n\\nCopy a KiriKiri visual novel you own to the SD card, using the same folder you'd use for Kirikiroid2 on Android (data.xp3, xp3filter.tjs, patches and fan translations work unchanged), then open it from the original Kirikiroid2 file browser.\\n\\nFeatures: video (FFmpeg), voice/BGM, transitions incl. extrans, layerExImage / layerExDraw / fstat / AlphaMovie plugins, game-bundled fonts, Japanese/Chinese/Vietnamese text. Controls: touchscreen or Joy-Con / Pro Controller (A advance, B cancel, left stick = mouse cursor, Minus = Kirikiroid2 menu).\\n\\nRun it in title-takeover mode (hold R while launching a game). Alpha: some Windows-only plugins (KAGParserEx, E-mote) are not ported yet. No game data included."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "v0.1.2-alpha: Joy-Con / Pro Controller support, AlphaMovie plugin.\\nv0.1.1-alpha: layerExDraw and fstat plugins, save fixes, faster release build.\\nv0.1.0-alpha: first public preview."
+}
