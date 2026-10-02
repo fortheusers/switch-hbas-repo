@@ -1,0 +1,29 @@
+{
+    "package": "PokeDokuNX",
+    "info": {
+        "title": "PokeDoku-NX",
+        "author": "Terremotixx",
+        "category": "game",
+        "version": "1.2.1",
+        "url": "https://github.com/Terremotixx/PokeDoku-NX",
+        "license": "MIT",
+        "description": "A 3x3 Pok\u00e9mon grid puzzle game for Ninte",
+        "details": "PokeDoku-NX is a native Nintendo Switch homebrew puzzle game inspired by PokeDoku. Solve 3x3 Pok\u00e9mon grids using 1,213 Pok\u00e9mon and forms across 76 categories, including types, regions, evolutions, moves, abilities, Mega Evolutions, Gigantamax forms and regional forms.\\n\\nFeatures English and Spanish localization with automatic system-language detection, touchscreen and physical controls, localized Pok\u00e9mon names, search by name or National Pok\u00e9dex number, configurable rules, timer, Unlimited PP mode, Soft Lock Guard, sound effects and shuffled background music.\\n\\nCustom OGG and MP3 music is supported from /switch/PokeDoku-NX/music/.\\n\\nThe project is free, non-commercial and open source under the MIT License."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Terremotixx/PokeDoku-NX/releases/download/v1.2.1/PokeDoku-NX.nro",
+            "type": "update",
+            "dest": "/switch/PokeDokuNX/PokeDoku-NX.nro"
+        }
+    ],
+    "changelog": "v1.2.1\\n\\n- Improved background music playback\\n- Smooth transitions between shuffled tracks\\n- Rebalanced music and sound-effect volume\\n- Updated and normalized default soundtrack\\n- Added MIT License\\n- Updated soundtrack attribution to @CinderyLofi"
+}
