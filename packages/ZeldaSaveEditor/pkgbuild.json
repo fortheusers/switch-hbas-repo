@@ -1,0 +1,40 @@
+{
+  "package": "ZeldaSaveEditor",
+  "info": {
+    "title": "Zelda Save Editor (Beta)",
+    "author": "StockiestThree9",
+    "category": "tool",
+    "version": "0.1.4-beta.1",
+    "url": "https://github.com/amarkham23/Zelda-Save-Editor",
+    "license": "MIT",
+    "description": "Native BOTW save editor with profile management",
+    "details": "Public beta for Breath of the Wild on the original Nintendo Switch family. Edit hearts, stamina wheels, inventory, equipment, horses and advanced fields with undo/redo and verified backups. Includes Normal, transferred Profile 2 and Master Mode tabs, normal-only profile swapping, console-sourced navigation sounds and OLED black mode. Requires Atmosphere and application-mode homebrew with access to your installed BOTW resources. Launch Sphaira over BOTW by holding R for resource access, then close BOTW before editing. Keep an independent backup. Gameplay after profile swaps and wider device save-and-reload validation remain unverified; shared album and compendium pictures stay in place during swaps. Tested real-save fixture: BOTW 1.9.0. No Nintendo assets, private saves or extracted game resources are included.",
+    "binary": "/switch/Zelda_Save_Editor.nro"
+  },
+  "changelog": "First public beta: native interface, Quill & Scroll icon, compact game picker, normal-only Profile 1/Profile 2 swaps with full backups and recovery, separate Master Mode, and Auto/Light/Dark/OLED appearance.",
+  "assets": [
+    {
+      "url": "https://github.com/amarkham23/Zelda-Save-Editor/releases/download/v0.1.4-beta.1/Zelda-Save-Editor-v0.1.4-beta.1.zip",
+      "type": "zip",
+      "zip": [
+        {
+          "path": "/**/*",
+          "dest": "/",
+          "type": "update"
+        }
+      ]
+    },
+    {
+      "type": "icon",
+      "url": "icon.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "home.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "settings.png"
+    }
+  ]
+}
