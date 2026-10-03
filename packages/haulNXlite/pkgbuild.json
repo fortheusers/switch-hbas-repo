@@ -1,0 +1,29 @@
+{
+    "package": "haulNXlite",
+    "info": {
+        "title": "haulNX-lite",
+        "author": "digdat0",
+        "category": "tool",
+        "version": "2.2.43",
+        "url": "https://github.com/digdat0/HaulNX-lite",
+        "license": "GPLv3",
+        "description": "A ROM library manager for Nintendo Switc",
+        "details": "HaulNX Lite manages one central ROM library \u2014 sdmc:/roms/<console>/, across 60 supported console folders. Send files in from your PC, and HaulNX Lite handles the rest: it extracts archives, verifies dumps against the official DATs, files everything under the right console, and cleans up duplicates and strays. Point your emulators at sd:/roms once, and the library takes care of itself. A desktop companion and the on-device tools cover the whole loop \u2014 transfer, organize, verify, and maintain."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/digdat0/HaulNX-lite/releases/download/2.2.43/HaulNX-Lite.nro",
+            "type": "update",
+            "dest": "/switch/haulNXlite/HaulNX-Lite.nro"
+        }
+    ],
+    "changelog": "Initial release of lite version"
+}
