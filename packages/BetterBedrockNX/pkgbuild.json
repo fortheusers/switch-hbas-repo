@@ -1,0 +1,48 @@
+{
+    "package": "BetterBedrockNX",
+    "info": {
+        "title": "BetterBedrock NX",
+        "author": "TomasUribe",
+        "category": "tool",
+        "version": "2.0.0",
+        "url": "https://github.com/TomasUribe/betterbedrock-nx",
+        "license": "GPLv2",
+        "binary": "/switch/BetterBedrockNX/BetterBedrockNX.nro",
+        "description": "Minecraft Bedrock toolkit for a modded Switch",
+        "details": "BetterBedrock NX is a toolkit for Minecraft (Bedrock) on a modded Switch running Atmosphere, for consoles that stay off Nintendo's servers (an emuMMC with Nintendo blocked, or a banned console) with a community server setup such as Nextendo's Prelude.\\n\\n- Vibrant Visuals on a Switch 1: the original Switch's Minecraft has Vibrant Visuals built in but switched off. This switches it on for Minecraft 1.26.44 (an Atmosphere exefs patch for that exact build), with Fast / Balanced / Quality profiles tuned for the Switch 1. It needs an overclock: about 20-25 fps in handheld at a high overclock with Mojang's own settings; the profiles are lighter.\\n- Microsoft sign-in fix: Prelude (from 3.5.7) redirects Microsoft's sign-in servers in the hosts file, so Minecraft can't sign in. This turns off just those lines, and can undo it.\\n- Join your own server: Minecraft on Switch has no Add Server button. One featured server in Play > Servers becomes a door to the server you choose, through BedrockConnect (any port) or directly (servers on port 19132).\\n- A Tesla/Ultrahand overlay to switch routing on and off.\\n\\nNintendo's hosts lines are never touched, and it never contacts Nintendo. Formerly BedrockLink: settings carry over. Tested on firmware 22.5.0, Atmosphere 1.11.2 (Mariko)."
+    },
+    "changelog": "2.0.0: BedrockLink is now BetterBedrock NX. New: Vibrant Visuals on Switch 1 (Minecraft 1.26.44) with Fast / Balanced / Quality profiles; two pages (L/R): Online and Graphics; new logo.\\n1.4.0: first public release (as BedrockLink).",
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen2.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen3.png"
+        },
+        {
+            "url": "https://github.com/TomasUribe/betterbedrock-nx/releases/download/v2.0.0/BetterBedrockNX-2.0.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ]
+}
