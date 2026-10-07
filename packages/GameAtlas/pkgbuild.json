@@ -1,0 +1,24 @@
+{
+    "package": "GameAtlas",
+    "info": {
+        "title": "Game Atlas",
+        "author": "LateBossFight",
+        "category": "tool",
+        "version": "0.2.3",
+        "url": "https://github.com/pwndlt/Game-Atlas",
+        "license": "MIT",
+        "description": "Game library, profile playtime and an interactive activity calendar.",
+        "details": "Game Atlas is a Nintendo Switch homebrew viewer for your game library and playtime. Browse installed and previously played games, see hours and minutes on each card, and sort in either direction. Switch between individual profiles or their combined total. Explore monthly activity calendars, daily sessions, game history and time-in-focus intervals using controllers or touch.\\n\\nEnglish, Russian and Spanish are included, with automatic system-language selection or a saved manual choice. No extra sysmodule is required.\\n\\nLifetime totals use per-profile counters, not the raw donor-game counter affected by Homebrew Menu title override. The combined total sums profile hours, so co-op counts for each player. Daily history depends on the retained log; missing events and unavailable durations are marked, not invented. Accountless history is excluded. Deleted-game artwork may be unavailable. This is a beta release; please report issues on GitHub."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "First public beta. RU/EN/ES interface; library with two-way sorting; profile totals; calendars and session details; controller/touch input. Redistributable Noto Sans font and third-party notices included. Accounting and navigation are unchanged from 0.2.2."
+}
