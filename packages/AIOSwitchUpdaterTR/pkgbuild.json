@@ -1,0 +1,29 @@
+{
+    "package": "AIOSwitchUpdaterTR",
+    "info": {
+        "title": "AIO Switch Updater TR",
+        "author": "Pasha Bey",
+        "category": "advanced",
+        "version": "pex",
+        "url": "https://github.com/pextechh/aio-switch-updatermod-tr",
+        "license": "MIT",
+        "description": "En iyi Tool",
+        "details": "\ud83c\udfae All-in-One MOD (v2.1TR) - Pasha Bey Edition\\nAll-in-One MOD, Nintendo Switch konsolunuz i\u00e7in geli\u015ftirilmi\u015f en kapsaml\u0131 ve pratik y\u00f6netim arac\u0131d\u0131r. Bilgisayara ihtiya\u00e7 duymadan CFW g\u00fcncellemelerinden oyun hilelerine, sistem firmware paketlerinden homebrew uygulamalar\u0131na kadar her \u015feyi do\u011frudan Switch \u00fczerinden y\u00f6netmenizi sa\u011flar.\\n\\n\ud83c\udf1f Uygulama Neler Sunuyor ?\\n(yaz\u0131 limitine tak\u0131ld\u0131 beyler bayanlar)"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/pextechh/aio-switch-updatermod-tr/releases/download/pex/aio.nro",
+            "type": "update",
+            "dest": "/switch/AIOSwitchUpdaterTR/aio.nro"
+        }
+    ],
+    "changelog": "T\u00fcrk\u00e7e ve Modlanm\u0131\u015f S\u00fcr\u00fcm."
+}
