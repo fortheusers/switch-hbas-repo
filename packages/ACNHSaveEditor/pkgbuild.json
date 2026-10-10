@@ -16,8 +16,8 @@
             "type": "zip",
             "zip": [
                 {
-                    "path": "/**/*",
-                    "dest": "/",
+                    "path": "/acnh_editor_v1.4.0/switch/acnh_editor/**/*",
+                    "dest": "/switch/acnh_editor/",
                     "type": "update"
                 }
             ]
