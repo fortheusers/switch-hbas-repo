@@ -1,0 +1,35 @@
+{
+    "package": "NXGameHide",
+    "info": {
+        "title": "NX-GameHide",
+        "author": "chu3",
+        "category": "tool",
+        "version": "0.1.0",
+        "url": "https://github.com/chuthree/nx-gamehide",
+        "license": "GPLv2",
+        "description": "Hide and restore games in the HOME menu through Tesla.",
+        "details": "Hide and restore games in the Nintendo Switch HOME menu through Tesla without deleting games or save data.\\n\\nSelect a game and press A to toggle visibility, or choose Show all games to restore the full list. All console users share the same hidden list. Close a game before changing its visibility. Games may still appear in search, groups or other launchers.\\n\\nRequires Atmosphere, Tesla Menu and nx-ovlloader. Tested on HOS 22.5.0 / Atmosphere 1.11.2. Extract the release ZIP to the SD card root and fully reboot."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/chuthree/nx-gamehide/releases/download/v0.1.0/NX-GameHide-v0.1.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "Initial release. Hide and restore HOME menu games through Tesla."
+}
