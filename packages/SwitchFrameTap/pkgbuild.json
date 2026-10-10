@@ -1,0 +1,44 @@
+{
+    "package": "SwitchFrameTap",
+    "info": {
+        "title": "Switch Frame Tap",
+        "author": "Papux200",
+        "category": "tool",
+        "version": "0.7.9",
+        "url": "https://github.com/TomasUribe/switch-frame-tap",
+        "license": "GPLv2",
+        "binary": "/switch/switch-frame-tap/switch-frame-tap.nro",
+        "description": "Stream your games to a PC at 1080p60",
+        "details": "Switch Frame Tap is a sysmodule that streams the game you are playing - picture and sound - to a Windows or Linux PC, with no capture card. It reads the game's finished frames and encodes them with the Switch's own H.264 encoder: native 1080p at 60 fps.\\n\\n- USB cable in handheld, or the network (Wi-Fi or the dock's LAN port) to play docked\\n- Game audio, also in games that block recording (optional), and recording to MP4 on the PC\\n- Webcam mode: the Switch shows up as a USB camera, for OBS (H.264, 1080p60) or any camera app (uncompressed, 720p)\\n- Native-resolution PNG screenshots on a button combo\\n- This manager app for the settings and to install the optional tools (Ultrahand, SaltyNX, ReverseNX-RT, sys-clk or Horizon OC), plus a Tesla/Ultrahand overlay\\n\\nNeeds Atmosphere, and the PC viewer (Windows or Linux) from the GitHub releases page. Tested on firmware 22.5.0 with Atmosphere 1.11.2; users report 22.0.0 and 21.0.1 working. It reads the running game like a debugger; with cheats loaded for a game it reads through Atmosphere's cheat engine, which is slower."
+    },
+    "changelog": "0.7.9: streaming while cheats are loaded (through Atmosphere's cheat engine); Xenoblade Chronicles X and Fire Emblem: Three Houses fixes.\\n0.7.8: back to 720p at once when leaving docked mode, also in 30 fps games; firmware 21.x streams by default.\\n0.7.7: a webcam for any camera app; no more fatal on Atmosphere older than 1.11.2.\\n0.7.6: no zoom on fake-docked menu changes.\\n0.7.5: install the optional tools from the manager.\\n0.7.4: sound in games that block recording, built in.",
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen2.png"
+        },
+        {
+            "url": "https://github.com/TomasUribe/switch-frame-tap/releases/download/v0.7.9/switch-frame-tap-0.7.9-switch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ]
+}
