@@ -1,0 +1,35 @@
+{
+    "package": "minFS",
+    "info": {
+        "title": "minFS",
+        "author": "minbbb",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/minbbb/minFS",
+        "license": "MIT",
+        "description": "Browser-based file manager",
+        "details": "A browser-based file manager for the Nintendo Switch. minFS runs a small HTTP server on the console so you can browse the SD card from a PC browser."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/minbbb/minFS/releases/download/v1.0.0/minFS_v1.0.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
