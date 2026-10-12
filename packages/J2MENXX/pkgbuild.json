@@ -1,0 +1,51 @@
+{
+    "package": "J2MENXX",
+    "info": {
+        "title": "J2ME-NXX",
+        "author": "T\u00f4 Quang Th\u1eafng",
+        "category": "emu",
+        "version": "0.8.4",
+        "url": "https://github.com/ToThangGTVT/j2me-nxx",
+        "license": "n/a",
+        "description": "J2ME emulator for Nintendo Switch",
+        "details": "J2ME (Java ME / MIDP 2.0) emulator for Nintendo Switch, written in C with devkitPro + SDL2. Custom Java VM that runs old mobile phone .jar games directly on Switch: 2D/3D (M3G) graphics, MIDI/WAV/MP3 audio, HTTP/HTTPS/socket networking, RMS save data.\\n\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/ToThangGTVT/j2me-nxx/releases/download/v0.8.4/j2me-nxx-v0.8.4-elf.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/ToThangGTVT/j2me-nxx/releases/download/v0.8.4/j2me-nxx-v0.8.4.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/ToThangGTVT/j2me-nxx/releases/download/v0.8.4/j2me-nxx.nro",
+            "type": "update",
+            "dest": "/switch/J2MENXX/j2me-nxx.nro"
+        }
+    ],
+    "changelog": ""
+}
