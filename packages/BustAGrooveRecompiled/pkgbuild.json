@@ -1,0 +1,24 @@
+{
+    "package": "BustAGrooveRecompiled",
+    "info": {
+        "title": "Bust A Groove Recompiled",
+        "author": "brankoRn",
+        "category": "game",
+        "version": "1",
+        "url": "https://github.com/brankomatija/BustAGrooveRecompiled-Releases",
+        "license": "n/a",
+        "description": "Native PC and Nintendo Switch port of Bu",
+        "details": "Native PC and Nintendo Switch port of Bust A Groove (PlayStation, 1998), built by static recompilation: the game's MIPS code was translated to C ahead of time and compiled natively. It is not an emulator.\\n\\nNintendo Switch (homebrew)\\nDownload BustAGroove-vX.Y.Z-switch-nro.zip and copy its switch folder to the root of the SD card.\\nPut your .cue and .bin in SD:/switch/BustAGroove/.\\nLaunch it from the Homebrew Menu.\\nOptional HOME menu icon: also install BustAGroove-vX.Y.Z-switch.nsp (needs sigpatches). The NSP still reads the game and settings from SD:/switch/BustAGroove/, so step 1 and 2 are still required.\\n\\nLegal\\nThis project is not affiliated with or endorsed by Sony Interactive Entertainment, Enix or Metro. Bust A Groove is a trademark of its respective owners. Do not ask for, or share, game images."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
