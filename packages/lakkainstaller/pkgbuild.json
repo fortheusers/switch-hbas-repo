@@ -1,0 +1,41 @@
+{
+    "package": "lakkainstaller",
+    "info": {
+        "title": "lakka installer",
+        "author": "etonedemid",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/etonedemid/lakka-install-nx",
+        "license": "GPLv3",
+        "description": "lakka installer",
+        "details": "Install any lakka version with one click"
+    },
+    "assets": [
+        {
+            "type": "update",
+            "url": "https://github.com/etonedemid/lakka-installer-nx/releases/download/v1.0.1/lakka-install-nx.nro",
+            "dest": "/switch/lakkainstaller/lakka-install-nx.nro"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "home.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "stable.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "nightly.png"
+        }
+    ],
+    "changelog": ""
+}
