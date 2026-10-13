@@ -1,0 +1,29 @@
+{
+    "package": "dogesplode",
+    "info": {
+        "title": "dogesplode",
+        "author": "Doohickey corp presents",
+        "category": "_misc",
+        "version": "v1.0",
+        "url": "https://github.com/Doohickey-corporations-presents/dogesplode",
+        "license": "MIT",
+        "description": "the *complete* doge jokeware experience ",
+        "details": "stupid jokeware i made on my free time while bored out of my mind for 55 minutes straight, hope you like speening dogee and really (high quality) music by das vinci\\n\\nwow, such dogeware\\n\\ndon't worry, i will actually be publishing more software on the 4TU Homebrew App Store, just not very often, and they might even be jokeware as useless as this app."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Doohickey-corporations-presents/dogesplode/releases/download/switch/dogesplode.nro",
+            "type": "update",
+            "dest": "/switch/dogesplode/dogesplode.nro"
+        }
+    ],
+    "changelog": "first and last release"
+}
