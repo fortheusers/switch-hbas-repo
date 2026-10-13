@@ -1,0 +1,24 @@
+{
+    "package": "AdvanceFrontend",
+    "info": {
+        "title": "Advance Frontend",
+        "author": "Cmakestudio",
+        "category": "emu",
+        "version": "0.4",
+        "url": "https://github.com/PredragCkautovic/advance-mgba-frontend",
+        "license": "GPLv3",
+        "description": "A frontend for mGBA",
+        "details": "This frontend allows you to lounch games from mGBA with a nice ui mGBA is needed se the https://github.com/PredragCkautovic/advance-mgba-frontend page for more details."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
