@@ -1,0 +1,29 @@
+{
+    "package": "Crb",
+    "info": {
+        "title": "Crb",
+        "author": "Enrique Somolinos",
+        "category": "game",
+        "version": "1.0.0",
+        "url": "https://github.com/enriquesomolinos/crb/pulse",
+        "license": "Apache v2",
+        "description": "Classic crb port. Pang clone",
+        "details": "C.R.B. (Cuerpo Rompe Bolas) is a fan-made Nintendo Switch port of a 1993 Spanish MS-DOS shareware game by Kronos. A classic Breakout/Arkanoid-style clone, it has you steering a paddle to bounce a ball, smash rows of blocks, and grab power-ups along the way. This homebrew port was built through full reverse engineering of the original DOS binary and graphics assets, bringing a piece of forgotten Spanish shareware history back to life on modern hardware"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/enriquesomolinos/crb/releases/download/v1.0.0/crb.nro",
+            "type": "update",
+            "dest": "/switch/Crb/crb.nro"
+        }
+    ],
+    "changelog": "initial version of the game"
+}
