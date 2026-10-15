@@ -1,0 +1,24 @@
+{
+    "package": "SwitchHero",
+    "info": {
+        "title": "Switch Hero",
+        "author": "Rodrigo Ferreira",
+        "category": "game",
+        "version": "0.1",
+        "url": "https://github.com/R-drg/switch-hero",
+        "license": "MIT",
+        "description": "A rythm game for Nintendo Switch ",
+        "details": "Switch Hero is a rhythm game built for Nintendo Switch, designed for both standard controllers and guitar controllers.\\n\\nInspired by classic guitar rhythm games, Switch Hero brings fast, arcade-style note highway gameplay to the Switch with support for Joy-Con, Pro Controller, and compatible Wii guitar controllers.\\n\\nThe game supports Clone Hero-style custom song libraries, allowing players to bring their existing songs and charts into a portable console experience.\\n\\nFeatures include:\\n\\n\u2022 Joy-Con and Pro Controller support\\n\u2022 Compatible Wii guitar controller support\\n\u2022 Custom songs and charts\\n\u2022 Clone Hero-compatible song structure\\n\u2022 Multiple difficulty levels\\n\u2022 Score tracking and performance feedback\\n\u2022 Classic five-lane rhythm gameplay\\n\u2022 Responsive gameplay designed specifically for Nintendo Switch\\n\\nWhether you're playing casually with a controller or using a guitar for the full rhythm-game experience, Switch Hero is built to make custom rhythm gaming portable."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
