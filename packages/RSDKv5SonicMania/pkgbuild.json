@@ -1,0 +1,24 @@
+{
+    "package": "RSDKv5SonicMania",
+    "info": {
+        "title": "RSDKv5 (Sonic Mania)",
+        "author": "Kijijims",
+        "category": "game",
+        "version": "1.0.0",
+        "url": "https://github.com/Kijijims/RSDKv5-Switch-Setup",
+        "license": "GPLv3",
+        "description": "RSDKV5 POUR SWITCH",
+        "details": "Le r\u00f4le du package : Le package fourni sur ton GitHub contient le moteur ex\u00e9cutable du jeu (RSDKv5.nro) et le fichier de configuration (Settings.ini). Il pr\u00e9pare l'emplacement sur la carte SD dans /switch/RSDKv5/.\\n\\nCe que fait le joueur : Une fois le package t\u00e9l\u00e9charg\u00e9 via l'HB App Store, le joueur doit r\u00e9cup\u00e9rer le fichier Data.rsdk depuis sa propre copie l\u00e9gale du jeu (sur PC/Steam) et le placer dans le dossier sdcard:/switch/RSDKv5/.\\n\\nLe lancement : D\u00e8s que Data.rsdk est pr\u00e9sent, le moteur charge les graphismes, musiques et niveaux originaux pour lancer le jeu directement depuis le Homebrew Menu."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
