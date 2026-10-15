@@ -1,0 +1,40 @@
+{
+    "package": "StupidZombiesNX",
+    "info": {
+        "title": "Stupid Zombies NX",
+        "author": "Terremotixx",
+        "category": "game",
+        "version": "1.0.0",
+        "url": "https://github.com/Terremotixx/Stupid-Zombies-NX",
+        "license": "MIT",
+        "description": "Nintendo Switch port of Stupid Zombies 3",
+        "details": "Stupid Zombies NX is a Nintendo Switch wrapper/port of Stupid Zombies 3.4.5 for Android ARM64. Aim and fire using the controller, with optional gyroscope aiming and cursor controls. A legally obtained copy of Stupid Zombies 3.4.5 for Android is required. Original game files are not included and must be provided by the user."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Terremotixx/Stupid-Zombies-NX/releases/download/v1.0.0/Stupid-Zombies-NX-v1.0.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/Terremotixx/Stupid-Zombies-NX/releases/download/v1.0.0/stupidzombies_nx.nro",
+            "type": "update",
+            "dest": "/switch/StupidZombiesNX/stupidzombies_nx.nro"
+        }
+    ],
+    "changelog": "Initial release.  \\n- Controller-based cursor and aiming\\n- Optional gyroscope aiming\\n- Touch-style input mapped to Switch controls\\n- Pause/resume and cursor visibility controls\\n- Stable gameplay and level transitions"
+}
