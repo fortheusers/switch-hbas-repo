@@ -1,0 +1,29 @@
+{
+    "package": "taskpoint",
+    "info": {
+        "title": "taskpoint",
+        "author": "goldingking",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/goldingking/taskpoint",
+        "license": "Apache v2",
+        "description": "\u4e00\u4e2a\u8fd0\u884c\u5728 Nintendo Switch \u4e0a\u7684\u4efb\u52a1\u53d1\u5e03-\u79ef\u5206\u5956\u52b1-\u5546\u57ce\u5151\u6362\u751f\u6001",
+        "details": "\u8dd1\u5728switch\u5e73\u53f0\u7684\u4efb\u52a1\u79ef\u5206\u5de5\u5177\uff0c\u9002\u7528\u4e8e\u7236\u6bcd\u7ed9\u5b69\u5b50\u5206\u4efb\u52a1\uff0c\u5b69\u5b50\u5b8c\u6210\u4efb\u52a1\u5f97\u5230\u79ef\u5206\u6362\u53d6\u5956\u52b1"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/goldingking/taskpoint/releases/download/v1.0/TaskPoint.nro",
+            "type": "update",
+            "dest": "/switch/taskpoint/TaskPoint.nro"
+        }
+    ],
+    "changelog": "\u529f\u80fd\t\u8bf4\u660e\\n\u53d1\u5e03\u4efb\u52a1\t\u8bbe\u7f6e\u4efb\u52a1\u63cf\u8ff0\u548c\u79ef\u5206\u5956\u52b1\uff08\u4ece\u81ea\u5df1\u79ef\u5206\u6263\u9664\uff09\\n\u63a5\u53d6\u4efb\u52a1\t\u6d4f\u89c8\u5e76\u63a5\u53d7\u5176\u4ed6\u7528\u6237\u53d1\u5e03\u7684\u4efb\u52a1\\n\u5b8c\u6210\u4efb\u52a1\t\u6807\u8bb0\u4efb\u52a1\u4e3a\u5df2\u5b8c\u6210\u72b6\u6001\\n\u9a8c\u6536\u4efb\u52a1\t\u53d1\u5e03\u8005\u786e\u8ba4\u5b8c\u6210\uff0c\u79ef\u5206\u81ea\u52a8\u8f6c\u79fb\u7ed9\u63a5\u53d6\u8005\\n\u53d6\u6d88\u4efb\u52a1\t\u53ef\u53d6\u6d88\u5df2\u53d1\u5e03\u6216\u5df2\u63a5\u53d6\u7684\u4efb\u52a1\uff08\u79ef\u5206\u9000\u8fd8\uff09"
+}
