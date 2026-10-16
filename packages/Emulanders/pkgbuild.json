@@ -4,16 +4,16 @@
     "title": "Emulanders",
     "author": "joaoHypo",
     "category": "tool",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "url": "https://github.com/joaohypo/emulanders/releases",
     "license": "GPLv3",
     "description": "Skylanders NFC Emulation, Joy-Con scanner, dump manager & Tesla overlay",
-    "details": "Emulanders is an end-to-end Skylanders NFC emulation, Joy-Con dumping, and collection management ecosystem for the Nintendo Switch.\n\nFeatures:\n- Mifare Protocol Emulation: Background sysmodule intercepting nfc:mf:u calls in Skylanders: Imaginators.\n- Tesla Overlay: Hot-swap and mount virtual .dump figures on-the-fly during gameplay.\n- Emulanders Portal: Standalone full-screen app for Joy-Con tag dumping, 1:1 and New Identity figure cloning, screenshot photo cropper, and OTA asset/dump downloaders.\n- Full bilingual localization (English & Portuguese).\n\nPackage installs the complete bundle: sysmodule (atmosphere/contents/420000000000E311), Tesla overlay (switch/.overlays/emulanders.ovl), and Emulanders Portal app (switch/EmulandersPortal/EmulandersPortal.nro)."
+    "details": "Emulanders is an end-to-end Skylanders NFC emulation, Joy-Con dumping, and collection management ecosystem for the Nintendo Switch.\n\nFeatures:\n- Mifare Protocol Emulation: Background sysmodule intercepting nfc:mf:u calls in Skylanders: Imaginators.\n- Tesla Overlay: Hot-swap and mount virtual .dump figures on-the-fly during gameplay.\n- Emulanders Portal: Standalone full-screen app for Joy-Con tag dumping, 1:1 and New Identity figure cloning, screenshot photo cropper, and OTA asset/dump downloaders.\n- 10 languages in both the Portal and the overlay (English, Portuguese, Spanish, French, German, Italian, Russian, Korean, Simplified and Traditional Chinese).\n\nPackage installs the complete bundle: sysmodule (atmosphere/contents/420000000000E311), Tesla overlay (switch/.overlays/emulanders.ovl), and Emulanders Portal app (switch/EmulandersPortal/EmulandersPortal.nro)."
   },
-  "changelog": "v1.0.0\n- Initial release for Nintendo Switch Homebrew App Store!\n- Full nfc:mf:u Mifare Classic 1K emulation sysmodule with passive RAM architecture.\n- Tesla Overlay with lazy thumbnail rendering and bilingual support (EN/PT-BR).\n- Emulanders Portal standalone manager with Joy-Con physical tag dumper.\n- Figure Cloning Engine with UID randomization and crypto checksum recalculation.\n- Interactive screenshot cropper for custom figure artwork.\n- OTA Asset and Dump Downloaders.\n- Custom color themes and persistence.",
+  "changelog": "v1.0.1\n- Portal and overlay now support 10 languages; the choice is shared between them.\n- Buttons size to their labels so longer translations fit.\n- Figure Image Editor: toolbar on one row and a compact header, more room for the lists.\n- Download errors are reported instead of extracting an empty archive.\n- Fixed a possible sysmodule panic when trimming the debug log on accented figure names.\n\nv1.0.0\n- Initial release for Nintendo Switch Homebrew App Store!\n- Full nfc:mf:u Mifare Classic 1K emulation sysmodule with passive RAM architecture.\n- Tesla Overlay with lazy thumbnail rendering and bilingual support (EN/PT-BR).\n- Emulanders Portal standalone manager with Joy-Con physical tag dumper.\n- Figure Cloning Engine with UID randomization and crypto checksum recalculation.\n- Interactive screenshot cropper for custom figure artwork.\n- OTA Asset and Dump Downloaders.\n- Custom color themes and persistence.",
   "assets": [
     {
-      "url": "https://github.com/joaohypo/emulanders/releases/download/1.0.0/Emulanders-Bundle-1.0.0.zip",
+      "url": "https://github.com/joaohypo/emulanders/releases/download/1.0.1/Emulanders-Bundle-1.0.1.zip",
       "type": "zip",
       "zip": [
         {
