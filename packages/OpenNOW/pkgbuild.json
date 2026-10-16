@@ -4,7 +4,7 @@
         "title": "OpenNOW",
         "author": "OpenCloudGaming",
         "category": "_misc",
-        "version": "0.0.9",
+        "version": "0.0.10",
         "url": "https://github.com/OpenCloudGaming/OpenNOW-Switch",
         "license": "MIT",
         "description": "GeForce NOW for Nintendo Switch.",
@@ -20,10 +20,10 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/OpenCloudGaming/OpenNOW-Switch/releases/download/v0.0.9/SwitchNOW-0.0.9.nro",
+            "url": "https://github.com/OpenCloudGaming/OpenNOW-Switch/releases/download/v0.0.10/SwitchNOW-0.0.10.nro",
             "type": "update",
             "dest": "/switch/OpenNOW/SwitchNOW.nro"
         }
     ],
-    "changelog": "0.0.9: New native Switch UI; improved stream recovery and latency; remote keyboard controls; fixed controller slot reuse after disconnect, dynamic resizing, minimized queue lifecycle, and stalls blocking stream input at startup; more stable input, catalog loading and account handling."
+    "changelog": "0.0.10: Fixed in-game audio going silent; the library no longer stops at 40 games; more reliable signaling during stream startup.\\n0.0.9: New native Switch UI; improved stream recovery and latency; remote keyboard controls; fixed controller slot reuse after disconnect, dynamic resizing, minimized queue lifecycle, and stalls blocking stream input at startup; more stable input, catalog loading and account handling."
 }
