@@ -1,0 +1,35 @@
+{
+  "package": "Emulanders",
+  "info": {
+    "title": "Emulanders",
+    "author": "joaoHypo",
+    "category": "tool",
+    "version": "1.0.0",
+    "url": "https://github.com/joaohypo/emulanders/releases",
+    "license": "GPLv3",
+    "description": "Skylanders NFC Emulation, Joy-Con scanner, dump manager & Tesla overlay",
+    "details": "Emulanders is an end-to-end Skylanders NFC emulation, Joy-Con dumping, and collection management ecosystem for the Nintendo Switch.\n\nFeatures:\n- Mifare Protocol Emulation: Background sysmodule intercepting nfc:mf:u calls in Skylanders: Imaginators.\n- Tesla Overlay: Hot-swap and mount virtual .dump figures on-the-fly during gameplay.\n- Emulanders Portal: Standalone full-screen app for Joy-Con tag dumping, 1:1 and New Identity figure cloning, screenshot photo cropper, and OTA asset/dump downloaders.\n- Full bilingual localization (English & Portuguese).\n\nPackage installs the complete bundle: sysmodule (atmosphere/contents/420000000000E311), Tesla overlay (switch/.overlays/emulanders.ovl), and Emulanders Portal app (switch/EmulandersPortal/EmulandersPortal.nro)."
+  },
+  "changelog": "v1.0.0\n- Initial release for Nintendo Switch Homebrew App Store!\n- Full nfc:mf:u Mifare Classic 1K emulation sysmodule with passive RAM architecture.\n- Tesla Overlay with lazy thumbnail rendering and bilingual support (EN/PT-BR).\n- Emulanders Portal standalone manager with Joy-Con physical tag dumper.\n- Figure Cloning Engine with UID randomization and crypto checksum recalculation.\n- Interactive screenshot cropper for custom figure artwork.\n- OTA Asset and Dump Downloaders.\n- Custom color themes and persistence.",
+  "assets": [
+    {
+      "url": "https://github.com/joaohypo/emulanders/releases/download/1.0.0/Emulanders-Bundle-1.0.0.zip",
+      "type": "zip",
+      "zip": [
+        {
+          "path": "/**/*",
+          "dest": "/",
+          "type": "update"
+        }
+      ]
+    },
+    {
+      "url": "icon.png",
+      "type": "icon"
+    },
+    {
+      "url": "screen.png",
+      "type": "banner"
+    }
+  ]
+}
