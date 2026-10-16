@@ -8,7 +8,7 @@
         "url": "https://github.com/Jonathan8520/FlashNX",
         "license": "MIT",
         "description": "Play your Flash (.swf) games on Switch, powered by Ruffle.",
-        "details": "Plays .swf games from your SD card, or downloads them on the console: the Import tab searches the Flashpoint Archive and fetches a game with its title, its cover and its companion files. AS1/AS2 run well, AS3 partially. Controls are remapped per game on a picture of the controller. Each game keeps its own screen mode, rotation, zoom, filter and CPU overclock. Hold R when opening the Homebrew Menu, or FlashNX will not have the memory to launch a game. Atmosphère required. Flash emulation by Ruffle (ruffle.rs)."
+        "details": "Plays .swf games from your SD card, or downloads them on the console: the Import tab opens on Flashpoint Archive shelves (a random studio, random games), searches the whole archive and fetches a game with its cover and companion files. AS1 and AS2 run well, much of AS3 too. Up to four players, and a single Joy-Con held sideways is a whole controller. Controls are remapped per game on a picture of the controller, and each game keeps its own screen mode, rotation, zoom, filter and CPU overclock. Hold R while starting any game from the HOME Menu, then pick FlashNX, or it will not have the memory to run a game. Atmosphère required. Flash emulation by Ruffle (ruffle.rs)."
     },
     "assets": [
         {
