@@ -1,20 +1,20 @@
 {
   "package": "ZeldaSaveEditor",
   "info": {
-    "title": "Zelda Save Editor (Beta)",
+    "title": "Zelda Save Editor (Alpha)",
     "author": "StockiestThree9",
     "category": "tool",
-    "version": "0.1.4-beta.1",
+    "version": "0.1.5-alpha.5",
     "url": "https://github.com/amarkham23/Zelda-Save-Editor",
     "license": "MIT",
-    "description": "Native BOTW save editor with profile management",
-    "details": "Public beta for Breath of the Wild on the original Nintendo Switch family. Edit hearts, stamina wheels, inventory, equipment, horses and advanced fields with undo/redo and verified backups. Includes Normal, transferred Profile 2 and Master Mode tabs, normal-only profile swapping, console-sourced navigation sounds and OLED black mode. Requires Atmosphere and application-mode homebrew with access to your installed BOTW resources. Launch Sphaira over BOTW by holding R for resource access, then close BOTW before editing. Keep an independent backup. Gameplay after profile swaps and wider device save-and-reload validation remain unverified; shared album and compendium pictures stay in place during swaps. Tested real-save fixture: BOTW 1.9.0. No Nintendo assets, private saves or extracted game resources are included.",
+    "description": "BOTW and experimental TOTK save editor",
+    "details": "Save editor for Breath of the Wild and experimental Tears of the Kingdom on the original Nintendo Switch family. Edit player values, inventory, equipment and horses with undo/redo and verified backups. TOTK adds grouped armor stars/styles and Decayed/Pristine weapons, fusion, bulk tools, world flags, compendium, direct quest stages, map stamps, amiibo reset and Autobuild .zsbp import/export. BOTW retains separate Normal/Profile 2/Master Mode tabs and normal-only profile swapping. Includes console-sourced navigation sounds and Auto/Light/Dark/OLED appearance. Requires Atmosphere, application-mode homebrew and installed resources for the selected game. Hold R while opening that game to launch Sphaira, then open the editor; close the actual game before editing saves. Keep an independent backup. Expanded TOTK edits and fresh-install resource loading still need console acceptance; host tests do not establish in-game validity. Quest/world edits do not reconcile all story events or rewards. BOTW gameplay after profile swaps still needs wider testing. No Nintendo resource files or private saves are included. Screenshots are desktop previews of the same interface.",
     "binary": "/switch/Zelda_Save_Editor.nro"
   },
-  "changelog": "First public beta: native interface, Quill & Scroll icon, compact game picker, normal-only Profile 1/Profile 2 swaps with full backups and recovery, separate Master Mode, and Auto/Light/Dark/OLED appearance.",
+  "changelog": "0.1.5-alpha.5: Add experimental TOTK support with player/ability values, grouped item variants, armor stars and hood styles, Decayed/Pristine choices, fusion and bulk equipment tools, horses, world flags, compendium, direct quest stages, map stamps, amiibo reset and Autobuild import/export. Improve BOTW inventory validation, stale-selection handling and change tracking. Rechecked 7,090 TOTK fixture/resource checks, 580 BOTW fixture checks, 495 core checks, storage, 230 profile-swap checks, both UI walkthroughs and the Switch build. Expanded edits still need in-game acceptance.",
   "assets": [
     {
-      "url": "https://github.com/amarkham23/Zelda-Save-Editor/releases/download/v0.1.4-beta.1/Zelda-Save-Editor-v0.1.4-beta.1.zip",
+      "url": "https://github.com/amarkham23/Zelda-Save-Editor/releases/download/v0.1.5-alpha.5/Zelda-Save-Editor-v0.1.5-alpha.5.zip",
       "type": "zip",
       "zip": [
         {
@@ -35,6 +35,10 @@
     {
       "type": "screenshot",
       "url": "settings.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "totk-items.png"
     }
   ]
 }
