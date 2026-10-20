@@ -1,0 +1,56 @@
+{
+    "package": "SwitchHero",
+    "info": {
+        "title": "Switch Hero",
+        "author": "Rodrigo Ferreira",
+        "category": "game",
+        "version": "0.3.1",
+        "url": "https://github.com/R-drg/switch-hero",
+        "license": "MIT",
+        "description": "A rhythm game for Nintendo Switch",
+        "details": "Switch Hero is a rhythm game built for Nintendo Switch, designed for both standard controllers and guitar controllers.\\n\\nInspired by classic guitar rhythm games, Switch Hero brings fast, arcade-style note highway gameplay to the Switch with support for Joy-Con, Pro Controller, and compatible Wii guitar controllers.\\n\\nThe game supports Clone Hero-style custom song libraries, allowing players to bring their existing songs and charts into a portable console experience.\\n\\nFeatures include:\\n\\n• Joy-Con and Pro Controller support\\n• Compatible Wii guitar controller support\\n• Custom songs and charts\\n• Clone Hero-compatible song structure\\n• Multiple difficulty levels\\n• Score tracking and performance feedback\\n• Classic five-lane rhythm gameplay\\n• Responsive gameplay designed specifically for Nintendo Switch\\n\\nWhether you're playing casually with a controller or using a guitar for the full rhythm-game experience, Switch Hero is built to make custom rhythm gaming portable.",
+        "binary": "/switch/switch-hero/switch-hero.nro"
+    },
+    "assets": [
+        {
+            "url": "https://github.com/R-drg/switch-hero/releases/download/0.3.1/switch-hero.0.3.1.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/switch/switch-hero/switch-hero.nro",
+                    "dest": "/switch/switch-hero/switch-hero.nro",
+                    "type": "update"
+                },
+                {
+                    "path": "/switch/switch-hero/INSTALL.txt",
+                    "dest": "/switch/switch-hero/INSTALL.txt",
+                    "type": "update"
+                },
+                {
+                    "path": "/switch/switch-hero/songs/First-Light/song.wav",
+                    "dest": "/switch/switch-hero/songs/First-Light/song.wav",
+                    "type": "get"
+                },
+                {
+                    "path": "/switch/switch-hero/songs/First-Light/song.ini",
+                    "dest": "/switch/switch-hero/songs/First-Light/song.ini",
+                    "type": "get"
+                },
+                {
+                    "path": "/switch/switch-hero/songs/First-Light/notes.chart",
+                    "dest": "/switch/switch-hero/songs/First-Light/notes.chart",
+                    "type": "get"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
