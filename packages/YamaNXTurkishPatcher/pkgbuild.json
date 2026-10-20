@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/sertay1/YamaNX/releases/download/v1.1.1/YamaNX.nro",
+            "url": "https://github.com/sertay1/YamaNX/releases/download/v2.0.0/YamaNX.nro",
             "type": "update",
             "dest": "/switch/YamaNXTurkishPatcher/YamaNX.nro"
         },
