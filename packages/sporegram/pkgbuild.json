@@ -4,17 +4,17 @@
         "title": "sporegram",
         "author": "fungalspores",
         "category": "tool",
-        "version": "1.0",
+        "version": "2.0",
         "url": "https://github.com/fungalspores/sporegram",
         "license": "GPLv3",
-        "description": "Unofficial Telegram client for Nintendo ",
-        "details": "Sporegram is a Nintendo Switch port of AAhead, the Telegram client for the New Nintendo 3DS by Alex Gakh (Memetrix).\\n\\nEverything below the interface comes from there and is unchanged in substance: the MTProto transport, the application layer, storage, calls, and the text engine that does UTF-8, wrapping and Telegram's entities. That part was already proven against Telegram on real hardware, which is the only reason a port was affordable at all.\\n\\nThe interface is new. AAhead's views are composed for two stacked 400\u00d7240 panels; reshaping them into one 1280\u00d7720 screen turned out to cost more than writing an interface meant for it. So switch/ is written from scratch on SDL2 and FreeType, and none of source/ui/'s views are linked.\\n\\nSporegram is licensed GPL-3.0, like its upstream, and the whole source is here."
+        "description": "Unofficial Telegram client for Nintendo Switch",
+        "details": "Sporegram is a Telegram client for a Switch running custom firmware. Not a bridge and not a bot: the console talks to Telegram's servers over MTProto itself.\\n\\nFeatures\\n- QR sign-in from your phone, two-step password supported\\n- Chats, groups, channels, folders and archive in two panes: list and conversation on one screen\\n- Replies, editing, deleting, forwarding, reactions, bot buttons, spoilers, quotes, premium emoji\\n- Photos, albums and video right in the chat; video plays on the console\\n- Send screenshots and clips from the console album, filtered by game with real game names\\n- Voice messages: record, send, play, transcribe (Telegram Premium)\\n- Voice calls with the four-emoji key check\\n- Stickers: static, animated and video\\n- Proxy: SOCKS5, HTTP and MTProto (dd and fake-TLS ee), right on the sign-in screen\\n- Up to four accounts, each with its own session and cache\\n- Russian and English\\n- Touch in handheld and the pad everywhere; 720p and 1080p\\n- Session file encrypted and bound to the console, optional passcode\\n\\nYou need your own Telegram API key from my.telegram.org in sdmc:/switch/sporegram/api.txt; the app writes a template and shows the steps on screen.\\n\\nFor voice messages and calls you need a headset with a microphone.\\n\\nA port of AAhead by Alex Gakh (Memetrix), GPL-3.0."
     },
     "assets": [
         {
             "type": "update",
             "dest": "/switch/sporegram/sporegram.nro",
-            "url": "https://github.com/fungalspores/sporegram/releases/download/v1.0/sporegram.nro"
+            "url": "https://github.com/fungalspores/sporegram/releases/download/v2.0/sporegram.nro"
         },
         {
             "type": "icon",
@@ -25,5 +25,5 @@
             "url": "screen.png"
         }
     ],
-    "changelog": "Telegram on a Nintendo Switch you already own. First public release."
+    "changelog": "v2.0\\n- Redesigned interface: no full-width top bar, connection status in the chat list header, compact section tabs, denser rows, delivery ticks in the list\\n- Button bar shows at most four hints; minus opens a panel with every binding\\n- Settings rework: taller rows, value pills, switches\\n- Proxy support: SOCKS5, HTTP CONNECT and MTProto (plain, dd, fake-TLS ee), tg://proxy links, proxy.txt, available on the sign-in screen (Y)\\n- Sign-in no longer waits for a button: QR refreshes itself, revoked sessions start a new sign-in, dropped login connections resume\\n- Fixed a two-step password being submitted as a phone number after a reconnect\\n- Revoked or deleted accounts disappear from Settings; Y Y removes a slot; ZL/ZR switches accounts on the sign-in screen\\n\\nv1.0\\nFirst public release."
 }
