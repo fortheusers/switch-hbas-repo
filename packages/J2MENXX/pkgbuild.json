@@ -1,7 +1,7 @@
 {
     "package": "J2MENXX",
     "info": {
-        "title": "J2ME-NXX",
+        "title": "J2meNXX",
         "author": "T\u00f4 Quang Th\u1eafng",
         "category": "emu",
         "version": "0.8.4",
@@ -20,17 +20,6 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/ToThangGTVT/j2me-nxx/releases/download/v0.8.4/j2me-nxx-v0.8.4-elf.zip",
-            "type": "zip",
-            "zip": [
-                {
-                    "path": "/**/*",
-                    "dest": "/",
-                    "type": "update"
-                }
-            ]
-        },
-        {
             "url": "https://github.com/ToThangGTVT/j2me-nxx/releases/download/v0.8.4/j2me-nxx-v0.8.4.zip",
             "type": "zip",
             "zip": [
@@ -40,11 +29,6 @@
                     "type": "update"
                 }
             ]
-        },
-        {
-            "url": "https://github.com/ToThangGTVT/j2me-nxx/releases/download/v0.8.4/j2me-nxx.nro",
-            "type": "update",
-            "dest": "/switch/J2MENXX/j2me-nxx.nro"
         }
     ],
     "changelog": ""
