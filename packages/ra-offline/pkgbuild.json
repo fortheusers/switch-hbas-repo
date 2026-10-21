@@ -4,26 +4,21 @@
         "title": "ra-offline",
         "author": "cheasan",
         "category": "tool",
-        "version": "0.1.1",
+        "version": "0.4.4",
         "url": "https://github.com/cheasan/switch-retro-offline",
         "license": "MIT",
         "description": "Offline RetroAchievements proxy sysmodule: keep earning achievements with no internet, auto-syncs when Wi-Fi returns.",
         "details": "ra-offline is an Atmosphere sysmodule that acts as an offline loopback server for RetroAchievements.\\n\\nWhile you play RetroArch without an internet connection, it pretends to be retroachievements.org on the Switch itself: game data is served from a local cache and every achievement you unlock is queued on the SD card. As soon as the Switch comes back online, the queued unlocks are replayed to the real retroachievements.org over TLS - automatically, and nothing is lost if the connection drops.\\n\\n## Setup (required after install)\\n\\n1. Pre-cache your games on a computer with the fetch-cache.py tool from the GitHub repo (needs your RetroAchievements account), then copy the resulting folder to sd:/switch/raoffline\\n2. Point RetroArch at the proxy: set cheevos_custom_host = \\\"http://127.0.0.1:8080\\\" in retroarch/retroarch.cfg (the ra-config.sh helper from the repo does this for you), then restart RetroArch\\n3. Reboot the console so the sysmodule starts\\n\\nGames that are not in your cache simply show as having no achievements - cache more games any time with fetch-cache.py.\\n\\n## Notes\\n\\n- Requires Atmosphere CFW and the standard RetroArch Switch build\\n- The module logs to sd:/switch/raoffline/sysmodule.log for troubleshooting\\n- Uninstall: delete sd:/atmosphere/contents/4300000000000042 and remove the cheevos_custom_host line from retroarch.cfg\\n\\n## Links\\n\\n- Source and documentation: https://github.com/cheasan/switch-retro-offline\\n- Not affiliated with RetroAchievements.org, the RetroArch team, or Nintendo."
     },
-    "changelog": "v0.1.1\\n\\n- Install fix: package now ships atmosphere/contents/4300000000000042/flags/boot2.flag, which Atmosphere requires to start the sysmodule at boot (without it the module silently never launched).\\n\\nv0.1.0\\n\\n- First public release",
+    "changelog": "v0.4.4\\n\\n- Games you add to the cache now work at once. No reboot needed: the module re-reads cache/hashes.txt when it meets an unknown game.\\n- Verified with a Sphaira forwarder launch.\\n\\nv0.4.3\\n\\n- First full run on Switch hardware: offline unlocks and leaderboard times now sync from the console to retroachievements.org.\\n- Fix: sync never connected (TLS service not started, socket handed over the wrong way).\\n- Fix: an unlock already on the server no longer retries forever.\\n- Fix: replies match current RetroArch (no 'Awarded achievement 0' or leaderboard submit errors).\\n- The log now names the failing step or quotes the server's error.\\n\\nv0.1.1\\n\\n- Install fix: package now ships atmosphere/contents/4300000000000042/flags/boot2.flag, which Atmosphere requires to start the sysmodule at boot (without it the module silently never launched).\\n\\nv0.1.0\\n\\n- First public release",
     "assets": [
         {
-            "url": "https://github.com/cheasan/switch-retro-offline/releases/download/v0.1.1/ra-offline-v0.1.1.zip",
+            "url": "https://github.com/cheasan/switch-retro-offline/releases/download/v0.4.4/ra-offline-v0.4.4.zip",
             "type": "zip",
             "zip": [
                 {
-                    "path": "/atmosphere/**/*",
-                    "dest": "/atmosphere",
-                    "type": "update"
-                },
-                {
-                    "path": "/switch/**/*",
-                    "dest": "/switch",
+                    "path": "/**/*",
+                    "dest": "/",
                     "type": "update"
                 }
             ]
