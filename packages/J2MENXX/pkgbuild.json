@@ -2,9 +2,9 @@
     "package": "J2MENXX",
     "info": {
         "title": "J2meNXX",
-        "author": "T\u00f4 Quang Th\u1eafng",
+        "author": "Tô Quang Thắng",
         "category": "emu",
-        "version": "0.8.4",
+        "version": "0.8.11",
         "url": "https://github.com/ToThangGTVT/j2me-nxx",
         "license": "n/a",
         "description": "J2ME emulator for Nintendo Switch",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/ToThangGTVT/j2me-nxx/releases/download/v0.8.4/j2me-nxx-v0.8.4.zip",
+            "url": "https://github.com/ToThangGTVT/j2me-nxx/releases/download/v0.8.11/j2me-nxx-v0.8.11.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             ]
         }
     ],
-    "changelog": ""
+    "changelog": "v0.8.11\\nJ2ME-NXX v0.8.11\\n\\n- 3D (M3G) rendering now uses a second CPU core: about 1.4x faster on top of v0.8.10, with identical output.\\n- New \"CPU boost\" option in Settings → System (off by default): raises the Switch CPU from 1020 to 1785 MHz while an app runs. Faster heavy/3D games, but warmer console and more battery use."
 }
