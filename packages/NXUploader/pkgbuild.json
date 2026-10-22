@@ -1,0 +1,29 @@
+{
+    "package": "NXUploader",
+    "info": {
+        "title": "NX Uploader",
+        "author": "The Samedog",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/samedog/NX-Uploader",
+        "license": "MIT",
+        "description": "A small file uploader for the Switch",
+        "details": "A minimal HTTP file-upload server for the Nintendo Switch. Runs in homebrew mode, serves a web page on your LAN, and lets any browser on the same network drop files straight onto the SD card. No client software needed."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/samedog/NX-Uploader/releases/download/v1.0.0/NXUploader.nro",
+            "type": "update",
+            "dest": "/switch/NXUploader/NXUploader.nro"
+        }
+    ],
+    "changelog": "App Released, Features:\\n- Drag-and-drop upload from any modern browser\\n- Streaming multipart parser, no whole-file buffering, works with files larger than the Switch's RAM\\n- Live progress bar in the browser, live bytes-received counter and transfer speed on the Switch screen\\n- Cancel button that actually stops the upload and deletes the partial file\\n- Single .nro, ~300 KB"
+}
