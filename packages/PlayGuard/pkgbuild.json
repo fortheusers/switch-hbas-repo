@@ -1,0 +1,24 @@
+{
+    "package": "PlayGuard",
+    "info": {
+        "title": "PlayGuard",
+        "author": "JigSawFr",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/JigSawFr/PlayGuard",
+        "license": "GPLv3",
+        "description": "Built-in parental controls, offline",
+        "details": "PlayGuard sets the Nintendo Switch's built-in parental controls directly on the console, offline, without the phone app or a Nintendo account. It does not replace them: the countdown, the PIN prompt and the suspension at the limit are the console's own, nothing runs in the background, and the limits stay if PlayGuard is removed.\\n\\nDaily play-time limit, the same every day or per weekday, with profiles, extra time or no more play today, and a bedtime alarm. Play activity per game and per user account, exported to CSV, JSON, XLSX or PDF. Restriction level, age rating, PIN and a one-switch console lock. Network clock set from NTP servers so the timer stays accurate offline. Unlinks the companion app on second-hand consoles; an optional recovery sysmodule (separate download) handles a forgotten PIN. Change history with undo, backups, every console language.\\n\\nRequires Atmosph\u00e8re. Supports firmware 21.0.0 to 22.5.0; a newer firmware opens read-only until a release supports it."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "First release: the settings of Nintendo's Parental Controls phone app, on the console itself, offline. Custom firmware (Atmosph\u00e8re) required.\\n\\n- Play-time limit: the same every day or one per day on a week chart, saved profiles, extra time today in one press, and a one-switch console lock.\\n- Activity: play time per game and per user account, day by day, a summary per period, and export to CSV, JSON, XLSX or PDF.\\n- Restrictions and PIN: restriction level, age rating and its organisation, show or change the PIN, and an optional PIN to open PlayGuard.\\n- Network clock: set from public NTP servers, so the play timer counts right on a console that never reaches Nintendo.\\n- Safe by design: the play timer is never written while it counts down, every change is logged and can be undone, settings are backed up to the SD card.\\n- A way back in: a recovery sysmodule for a forgotten PIN, and unlinking the phone app on a second-hand console.\\n- Updates and reports: update in place from PlayGuard, \"What's new\" after each update, diagnostic reports sent as a link and QR codes.\\n- Languages and themes: every console language, light and dark themes.\\n\\nFull notes: https://github.com/JigSawFr/PlayGuard/releases/tag/v1.0.0"
+}
