@@ -4,17 +4,17 @@
     "title": "ACNH-Manager",
     "author": "acnh-game",
     "category": "tool",
-    "version": "1.0.1",
+    "version": "2.2.1",
     "url": "https://gitee.com/acnh-game/acnh-manager",
     "license": "GPLv3",
-    "description": "Installer and manager for the Animal Crossing: New Horizons in-game agent.",
-    "details": "\u628a agent(\u6e38\u620f\u5185\u589e\u5f3a Mod)\u88c5\u8fdb\u300a\u96c6\u5408\u5566!\u52a8\u7269\u68ee\u53cb\u4f1a\u300b\u6e38\u620f\u76ee\u5f55(\u4ec5\u652f\u6301 3.0.3,\u5199\u5165\u524d\u9010\u6587\u4ef6\u6821\u9a8c),\u88c5\u597d\u540e\u5728\u804a\u5929\u680f\u884c\u9996\u8f93\u5165  /9C9  \u5c31\u80fd\u628a\u7269\u54c1\u653e\u8fdb\u80cc\u5305,\u4e5f\u53ef\u4e00\u952e\u5220\u9664\u8fd8\u539f\u3002\\n\\nInstalls the in-game agent for Animal Crossing: New Horizons 3.0.3 -- every file is SHA-256 checked before it is written -- so a chat line starting with  /9C9  puts that item in your bag, and one tap removes it again.",
+    "description": "Switch game installer and manager for the Game Agent.",
+    "details": "\u53ef\u4ece SD \u5361\u3001HTTP \u5730\u5740\u6216\u624b\u673a/\u7535\u8111\u6d4f\u89c8\u5668\u5b89\u88c5 NSP\u3001NSZ\u3001XCI\u3001XCZ\uff1b\u672c\u5e94\u7528\u4e0d\u6258\u7ba1\u4efb\u4f55\u6e38\u620f\u5185\u5bb9\u3002\u5b89\u88c5\u53d7\u652f\u6301\u7684\u300a\u96c6\u5408\u5566!\u52a8\u7269\u68ee\u53cb\u4f1a\u300b\u672c\u4f53\u6216\u66f4\u65b0\u540e\u4f1a\u81ea\u52a8\u5b89\u88c5 3.0.3 \u52a8\u68ee Game Agent\uff0c\u6240\u6709\u6587\u4ef6\u9010\u9879 SHA-256 \u6821\u9a8c\u3002\n\nInstalls NSP, NSZ, XCI and XCZ packages from the SD card, an HTTP address or a phone/computer browser; no game content is hosted by this app. Installs the Game Agent for 3.0.3 automatically after a supported game or update, with SHA-256 verification for every file.",
     "binary": "/switch/ACNH-Manager/acnh-manager.nro"
   },
-  "changelog": "1.0.1 - \u4e0e\u65e7\u91d1\u624b\u6307\u4ee3\u7801\u51b2\u7a81\u7684\u8b66\u544a\u73b0\u5728\u771f\u7684\u4f1a\u51fa\u73b0,\u4f4d\u7f6e\u5728\u72b6\u6001\u9875\u5e76\u5199\u51fa\u5b8c\u6574\u8def\u5f84;\u65e5\u5fd7\u6539\u4e3a\u5982\u5b9e\u62a5\u544a\u672c\u6784\u5efa\u643a\u5e26\u7684\u6e05\u5355,\u4e0d\u518d\u58f0\u79f0\u6ca1\u6709\u3002\\n1.0.0 - \u9996\u4e2a\u516c\u5f00\u7248\u672c:\u73af\u5883\u8bc6\u522b\u3001\u9010\u6587\u4ef6\u6821\u9a8c\u7684\u5b89\u88c5/\u5378\u8f7d\u4e0e\u4e00\u952e\u56de\u6eda\u3001\u5185\u7f6e agent \u79bb\u7ebf\u5b89\u88c5\u3001\u5e26\u7b7e\u540d\u7684\u66f4\u65b0\u68c0\u67e5\u4e0e\u4e00\u952e\u66f4\u65b0\u3001\u4e2d\u82f1\u53cc\u8bed\u754c\u9762\u3002\\n\\n1.0.1 - the conflict warning about an old cheat code now actually appears, on the status screen and with the file's full path; the log reports the manifest the build carries instead of claiming there is none.\\n1.0.0 - first public build: environment detection, verified install/uninstall with one-tap rollback, offline install from the bundled agent, signed update check with one-tap update, Chinese/English interface.",
+  "changelog": "2.2.1 - \u6da6\u8272 Game Agent \u4e0d\u652f\u6301\u5f53\u524d\u7248\u672c\u65f6\u7684\u63d0\u793a\u6587\u6848\uff0c\u5e76\u4f18\u5316\u66f4\u65b0\u6309\u94ae\u7684\u7126\u70b9\u72b6\u6001\u914d\u8272\u3002\n2.2.0 - Manager \u66f4\u65b0\u5b8c\u6210\u540e\u53ef\u7acb\u5373\u91cd\u542f\uff1b\u76f8\u518c hbl \u6a21\u5f0f\u901a\u8fc7\u94fe\u5f0f\u52a0\u8f7d\u65b0 NRO\uff0c\u684c\u9762\u5feb\u6377\u65b9\u5f0f Application \u6a21\u5f0f\u901a\u8fc7\u7cfb\u7edf\u5e94\u7528\u91cd\u542f\u63a5\u53e3\u6267\u884c\u3002\n2.1.1 - \u4f18\u5316\u6e38\u620f\u5b89\u88c5/\u66f4\u65b0\u9875\u7684\u5ba2\u670d\u63d0\u793a\u5361\uff0c\u5e76\u8fdb\u4e00\u6b65\u660e\u786e\u52a8\u68ee\u76f8\u5173\u72b6\u6001\u6587\u6848\u3002\n2.1.0 - \u66f4\u65b0\u4e2d\u5fc3\u901a\u8fc7\u540c\u4e00\u4efd\u7b7e\u540d\u6e05\u5355\u68c0\u67e5\u52a8\u68ee Game Agent \u4e0e ACNH-Manager\uff0c\u5e76\u5141\u8bb8\u4e24\u9879\u5206\u522b\u66f4\u65b0\uff1bManager \u81ea\u66f4\u65b0\u5728\u66ff\u6362\u6807\u51c6 NRO \u524d\u6838\u5bf9\u5927\u5c0f\u3001SHA-256\u3001NRO \u8eab\u4efd\u4e0e\u663e\u793a\u7248\u672c\u3002\n2.0.0 - \u901a\u7528\u6e38\u620f\u5b89\u88c5\u5668\u652f\u6301 NSP/NSZ/XCI/XCZ\uff0c\u53ef\u4ece SD \u5361\u3001HTTP \u4e0b\u8f7d\u6216\u6d4f\u89c8\u5668\u4e0a\u4f20\u5b89\u88c5\uff1b\u52a0\u5165\u65ad\u70b9\u7eed\u4f20\u3001\u5b89\u88c5\u7a7a\u95f4\u9009\u62e9\u3001\u6e38\u620f\u4fe1\u606f\u4e0e\u5c01\u9762\u3001\u6d4f\u89c8\u5668\u955c\u50cf\u754c\u9762\u3001\u684c\u9762\u5feb\u6377\u65b9\u5f0f\u7ba1\u7406\u3001\u9996\u9875\u7eaf\u7126\u70b9\u64cd\u4f5c\u548c\u66f4\u6e05\u6670\u7684\u8bca\u65ad\u6587\u6848\u3002\n1.0.2 - \u4fee\u6b63\u53ea\u88c5\u57fa\u7840\u7248\u65f6\u7684\u7248\u672c\u4e0d\u652f\u6301\u5224\u5b9a\uff0c\u5e76\u6539\u8fdb\u8be6\u60c5\u9875\u8bca\u65ad\u3002\n1.0.0 - \u9996\u4e2a\u516c\u5f00\u7684\u52a8\u68ee Game Agent \u5b89\u88c5\u5668\uff0c\u652f\u6301\u9010\u6587\u4ef6\u6821\u9a8c\u3001\u5b89\u88c5/\u5378\u8f7d\u4e0e\u7b7e\u540d\u66f4\u65b0\u68c0\u67e5\u3002\n\n2.2.1 - polished the unsupported-version message and refined update-button focus states.\n2.2.0 - Manager updates can now restart the app immediately, using a chained NRO load in hbl mode or an application relaunch for the HOME Menu shortcut.\n2.1.1 - refined the Game Install / Update guidance card and clarified ACNH-specific status copy.\n2.1.0 - Update Center checks Game Agent and ACNH-Manager from one signed manifest and updates either independently; Manager self-update verifies size, SHA-256, NRO identity and display version before replacing the standard NRO.\n2.0.0 - general game installer for NSP/NSZ/XCI/XCZ; local card, HTTP download and browser upload sources; resumable transfers, storage selection, game metadata and cover display, a mirrored browser UI, HOME Menu shortcut management, focus-only Home navigation and clearer diagnostics.\n1.0.2 - corrected unsupported-version detection for base-only installs and improved Details diagnostics.\n1.0.0 - first public Game Agent installer with verified install/uninstall and signed update checks.",
   "assets": [
     {
-      "url": "https://gitee.com/acnh-game/acnh-manager/raw/main/packaging/nro/acnh-manager-1.0.1.nro",
+      "url": "https://gitee.com/acnh-game/acnh-manager/raw/main/packaging/nro/acnh-manager-2.2.1.nro",
       "dest": "/switch/ACNH-Manager/acnh-manager.nro",
       "type": "update"
     },
@@ -32,11 +32,11 @@
     },
     {
       "type": "screenshot",
-      "url": "done.png"
+      "url": "upload.png"
     },
     {
       "type": "screenshot",
-      "url": "uninstall.png"
+      "url": "done.png"
     },
     {
       "type": "banner",
