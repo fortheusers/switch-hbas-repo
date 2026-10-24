@@ -1,0 +1,29 @@
+{
+    "package": "FNFVSliceNX",
+    "info": {
+        "title": "FNF: V-Slice (unofficial port)",
+        "author": "leleletus",
+        "category": "game",
+        "version": "0.8.7-nx1",
+        "url": "https://github.com/leleletus/Funkin",
+        "license": "Apache-2.0",
+        "description": "Friday Night Funkin' V-Slice 0.8.7, downloads the official game files on first launch",
+        "details": "Friday Night Funkin' V-Slice 0.8.7 (the official engine by The Funkin' Crew), ported to the Nintendo Switch.\n\nThis homebrew contains no game assets. On first launch it downloads the official game files (about 734 MB) from The Funkin' Crew's GitHub repository (FunkinCrew/funkin.assets), checks every file against its SHA-256 and starts the game. Downloads resume after a lost connection or a closed game. Without internet on the console, the screen explains how to copy the files from a computer.\n\nRequirements:\n- Launch the homebrew menu from a game (hold R while starting any title), not from the Album.\n- About 1.1 GB free on the SD card.\n\nIncludes every week, Weekend 1, Erect and Pico mixes, Freeplay, Character Select, video cutscenes from the official files, HD Rumble and Nintendo button layout. Saves and mods go to /switch/Friday-Night-Funkin/.\n\nUnofficial port, not affiliated with The Funkin' Crew Inc. or Nintendo. Please support the official game.\n\nCredits: The Funkin' Crew (the game); FunkinNXTeam for the first V-Slice Switch port this one started from; Slushi for lime-nx and hx_libnx; devkitPro. Source code, build instructions and licences: https://github.com/leleletus/Funkin"
+    },
+    "changelog": "0.8.7-nx1\nFirst release: V-Slice 0.8.7, asset installer, native video cutscenes.",
+    "assets": [
+        {
+            "url": "https://github.com/leleletus/Funkin/releases/download/v0.8.7-nx-release-1/Funkin.nro",
+            "dest": "/switch/Friday-Night-Funkin/Funkin.nro",
+            "type": "update"
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
