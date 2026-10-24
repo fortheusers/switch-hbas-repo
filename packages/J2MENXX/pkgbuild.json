@@ -2,9 +2,9 @@
     "package": "J2MENXX",
     "info": {
         "title": "J2meNXX",
-        "author": "T\u00f4 Quang Th\u1eafng",
+        "author": "Tô Quang Thắng",
         "category": "emu",
-        "version": "0.8.4",
+        "version": "0.8.12",
         "url": "https://github.com/ToThangGTVT/j2me-nxx",
         "license": "n/a",
         "description": "J2ME emulator for Nintendo Switch",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/ToThangGTVT/j2me-nxx/releases/download/v0.8.4/j2me-nxx-v0.8.4.zip",
+            "url": "https://github.com/ToThangGTVT/j2me-nxx/releases/download/v0.8.12/j2me-nxx-v0.8.12.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             ]
         }
     ],
-    "changelog": ""
+    "changelog": "v0.8.12\\nJ2ME-NXX v0.8.12\\n\\n- Support Russian and Chinese (Simplified): choose 简体中文 or Русский in Settings → System → Language, or on the first-run language screen. Java apps also receive the matching locale (zh-CN / ru-RU)."
 }
