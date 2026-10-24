@@ -1,0 +1,60 @@
+{
+    "package": "PlayGuard",
+    "info": {
+        "title": "PlayGuard",
+        "author": "JigSawFr",
+        "category": "tool",
+        "version": "1.2.0",
+        "url": "https://github.com/JigSawFr/PlayGuard",
+        "license": "GPLv3",
+        "description": "Offline parental controls & play activity",
+        "details": "PlayGuard sets the Nintendo Switch's own parental controls on the console, offline: no phone app, no Nintendo account. The countdown, the PIN prompt and the suspension at the limit stay the console's own, nothing runs in the background, and the limits stay if PlayGuard is removed.\\n\\n• Play-time limit: the same every day or one per weekday, saved profiles, extra time or no more play today, a bedtime alarm and a one-switch console lock.\\n• Activity: play time per game and per user account, day by day, exported to CSV, JSON, XLSX or PDF.\\n• Restrictions and PIN: restriction level, age rating, show or change the PIN, an optional PIN to open PlayGuard.\\n• Network clock: set from NTP servers, so the play timer counts right on a console that never reaches Nintendo.\\n• Safe: every change is logged and can be undone, settings are backed up to the SD card.\\n• Unlinks the phone app on a second-hand console. Every console language, light and dark themes.\\n\\nPlayGuard carries on Pctl Manager by Taylor, of which it is a fork. It installs to /switch/playguard/ and keeps its files in /config/playguard/.\\n\\nA recovery sysmodule for a forgotten PIN is a separate, optional download: playguard-rescue.zip on the GitHub releases page.\\n\\nRequires Atmosphère. Play-time limit on firmware 21.0.0 and later, tested on a console up to 23.0.1; a newer firmware opens read-only until a release supports it.",
+        "binary": "/switch/playguard/playguard.nro"
+    },
+    "assets": [
+        {
+            "url": "https://github.com/JigSawFr/PlayGuard/releases/download/v1.2.0/playguard.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/switch/playguard/*",
+                    "dest": "/switch/playguard",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen2.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen3.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen4.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen5.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen6.png"
+        }
+    ],
+    "changelog": "PlayGuard 1.2.0, its first version in the store:\\n• Notification bell: one place for what needs the parent (a weak PIN, backups, SD-card space, an out-of-date recovery sysmodule, a newer Atmosphère, hekate or firmware).\\n• New layout: Console, History and PIN tabs, each setting next to the feature it shapes.\\n• Activity: All games as covers or a list, long play times in whole hours.\\n• Check the installed games: finds games with broken data, explains the cause and repairs them.\\n• Change history: refused changes, a filter and an export.\\n• Firmware 23.0.1 tested on a console.\\n\\nFull notes: https://github.com/JigSawFr/PlayGuard/releases/tag/v1.2.0"
+}
