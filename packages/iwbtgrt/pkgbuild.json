@@ -1,0 +1,48 @@
+{
+    "package": "iwbtgrt",
+    "info": {
+        "title": "IWBTGR Tribute Edition",
+        "author": "shaman",
+        "category": "game",
+        "version": "1.6.6.6",
+        "url": "https://github.com/kaizerfcm/iwbtg-remastered-tribute-edition-switch",
+        "license": "GPLv3",
+        "description": "IWBTG: Remastered 1.6.6.6, fan edition",
+        "details": "I Wanna Be The Guy: Remastered Tribute Edition is fan-made version 1.6.6.6 of I Wanna Be The Guy: Remastered by Cherry Treehouse, on the Switch. Same brutal classic, plus new ways to suffer.\\n\\n- The full IWBTG: Remastered.\\n- Tribute Mode: play as the Tribute Kid, with some extra secrets to find.\\n- Over a dozen language options.\\n- Secrets and hidden extras for the truly stubborn.\\n\\nStart it from the Homebrew Menu in title-override mode (hold R while starting a game) so it gets the full memory. Applet mode also works. B jump, Y shoot, X restart, + pause, A back, menus confirm with B. Controls can be remapped in Options. Saves go to /switch/iwbtgrt/save. To quit, press HOME and close the software.\\n\\nCredits: I Wanna Be The Guy by Michael \"Kayin\" O'Reilly. I Wanna Be The Guy: Remastered by Cherry Treehouse. I Wanna be the Tribute, and the 1.6.6.6 patch and extras, by shaman. Free fan project, not affiliated with Kayin or Cherry Treehouse.",
+        "binary": "/switch/iwbtgrt/iwbtgrt.nro"
+    },
+    "changelog": "1.6.6.6\\nFirst Switch release. Docked and handheld at 1280x720, Joy-Con and Pro Controller, remappable controls.",
+    "assets": [
+        {
+            "url": "https://github.com/kaizerfcm/iwbtg-remastered-tribute-edition-switch/releases/download/v1.6.6.6/IWBTGR-TributeEdition-Switch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "banner.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen2.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen3.png"
+        }
+    ]
+}
