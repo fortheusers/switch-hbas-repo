@@ -1,0 +1,29 @@
+{
+    "package": "kickNX",
+    "info": {
+        "title": "kickNX",
+        "author": "j2k",
+        "category": "tool",
+        "version": "0.4.0",
+        "url": "https://github.com/j2k-lab/kickNX",
+        "license": "GPLv3",
+        "description": "Kick streaming client for Nintendo Switch",
+        "details": "kickNX is an independent Kick client built specifically for the Nintendo Switch. It brings livestream viewing, category discovery, search, and integrated chat interaction to handheld, tabletop, and docked play."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/j2k-lab/kickNX/releases/download/Latest/kickNX.nro",
+            "type": "update",
+            "dest": "/switch/kickNX/kickNX.nro"
+        }
+    ],
+    "changelog": "v0.4.0\nInitial release of kickNX for Nintendo Switch.\n\nHighlights\n- Native Kick livestream playback powered by mpv and FFmpeg\n- Controller-first and touch-friendly interface built on Borealis\n- Stream browsing by top categories, featured channels, and live search\n- Integrated live chat with sub emotes and channel badges\n- Hardware, Hybrid, and Software decoder switching\n- Portrait mode support for vertical handheld viewing\n- Standalone configuration and cache storage under /switch/kickNX"
+}
