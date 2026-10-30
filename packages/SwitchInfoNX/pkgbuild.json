@@ -1,29 +1,30 @@
+
 {
-    "package": "SwitchInfoNX",
-    "info": {
-        "title": "SwitchInfoNX",
-        "author": "dodosi",
-        "category": "tool",
-        "version": "0.0.2",
-        "url": "https://github.com/dodosiiii/SwitchInfoNX",
-        "license": "n/a",
-        "description": "Utilitaire complet d'informations syst\u00e8m",
-        "details": "Switch Info NX est un utilitaire de diagnostic complet pour Nintendo Switch sous CFW. Il offre 8 onglets couvrant tous les aspects de votre console:\\n\\nSyst\u00e8me : firmware, num\u00e9ro de s\u00e9rie, mod\u00e8le (Erista/Mariko/Lite/OLED), r\u00e9gion, langue, batterie avec niveaux des Joy-Con, temp\u00e9rature, luminosit\u00e9\\n\\nStockage : carte SD et partitions NAND (Syst\u00e8me/Utilisateur) avec barres d'utilisation\\n\\nR\u00e9seau : configuration IP compl\u00e8te, RSSI Wi-Fi, qualit\u00e9 de liaison, d\u00e9tection filaire/sans-fil\\n\\nServeur FTP : serveur int\u00e9gr\u00e9 sur le port 5000 avec acc\u00e8s complet \u00e0 la SD, support upload/download/reprise, \\nstatistiques de transfert et journal d'activit\u00e9\\n\\nPerformances : fr\u00e9quences CPU/GPU/EMC en direct, profils de performance, monitoring thermique\\n\\nTest de manette : test interactif des boutons et sticks analogiques des Joy-Con avec retour visuel\\n\\nOutils : r\u00e9glage de luminosit\u00e9, test de vibration haptique, export de rapport syst\u00e8me vers la SD\\n\\n\u00c0 propos : cr\u00e9dits et informations sur l'application"
+  "package": "SwitchInfoNX",
+  "info": {
+    "title": "SwitchInfoNX",
+    "author": "dodosi",
+    "category": "tool",
+    "version": "0.3",
+    "url": "https://github.com/dodosiiii/SwitchInfoNX",
+    "license": "n/a",
+    "description": "Utilitaire complet d'informations système",
+    "details": "SwitchInfoNX est un utilitaire complet de diagnostic pour Nintendo Switch. Il propose des informations système, le stockage, le réseau, les performances, des diagnostics de manettes, un explorateur de fichiers, le transfert MTP et HTTP, ainsi que des thèmes personnalisables et 11 langues."
+  },
+  "assets": [
+    {
+      "type": "icon",
+      "url": "icon.png"
     },
-    "assets": [
-        {
-            "type": "icon",
-            "url": "icon.png"
-        },
-        {
-            "type": "banner",
-            "url": "screen.png"
-        },
-        {
-            "url": "https://github.com/dodosiiii/SwitchInfoNX/releases/download/v0.0.2/SwitchInfoNX.nro",
-            "type": "update",
-            "dest": "/switch/SwitchInfoNX/SwitchInfoNX.nro"
-        }
-    ],
-    "changelog": ""
+    {
+      "type": "banner",
+      "url": "screen.png"
+    },
+    {
+      "url": "https://github.com/dodosiiii/SwitchInfoNX/releases/download/v0.3/SwitchInfoNX.nro",
+      "type": "update",
+      "dest": "/switch/SwitchInfoNX/SwitchInfoNX.nro"
+    }
+  ],
+  "changelog": "Version 0.3\n- Correction de bugs critiques et de crashs.\n- Correction du calcul de batterie.\n- Ajout de la température interne du SoC.\n- Amélioration du gestionnaire de fichiers avec copie récursive.\n- Correction des problèmes d'affichage et de débordement de texte.\n- Amélioration des outils, du réseau et du transfert MTP."
 }
