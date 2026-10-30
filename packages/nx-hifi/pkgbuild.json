@@ -1,0 +1,35 @@
+{
+    "package": "nx-hifi",
+    "info": {
+        "title": "NX Hi-Fi",
+        "author": "Anime0t4ku",
+        "category": "_misc",
+        "version": "1.0.0",
+        "url": "https://github.com/Anime0t4ku/NX-HI-FI",
+        "license": "GPL-3.0",
+        "description": "Music player and remote for NX Hi-Fi and MiSTer Hi-Fi",
+        "details": "NX Hi-Fi is heavily based on my MiSTer Hi-Fi project, adapted for Nintendo Switch homebrew.\\n\\nPlay MP3, FLAC, PCM WAV and Ogg Vorbis from your SD card or SMB network shares, with album artwork, a five-band equalizer, shuffle, repeat and seeking. Includes handheld and docked layouts, touch and controller controls, themes and a visualizer.\\n\\nUse your Switch as a handheld remote for MiSTer Hi-Fi: browse sources, select music and manage playback and settings while audio plays on your MiSTer. You can also control another NX Hi-Fi device using Independent control or Screen control. Connect devices on the same network with the target Web Remote enabled.\\n\\nA browser-based Web Remote is also available for controlling this Switch. Full-memory application mode (title override) is recommended. This is a foreground music player, not a background sysmodule."
+    },
+    "changelog": "First public release. Local and SMB music playback, artwork, equalizer, themes, Web Remote, NX Hi-Fi remote modes and MiSTer Hi-Fi remote control.",
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Anime0t4ku/NX-HI-FI/releases/download/v1.0.0/nx-hifi.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/switch/nx-hifi/nx-hifi.nro",
+                    "dest": "/switch/nx-hifi/nx-hifi.nro",
+                    "type": "update"
+                }
+            ]
+        }
+    ]
+}
