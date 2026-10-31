@@ -4,7 +4,7 @@
         "title": "kickNX",
         "author": "j2k",
         "category": "tool",
-        "version": "0.4.0",
+        "version": "0.5.0",
         "url": "https://github.com/j2k-lab/kickNX",
         "license": "GPLv3",
         "description": "Kick streaming client for Nintendo Switch",
@@ -25,5 +25,5 @@
             "dest": "/switch/kickNX/kickNX.nro"
         }
     ],
-    "changelog": "v0.4.0\nInitial release of kickNX for Nintendo Switch.\n\nHighlights\n- Native Kick livestream playback powered by mpv and FFmpeg\n- Controller-first and touch-friendly interface built on Borealis\n- Stream browsing by top categories, featured channels, and live search\n- Integrated live chat with sub emotes and channel badges\n- Hardware, Hybrid, and Software decoder switching\n- Portrait mode support for vertical handheld viewing\n- Standalone configuration and cache storage under /switch/kickNX"
+    "changelog": "v0.5.0\n- Colour themes: OLED, Dark Grey and Kick, chosen from the Theme button on Home\n- Live events row with event pages showing live streams and popular clips\n- In-app on-screen chat keyboard in landscape, with an Emotes key\n- Hold A on the progress bar and use the left stick or D-pad to scrub\n- Check for updates button on the About page\n- Kick-only client: Jellyfin, media library and other non-Kick features removed\n- Offline streams return to the previous screen automatically\n- Right-stick scrolling and touch-to-controller fixes\n- Fixes for SSL connect errors, a crash after closing a stream quickly, and a damaged settings file\n\nv0.4.0\nInitial release of kickNX for Nintendo Switch."
 }
