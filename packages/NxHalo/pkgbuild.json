@@ -1,0 +1,31 @@
+{
+    "package": "NxHalo",
+    "info": {
+        "title": "NxHalo Campaign Preview",
+        "author": "Jmesmykil and contributors",
+        "category": "game",
+        "version": "0.1.1-build14",
+        "url": "https://github.com/Jmesmykil/NxHalo-Releases",
+        "license": "CC0-1.0; bundled component licenses apply",
+        "description": "Native Halo CE campaign preview. Own Xbox data + DBI required.",
+        "details": "Experimental native Halo: Combat Evolved campaign port for the original Nintendo Switch. Requires your own supported original Xbox Halo game data; no ROM, maps, executable, shader data or keys are supplied.\n\nINSTALL: This package places Halo_CE_Runtime.nsp in /switch/install/. Install it through DBI, then launch Halo CE from HOME. This package does not launch directly from hbmenu or install a HOME title automatically.\n\nDATA: On a computer, get the offline NxHalo setup app from the linked GitHub release. Select your complete Xbox game image/folder and SD root. It prepares /switch/halo/maps/, including shaders.bin. Users moving from private builds must import shaders once; existing public Build13 data can be retained.\n\nBuild14 keeps the vehicle/camera corrections and adds RAM transient checkpoints. Battle/shader stutter and visual/audio issues remain; full campaign is under testing and multiplayer is unsupported. Back up saves before updates. Full guide and source/component notices are on GitHub.",
+        "binary": false
+    },
+    "changelog": "Build14: RAM-backed transient checkpoints with allocation fallback; retains Build13 camera/vehicle corrections. Existing durable saves keep the disk path. Public package requires imported shaders.bin.",
+    "assets": [
+        {
+            "url": "https://github.com/Jmesmykil/NxHalo-Releases/releases/download/v0.1.1-build14/Halo_CE_Runtime.nsp",
+            "dest": "/switch/install/Halo_CE_Runtime.nsp",
+            "type": "update"
+        },
+        {
+            "url": "README.txt",
+            "dest": "/switch/NxHalo/README.txt",
+            "type": "update"
+        },
+        {
+            "url": "icon.jpg",
+            "type": "icon"
+        }
+    ]
+}
