@@ -5,11 +5,11 @@
     "title": "SwitchInfoNX",
     "author": "dodosi",
     "category": "tool",
-    "version": "0.3",
+    "version": "0.4",
     "url": "https://github.com/dodosiiii/SwitchInfoNX",
     "license": "n/a",
     "description": "Utilitaire complet d'informations système",
-    "details": "SwitchInfoNX est un utilitaire complet de diagnostic pour Nintendo Switch. Il propose des informations système, le stockage, le réseau, les performances, des diagnostics de manettes, un explorateur de fichiers, le transfert MTP et HTTP, ainsi que des thèmes personnalisables et 11 langues."
+    "details": "SwitchInfoNX est un utilitaire complet de diagnostic pour Nintendo Switch. Il propose des informations système, le stockage, le réseau, les performances, des diagnostics de manettes, un explorateur de fichiers, les transferts FTP et MTP, la gestion des sauvegardes et des thèmes personnalisables."
   },
   "assets": [
     {
@@ -21,10 +21,10 @@
       "url": "screen.png"
     },
     {
-      "url": "https://github.com/dodosiiii/SwitchInfoNX/releases/download/v0.3/SwitchInfoNX.nro",
+      "url": "https://github.com/dodosiiii/SwitchInfoNX/releases/download/v0.4/SwitchInfoNX.nro",
       "type": "update",
       "dest": "/switch/SwitchInfoNX/SwitchInfoNX.nro"
     }
   ],
-  "changelog": "Version 0.3\n- Correction de bugs critiques et de crashs.\n- Correction du calcul de batterie.\n- Ajout de la température interne du SoC.\n- Amélioration du gestionnaire de fichiers avec copie récursive.\n- Correction des problèmes d'affichage et de débordement de texte.\n- Amélioration des outils, du réseau et du transfert MTP."
+  "changelog": "Version 0.4\n- Refonte du test de débit réseau avec plusieurs serveurs de secours.\n- Amélioration de la fluidité de l'interface et du cache des textes.\n- Correction de l'affichage des températures et du symbole °C.\n- Amélioration de l'outil FTP : navigation, transferts et création de dossiers.\n- Ajout de la progression et de journaux pour les transferts MTP.\n- Amélioration des sauvegardes et restaurations de jeux.\n- Amélioration de l'affichage des jeux installés et des processus.\n- Correction du test de vibration des manettes.\n- Amélioration des traductions et des polices asiatiques."
 }
