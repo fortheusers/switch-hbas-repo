@@ -1,0 +1,40 @@
+{
+    "package": "EhViewerSwitch",
+    "info": {
+        "title": "EhViewer Switch",
+        "author": "Schweik7",
+        "category": "tool",
+        "version": "0.5.2",
+        "url": "https://github.com/Schweik7/EhViewer-Switch",
+        "license": "GPLv3",
+        "description": "E-Hentai/ExHentai reader & downloader",
+        "details": "EhViewer for Nintendo Switch is a homebrew client for E-Hentai and ExHentai, ported from the Android app EhViewer (C++17, libnx, SDL2). WARNING: the sites it browses host adult content.\\n\\n- Browse the front page, watched, popular, toplists and favorites (all 10 folders); search and save searches as subscriptions.\\n- Gallery details: tags, comments, rating and favorites; tap a tag or the uploader to search.\\n- Background downloads with resume, per-task pause and resume, and a live speed display. Read while downloading.\\n- Reader in portrait (console held sideways), landscape or double-page mode, with saved progress.\\n- Touch support and a Chinese/English UI.\\n\\nSetup: put your site cookies (ipb_member_id, ipb_pass_hash, and igneous for ExHentai) in sdmc:/config/EhViewerSwitch/cookies.ini, and a cacert.pem next to it (included in the release zip)."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Schweik7/EhViewer-Switch/releases/download/v0.5.2/EhViewerSwitch-0.5.2.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/Schweik7/EhViewer-Switch/releases/download/v0.5.2/EhViewerSwitch.nro",
+            "type": "update",
+            "dest": "/switch/EhViewerSwitch/EhViewerSwitch.nro"
+        }
+    ],
+    "changelog": "0.5.2: first public release. Per-task download pause/resume, favorites folders, quick menu switching cancels stale requests, new icon."
+}
