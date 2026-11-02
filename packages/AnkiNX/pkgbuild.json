@@ -1,0 +1,29 @@
+{
+    "package": "AnkiNX",
+    "info": {
+        "title": "AnkiNX",
+        "author": "Lucas H",
+        "category": "_misc",
+        "version": "0.8.0",
+        "url": "https://github.com/lukasheber/AnkiNX",
+        "license": "Affero GPLv3",
+        "description": "Anki for Nintendo Switch",
+        "details": "AnkiNX is a native homebrew port of Anki, an app that helps you memorise things with spaced repetition.\\n\\nWhat it does\\n\\n    -Reviews with Anki's scheduler: answer buttons, undo/redo, flag, bury, suspend, card info\\n    -Cards look as they do in Anki: HTML/CSS, images, audio, maths, template JavaScript, furigana, right-to-left text, type-in-the-answer and Image Occlusion\\n    -Deck overview, deck options, custom study, statistics and a read-only card browser\\n    -Buttons (rebindable; a single sideways Joy-Con works), touch, swipes and a whiteboard in handheld mode\\n    -English, Portuguese, Spanish and Japanese;\\n\\n\\nWhat it doesn't do\\nAdding and editing cards is not implemented. Typing and formatting cards with a controller and the on-screen keyboard would be cumbersome. Instead, create and edit your cards in Anki desktop, sync them through AnkiWeb, and review on the Switch. Your reviews sync back the same way."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/lukasheber/AnkiNX/releases/download/v0.8.0/AnkiNX.nro",
+            "type": "update",
+            "dest": "/switch/AnkiNX/AnkiNX.nro"
+        }
+    ],
+    "changelog": "Full card display parity with Anki desktop and Ankidroid"
+}
