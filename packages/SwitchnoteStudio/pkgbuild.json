@@ -14,7 +14,7 @@
         {
             "type": "update",
             "url": "https://reximemo.net/nswitch/api/download",
-            "dest": "/switch/switchnote.nro"
+            "dest": "/switch/Switchnote/switchnote.nro"
         },
         {
             "type": "icon",
