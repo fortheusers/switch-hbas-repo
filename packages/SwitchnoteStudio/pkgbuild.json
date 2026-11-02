@@ -1,0 +1,24 @@
+{
+    "package": "SwitchnoteStudio",
+    "info": {
+        "title": "Switchnote Studio",
+        "author": "RexiMemo!",
+        "category": "game",
+        "version": "0.1.51",
+        "url": "https://reximemo.net/nswitch/api/download",
+        "license": "All Rights Reserved",
+        "description": "Draw and share animations on Switch",
+        "details": "Create frame-by-frame animations on Nintendo Switch. Draw at 640\u00d7360 with four layers, ten ink colours, pens, brushes, erasers, onion skin and eight playback speeds.\\n\\nAdd sound, import pictures, organise Switchnotes locally, export video and share through Switchnote Gallery.\\n\\nThis is a public alpha, so please back up your work.\\n\\nLaunch through Homebrew Menu in app override mode; applet mode is unsupported.\\n\\nAI use: Human-written."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "Initial public alpha with animation editing, audio, photo import, Gallery and local export."
+}
