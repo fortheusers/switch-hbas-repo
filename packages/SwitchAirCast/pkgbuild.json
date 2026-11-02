@@ -1,0 +1,40 @@
+{
+    "package": "SwitchAirCast",
+    "info": {
+        "title": "SwitchAirCast",
+        "author": "depende3000",
+        "category": "tool",
+        "version": "1.1.2",
+        "url": "https://github.com/depende3000/SwitchAirCast",
+        "license": "GPLv3",
+        "description": "Turns Switch into an AirPlay receiver.",
+        "details": "Turn your Nintendo Switch into an AirPlay receiver. Mirror your iPhone, iPad or Mac to the Switch, send YouTube videos to it, or play music through it.\\n\\nWhat it can do:\\n- Screen mirroring from iPhone, iPad and Mac, up to 1080p at 60 fps.\\n- Send videos instead of mirroring. Tap the AirPlay button in the YouTube app (iPhone/iPad) or in Safari on a Mac and the Switch plays the video by itself. Your device becomes the remote, so you can lock it or use other apps meanwhile.\\n- Music over AirPlay, with the song title, artist, album, cover art and progress on screen, and volume control from your device.\\n- Vertical mode for portrait apps: turn the picture 90\u00b0 and hold the console upright pressing R. It can also follow the console's controller motion sensor automatically.\\n- Screen off while music keeps playing (button Y, or automatically after a few minutes).\\n- Black theme for the OLED model (chosen automatically).\\n- English or Spanish interface that follows the console's language."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/depende3000/SwitchAirCast/releases/download/v1.1.2/SwitchAirCast-1.1.2.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/depende3000/SwitchAirCast/releases/download/v1.1.2/SwitchAirCast.nro",
+            "type": "update",
+            "dest": "/switch/SwitchAirCast/SwitchAirCast.nro"
+        }
+    ],
+    "changelog": ""
+}
