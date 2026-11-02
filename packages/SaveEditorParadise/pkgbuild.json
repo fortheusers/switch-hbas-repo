@@ -1,0 +1,29 @@
+{
+    "package": "SaveEditorParadise",
+    "info": {
+        "title": "Save Editor Paradise",
+        "author": "Edu90K",
+        "category": "game",
+        "version": "1.6.1",
+        "url": "https://github.com/eduardo-santos/switch-save-editor-paradise-releases",
+        "license": "GPLv3",
+        "description": "Edit game saves right on your Switch",
+        "details": "Edit your game saves right on the console. No PC, no copying files back and forth: pick a game, a profile, and a slot, then change what you want.\\n\\n- Built-in editors for Zelda (Breath of the Wild, Tears of the Kingdom, Age of Calamity), Pokemon (Scarlet/Violet, Sword/Shield, Legends: Arceus, Let's Go), Mario (Odyssey, Wonder, Mario Kart 8 Deluxe), Donkey Kong Country: Tropical Freeze, Smash Bros. Ultimate and Super Kirby Clash\\n- Zelda: unbreakable weapons, a Shrine Tracker and a map of Hyrule with your progress\\n- Every change is listed before it's saved, with an automatic backup first\\n- Manual backups, back up all games at once, restore and undo\\n- Find a value: turn any number you see in a game into an editable field\\n- Edit from your phone or PC in a browser on the same Wi-Fi\\n- English and Portuguese (Brazil)\\n\\nClose the game before editing its save. Use offline: edited saves can be a ban risk online.\\n\\nAI use: Mostly AI-generated. AI also used for: icon/banner art."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/eduardo-santos/switch-save-editor-paradise-releases/releases/download/v1.6.1/save-editor-paradise.nro",
+            "type": "update",
+            "dest": "/switch/SaveEditorParadise/save-editor-paradise.nro"
+        }
+    ],
+    "changelog": ""
+}
