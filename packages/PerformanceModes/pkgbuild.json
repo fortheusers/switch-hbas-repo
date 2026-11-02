@@ -1,0 +1,35 @@
+{
+    "package": "PerformanceModes",
+    "info": {
+        "title": "Performance Modes",
+        "author": "Retrotendo",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/retrotendo/Ultrahand-Performance-Modes",
+        "license": "MIT",
+        "description": "Ultrahand profile switcher Horizon OC",
+        "details": "Performance Modes is an Ultrahand package for Horizon OC that switches between two complete setups: OC Mode for your normal overclock/performance profile and Battery Mode for a stock-clock undervolting profile focused on battery life.\\n\\nIt saves and restores the complete Horizon OC config.ini and hoc.kip for each mode, including per-game Horizon clock profiles. Optional ReverseNX-RT settings are switched with the selected mode as well. The outgoing profile is saved automatically before the other profile is loaded, then CFW reboots automatically so the selected hoc.kip becomes active.\\n\\nBattery Mode is intended for users who already have a stable OC profile and want a separate efficiency profile using stock handheld clocks. The package does not ship fixed OC/UV values; each console must be stability-tested individually.\\n\\nRequires Ultrahand Overlay and Horizon OC. ReverseNX-RT is optional."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/retrotendo/Ultrahand-Performance-Modes/releases/download/v1.0/Performance-Modes-v1.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "Initial release:\\n- Battery Mode <-> OC Mode profile switching\\n- Full Horizon OC config.ini + hoc.kip stored per mode\\n- Automatic saving of the outgoing profile\\n- Automatic CFW reboot after changing modes\\n- Per-game Horizon clock profiles switch with each mode\\n- Optional ReverseNX-RT folder save/restore\\n- Reset Battery app profiles to stock/default clocks\\n- Safety Backup / Restore\\n- Protection against overwriting profiles when current state is unknown"
+}
