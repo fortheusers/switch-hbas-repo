@@ -1,0 +1,56 @@
+{
+    "package": "OpenAoK",
+    "info": {
+        "title": "OpenAoK",
+        "author": "Zaydme",
+        "category": "game",
+        "version": "0.6.6",
+        "url": "https://github.com/Zaydme/openaok",
+        "license": "MIT",
+        "description": "Age of Empires II: The Age of Kings, from your own CD",
+        "details": "OpenAoK is an engine for Age of Empires II: The Age of Kings (1999), written from scratch, that plays the game from your own copy of the original CD. The download holds none of the game: you make its data on a computer from your CD and copy the folder to the SD card beside the app, as the guide at zaydme.github.io/openaok/guide/switch says.\\n\\n- Random maps from the game's own scripts, the computer players' own AI scripts, the campaigns, scenarios and the scenario editor\\n- In handheld mode the touch screen plays: tap to click, hold for a right click, two fingers to scroll, pinch to zoom\\n- The controller plays as a mouse and the game's hotkeys: left stick moves the pointer, right stick scrolls, A clicks, B right-clicks, X goes to the next idle villager, + opens the game menu\\n\\nHold R while starting a game so the Homebrew Menu opens with all of the console's memory, which OpenAoK needs. Its files, the game's data, profile and saved games, live in sdmc:/switch/openaok/. Not affiliated with Microsoft.",
+        "binary": "/switch/openaok/OpenAoK.nro"
+    },
+    "changelog": "0.6.6\\n- Black Forest, Crater Lake, Gold Rush and Team Islands are played from their own map scripts\\n- The game setup's settings are as wide as the original's, and its lists show every choice\\n- The game setup offers the original's Time Limit and Score victories\\n- A computer player answers a blow in its town with every soldier free to come",
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "town.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "battle.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "townhall.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "campaign.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "setup.png"
+        },
+        {
+            "url": "https://github.com/Zaydme/openaok/releases/download/v0.6.6/OpenAoK-switch-v0.6.6.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ]
+}
