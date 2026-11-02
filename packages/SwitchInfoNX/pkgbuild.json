@@ -5,11 +5,11 @@
     "title": "SwitchInfoNX",
     "author": "dodosi",
     "category": "tool",
-    "version": "0.3",
+    "version": "0.5",
     "url": "https://github.com/dodosiiii/SwitchInfoNX",
     "license": "n/a",
     "description": "Utilitaire complet d'informations système",
-    "details": "SwitchInfoNX est un utilitaire complet de diagnostic pour Nintendo Switch. Il propose des informations système, le stockage, le réseau, les performances, des diagnostics de manettes, un explorateur de fichiers, le transfert MTP et HTTP, ainsi que des thèmes personnalisables et 11 langues."
+    "details": "SwitchInfoNX est un utilitaire complet de diagnostic pour Nintendo Switch. Il propose des informations système, le stockage, le réseau, les performances, des diagnostics de manettes, un explorateur de fichiers, les transferts FTP et MTP, la gestion des sauvegardes, des thèmes personnalisables et un overlay réseau pour Ultrahand."
   },
   "assets": [
     {
@@ -21,10 +21,10 @@
       "url": "screen.png"
     },
     {
-      "url": "https://github.com/dodosiiii/SwitchInfoNX/releases/download/v0.3/SwitchInfoNX.nro",
+      "url": "https://github.com/dodosiiii/SwitchInfoNX/releases/download/v0.5/SwitchInfoNX.nro",
       "type": "update",
       "dest": "/switch/SwitchInfoNX/SwitchInfoNX.nro"
     }
   ],
-  "changelog": "Version 0.3\n- Correction de bugs critiques et de crashs.\n- Correction du calcul de batterie.\n- Ajout de la température interne du SoC.\n- Amélioration du gestionnaire de fichiers avec copie récursive.\n- Correction des problèmes d'affichage et de débordement de texte.\n- Amélioration des outils, du réseau et du transfert MTP."
+  "changelog": "Version 0.5\n- Ajout d'un overlay réseau natif Ultrahand avec signature ULTR.\n- Affichage du trafic réseau RX/TX, des totaux et d'un historique graphique de 60 secondes.\n- Informations réseau : connexion, signal et adresse IP.\n- Export de l'historique réseau en CSV sur la carte SD.\n- Guide Ultrahand intégré et traduit en 11 langues.\n- Mise à jour du README et de la configuration de compilation.\n- Détection et vérification de l'overlay Ultrahand.\n- Correction de l'intégration des métadonnées NACP.\n- Ajout des températures SoC et carte, et du pourcentage de batterie dans l'overlay.\n- Réduction de la mémoire utilisée par l'overlay pour limiter les crashs.\n- Ajout d'un sysmodule réseau optionnel, désactivé pour l'instant."
 }
