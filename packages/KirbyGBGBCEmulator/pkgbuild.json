@@ -1,0 +1,24 @@
+{
+    "package": "KirbyGBGBCEmulator",
+    "info": {
+        "title": "Kirby GB/GBC Emulator",
+        "author": "Yarik",
+        "category": "emu",
+        "version": "1.0.0",
+        "url": "https://github.com/yariklol879-ops/Kirby-GB-GBC-Emulator-NX",
+        "license": "MIT",
+        "description": "Based on GameLad NX by Dooskington, Ange",
+        "details": "A custom Game Boy and Game Boy Color emulator for Nintendo Switch, based on the open-source GameLad NX project.\\n\\nFeatures:\\n\\n\u00b7 Custom UI: A stylish menu with game list, scrolling, and a clock.\\n\u00b7 Themes: Choose between classic Game Boy Green, Kirby Pink/Purple, and Black & White.\\n\u00b7 Controls: Remappable buttons and Fast Forward (ZR).\\n\u00b7 Splash Screen: Custom boot screen with the author's name.\\n\u00b7 Easy to use: Just put your .gb / .gbc files in sd:/switch/KirbyGB/roms/ and play.\\n\\nCredits:\\nBased on GameLad NX by Dooskington, AngelXex, and tcfritchman (MIT License). Huge thanks to the original authors!\\n\\n\\nAI use: Co-written with AI. AI also used for: icon/banner art."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
