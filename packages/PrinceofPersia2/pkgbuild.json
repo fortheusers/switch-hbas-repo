@@ -1,0 +1,46 @@
+{
+    "package": "PrinceofPersia2",
+    "info": {
+        "title": "Prince of Persia 2",
+        "author": "Cardas26",
+        "category": "game",
+        "version": "1.0.0",
+        "url": "https://github.com/Cardas26/nx-pop2",
+        "license": "MIT",
+        "description": "Prince of Persia 2 (DOS), recompiled",
+        "details": "The 1993 DOS game Prince of Persia 2: The Shadow and the Flame, statically recompiled to native code for the Switch; the same game code as the PS Vita port (psp2-pop2).\\n\\n- All levels and cutscenes, FM music and sound effects.\\n- Save and resume, docked and handheld, standby.\\n- 4:3 and widescreen views, four filters.\\n- Every control remappable.\\n\\nNo game data is included. Copy the files of your own DOS game, version 1.1 only, into sdmc:/switch/pop2-recomp/. The first start checks every file and names any that are missing. An optional HOME-menu forwarder is on the GitHub release page."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Cardas26/nx-pop2/releases/download/v1.0.0/nx-pop2-diagnostics.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/Cardas26/nx-pop2/releases/download/v1.0.0/nx-pop2.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "Initial release for the Nintendo Switch."
+}
