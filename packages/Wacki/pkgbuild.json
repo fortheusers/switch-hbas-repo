@@ -1,0 +1,35 @@
+{
+    "package": "Wacki",
+    "info": {
+        "title": "Wacki",
+        "author": "szczuru",
+        "category": "game",
+        "version": "1.0",
+        "url": "https://github.com/szczuru/wacki",
+        "license": "GPLv3",
+        "description": "A Polish point-and-click adventure",
+        "details": "A faithful, cross-platform port of Wacki: Kosmiczna rozgrywka (1998) \u2014 a Polish point-and-click adventure \u2014 reconstructed from the decompiled WACKI.EXE.\\nDecompilation was done by mszula (https://github.com/mszula/wacki), ported using Claude by szczuru.\\n\\nAI use: AI-generated, not reviewed line by line."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/szczuru/wacki/releases/download/Switch/wacki-switch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
