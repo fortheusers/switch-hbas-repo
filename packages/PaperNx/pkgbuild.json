@@ -1,0 +1,51 @@
+{
+    "package": "PaperNx",
+    "info": {
+        "title": "PaperNx",
+        "author": "Yusuf Buzrul",
+        "category": "tool",
+        "version": "0.9.3",
+        "url": "https://github.com/ysfbz/PaperNx",
+        "license": "Affero GPLv3",
+        "description": "PaperNX Ultimate Native Offline Reader",
+        "details": "Native, offline EPUB, PDF, CBZ & CBR reader for Nintendo Switch. Touch-first reading, interactive 3D page curl, manga support, themes and reading statistics.\\n\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/ysfbz/PaperNx/releases/download/v0.9.3/PaperNX-licenses-v0.9.3.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/ysfbz/PaperNx/releases/download/v0.9.3/PaperNX-switch-v0.9.3.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/ysfbz/PaperNx/releases/download/v0.9.3/PaperNX.nro",
+            "type": "update",
+            "dest": "/switch/PaperNx/PaperNX.nro"
+        }
+    ],
+    "changelog": "What's New in the v0.9.1 Re-Release\\n\ud83d\udcda Full CBR (RAR4, RAR5, Solid) & Enhanced CBZ Reader\\nComprehensive CBR & CBZ Support: Built-in reader engine supporting .cbz (ZIP) and .cbr (RAR4, RAR5, non-solid and solid archives via vendored unarr decoder).\\nMagic-Byte Sniffing: Automatically detects and loads archives regardless of whether they have a .cbz or .cbr file extension.\\nPure RGB High-Fidelity Rendering: Renders original artwork colors faithfully; outer viewport margins seamlessly match the active book or global theme (e.g., Vintage Sepia, Charcoal, OLED Black), eliminating bright white borders.\\nReversible Comic Reading Palette: Optional reading palette available in reader settings for inverted or dark reading modes.\\nComicInfo.xml Metadata: Full extraction of Title, Writer/Penciller, Series, Issue Number, Genre, Manga reading direction, FrontCover specification, and Page Bookmarks.\\nSecurity & Safety Bounds: Strict in-memory processing (no SD card extraction, rejects path traversal and symlinks, 48 MiB per-image safety limit, 100 megapixel cap).\\nExpanded Cover Worker Budget: 96 MiB worker budget for high-resolution comic covers with automatic fallback to subsequent pages if page 0 is damaged.\\n\ud83d\udcd6 Interactive 3D Perspective Page Curl (Page Flip)\\nAuthentic Physical Curl: Developed around an inclined, tapered cylinder mesh via SDL_RenderGeometry (with proportional scaled fallback).\\nInteractive Finger Tracking: Follows finger hold position, touch grip height (anchorY), vertical drag displacement (dragY), paper underside tint, specular highlight, and contact shadow.\\nPhysics Commit/Cancel: Fast flick thresholds commit the turn; slow releases return paper to its resting edge.\\nUniversal Format Support: Works across paginated EPUB, PDF, CBZ, and CBR (including RTL manga page reading direction and zoomed comic sheets).\\nUser Toggle: Persisted setting in Settings \u2192 Navigation (Sayfa \u00e7evirme animasyonu: A\u00e7\u0131k/Kapal\u0131 / Page curl animation: On/Off, default on).\\n\ud83d\uddc2\ufe0f Comic Series Grouping & Multi-Tab Navigation\\nAutomated Series Shelving: Collapses multi-issue comic series (recognizing #1, 01, v01, Vol 01, Cilt 01, and ComicInfo.xml tags) into single series shelf cards in the library.\\n3-Tab Contents Modal: Cleanly separated tabs for Chapters (B\u00f6l\u00fcmler), All Pages grid (T\u00fcm sayfalar), and Bookmarks (Yer imleri).\\nBackground Preview Cache: Lazy thumbnail generation for the pages grid and live footer scrubber preview bubble.\\nOne-Tap Zoom Reset: Prominent on-screen \"Fit page\" pill (Sayfaya s\u0131\u011fd\u0131r) appears when zoomed in to restore 1.0x view instantly.\\nSmooth Controller Zoom & Pan: Continuous trigger zoom (ZL/ZR) with equal acceleration over time, and smooth fractional D-pad / analog stick panning.\\n\u26a1 Performance & Viewport Fixes\\nDecoupled Page Textures: Viewport zooming and panning operate on GPU textures without re-decoding or re-rasterizing the page on each frame.\\nNavigation Settings Fix: Fixed text overlap in Navigation settings tab (tab == 3) by properly placing the page curl toggle at row 6 and the continuous scroll note below it.\\nNatural Numeric Sorting: Multi-digit runs are ordered numerically (compareNatural / naturalCompare) with overflow safety.\\n"
+}
