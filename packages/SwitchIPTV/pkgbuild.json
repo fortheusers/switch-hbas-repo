@@ -1,0 +1,35 @@
+{
+    "package": "SwitchIPTV",
+    "info": {
+        "title": "SwitchIPTV",
+        "author": "ComputingVictor",
+        "category": "tool",
+        "version": "0.2.0",
+        "url": "https://github.com/ComputingVictor/Switch_IPTV",
+        "license": "MIT",
+        "description": "IPTV player for Switch with M3U and EPG",
+        "details": "SwitchIPTV is a controller-first IPTV player for Nintendo Switch with a clean, TV-friendly interface for handheld and docked mode. Load your own M3U/M3U8 playlist from a URL or the SD card, browse channels by category, search, sort A-Z/Z-A and mark favorites. Supports XMLTV and XMLTV.GZ programme guides with current and next programme info, audio-track and subtitle selection, Auto/16:9/4:3/Fill aspect modes, the Switch software keyboard, and both controller and touch navigation. Settings, playlists and favorites are saved between sessions. SwitchIPTV does not provide channels, playlists or subscriptions. Use only streams you are authorized to access. Open source (MIT)."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/ComputingVictor/Switch_IPTV/releases/download/v0.2.0/SwitchIPTV-v0.2.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "- Added channel search and A-Z/Z-A sorting.\\n- Added XMLTV and XMLTV.GZ programme guide support.\\n- Added category switching, favorites, responsive layouts and improved playback controls.\\n- Added audio-track and subtitle selection.\\n- Added parser and storage tests."
+}
