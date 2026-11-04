@@ -1,0 +1,29 @@
+{
+  "package": "pilots_re",
+  "info": {
+    "title": "Pilots Bros: After the Striped Elephant",
+    "author": "kasru",
+    "category": "game",
+    "version": "1.0",
+    "url": "https://github.com/kasru/pilots_re/releases/tag/v1.0",
+    "license": "MIT",
+    "description": "Reconstruction of the 1997 point-and-click adventure \"Братья Пилоты: По следам полосатого слона\" for Switch. Engine only - you need your own copy of the game.",
+    "details": "A native reconstruction of the 1997 Russian point-and-click adventure \"Братья Пилоты: По следам полосатого слона\", known in English as Pilots Bros: After the Striped Elephant. The original executable was disassembled and rewritten: the game still runs from its original bytecode scripts, while the C code around them is a clean-room interpreter written for this project.\\n\\nABOUT THE GAME (quoted from README.TXT on the original disc)\\n\"This is the first game in the future game series with common main characters named Pilots Brothers. They are very popular in former Soviet Union due to famous animated cartoons. The game genre is a parody of a detective story, with elements of adventures, action, thrillers, humor, puzzles etc.\"\\n\\nGame developer: GAMOS.\\nCopyright (C) 1997 GAMOS.\\nCopyright (C) 1997 1C (bound to the territory of ex-USSR).\\nCharacters copyright (C) Second Frog and Moscow Animation Studio PILOT.\\n\\nNothing from the original game ships with this port - no data, no videos, no graphics - and this project is not affiliated with the game's rights holders.\\n\\nWHAT YOU NEED\\nYour own copy of the game, as it came on the original PC CD:\\n  PILOTS.EXE   - the game data file (the original executable with the data appended to it)\\n  MOVIES/      - the video folder, including the .BMP files the engine looks for\\n\\nWHERE TO PUT IT\\nBoth go into the same folder as the port itself, on the SD card:\\n  sd:/switch/pilots/PILOTS_RE.nro    <- installed by this app\\n  sd:/switch/pilots/PILOTS.EXE       <- your copy of the game\\n  sd:/switch/pilots/MOVIES/          <- your copy of the videos\\nThen start PILOTS_RE.nro from the Homebrew Menu. The engine looks for its data in exactly that folder; if PILOTS.EXE is missing it stops with \"Invalid game data file.\" and exits.\\n\\nCONTROLS (gamepad)\\n  Left stick / D-pad .... move the pointer\\n  A ..................... left mouse button: use, confirm, open\\n  B ..................... right mouse button: cancel, back\\n  R (hold) .............. highlight every interactive object (what Ctrl does on PC)\\n  - (View / Share) ....... stretch the picture to the whole screen and back to 4:3\\n  X, Y, L ................ not assigned\\n\\nWHAT THE PORT ADDS\\nA stretch toggle on the - button, a highlight of clickable objects while R is held, a visible loading indicator instead of a screen that looks frozen, and gamepad support through SDL. On Windows, macOS and Linux the same port is available with fullscreen, a log you can switch on with -log, and a browser installer that assembles the package for you:\\n  https://kasru.github.io/pilots-installer/\\n\\nLINKS\\nSource code: https://github.com/kasru/pilots_re\\nAll builds: https://github.com/kasru/pilots_re/releases\\n\\nThe game and its data belong to their rights holders; this port ships no game files."
+  },
+  "changelog": "v1.0\\n\\nFirst public release.\\n\\n- Reconstruction of the original engine: the game logic still runs from the original bytecode scripts, the interpreter around them is written from scratch for this project.\\n- Nintendo Switch build with gamepad controls, a stretch toggle on the View/Share button, a highlight of clickable objects and a loading indicator.\\n- Separate builds for Windows x86/x64, Linux x86_64 and macOS 10.13-10.14, plus a browser installer that adds your copy of the game to the package.",
+  "assets": [
+    {
+      "url": "https://github.com/kasru/pilots_re/releases/download/v1.0/PILOTS_RE.nro",
+      "dest": "/switch/pilots/PILOTS_RE.nro",
+      "type": "update"
+    },
+    {
+      "type": "icon",
+      "url": "icon.png"
+    },
+    {
+      "type": "banner",
+      "url": "screen.png"
+    }
+  ]
+}
