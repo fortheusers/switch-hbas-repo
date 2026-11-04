@@ -1,0 +1,29 @@
+{
+    "package": "SPUpdater",
+    "info": {
+        "title": "SP Updater",
+        "author": "N3DSwitch",
+        "category": "tool",
+        "version": "23.0.1_SPUpdater",
+        "url": "https://github.com/kh4rly/Pack-Basico/releases/tag/23.0.1_AMS_1.12.1_SP_Updater",
+        "license": "n/a",
+        "description": "Actualizar CFW desde la Nintendo Switch",
+        "details": "Aplicacion homebrew para Nintendo Switch con interfaz blanca estilo Horizon.\\nGestiona Atmosphere, packs, firmware, guardados en la nube de Telegram y limpieza\\nde juegos.\\n\\nAI use: AI-generated, not reviewed line by line."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/kh4rly/Pack-Basico/releases/download/23.0.1_SPUpdater/SPUpdater.nro",
+            "type": "update",
+            "dest": "/switch/SPUpdater/SPUpdater.nro"
+        }
+    ],
+    "changelog": ""
+}
