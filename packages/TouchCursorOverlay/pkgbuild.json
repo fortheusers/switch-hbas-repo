@@ -1,0 +1,24 @@
+{
+    "package": "TouchCursorOverlay",
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "info": {
+        "version": "0.1.4",
+        "license": "GPLv2",
+        "title": "Touch Cursor Overlay",
+        "category": "tool",
+        "details": "Experimental accessibility overlay for modded Nintendo Switch consoles with broken touchscreens. Move the cursor with either stick; A taps or holds, ZR drags, X recenters, and B closes. Requires Atmosphere, nx-ovlloader, and Ultrahand/Tesla. It injects virtual touch via hid:dbg. On HOS 14+ it attempts to suppress ordinary controller navigation in the foreground while visible and restore it on exit; it does not change global keybind files. Virtual touch has been observed on HOS 20.5.0 / Atmosphere 1.11.1 / Ultrahand 2.4.1, but the new pad filter and other setups need confirmation. This is a prerelease. Do not run alongside sys-botbase or another touchscreen AutoPilot tool. Extract the release ZIP to the SD root.",
+        "url": "https://github.com/jabatista14/switch-touch-overlay",
+        "author": "jabatista14",
+        "description": "Touch cursor for damaged Switch screens"
+    },
+    "changelog": "Initial store candidate: joystick cursor, virtual taps and drags, clean exit, visual error warnings, and temporary foreground pad-input filter."
+}
