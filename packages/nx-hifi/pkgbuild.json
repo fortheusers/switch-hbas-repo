@@ -4,7 +4,7 @@
         "title": "NX Hi-Fi",
         "author": "Anime0t4ku",
         "category": "_misc",
-        "version": "1.0.0",
+        "version": "2.1.0",
         "url": "https://github.com/Anime0t4ku/NX-HI-FI",
         "license": "GPL-3.0",
         "description": "Music player and remote for NX Hi-Fi and MiSTer Hi-Fi",
@@ -21,7 +21,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Anime0t4ku/NX-HI-FI/releases/download/v1.0.0/nx-hifi.zip",
+            "url": "https://github.com/Anime0t4ku/NX-HI-FI/releases/download/v2.1.0/nx-hifi.zip",
             "type": "zip",
             "zip": [
                 {
