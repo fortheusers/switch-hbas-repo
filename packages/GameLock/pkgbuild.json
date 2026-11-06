@@ -4,13 +4,13 @@
         "title": "GameLock",
         "author": "Kazbonfim",
         "category": "tool",
-        "version": "0.8.0",
+        "version": "0.9.0",
         "url": "https://github.com/Kazbonfim2/gamelock-nx",
         "license": "GPLv3",
         "description": "PIN-protect individual games",
-        "details": "Per-title parental control for Atmosphere. The Switch's built-in parental control works by age rating: you either lock a whole tier or nothing. GameLock lets you pick exactly which installed games need a PIN, and leaves the rest untouched.\\n\\nMark a game and it stops launching from the HOME menu. Press Y and enter the PIN to unlock it for as long as you want, press Y again to lock it back, without losing the marking. A master switch turns all protection off and keeps your selections.\\n\\nHow it works: marking a game writes empty exefs stubs under sdmc:/atmosphere/contents. Atmosphere's loader returns ResultPathNotFound() for stubbed NSOs, so the game process is never created. No sysmodule, no IPC, no MITM, no NAND or save edits. Only stubs GameLock created are ever deleted, so your LayeredFS mods stay intact.\\n\\nThe PIN is never stored: just a salt and a PBKDF2-HMAC-SHA256 hash.\\n\\nNote: the UI is in Brazilian Portuguese. Anyone who can pull the SD card bypasses this, so it stops casual access, not a technical user."
+        "details": "Per-title parental control for Atmosphere. The Switch's built-in parental control works by age rating: you lock a whole tier or nothing. GameLock lets you pick exactly which installed games need a PIN, and leaves the rest untouched.\\n\\nMark a game and it stops launching from HOME. Press Y and enter the PIN to unlock it, B to launch it straight from GameLock, Y again to lock it back without losing the marking. A master switch turns all protection off and keeps your selections.\\n\\nHow it works: marking a game writes empty exefs stubs under sdmc:/atmosphere/contents. Atmosphere's loader returns ResultPathNotFound() for stubbed NSOs, so the game process is never created. No sysmodule, no IPC, no MITM, no NAND or save edits. Only stubs GameLock created are deleted, so your LayeredFS mods stay intact.\\n\\nThe PIN is never stored: just a salt and a PBKDF2-HMAC-SHA256 hash.\\n\\nNote: the UI is in Brazilian Portuguese. Anyone who can pull the SD card bypasses this, so it stops casual access, not a technical user."
     },
-    "changelog": "v0.8.0\\n\\nFirst public release.\\n\\n- Game list with icon, name, title ID and lock state\\n- PIN: set, change, remove, asked on launch (3 attempts)\\n- PBKDF2-HMAC-SHA256 with 16-byte salt and constant-time comparison\\n- Built-in numeric keypad, so the PIN works in both applet and application mode\\n- Blocking via exefs stubs, surviving reboot and sleep/resume\\n- Temporary unlock with Y, without clearing the marking\\n- Master switch to disable all protection without unmarking\\n- Ownership tracking: only stubs created by GameLock are ever deleted\\n- Atomic config.json writes with reconciliation on launch",
+    "changelog": "v0.9.0\\n\\n- Press B to launch the selected game straight from GameLock, instead of leaving and hunting for its icon on HOME. Works in applet and application mode (FW 5.0.0+)\\n- A blocked game refuses to launch and says to unlock it with Y first\\n- Stubs are reconciled before the launch request, since the loader reads the SD card at launch time\\n- Loading screen while the game list is read and the SD card is reconciled\\n\\nv0.8.0\\n\\nFirst public release.\\n\\n- Game list with icon, name, title ID and lock state\\n- PIN: set, change, remove, asked on launch (3 attempts)\\n- PBKDF2-HMAC-SHA256 with 16-byte salt and constant-time comparison\\n- Built-in numeric keypad, so the PIN works in both applet and application mode\\n- Blocking via exefs stubs, surviving reboot and sleep/resume\\n- Temporary unlock with Y, without clearing the marking\\n- Master switch to disable all protection without unmarking\\n- Ownership tracking: only stubs created by GameLock are ever deleted\\n- Atomic config.json writes with reconciliation on launch",
     "assets": [
         {
             "type": "icon",
@@ -21,7 +21,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/Kazbonfim2/gamelock-nx/releases/download/v0.8.0/GameLock.nro",
+            "url": "https://github.com/Kazbonfim2/gamelock-nx/releases/download/v0.9.0/GameLock.nro",
             "type": "update",
             "dest": "/switch/GameLock/GameLock.nro"
         }
