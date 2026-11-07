@@ -1,0 +1,46 @@
+{
+    "package": "PKHeXNX",
+    "info": {
+        "title": "PKHeX-NX",
+        "author": "cbreezy210",
+        "category": "tool",
+        "version": "0.9.3-beta",
+        "url": "https://github.com/cbreezy210/PKHeX-NX",
+        "license": "MIT",
+        "description": "Native Switch Pok\u00e9mon SV save editor",
+        "details": "PKHeX-NX is a native Switch homebrew app for editing Pok\u00e9mon Scarlet/Violet saves directly on console.\\n\\nSAFETY-FIRST ARCHITECTURE: Byte-verified SD backups before every write, dual-file commit system with rollback (ZL button), SHA256 checksum verification, and Applet Mode protection to prevent crashes.\\n\\nFEATURES: Full box viewer (32x30 grid), complete stat editor (IVs/EVs/Nature/Ability), legal move picker (M11 generator), force shiny, Tera Type changer, and species editor (Gen 9 validated). No PC required.\\n\\nDOCUMENTATION: Includes IS/IS NOT scope tables, ASCII install guides, Known Gaps transparency, and a public development roadmap.\\n\\nTECHNICAL SPECS: Built with C++17/libnx/devkitPro. Custom SHA256 + xorpad crypto implementation. PK9 Decrypt8/Encrypt8 with LCG shuffle. Tested on FW 22.5.0 (Atmosphere 1.11.2 E).\\n\\nINSTALLATION: Requires Title Override launch method (hold [R] while launching Pok\u00e9mon SV). Full guide on GitHub.\\n\\nCOMMUNITY: Active development with 777+ GBATemp views, 2.7k+ Reddit views, volunteer "
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/cbreezy210/PKHeX-NX/releases/download/v0.9.3-beta/PKHeX-NX-Beta-v0.9.3.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/cbreezy210/PKHeX-NX/releases/download/v0.9.3-beta/PKHeX-NX-DBI-v0.9.3.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "v0.9.3 Beta Release:\\n- Initial public beta with full save editing capabilities\\n- Byte-verified backup system with dual-file commits\\n- Applet Mode guards for stability\\n- Manual legal move picker (M11)\\n- Complete stat editor with IV/EV/Nature/Ability support\\n- Gold Standard documentation with IS/IS NOT tables\\n- Featured on GBATemp with active community engagement"
+}
