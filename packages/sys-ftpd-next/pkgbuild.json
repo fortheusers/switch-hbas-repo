@@ -1,0 +1,35 @@
+{
+    "package": "sys-ftpd-next",
+    "info": {
+        "title": "sys-ftpd Next",
+        "author": "nyanpasu64",
+        "category": "tool",
+        "version": "1.0.6a",
+        "url": "https://github.com/nyanpasu64/sys-ftpd",
+        "license": "GPLv3",
+        "description": "ftpd sysmodule with hangs fixed",
+        "details": "Continuation of cathery's sys-ftpd, fixing multiple crashes.\n\nAI use: Human-written (LLMs used for static analysis)."
+    },
+    "changelog": "1.0.6:\n- Fix out-of-memory errors when transferring many files and folders (shrink TCP buffers before closing sockets)\n- poll() all FTP sessions from top-level function, instead of spinning in the background\n- Ship default config as template path, rename to actual path if missing\n- Fix infinite loop hang when processing path with `/..`",
+    "assets": [
+        {
+            "url": "https://github.com/nyanpasu64/sys-ftpd/releases/download/1.0.6a/sys-ftpd-next-1.0.6a.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
