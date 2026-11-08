@@ -1,0 +1,40 @@
+{
+    "package": "SPUPdater",
+    "info": {
+        "title": "SP UPdater",
+        "author": "N3DSwitch",
+        "category": "advanced",
+        "version": "23.0.1_AMS_1.12.1Red",
+        "url": "https://github.com/kh4rly/Pack-Basico",
+        "license": "GPLv3",
+        "description": "Update\u2014all you need is your Nintendo",
+        "details": "A homebrew application for the Nintendo Switch featuring a white, Horizon-style interface. Download and update Atmosphere, firmware, and packs; back up your save data to the Telegram cloud; and keep your console clutter-free\u2014all synchronized via a Telegram bot.\\n\\nMultilingual support has been added to the 'Session' section.\\n\\nAI use: AI-generated, not reviewed line by line. AI also used for: icon/banner art, description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/kh4rly/Pack-Basico/releases/download/23.0.1_AMS_1.12.1Red/23.0.1.AMS.1.12.1.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/kh4rly/Pack-Basico/releases/download/23.0.1_AMS_1.12.1Red/SPUpdater.nro",
+            "type": "update",
+            "dest": "/switch/SPUPdater/SPUpdater.nro"
+        }
+    ],
+    "changelog": ""
+}
