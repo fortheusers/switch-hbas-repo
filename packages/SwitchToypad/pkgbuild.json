@@ -1,0 +1,29 @@
+{
+    "package": "SwitchToypad",
+    "info": {
+        "title": "Switch-Toypad",
+        "author": "Space_Raler",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/Space-Raler/Switch-Toypad-Emu",
+        "license": "GPLv2",
+        "description": "Toy portal emulator for Nintendo Switch",
+        "details": "Toypad-Emu turns your Nintendo Switch into a USB toy portal for games running on another console or PC. Connect it with a USB-C cable and the game sees a real Skylanders Portal of Power, Disney Infinity base, or LEGO Dimensions ToyPad.\\n\\nThree modes in one app\\n\\nSkylanders: a 16-slot portal with full figure read/write support, including Trap Team.\\nDisney Infinity: a base with player, play set, and power disc slots. Figures are placed in the right slot automatically.\\nLEGO Dimensions: a seven-position ToyPad laid out like the real one. Tokens can be placed, removed, and moved between pads. Test profiles for every released character and vehicle are generated on first launch.\\n\\nAI use: Mostly AI-generated. AI also used for: icon/banner art."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Space-Raler/Switch-Toypad-Emu/releases/download/1.0.0/Toypad-Emu.nro",
+            "type": "update",
+            "dest": "/switch/SwitchToypad/Toypad-Emu.nro"
+        }
+    ],
+    "changelog": ""
+}
