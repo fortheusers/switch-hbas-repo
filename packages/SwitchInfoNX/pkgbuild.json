@@ -5,11 +5,11 @@
     "title": "SwitchInfoNX",
     "author": "dodosi",
     "category": "tool",
-    "version": "0.5",
+    "version": "0.6",
     "url": "https://github.com/dodosiiii/SwitchInfoNX",
     "license": "n/a",
     "description": "Utilitaire complet d'informations système",
-    "details": "SwitchInfoNX est un utilitaire complet de diagnostic pour Nintendo Switch. Il propose des informations système, le stockage, le réseau, les performances, des diagnostics de manettes, un explorateur de fichiers, les transferts FTP et MTP, la gestion des sauvegardes, des thèmes personnalisables et un overlay réseau pour Ultrahand."
+    "details": "SwitchInfoNX est un utilitaire complet de diagnostic pour Nintendo Switch. Il propose des informations système, le stockage, le réseau, les performances, des diagnostics de manettes avec analyse du drift, un explorateur de fichiers, les transferts FTP et MTP, la gestion des sauvegardes, des thèmes personnalisables et un overlay réseau pour Ultrahand."
   },
   "assets": [
     {
@@ -21,10 +21,15 @@
       "url": "screen.png"
     },
     {
-      "url": "https://github.com/dodosiiii/SwitchInfoNX/releases/download/v0.5/SwitchInfoNX.nro",
+      "url": "https://github.com/dodosiiii/SwitchInfoNX/releases/download/v0.6/SwitchInfoNX.nro",
       "type": "update",
       "dest": "/switch/SwitchInfoNX/SwitchInfoNX.nro"
+    },
+    {
+      "url": "https://github.com/dodosiiii/SwitchInfoNX/releases/download/v0.6/SwitchInfoNX.ovl",
+      "type": "update",
+      "dest": "/switch/.overlays/SwitchInfoNX.ovl"
     }
   ],
-  "changelog": "Version 0.5\n- Ajout d'un overlay réseau natif Ultrahand avec signature ULTR.\n- Affichage du trafic réseau RX/TX, des totaux et d'un historique graphique de 60 secondes.\n- Informations réseau : connexion, signal et adresse IP.\n- Export de l'historique réseau en CSV sur la carte SD.\n- Guide Ultrahand intégré et traduit en 11 langues.\n- Mise à jour du README et de la configuration de compilation.\n- Détection et vérification de l'overlay Ultrahand.\n- Correction de l'intégration des métadonnées NACP.\n- Ajout des températures SoC et carte, et du pourcentage de batterie dans l'overlay.\n- Réduction de la mémoire utilisée par l'overlay pour limiter les crashs.\n- Ajout d'un sysmodule réseau optionnel, désactivé pour l'instant."
+  "changelog": "Version 0.6\n- Correction du bouton Reset dans l'analyseur de drift des manettes.\n- Amélioration des jauges de drift gauche et droite avec mémoire des pics.\n- Correction de la détection du pic de drift et réinitialisation automatique en quittant la page.\n- Correction du débordement de texte sur la page Système.\n- Ajout du défilement complet sur la page Transfert (tactile, D-Pad, stick droit et scrollbar).\n- Correction du test de vitesse SD sur les nouvelles installations.\n- Suppression de l'adresse IP et du message No Network dans la barre supérieure.\n- Ajout des boutons visuels L et R pour naviguer entre les onglets.\n- Navigation entre tous les onglets avec ZL et ZR.\n- Refonte du pied de page avec des badges de commandes.\n- Détection de sys-clk OC sur la page Performances.\n- Affichage de l'adresse IP de la passerelle sur la page Réseau.\n- Mise à jour du changelog dans toutes les langues."
 }
