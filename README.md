@@ -12,6 +12,9 @@ The metadata within this repo is available to use under a [CC-BY-SA license](htt
 
 **TODO:** More detailed documentation on `pkgbuild.json` still needs to be written. For now, the recommendation is to check other existing [switch-repo packages](https://github.com/fortheusers/switch-hbas-repo/tree/main/packages) to understand the syntax and layout.
 
+- The available asset types are defined in spinarak.py `def handleAsset`. Type `icon` gets renamed to icon.png, `banner` to screen.png, and `screenshot` to screenN.png (where n is a sequential number).
+- The web-based `pkgbuild.json` creators generate `details` and `changelog` where newlines are encoded as `\\n`, or a literal backslash after decoding JSON. This is unnecessary in hb-appstore 2.3.2, development builds, and Sphaira, all of which replace `"\\n"` (two characters) with a newline character (though hb-appstore double-escapes `\` because both string literals and the regex engine collapse backslashes).
+
 ### Testing your pkgbuild.json
 First, clone the repo recursively:
 ```
