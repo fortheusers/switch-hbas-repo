@@ -1,0 +1,29 @@
+{
+    "package": "DSRSaveEditor",
+    "info": {
+        "title": "DSRSaveEditor",
+        "author": "DavidBarscheski",
+        "category": "tool",
+        "version": "0.1.0",
+        "url": "https://github.com/DavidBarscheski/Dark-Souls-Remastered-Switch-Save-Editor",
+        "license": "MIT",
+        "description": "A Dark Souls Save Editor",
+        "details": "A Nintendo Switch homebrew app (.nro) for editing Dark Souls: Remastered saves, with no PC needed.\\n\\nFeatures\\n\\n    Edit stats, souls and humanity. The level updates automatically from your stats.\\n    Change quantities of items you already own.\\n    Add items you don't own. The Add screen has 217 goods (consumables, materials, 72 spells and 45 key items), 41 rings, 232 armor pieces and 210 weapons and shields, including ammunition. Everything is the +0 version.\\n    Character picker for save files that hold more than one character.\\n    Checksums are recalculated for you, and the app checks that they're valid before it lets you edit.\\n\\nAI use: Co-written with AI. AI also used for: icon/banner art, description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/DavidBarscheski/Dark-Souls-Remastered-Switch-Save-Editor/releases/download/v0.1.0/DSRSaveEditor.nro",
+            "type": "update",
+            "dest": "/switch/DSRSaveEditor/DSRSaveEditor.nro"
+        }
+    ],
+    "changelog": ""
+}
