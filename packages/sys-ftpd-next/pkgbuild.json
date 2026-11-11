@@ -8,7 +8,7 @@
         "url": "https://github.com/nyanpasu64/sys-ftpd",
         "license": "GPLv3",
         "description": "ftpd sysmodule with hangs fixed",
-        "details": "Continuation of cathery's sys-ftpd, fixing multiple crashes.\n\nAI use: Human-written (LLMs used for static analysis)."
+        "details": "Continuation of cathery's sys-ftpd, fixing multiple crashes.\n\nAI use: Human-written."
     },
     "changelog": "1.0.6:\n- Fix out-of-memory errors when transferring many files and folders (shrink TCP buffers before closing sockets)\n- poll() all FTP sessions from top-level function, instead of spinning in the background\n- Ship default config as template path, rename to actual path if missing\n- Fix infinite loop hang when processing path with `/..`",
     "assets": [
