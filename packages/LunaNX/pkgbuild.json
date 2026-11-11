@@ -1,0 +1,51 @@
+{
+    "package": "LunaNX",
+    "info": {
+        "title": "LunaNX",
+        "author": "PostTenebrasSoftware",
+        "category": "tool",
+        "version": "1.0.1",
+        "url": "https://github.com/Post-Tenebras-Software/LunaNX",
+        "license": "GPLv3",
+        "description": "Unofficial Amazon Luna client for Switch",
+        "details": "Unofficial native Amazon Luna client for Nintendo Switch homebrew. Sign in with Amazon's device code, select a profile, browse your games and stream with NVDEC hardware video, sound and controller input. Includes remembered sign-in, search, game pages, screenshots/trailers, Recently Played, bitrate/video settings and a live statistics overlay. Return Home, reconnect or explicitly end a game; switching games asks first. Requires full application memory/title takeover, internet and your own eligible Luna account/game access. No PC companion, games or subscription are included. Handheld 720p60 is hardware-tested; docked 1080p is untested. Not affiliated with Amazon or Nintendo. Original code is GPL-3.0-or-later; matching source and dependency notices accompany the release.\\n\\nAI use: Mostly AI-generated. AI also used for: icon/banner art, description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Post-Tenebras-Software/LunaNX/releases/download/v1.0.1/LunaNX-v1.0.1-hb-appstore.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/Post-Tenebras-Software/LunaNX/releases/download/v1.0.1/LunaNX-v1.0.1-switch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/Post-Tenebras-Software/LunaNX/releases/download/v1.0.1/LunaNX.nro",
+            "type": "update",
+            "dest": "/switch/LunaNX/LunaNX.nro"
+        }
+    ],
+    "changelog": ""
+}
