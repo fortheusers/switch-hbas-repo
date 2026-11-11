@@ -1,0 +1,40 @@
+{
+    "package": "NexStatus",
+    "info": {
+        "title": "NexStatus",
+        "author": "ILALEX",
+        "category": "tool",
+        "version": "1.1.3",
+        "url": "https://github.com/jean-louis1776/nextendo-status",
+        "license": "GPLv2",
+        "description": "Live Nextendo status and lobbies",
+        "details": "NexStatus shows who is online on Nextendo. The home screen lists games with a live player count, and opening a game shows its rooms and the players in them. After you sign in with a QR code, friends are marked in the list. Counts refresh about every 15 seconds while the app is open.\\n\\nAn Ultrahand overlay shows the same public totals without signing in. Updates can be installed from inside the app.\\n\\nAI use: Co-written with AI. AI also used for: icon/banner art."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/jean-louis1776/nextendo-status/releases/download/v1.1.3/nexstatus.nro",
+            "type": "update",
+            "dest": "/switch/NexStatus/nexstatus.nro"
+        },
+        {
+            "url": "https://github.com/jean-louis1776/nextendo-status/releases/download/v1.1.3/nexstatus.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
