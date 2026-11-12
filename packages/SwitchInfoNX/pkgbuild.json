@@ -1,30 +1,29 @@
-
 {
-  "package": "SwitchInfoNX",
-  "info": {
-    "title": "SwitchInfoNX",
-    "author": "dodosi",
-    "category": "tool",
-    "version": "0.5",
-    "url": "https://github.com/dodosiiii/SwitchInfoNX",
-    "license": "n/a",
-    "description": "Utilitaire complet d'informations système",
-    "details": "SwitchInfoNX est un utilitaire complet de diagnostic pour Nintendo Switch. Il propose des informations système, le stockage, le réseau, les performances, des diagnostics de manettes, un explorateur de fichiers, les transferts FTP et MTP, la gestion des sauvegardes, des thèmes personnalisables et un overlay réseau pour Ultrahand."
-  },
-  "assets": [
-    {
-      "type": "icon",
-      "url": "icon.png"
+    "package": "SwitchInfoNX",
+    "info": {
+        "title": "SwitchInfoNX",
+        "author": "dodosi",
+        "category": "tool",
+        "version": "0.6",
+        "url": "https://github.com/dodosiiii/SwitchInfoNX",
+        "license": "n/a",
+        "description": "Utilitaire complet d'informations système",
+        "details": "SwitchInfoNX est un utilitaire complet de diagnostic pour Nintendo Switch. Il propose des informations système, le stockage, le réseau, les performances, des diagnostics de manettes, un explorateur de fichiers, les transferts FTP et MTP, la gestion des sauvegardes, des thèmes personnalisables et un overlay réseau pour Ultrahand."
     },
-    {
-      "type": "banner",
-      "url": "screen.png"
-    },
-    {
-      "url": "https://github.com/dodosiiii/SwitchInfoNX/releases/download/v0.5/SwitchInfoNX.nro",
-      "type": "update",
-      "dest": "/switch/SwitchInfoNX/SwitchInfoNX.nro"
-    }
-  ],
-  "changelog": "Version 0.5\n- Ajout d'un overlay réseau natif Ultrahand avec signature ULTR.\n- Affichage du trafic réseau RX/TX, des totaux et d'un historique graphique de 60 secondes.\n- Informations réseau : connexion, signal et adresse IP.\n- Export de l'historique réseau en CSV sur la carte SD.\n- Guide Ultrahand intégré et traduit en 11 langues.\n- Mise à jour du README et de la configuration de compilation.\n- Détection et vérification de l'overlay Ultrahand.\n- Correction de l'intégration des métadonnées NACP.\n- Ajout des températures SoC et carte, et du pourcentage de batterie dans l'overlay.\n- Réduction de la mémoire utilisée par l'overlay pour limiter les crashs.\n- Ajout d'un sysmodule réseau optionnel, désactivé pour l'instant."
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/dodosiiii/SwitchInfoNX/releases/download/v0.6/SwitchInfoNX.nro",
+            "type": "update",
+            "dest": "/switch/SwitchInfoNX/SwitchInfoNX.nro"
+        }
+    ],
+    "changelog": "v0.6\\nBugfixes\\nDrift Analyzer (Page Manette) — bouton Reset ne cachait plus le texte du stick droit ; carte agrandie, deux sous-cartes symétriques L/R avec jauges en temps réel + mémoire de pic\\nPic de drift — logique corrigée (ne pollue plus à 100% quand le stick est en pleine pression) ; reset automatique en quittant la page\\nEmuMMC text overflow (Page Système) — labels raccourcis (EmuMMC (Active), SysNAND (Interne)) pour ne plus déborder de la carte\\nScroll page Transfert — implémentation complète (touch, D-pad, stick droit, scrollbar) ; le bas de la page est maintenant accessible\\nSpeed test (SD) — mkdir ajouté pour éviter l'échec sur installation fraîche\\nUI / Navigation\\nBarre du haut — adresse IP et \"No Network\" supprimés (screenshots/vidéos sûrs) ; badge v0.6, uptime de session, horloge, batterie conservés\\nOnglets — boutons [L] et [R] visuels et tactiles aux extrémités ; ZL/ZR naviguent entre tous les onglets (y compris Settings)\\nPied de page — remplacement du texte brut par des badges style manette console ([L/R], [D-Pad], [A], [+], etc.)\\nPage Performances — détection sys-clk OC affiché dans la carte profil\\nPage Réseau — IP de la passerelle (gateway) affichée en Wi-Fi\\nÀ propos — changelog v0.6 mis à jour dans toutes les langues\\n\\nVersion 0.5\n- Ajout d'un overlay réseau natif Ultrahand avec signature ULTR.\n- Affichage du trafic réseau RX/TX, des totaux et d'un historique graphique de 60 secondes.\n- Informations réseau : connexion, signal et adresse IP.\n- Export de l'historique réseau en CSV sur la carte SD.\n- Guide Ultrahand intégré et traduit en 11 langues.\n- Mise à jour du README et de la configuration de compilation.\n- Détection et vérification de l'overlay Ultrahand.\n- Correction de l'intégration des métadonnées NACP.\n- Ajout des températures SoC et carte, et du pourcentage de batterie dans l'overlay.\n- Réduction de la mémoire utilisée par l'overlay pour limiter les crashs.\n- Ajout d'un sysmodule réseau optionnel, désactivé pour l'instant."
 }
