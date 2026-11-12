@@ -4,16 +4,16 @@
         "title": "Switchfin",
         "author": "dragonflylee",
         "category": "tool",
-        "version": "0.9.4",
+        "version": "0.9.5",
         "url": "https://github.com/dragonflylee/switchfin",
         "license": "Apache v2",
         "description": "Nintendo Switch Jellyfin client",
         "details": "Switchfin is third-party PC player for Jellyfin that provides a native user interface to browse and play movies and series.\\nSupported media items: movies, series, seasons, episodes\\nDirect play and transcoding"
     },
-    "changelog": "v0.9.4\\nAdded\\n\\n- add eBook viewer with MuPDF support\\n- add local file gallery viewing\\n- add unplayed item count badge to media cards\\n\\n Fixed\\n\\n- improve websocket receive loop to handle stop condition correctly\\n- PS4: improve shader handling of libmpv\\n\\nv0.9.3\\nAdded\\nadd chapter select on player view\\nadd config for max nextup\\nadd soft keyboard support for trimui\\n\\nFixed\\nshow 'Title - Language' in subtitle/audio track selector, matching Jellyfin style (#236) @mr-brune\\nchange seek parameter type from int64_t to double for improved precision\\nremove unused lastProgress assignment in VideoProgressSlider constructor\\ni18n: sync missing translation keys across all languages",
+    "changelog": "v0.9.5\\nAdded\\n\\n- add resume download with HTTP range/ETag support and progress bar for cancelled items\\n- auto-download subtitles and fallback subtitle URL when DeliveryUrl is missing\\n- add configurable download path setting\\n\\n Fixed\\n\\n- support the new Quick Connect API (272)\\n- PS4: fix bitmap subtitle bluescreen (271)\\n- image: keep texture owned by cache and trim near-white border bars causing smears (243)\\n- websocket: harden receive loop, reconnect on normal close and fix teardownt\\n- compare versions numerically in update check\\n- keep nvtegra decode frames alive across hwaccel reinit\\n- svg: fix crash when toggling fullscreen on macOS (165)\\n- danmaku: reset on-screen danmaku after seeking to prevent overlap (163)\\n\\nv0.9.4\\nAdded\\n\\n- add eBook viewer with MuPDF support\\n- add local file gallery viewing\\n- add unplayed item count badge to media cards\\n\\n Fixed\\n\\n- improve websocket receive loop to handle stop condition correctly\\n- PS4: improve shader handling of libmpv\\n\\nv0.9.3\\nAdded\\nadd chapter select on player view\\nadd config for max nextup\\nadd soft keyboard support for trimui\\n\\nFixed\\nshow 'Title - Language' in subtitle/audio track selector, matching Jellyfin style (#236) @mr-brune\\nchange seek parameter type from int64_t to double for improved precision\\nremove unused lastProgress assignment in VideoProgressSlider constructor\\ni18n: sync missing translation keys across all languages",
     "assets": [
         {
-            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.9.4/Switchfin.nro",
+            "url": "https://github.com/dragonflylee/switchfin/releases/download/0.9.5/Switchfin.nro",
             "dest": "/switch/Switchfin/Switchfin.nro",
             "type": "update"
         },
