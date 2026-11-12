@@ -1,0 +1,35 @@
+{
+    "package": "BIWTHNX",
+    "info": {
+        "title": "BIWTH-NX",
+        "author": "CamiliaDoesStuff",
+        "category": "game",
+        "version": "homie",
+        "url": "https://github.com/CamiliaDoesStuff/Blending-in-with-the-Homies-NX",
+        "license": "The Unlicense",
+        "description": "a game where you need to click homer",
+        "details": "A port of the LOVE2D game Blending In With The Homies by Clothing_Hanger to the Nintendo Switch\\n\\nHOW TO PLAY:\\nUse the triggers to press their respective homie in order to try and click Homer!\\nDon't press Frank Grimes he kills you.\\nDon't press the homies, as they will reduce the time you have left on your timer!\\nPressing Homer will reset the timer back to 10 and increase your score, but will make the timer go down faster everytime you press him.\\nPress Peter if you see him, he gives you a peter bonus!"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/CamiliaDoesStuff/Blending-in-with-the-Homies-NX/releases/download/homie/blendingIn-switch.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
