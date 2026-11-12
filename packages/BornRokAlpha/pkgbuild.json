@@ -1,0 +1,24 @@
+{
+    "package": "BornRokAlpha",
+    "info": {
+        "title": "BornRok Alpha ",
+        "author": "HereWolfyx",
+        "category": "game",
+        "version": "0.37.0",
+        "url": "https://ko-fi.com/post/BornRok-Alpha-Release-J2K8288A6D",
+        "license": "GPLv3",
+        "description": "First native port of RO",
+        "details": "Here we go guys: the first Alpha 0.37.0 release is OUT! \\n\\nOnly MMO mode on the play.bornrok.com server. Expect low performance (specially in prontera). \\nRead controls in settings to understand how does it works and follow the guide to create a Character. \\n\\nThis is an alpha release for first testing. \\nFollow update on the Homebrew here: \\n - https://ko-fi.com/herewolfyx\\n - https://www.youtube.com/@HereWolfyx\\n\\nif you want to support my work from Ko-fi or paypal.me/erikdascoli\\n\\n\\nIn the future i'll implement offline gaming with Population Engine. "
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": "- First alpha Release:\\nAdded game patcher and checker when you install it first time\\nNative gamepad support\\nOnly one server avaiable (play.bornrok.com)"
+}
