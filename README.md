@@ -10,7 +10,10 @@ If you want to add a new, or update an existing app, please feel free to open a 
 
 The metadata within this repo is available to use under a [CC-BY-SA license](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 
-**TODO:** More detailed documentation on `pkgbuild.json` still needs to be written. For now, the recommendation is to check other existing [switch-repo packages](https://github.com/fortheusers/switch-hbas-repo/tree/main/packages) to understand the syntax and layout.
+The `pkgbuild.json` format is partially documented on the [Spinarak wiki](https://gitlab.com/4TU/spinarak/-/wikis/pkgbuild.json-specification). For now, the recommendation is to check other existing [switch-repo packages](https://github.com/fortheusers/switch-hbas-repo/tree/main/packages) to understand the syntax and layout.
+
+- To add storefront images, use asset type `icon` (256x150) for the grid icon, and type `banner` (848x208) for the banner above the app details. (Banners are usually named `screen.png` for historical reasons.) You can add screenshots using the `screenshot` type; these can be 1280x720 or higher.
+- In the `details` and `changelog` strings, newlines can be encoded as `\\n` or `\n`; the former is for backwards compatibility.
 
 ### Testing your pkgbuild.json
 First, clone the repo recursively:
