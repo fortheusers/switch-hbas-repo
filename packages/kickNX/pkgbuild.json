@@ -40,6 +40,10 @@
             "url": "screen5.png"
         },
         {
+            "type": "screenshot",
+            "url": "screen6.png"
+        },
+        {
             "url": "https://github.com/j2k-lab/kickNX/releases/download/Latest/kickNX.nro",
             "type": "update",
             "dest": "/switch/kickNX/kickNX.nro"
