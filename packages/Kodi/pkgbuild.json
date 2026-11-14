@@ -1,0 +1,56 @@
+{
+  "package": "Kodi",
+  "info": {
+    "title": "Kodi",
+    "author": "MajinGabe",
+    "category": "misc",
+    "version": "22.0rc1",
+    "url": "https://github.com/MajinGabe/kodi-switch",
+    "license": "GPLv2",
+    "description": "Media centre - local and network video, music, add-ons",
+    "details": "Kodi 22.0rc1 built natively for homebrew Switch consoles (Atmosphere).\n\nThis is real Kodi, not a wrapper: its own GUI and renderer, its own audio sink, and the real CPython runtime, so normal Kodi add-ons install and run.\n\nVideo: hardware HEVC decode including 10-bit Main 10, software H.264 playback at 1080p real time, HLS through inputstream.adaptive, HTTPS with certificate validation.\n\nInput: touch, Joy-Cons and Pro Controller buttons and D-pad. Analog sticks are not wired up yet.\n\nIn development: binary add-ons cannot be loaded (only inputstream.adaptive is built in). Exiting from hbmenu takes about 30 seconds because the loader tears the applet down - launched from an NSP forwarder, exit is immediate.\n\nLaunch from full-memory hbmenu (hold R on a title) or, better, from a forwarder. Source, build instructions and the development log: https://github.com/MajinGabe/kodi-switch",
+    "changelog": "v22.0rc1\n\nFirst public build.\n\n- Kodi 22.0rc1 with a native Switch platform layer\n- hardware NVDEC decode for HEVC, including Main 10\n- software H.264 playback, 1080p real time\n- inputstream.adaptive linked in for HLS/HTTPS\n- touch, Joy-Cons and Pro Controller buttons\n- JSON-RPC on port 9090\n\nKnown limitations: no binary add-ons, no analog sticks yet. Exit is slow from hbmenu (loader teardown) but immediate from an NSP forwarder."
+  },
+  "assets": [
+    {
+      "url": "https://github.com/MajinGabe/kodi-switch/releases/download/v22.0rc1/kodi.nro",
+      "dest": "/switch/kodi.nro",
+      "type": "update"
+    },
+    {
+      "url": "https://github.com/MajinGabe/kodi-switch/releases/download/v22.0rc1/kodi-runtime.zip",
+      "type": "zip",
+      "zip": [
+        {
+          "path": "/**/*",
+          "dest": "/",
+          "type": "update"
+        }
+      ]
+    },
+    {
+      "type": "icon",
+      "url": "icon.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "screen1.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "screen2.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "screen3.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "screen4.png"
+    },
+    {
+      "type": "screenshot",
+      "url": "screen5.png"
+    }
+  ]
+}
