@@ -1,0 +1,35 @@
+{
+    "package": "sys-antinag",
+    "info": {
+        "title": "SciLor's Antinag",
+        "author": "SciLor",
+        "category": "tool",
+        "version": "0.1.1",
+        "url": "https://github.com/SciLor/sys-antinag",
+        "license": "GPLv2",
+        "description": "Removes the \"Please turn flight mode off\" popup that games show in flight mode",
+        "details": "Some games show a \"Please turn flight mode off. You can do this in Quick Settings.\" popup again and again while the console is in flight mode (airplane mode). SciLor's Antinag blocks exactly that popup, in every game, without any per-game setup. Every other network or error dialog keeps working.\\n\\nIt is an Atmosphere sysmodule that patches nifm in memory only (nothing on the system partition is modified; a reboot or switching it off restores everything), plus an overlay for Tesla-Menu / Ultrahand to switch it on and off live and to run a built-in self-test.\\n\\nRequirements: Atmosphere custom firmware. The overlay needs Ultrahand or Tesla-Menu with nx-ovlloader. Checked against nifm from firmware 17.0.1 to 23.5.0; tested on hardware with 23.0.1 and Atmosphere 1.12.1.\\n\\nAfter installing, reboot once. Then open the overlay: the status should say 'patched'. To verify: turn flight mode on, turn WiFi off and press 'Run test'.\\n\\nConfig: /config/sys-antinag/config.ini"
+    },
+    "changelog": "0.1.1\\nVersion, author and repository link are now in toolbox.json. Better screenshots.\\n\\n0.1.0\\nFirst release.",
+    "assets": [
+        {
+            "url": "https://github.com/SciLor/sys-antinag/releases/download/v0.1.1/sys-antinag.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
