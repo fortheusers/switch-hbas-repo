@@ -1,0 +1,35 @@
+{
+  "package": "NXStream",
+  "info": {
+    "title": "NXStream",
+    "author": "burlone0",
+    "category": "tool",
+    "version": "1.0.0",
+    "url": "https://github.com/burlone0/NXStream",
+    "license": "PolyForm Strict 1.0.0",
+    "description": "Stream your Switch to your PC",
+    "details": "Watch and hear your Switch on your PC, over Wi-Fi or USB. Works with games, the HOME menu and homebrew.\n\nSwitch:\n- Background module starts by itself after boot.\n- App to choose connection, resolution (720p or 1080p) and video quality, up to 60 fps.\n\nPC (Windows and Linux):\n- Finds the console and reconnects by itself.\n- Sharp, Smooth, FSR and Super Resolution image modes.\n- Optional Discord status with the game you are playing.\n\nNeeds Atmosphere and firmware 10.0.0 or later. Restart the console after installing. Close other Switch streaming tools. If the PC does not find the console, turn off your VPN.\n\nIf you encounter any issues or would like to contribute, you can do it by using our GitHub: https://github.com/burlone0/NXStream\n\nAI use: Written with AI assistance, reviewed and tested on real hardware."
+  },
+  "changelog": "First release on the Homebrew App Store.",
+  "assets": [
+    {
+      "type": "zip",
+      "url": "https://github.com/burlone0/NXStream/releases/download/switch-v1.0.0/NXStream-1.0.0-switch.zip",
+      "zip": [
+        {
+          "path": "/**/*",
+          "dest": "/",
+          "type": "update"
+        }
+      ]
+    },
+    {
+      "type": "icon",
+      "url": "icon.png"
+    },
+    {
+      "type": "banner",
+      "url": "screen.png"
+    }
+  ]
+}
