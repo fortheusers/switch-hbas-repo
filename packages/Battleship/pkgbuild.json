@@ -1,0 +1,29 @@
+{
+    "package": "Battleship",
+    "info": {
+        "title": "Battleship",
+        "author": "AleixMT",
+        "category": "game",
+        "version": "0.1.0",
+        "url": "https://github.com/game-implementations/Battleship/releases/download/v0.1.0/Battleship.nro",
+        "license": "GPLv3",
+        "description": "Implementation of the BattleShip game",
+        "details": "Battleship is a classic two-player, turn-based board game in which each player tries to sink all of the opponent's ships before their own fleet is destroyed.\\n\\nPlay proceeds in turns: on each turn, a player fires at a position on the opponent's board. A shot has one of four outcomes:\\n\\nRepeated position \u2014 the cell was already targeted; no new information is gained, and it costs points.\\nWater \u2014 the shot missed; it also costs points.\\nShot \u2014 the shot hit a ship; the same player takes another turn.\\nShot and sunk \u2014 the hit ship has no undamaged cells left; the same player takes another turn, and every cell surrounding the sunk ship is marked as water.\\nBefore play begins, each player places their own ships on the board. From then on, each player sees two boards:\\n\\ntheir own defense board, showing where their ships are and which of their cells have been hit;\\nan attack board, showing what has been learned about the opponent's board from the shots taken so far.\\nWho attacks first is decided by chance: with a coin toss.\\n\\n"
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/game-implementations/Battleship/releases/download/v0.1.0/Battleship.nro",
+            "type": "update",
+            "dest": "/switch/Battleship/Battleship.nro"
+        }
+    ],
+    "changelog": "This version features partial integration with the Nintendo Switch button controls instead of using keyboard input."
+}
