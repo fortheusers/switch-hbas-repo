@@ -1,0 +1,29 @@
+{
+    "package": "karastream",
+    "info": {
+        "title": "karastream",
+        "author": "doomtrain14",
+        "category": "_misc",
+        "version": "1.0.0",
+        "url": "https://github.com/Doomtrain14/karastream",
+        "license": "GPLv3",
+        "description": "Torrent stream for switch",
+        "details": "Karastream is a media center for the Nintendo Switch that works with the Stremio addon protocol. You browse catalogs from addons and pick a stream. Karastream then plays it, either over HTTP or straight from a torrent with its own built-in BitTorrent engine.\\n\\nAI use: Co-written with AI. AI also used for: icon/banner art."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Doomtrain14/karastream/releases/download/v1.0.0/karastream.nro",
+            "type": "update",
+            "dest": "/switch/karastream/karastream.nro"
+        }
+    ],
+    "changelog": ""
+}
