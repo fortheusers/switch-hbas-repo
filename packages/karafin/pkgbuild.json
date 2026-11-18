@@ -1,0 +1,29 @@
+{
+    "package": "karafin",
+    "info": {
+        "title": "karafin",
+        "author": "doomtrain14",
+        "category": "tool",
+        "version": "1.0.6",
+        "url": "https://github.com/Doomtrain14/karafin",
+        "license": "GPLv3",
+        "description": "Karafin is a Jellyfin client switch",
+        "details": "Karafin is a Jellyfin client for the Nintendo Switch, written in C++20. It runs as a homebrew .nro on Atmosph\u00e8re and is built with current libnx for firmware 22.\\n\\nAI use: AI-assisted. AI also used for: icon/banner art."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Doomtrain14/karafin/releases/download/v1.0.6/karafin.nro",
+            "type": "update",
+            "dest": "/switch/karafin/karafin.nro"
+        }
+    ],
+    "changelog": "Servers & Accounts: Discover LAN servers or connect via address, save multiple server/user profiles, and sign in with a password or Quick Connect.\\n\\nBrowsing & Library: Navigate a personalized home screen (Continue Watching, Next Up, Recently Added), filter/sort library grids with A\u2013Z jump, search, manage favorites/watch status, and view detailed media pages with cast and track pickers.\\n\\nPlayback & Controls: Hardware-accelerated direct play (H.264, HEVC, VP8/9, MPEG-2/VC-1, plus software AV1 up to 1080p) with HLS transcoding fallback and multi-format audio downmixing. Includes cross-device resume, Trickplay seeking, intro/recap/credits skipping, autoplay, chapters, speed/zoom controls, playback info overlay, and touch gestures for brightness/volume.\\n\\nSubtitles: Supports embedded and external tracks (SRT, ASS/SSA, VTT, PGS, DVD) with automatic language/mode selection, appearance/timing customization, and live in-player subtitle downloads via server plugins.\\n\\nOffline Downloads: Download movies, episodes, seasons, or full series with original files, artwork, and subtitles. Features crash-safe pause/resume (even across restarts or power cuts), FAT32 >4 GB file support, free-space checks, and automatic watch-progress syncing upon reconnection."
+}
