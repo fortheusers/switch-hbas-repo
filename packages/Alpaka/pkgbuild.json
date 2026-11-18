@@ -1,0 +1,40 @@
+{
+    "package": "Alpaka",
+    "info": {
+        "title": "Alpaka",
+        "author": "MineNiteMii",
+        "category": "tool",
+        "version": ".0.5.0",
+        "url": "https://github.com/MineNiteYT/Switch-Alpaka",
+        "license": "MIT",
+        "description": "A LLM loader for Nintendo Switch ",
+        "details": "Alpaka runs local GGUF language models directly on your Nintendo Switch, using llama.cpp for inference and a custom controller-driven UI (no SDL2).\\n\\nFeatures:\\n- Model picker for .gguf files on your SD card\\n- Streaming chat: word-wrapped bubbles, D-Pad/stick scrolling, on-screen keyboard input\\n- Multiple saved chats per model, resumable anytime\\n- Inline markdown: bold, inline code, fenced code blocks\\n- CPU-only llama.cpp inference with a lighter, repetition-resistant sampler\\n\\nCPU-only for now - expect ~1-3 tok/s depending on model size, a Tegra X1 memory-bandwidth limit, not a UI bottleneck (steady 59-60 FPS during generation). GPU acceleration is in progress.\\n\\nOpen source, built on llama.cpp/ggml and libnx. See the GitHub repo for build instructions and source."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/MineNiteYT/Switch-Alpaka/releases/download/v.0.5.0/alpaka-gui-0.5.0-sdcard.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/MineNiteYT/Switch-Alpaka/releases/download/v.0.5.0/alpaka.nro",
+            "type": "update",
+            "dest": "/switch/Alpaka/alpaka.nro"
+        }
+    ],
+    "changelog": "v0.5.0 - Initial GUI release, replacing the console prototype's printf interface.\\n\\nAdded:\\n- Custom software renderer (libnx framebuffer + stb_truetype), after SDL2 proved unreliable for input on this hardware\\n- Model picker scanning sdmc:/switch/llm/models/*.gguf\\n- Streaming chat: word-wrapped bubbles, D-Pad/stick scrolling, on-screen keyboard input\\n- Multiple saved chats per model, stored on the SD card\\n- Inline markdown: **bold**, `code`, and fenced code blocks\\n- Real llama.cpp inference (CPU-only), ported from the console prototype\\n- Lighter sampler (repetition penalty + low temperature) instead of pure greedy, to reduce repetition loops\\n- compat.c: posix_memalign/sysconf shims for newlib\\n\\nKnown limitations:\\n- CPU-only - GPU backend (ggml-deko3d) not yet wired in\\n- ~1-3 tok/s depending on model size/clocks (hardware bandwidth limit, not a GUI bottleneck - 59-60 FPS held during generation)\\n- No markdown headers/lists/rules/italics"
+}
