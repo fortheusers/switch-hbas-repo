@@ -1,0 +1,29 @@
+{
+    "package": "IPTVPlayerMG",
+    "info": {
+        "title": "IPTV Player MG",
+        "author": "muratgokce",
+        "category": "tool",
+        "version": "1.3.1",
+        "url": "https://github.com/murat303/iptv-player",
+        "license": "GPLv3",
+        "description": "Live TV, movies and series from IPTV",
+        "details": "IPTV Player plays the live channels, movies and series of your own IPTV subscription: Xtream Codes API accounts and M3U / M3U8 playlists. It comes with no channels, playlists or accounts.\\n\\nPrivacy: no analytics, no ads, no sign-up. Your login stays on your SD card and goes only to your provider.\\n\\nA fork of TsVitch (giovannimirulla) with the Xtream movies and series work of ratk. It adds:\\n- Movie and series pages with plot, cast, trailers and resume\\n- Discover tab: trending, genres and collections via TMDB\\n- Seasons and episodes with watched marks, auto next episode\\n- Poster grids with ratings, sorting and search\\n- Now / next guide, audio and subtitle tracks, playback speed\\n- Downloads with pause and resume\\n- English, Turkish, Italian and Brazilian Portuguese\\n\\nFiles: sdmc:/switch/iptv-player/. TsVitch settings, favorites and history are copied at the first start. Use it only with services and content you are allowed to watch. Uses the TMDB API but is not endorsed or certified by TMDB."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/murat303/iptv-player/releases/download/v1.3.1/iptv-player.nro",
+            "type": "update",
+            "dest": "/switch/IPTVPlayerMG/iptv-player.nro"
+        }
+    ],
+    "changelog": "1.3.1: favorites show posters by kind (channels, movies, series); a series is a favorite, not its episodes. Earlier: Discover tab with TMDB, trailers, playback speed, watched marks.\\n\\nNote for reviewers: this replaces my earlier \"IPTV Player\" submission, whose package name (IPTVPlayer) is already used by another app."
+}
