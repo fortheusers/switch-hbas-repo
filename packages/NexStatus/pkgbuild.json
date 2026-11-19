@@ -4,7 +4,7 @@
         "title": "NexStatus",
         "author": "ILALEX",
         "category": "tool",
-        "version": "1.1.3",
+        "version": "1.1.11",
         "url": "https://github.com/jean-louis1776/nextendo-status",
         "license": "GPLv2",
         "description": "Live Nextendo status and lobbies",
@@ -20,12 +20,12 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/jean-louis1776/nextendo-status/releases/download/v1.1.3/nexstatus.nro",
+            "url": "https://github.com/jean-louis1776/nextendo-status/releases/download/v1.1.11/nexstatus.apk",
             "type": "update",
             "dest": "/switch/NexStatus/nexstatus.nro"
         },
         {
-            "url": "https://github.com/jean-louis1776/nextendo-status/releases/download/v1.1.3/nexstatus.zip",
+            "url": "https://github.com/jean-louis1776/nextendo-status/releases/download/v1.1.11/nexstatus.zip",
             "type": "zip",
             "zip": [
                 {
@@ -36,5 +36,5 @@
             ]
         }
     ],
-    "changelog": ""
+    "changelog": "v1.1.11\\nSwitch\\nExtract nexstatus.zip at the root of the SD card.\\n\\n Android\\nInstall nexstatus.apk. The Android app shows the same public server counts and, after sign-in, lobbies and players. It checks GitHub for a newer APK on launch."
 }
