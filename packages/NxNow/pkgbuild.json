@@ -1,0 +1,29 @@
+{
+    "package": "NxNow",
+    "info": {
+        "title": "NxNow",
+        "author": "KazaR-RooT",
+        "category": "tool",
+        "version": "0.2.4",
+        "url": "https://github.com/kazar-root/NxNow",
+        "license": "GPLv3",
+        "description": "NxNow \u2013 Native GeForce Now cloud gaming",
+        "details": "NxNow \u2013 Native GeForce Now cloud gaming client for Nintendo Switch (Homebrew .nro). Play cloud games directly on your Switch, without a PC or Moonlight.\\n\\nAI use: AI-assisted. AI also used for: description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/kazar-root/NxNow/releases/download/v0.2.4/NxNow.nro",
+            "type": "update",
+            "dest": "/switch/NxNow/NxNow.nro"
+        }
+    ],
+    "changelog": ""
+}
