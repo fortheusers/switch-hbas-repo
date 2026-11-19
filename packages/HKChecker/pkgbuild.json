@@ -1,0 +1,29 @@
+{
+    "package": "HKChecker",
+    "info": {
+        "title": "HKChecker",
+        "author": "gasu95",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/gasu95/HK-Checker",
+        "license": "MIT",
+        "description": "Hollow Knight 112% Completion Checker",
+        "details": "HKChecker is an offline Hollow Knight save completion analyzer for Nintendo Switch that tracks your progress toward 112%.\\n\\nFeatures:\\n- Reads save slots directly from Switch internal storage (user1.dat - user4.dat) or SD card backups (e.g., sdmc:/JKSV/).\\n- 8 complete tabs: MAIN, ESSENTIALS, JOURNAL, COLLECTIBLES, GEO CACHES, SECRETS, GODMASTER, and STATISTICS (~400 items).\\n- Built-in anti-spoiler system: hides uncollected items and locations by default (reveal individually with A/touch or toggle all with Y).\\n- Filter missing items with X.\\n- Bilingual UI (English / Spanish) with instant switching via [-] and automatic system language detection.\\n- Full button, analog stick, and touch screen support.\\n\\nNote: Launch via Title Override (hold [R] while launching any game) to read internal Switch save data.\\n\\n\\nAI use: Co-written with AI."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/gasu95/HK-Checker/releases/download/v1.0/HKChecker.nro",
+            "type": "update",
+            "dest": "/switch/HKChecker/HKChecker.nro"
+        }
+    ],
+    "changelog": "Initial release v1.0.0 with full 112% completion database, internal Switch save mounting, anti-spoiler mode, and English/Spanish UI."
+}
