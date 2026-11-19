@@ -44,7 +44,7 @@
             "url": "screen6.png"
         },
         {
-            "url": "https://github.com/j2k-lab/kickNX/releases/download/Latest/kickNX.nro",
+            "url": "https://github.com/j2k-lab/kickNX/releases/download/v0.5.2/kickNX.nro",
             "type": "update",
             "dest": "/switch/kickNX/kickNX.nro"
         }
