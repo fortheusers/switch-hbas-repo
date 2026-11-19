@@ -1,0 +1,29 @@
+{
+    "package": "MiozArena",
+    "info": {
+        "title": "Mioz Arena",
+        "author": "miozwalis-ai",
+        "category": "tool",
+        "version": "1.0",
+        "url": "https://github.com/miozwalis-ai/mioz-arena-switch/releases/download/v1.0/mioz-arena-switch.nro",
+        "license": "MIT",
+        "description": "Survive against zombies in a field",
+        "details": "Mioz Arena (v1.0) is a beginner homebrew survival game for Nintendo Switch. Explore a green field with trees while small zombies chase you. Note: In this first version, the vertical joystick axis is inverted. Developer feedback and contributions are welcome!\\n\\n\\nAI use: Co-written with AI. AI also used for: icon/banner art, description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/miozwalis-ai/mioz-arena-switch/releases/download/v1.0/mioz-arena-switch.nro",
+            "type": "update",
+            "dest": "/switch/MiozArena/mioz-arena-switch.nro"
+        }
+    ],
+    "changelog": ""
+}
