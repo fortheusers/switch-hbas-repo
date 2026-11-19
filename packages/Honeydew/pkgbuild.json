@@ -1,0 +1,50 @@
+{
+    "package": "Honeydew",
+    "info": {
+        "title": "Honeydew",
+        "author": "FrcJules",
+        "category": "emu",
+        "version": "0.5.0",
+        "url": "https://github.com/FrcJules/honeydew",
+        "license": "GPLv3",
+        "description": "Nintendo DS emulator, based on melonDS",
+        "details": "Honeydew is a Nintendo DS emulator for Switch, based on melonDS (GPL-3.0). Unofficial fork of the latest melonDS core, not made or supported by the melonDS team (formerly named \"melonDS Switch\"). JIT, 2x GPU rendering, no BIOS needed. Auto CPU boost, touch screen via right stick + R3 (TV mode), per-game settings, 4 save state slots. 60 fps in Mario Kart DS, Pokemon, NSMB, Layton, Metroid Prime Hunters. Run hbmenu in app mode (hold R). No games included. Discord: rateur42\\n\\nAI use: Co-written with AI. AI also used for: description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/FrcJules/honeydew/releases/download/v0.5.0/Honeydew-0.5.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/switch/Honeydew/honeydew.nro",
+                    "dest": "/switch/Honeydew/honeydew.nro",
+                    "type": "update"
+                },
+                {
+                    "path": "/licenses/*",
+                    "dest": "/switch/Honeydew/licenses",
+                    "type": "update"
+                },
+                {
+                    "path": "/THIRD-PARTY-NOTICES.md",
+                    "dest": "/switch/Honeydew/THIRD-PARTY-NOTICES.md",
+                    "type": "update"
+                },
+                {
+                    "path": "/README.md",
+                    "dest": "/switch/Honeydew/README.md",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "0.5.0: renamed from melonDS Switch to Honeydew (new name, icon and SD folder switch/Honeydew/; settings and saves are moved from switch/melonDS-Switch/ automatically). Emulation unchanged from 0.4.1: JIT, GLES3 2x renderer, CPU Auto, touch cursor, per-game settings, compressed save states."
+}
