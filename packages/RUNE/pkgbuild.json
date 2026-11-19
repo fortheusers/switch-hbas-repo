@@ -1,0 +1,24 @@
+{
+    "package": "RUNE",
+    "info": {
+        "title": "RUNE",
+        "author": "tderop",
+        "category": "tool",
+        "version": "0.1.0",
+        "url": "https://github.com/tderop/RUNE",
+        "license": "n/a",
+        "description": "A GUI save editor for Breath of the Wild",
+        "details": "RUNE is a native GUI save editor for the Legend of Zelda: Breath of the Wild on Nintendo Switch. Edit rupees, mon, hearts, stamina, equipment, modifiers, items, food, and more - all locally on your device with a familiar user interface.\\n\\nPlease note: RUNE is currently in early access (alpha), and may contain bugs. \\n\\nAs with all save editing: modifying your save carries corruption risks. Please back up valuable save files before modifying them. RUNE automatically creates backups on your SD card before every save.\\n\\nAI use: Human-written."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
