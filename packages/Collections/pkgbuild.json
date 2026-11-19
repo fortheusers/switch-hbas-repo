@@ -1,0 +1,29 @@
+{
+    "package": "Collections",
+    "info": {
+        "title": "Collections",
+        "author": "Devlusaja",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/dev-lusaja/collections-nx",
+        "license": "MIT",
+        "description": "Switch homebrew: organize installed game",
+        "details": "Nintendo Switch homebrew that organizes your installed games into collections:\\n\\nBy number of players: automatic groups (\"2 players\", \"4 players\"\u2026), each with every game that supports at least that many players, plus \"1 player\" for single-player-only games.\\nMy groups: create, rename and delete your own groups and pick the games in each one.\\nFavorites: mark games with Y and find them all in one place.\\nLaunch any game straight from the app. Touch screen supported. English and Spanish (Settings).\\n\\nAI use: Co-written with AI. AI also used for: icon/banner art, description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/dev-lusaja/collections-nx/releases/download/v1.0.0/collections.nro",
+            "type": "update",
+            "dest": "/switch/Collections/collections.nro"
+        }
+    ],
+    "changelog": ""
+}
