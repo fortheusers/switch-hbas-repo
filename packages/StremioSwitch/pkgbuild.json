@@ -1,0 +1,40 @@
+{
+    "package": "StremioSwitch",
+    "info": {
+        "title": "Stremio Switch",
+        "author": "kiyiyip",
+        "category": "tool",
+        "version": "0.5.0",
+        "url": "https://github.com/kiyiyip/stremio-switch",
+        "license": "n/a",
+        "description": "Stremio on switch",
+        "details": "Use stremio on your switch! Pretty straight forward!\\n\\nAI use: Mostly AI-generated."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/kiyiyip/stremio-switch/releases/download/v0.5.0/stremio-switch-0.5.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "url": "https://github.com/kiyiyip/stremio-switch/releases/download/v0.5.0/stremio-switch.nro",
+            "type": "update",
+            "dest": "/switch/StremioSwitch/stremio-switch.nro"
+        }
+    ],
+    "changelog": ""
+}
