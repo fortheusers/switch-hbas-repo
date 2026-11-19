@@ -1,0 +1,35 @@
+{
+    "package": "sysbrightnessshortcut",
+    "info": {
+        "title": "sys-brightness-shortcut",
+        "author": "piegottin",
+        "category": "advanced",
+        "version": "1.1.1",
+        "url": "https://github.com/DiegoPagotto/sys-brightness-shortcut",
+        "license": "MIT",
+        "description": "Brightness shortcut with on-screen bar",
+        "details": "Adjust screen brightness from anywhere with L + R + Up/Down (hold to repeat), in 10% steps.\\n\\n- Steam Deck-style on-screen bar in the top-left corner (sun icon, animated fill, percentage), shown over games and the HOME menu. It fades out 1.5 s after the last change.\\n- Soft feedback tick whose pitch follows the brightness level.\\n- The new brightness is saved like the system setting.\\n\\nRequires Atmosph\u00e8re. Reboot after installing or enabling it: the bar only works when the sysmodule starts together with the console.\\n\\nLog: sdmc:/atmosphere/logs/brightness_shortcut.log\\n\\nAI use: AI-generated, not reviewed line by line. AI also used for: icon/banner art, description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/DiegoPagotto/sys-brightness-shortcut/releases/download/v1.1.1/sys-brightness-shortcut-v1.1.1.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "v1.1.1: marks the sysmodule as requiring a reboot, MIT license. v1.1.0: on-screen brightness bar, new feedback sound, fixes Exosphere panic on fatal errors."
+}
