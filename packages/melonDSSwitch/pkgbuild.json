@@ -1,0 +1,35 @@
+{
+    "package": "melonDSSwitch",
+    "info": {
+        "title": "melonDS Switch",
+        "author": "FrcJules",
+        "category": "emu",
+        "version": "0.4.1",
+        "url": "https://github.com/FrcJules/melonDS-switch",
+        "license": "GPLv3",
+        "description": "Nintendo DS emulator, JIT, no BIOS",
+        "details": "Unofficial Switch port of the latest melonDS core, not affiliated with the melonDS team. JIT, 2x GPU rendering, no BIOS needed. Auto CPU boost, touch screen via right stick + R3 (TV mode), per-game settings, 4 save state slots. 60 fps in Mario Kart DS, Pokemon, NSMB, Layton, Metroid Prime Hunters. Run hbmenu in app mode (hold R). No games included. Discord: rateur42\\n\\nAI use: Co-written with AI. AI also used for: description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/FrcJules/melonDS-switch/releases/download/v0.4.1/melonDS-Switch-0.4.1.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "First public release: JIT, GLES3 2x renderer, CPU Auto, touch cursor, per-game settings, compressed save states."
+}
