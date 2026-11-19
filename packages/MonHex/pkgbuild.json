@@ -1,0 +1,29 @@
+{
+    "package": "MonHex",
+    "info": {
+        "title": "MonHex",
+        "author": "dantton",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/9cs/MonHex",
+        "license": "GPLv3",
+        "description": "Pok\u00e9mon save editor and bank for",
+        "details": "A Pok\u00e9mon save editor that runs on the Switch, in the spirit of PKSM on the 3DS. Edit your boxes, party and bag right on the console, no PC needed.\\n\\nSupports Sword/Shield, Let's Go, Legends: Arceus, Scarlet/Violet and Legends: Z-A (FireRed/LeafGreen Switch release is experimental).\\n\\n- Full Pok\u00e9mon editor and Pok\u00e9mon creation\\n- Move, clone, release, export and import (PKHeX/PKSM formats)\\n- Bag editor\\n- Bank shared across all games, with search\\n- Automatic backups before every save, with restore\\n- Works from the Album, no title override needed\\n- English, Portuguese, Spanish and French\\n\\nBuilt on PKSM-Core by FlagBrew. MonHex does not check legality. Keep your own save backups.\\n\\nAI use: Co-written with AI."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/9cs/MonHex/releases/download/v1.0.0/monhex.nro",
+            "type": "update",
+            "dest": "/switch/MonHex/monhex.nro"
+        }
+    ],
+    "changelog": ""
+}
