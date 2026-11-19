@@ -1,0 +1,29 @@
+{
+    "package": "LunaNXP",
+    "info": {
+        "title": "LunaNX P",
+        "author": "KazaR-RooT",
+        "category": "tool",
+        "version": "3.1",
+        "url": "https://github.com/kazar-root/LunaNX",
+        "license": "GPLv3",
+        "description": "Native Amazon Luna client for Switch",
+        "details": "Native Amazon Luna client for Nintendo Switch. LunaNX 3.0: redesigned UI, simpler Amazon code sign-in and live in-game performance stats. Created by KazaR-RooT.\\n\\nAI use: AI-assisted. AI also used for: description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/kazar-root/LunaNX/releases/download/v3.1/LunaNX.nro",
+            "type": "update",
+            "dest": "/switch/LunaNXP/LunaNX.nro"
+        }
+    ],
+    "changelog": ""
+}
