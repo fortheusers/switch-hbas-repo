@@ -22,12 +22,7 @@
         {
             "url": "https://github.com/shodowlo/chromium-nx/releases/download/v0.2.0/chromium-nx.nro",
             "type": "update",
-            "dest": "/switch/ChromiumNX/chromium-nx.nro"
-        },
-        {
-            "url": "https://github.com/shodowlo/chromium-nx/releases/download/v0.2.0/chromium-nx2.nro",
-            "type": "update",
-            "dest": "/switch/ChromiumNX/chromium-nx2.nro"
+            "dest": "/switch/chromium-nx/chromium-nx.nro"
         }
     ],
     "changelog": ""
