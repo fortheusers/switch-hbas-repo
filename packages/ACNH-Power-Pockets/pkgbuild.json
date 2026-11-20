@@ -1,0 +1,57 @@
+{
+    "package": "ACNH-Power-Pockets",
+    "info": {
+        "title": "ACNH Power Pockets",
+        "author": "chatelp",
+        "category": "tool",
+        "version": "1.2.0",
+        "url": "https://github.com/chatelp/ACNH-Power-Pockets",
+        "license": "MIT",
+        "description": "On-console pocket and Bells editor for Animal Crossing: New Horizons 3.0.x",
+        "details": "Edits the pocket slots (20, 30 or 40, as many as you have unlocked), Bells, Nook Miles and the house loan of the primary resident, directly on the console. Fork of ACNH Save Editor by cbreezy210: the save engine is his, the interface is new.\n\n- Pick an item once, then each press of Y drops it in the next empty slot. Occupied slots are never overwritten.\n- Every change is staged and shown in a Review screen (before > after); nothing is written until you press Apply.\n- Quantities stop at each item's real stack limit; about 10,500 items that never stack are marked 1/slot.\n- 69 built-in favorites, plus your own, managed in the app.\n- Turnips panel: this week's Stalk Market prices, read from the save (read-only).\n- Integrity hashes recomputed and checked before every write; SD backups before every write and a pre-edit backup.\n\nWARNING: this app writes to your save. Back up your save with JKSV or Checkpoint first, and use it offline. Launch it by holding R while starting Animal Crossing (title override), not from the Album.\n\nItem data from NHSE (GPL-3.0), font Varela Round (OFL 1.1).",
+        "binary": "/switch/acnh_power_pockets/acnh_power_pockets.nro"
+    },
+    "changelog": "1.2.0 - 30 and 40 pocket slots (pocket upgrades), read from the save; loadouts of up to 40 slots; 69 built-in favorites.\n1.1.1 - L / R wrap around the panels; 41 built-in favorites.\n1.1.0 - Turnips panel: this week's Stalk Market prices, read-only.\n1.0.1 - Stack quantities stored as the game expects them, capped at each item's stack limit.\n1.0.0 - First release.",
+    "assets": [
+        {
+            "url": "https://github.com/chatelp/ACNH-Power-Pockets/releases/download/v1.2.0/ACNH-Power-Pockets-v1.2.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/switch/acnh_power_pockets/**/*",
+                    "dest": "/switch/acnh_power_pockets",
+                    "type": "update"
+                },
+                {
+                    "path": "/switch/acnh_power_pockets/nonstackable.txt",
+                    "dest": "/switch/acnh_power_pockets/nonstackable.txt",
+                    "type": "get"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "pockets.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "review.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "favorites.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "turnips.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
