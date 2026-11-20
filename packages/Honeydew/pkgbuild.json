@@ -4,7 +4,7 @@
         "title": "Honeydew",
         "author": "FrcJules",
         "category": "emu",
-        "version": "0.5.0",
+        "version": "0.5.1",
         "url": "https://github.com/FrcJules/honeydew",
         "license": "GPLv3",
         "description": "Nintendo DS emulator, based on melonDS",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/FrcJules/honeydew/releases/download/v0.5.0/Honeydew-0.5.0.zip",
+            "url": "https://github.com/FrcJules/honeydew/releases/download/v0.5.1/Honeydew-0.5.1.zip",
             "type": "zip",
             "zip": [
                 {
@@ -46,5 +46,5 @@
             ]
         }
     ],
-    "changelog": "0.5.0: renamed from melonDS Switch to Honeydew (new name, icon and SD folder switch/Honeydew/; settings and saves are moved from switch/melonDS-Switch/ automatically). Emulation unchanged from 0.4.1: JIT, GLES3 2x renderer, CPU Auto, touch cursor, per-game settings, compressed save states."
+    "changelog": "0.5.1: the move from switch/melonDS-Switch/ leaves the old .nro favourite mark in place. 0.5.0: renamed from melonDS Switch to Honeydew (new name, icon and SD folder switch/Honeydew/; settings and saves are moved from switch/melonDS-Switch/ automatically). Emulation unchanged from 0.4.1: JIT, GLES3 2x renderer, CPU Auto, touch cursor, per-game settings, compressed save states."
 }
