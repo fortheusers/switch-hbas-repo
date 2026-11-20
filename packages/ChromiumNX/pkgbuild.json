@@ -1,0 +1,29 @@
+{
+    "package": "ChromiumNX",
+    "info": {
+        "title": "Chromium NX",
+        "author": "shodowlo",
+        "category": "tool",
+        "version": "0.2.0",
+        "url": "https://github.com/shodowlo/chromium-nx",
+        "license": "GPLv2",
+        "description": "Full Chromium web browser for Switch",
+        "details": "The Chromium web browser as a homebrew app for the Nintendo Switch. Debian's stock arm64 Chromium runs on Linux as a library (LKL). Experimental.\\n\\nWhat's in it:\\n- Tabs, a lasting profile, sound, YouTube and videos\\n- Launcher with search bar, YouTube for TVs and your own sites\\n- 1080p docked, 720p handheld, full screen, portrait mode\\n- Touch, USB keyboard\\n- Downloads to the SD card\\n\\nAI use: Mostly AI-generated."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/shodowlo/chromium-nx/releases/download/v0.2.0/chromium-nx.nro",
+            "type": "update",
+            "dest": "/switch/chromium-nx/chromium-nx.nro"
+        }
+    ],
+    "changelog": ""
+}
