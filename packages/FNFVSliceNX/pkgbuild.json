@@ -4,13 +4,13 @@
         "title": "FNF: V-Slice (unofficial port)",
         "author": "leleletus",
         "category": "game",
-        "version": "0.8.7-nx1",
+        "version": "0.8.7-nx-release-1",
         "url": "https://github.com/leleletus/Funkin",
         "license": "Apache-2.0",
-        "description": "Friday Night Funkin' V-Slice 0.8.7, downloads the official game files on first launch",
-        "details": "Friday Night Funkin' V-Slice 0.8.7 (the official engine by The Funkin' Crew), ported to the Nintendo Switch.\n\nThis homebrew contains no game assets. On first launch it downloads the official game files (about 734 MB) from The Funkin' Crew's GitHub repository (FunkinCrew/funkin.assets), checks every file against its SHA-256 and starts the game. Downloads resume after a lost connection or a closed game. Without internet on the console, the screen explains how to copy the files from a computer.\n\nRequirements:\n- Launch the homebrew menu from a game (hold R while starting any title), not from the Album.\n- About 1.1 GB free on the SD card.\n\nIncludes every week, Weekend 1, Erect and Pico mixes, Freeplay, Character Select, video cutscenes from the official files, HD Rumble and Nintendo button layout. Saves and mods go to /switch/Friday-Night-Funkin/.\n\nUnofficial port, not affiliated with The Funkin' Crew Inc. or Nintendo. Please support the official game.\n\nCredits: The Funkin' Crew (the game); FunkinNXTeam for the first V-Slice Switch port this one started from; Slushi for lime-nx and hx_libnx; devkitPro. Source code, build instructions and licences: https://github.com/leleletus/Funkin"
+        "description": "The real FNF V-Slice 0.8.7 on your Switch, 1:1 with the PC and mobile versions",
+        "details": "Grab your Joy-Cons and get funky! This is Friday Night Funkin' V-Slice 0.8.7, the same version you play today on PC and mobile, ported 1:1 to the Nintendo Switch. Every week, Weekend 1, Erect and Pico mixes, Freeplay, Character Select, the animated cutscenes with sound and HD Rumble on the hits.\n\nBEFORE YOU PLAY\n\n1) Open it with full memory. Hold R while you launch any game from the HOME menu and pick Friday Night Funkin' from the homebrew menu (a forwarder on your HOME menu works too). Opening it from the Album gives the game too little memory.\n\n2) Stay online the first time. To keep things legal, this homebrew comes without the game's art and music. On first launch it downloads the official files (about 734 MB) straight from The Funkin' Crew's GitHub, checks every one of them and starts the game. Lost the connection or closed the game? It picks up right where it left off. You need about 1.1 GB free on the SD card.\n\nNo internet on the console? No problem: the screen tells you how to copy the files from a computer instead.\n\nWorried about privacy? The download only talks to GitHub. No Nintendo servers, no account, no telemetry, and nothing about your console (serial number included) ever leaves it. DNS blockers like 90DNS are fine as long as GitHub is not blocked.\n\nMODS\n\nAfter the first launch you will find a \"mods\" folder in /switch/Friday-Night-Funkin/ on your SD card. Drop your V-Slice (Polymod) mods there, just like on PC. Mods are brand new on Switch, so if one does not work, let us know on GitHub. Psych Engine mods are not compatible: this is V-Slice.\n\nYour saves live in the same folder.\n\n- - - - - - - - - - - - - - - - - - - -\n\nLICENCES AND CREDITS\n\nUnofficial fan port, not affiliated with The Funkin' Crew Inc. or Nintendo. Friday Night Funkin' and its art, music and characters belong to The Funkin' Crew Inc.; the game files are downloaded from their own repository for your personal use, so please do not share them. If you love the game, support the official release!\n\nLicences: game and port code under the Apache License 2.0. Built with FFmpeg (LGPL 2.1+), OpenAL Soft (LGPL 2.0+), SDL2 (zlib), curl (curl licence) and other devkitPro libraries under their own licences. The full source to rebuild this .nro is on GitHub.\n\nCredits: The Funkin' Crew (Friday Night Funkin'), FunkinNXTeam for the first V-Slice Switch port this one grew from, Slushi for lime-nx and hx_libnx, devkitPro, HaxeFlixel, OpenFL and lime.\n\nSource code: https://github.com/leleletus/Funkin"
     },
-    "changelog": "0.8.7-nx1\nFirst release: V-Slice 0.8.7, asset installer, native video cutscenes.",
+    "changelog": "0.8.7-nx-release-1\n- Friday Night Funkin' V-Slice 0.8.7 on Switch, 1:1 with the PC and mobile versions: every week, Weekend 1, Erect and Pico mixes, Freeplay and Character Select.\n- First launch downloads the official game files (about 734 MB) from The Funkin' Crew's GitHub and picks up where it left off if the connection drops.\n- Animated cutscenes with sound.\n- Credits screen fixed.\n\nOpen it by holding R while launching a game (or from a forwarder). Install steps, mods, licences and credits: see the README.",
     "assets": [
         {
             "url": "https://github.com/leleletus/Funkin/releases/download/v0.8.7-nx-release-1/Funkin.nro",
@@ -24,6 +24,22 @@
         {
             "type": "banner",
             "url": "screen.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen1.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen2.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen3.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "screen4.png"
         }
     ]
 }
