@@ -1,0 +1,24 @@
+{
+    "package": "whatsappNX",
+    "info": {
+        "title": "whatsappNX",
+        "author": "WhatsappNX people",
+        "category": "tool",
+        "version": "v3.5.0 dev",
+        "url": "https://www.mediafire.com/file/o1h7gonzxwcxh3h/WhatsAppNX-0.3.5-dev.nro/file",
+        "license": "n/a",
+        "description": "WhatsApp on switch",
+        "details": "WhatsApp on switch WhatsApp on switch WhatsApp on switch WhatsApp on switch WhatsApp on switch WhatsApp on switch WhatsApp on switch\\n\\nAI use: Co-written with AI."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ],
+    "changelog": ""
+}
