@@ -4,7 +4,7 @@
         "title": "J2meNXX",
         "author": "Tô Quang Thắng",
         "category": "emu",
-        "version": "0.8.13",
+        "version": "0.8.15",
         "url": "https://github.com/ToThangGTVT/j2me-nxx",
         "license": "n/a",
         "description": "J2ME emulator for Nintendo Switch",
@@ -20,7 +20,7 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/ToThangGTVT/j2me-nxx/releases/download/v0.8.13/j2me-nxx-v0.8.13.zip",
+            "url": "https://github.com/ToThangGTVT/j2me-nxx/releases/download/v0.8.15/j2me-nxx-v0.8.15.zip",
             "type": "zip",
             "zip": [
                 {
@@ -31,5 +31,5 @@
             ]
         }
     ],
-    "changelog": "v0.8.13\\nJ2ME-NXX v0.8.13\\n\\n- Fixed a crash when pressing B on the Send game (Wi-Fi upload) or Share screen while the Switch has no Wi-Fi connection.\\n- Fixed games sent over Wi-Fi not showing up in the app list when the file name has accented or non-Latin characters (e.g. Vietnamese \"nhẹ\"). The file name is now saved without accents (e.g. \"nhẹ\" → \"nhe\"); the game's display name is unchanged."
+    "changelog": "v0.8.15\\nJ2ME-NXX v0.8.15\\n\\n- The group tab bar now scrolls horizontally when there are many groups: tab names are no longer squeezed and cut off, and the bar follows the selected tab (left / right in the list, or moving along the tabs). On the touch screen, swipe the bar to scroll.\\n\\nv0.8.13\\nJ2ME-NXX v0.8.13\\n\\n- Fixed a crash when pressing B on the Send game (Wi-Fi upload) or Share screen while the Switch has no Wi-Fi connection.\\n- Fixed games sent over Wi-Fi not showing up in the app list when the file name has accented or non-Latin characters (e.g. Vietnamese \"nhẹ\"). The file name is now saved without accents (e.g. \"nhẹ\" → \"nhe\"); the game's display name is unchanged."
 }
