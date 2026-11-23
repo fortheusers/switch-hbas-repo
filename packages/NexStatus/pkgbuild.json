@@ -4,7 +4,7 @@
         "title": "NexStatus",
         "author": "ILALEX",
         "category": "tool",
-        "version": "1.1.11",
+        "version": "1.2.1",
         "url": "https://github.com/jean-louis1776/nextendo-status",
         "license": "GPLv2",
         "description": "Live Nextendo status and lobbies",
@@ -20,12 +20,12 @@
             "url": "screen.png"
         },
         {
-            "url": "https://github.com/jean-louis1776/nextendo-status/releases/download/v1.1.11/nexstatus.apk",
+            "url": "https://github.com/jean-louis1776/nextendo-status/releases/download/v1.2.1/nexstatus.apk",
             "type": "update",
             "dest": "/switch/NexStatus/nexstatus.nro"
         },
         {
-            "url": "https://github.com/jean-louis1776/nextendo-status/releases/download/v1.1.11/nexstatus.zip",
+            "url": "https://github.com/jean-louis1776/nextendo-status/releases/download/v1.2.1/nexstatus.zip",
             "type": "zip",
             "zip": [
                 {
@@ -36,5 +36,5 @@
             ]
         }
     ],
-    "changelog": "v1.1.11\\nSwitch\\nExtract nexstatus.zip at the root of the SD card.\\n\\n Android\\nInstall nexstatus.apk. The Android app shows the same public server counts and, after sign-in, lobbies and players. It checks GitHub for a newer APK on launch."
+    "changelog": "v1.2.1\\nWhat's new\\n\\nSwitch homebrew and the Ultrahand overlay are 1.2.1. The Android app is 1.2.0.\\n\\n- The homebrew list includes all 63 games from the status page, including Portal 2. Servers that do not answer stay in the list as Offline. If a status cannot be read, the game shows No status.\\n- Player counts use the same sources as the website. Catalog games, including Stardew Valley, use the service catalog. When signed in, the number matches the live player list, including someone who is in the game but not in a lobby.\\n- Under the player total, the homebrew app shows Servers, then Online and Offline. Offline includes games with no status, so the two numbers add up to the full list.\\n- The overlay still lists only games with at least one player. A game page always shows Lobbies. If there are none, it says there are no lobbies right now, then lists the players.\\n\\nSet Ultrahand Overlay memory- to 8 MB- before opening the overlay. The 4 MB default is too small and can fail to load the overlay or crash Atmosphere.\\n\\n Switch\\nExtract nexstatus.zip at the root of the SD card.\\n\\n Android\\nInstall nexstatus.apk. This release updates the Android app to 1.2.0. It lists all 63 games with Online, Offline, or No status, uses the same counts as the website, and shows Servers with Online and Offline under the player total. It checks GitHub for a newer APK on launch.\\n\\nv1.1.11\\nSwitch\\nExtract nexstatus.zip at the root of the SD card.\\n\\n Android\\nInstall nexstatus.apk. The Android app shows the same public server counts and, after sign-in, lobbies and players. It checks GitHub for a newer APK on launch."
 }
