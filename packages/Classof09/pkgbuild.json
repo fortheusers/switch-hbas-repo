@@ -24,8 +24,13 @@
             "type": "zip",
             "zip": [
                 {
-                    "path": "/**/*",
-                    "dest": "/",
+                    "path": "/switch/class09/class09.nro",
+                    "dest": "/switch/class09/class09.nro",
+                    "type": "update"
+                },
+                {
+                    "path": "/switch/class09/assets/script.json",
+                    "dest": "/switch/class09/assets/script.json",
                     "type": "update"
                 }
             ]
