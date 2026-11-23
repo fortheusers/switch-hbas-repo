@@ -1,0 +1,35 @@
+{
+    "package": "SwitchDeck",
+    "info": {
+        "title": "SwitchDeck",
+        "author": "SertAy",
+        "category": "tool",
+        "version": "1.0.0",
+        "url": "https://github.com/sertay1/switchdeck",
+        "license": "All Rights Reserved",
+        "description": "Turn your Switch into a Stream Deck",
+        "details": "Turn your Nintendo Switch into a touchscreen control panel for Macro Deck. Open the deck you built on your PC, trigger macros, adjust volume, and control Spotify playback from your Switch. Keep an eye on clocks, timers, weather, and CPU, GPU, and RAM usage with widgets.\\n\\nRequires Macro Deck running on a PC on the same local network.\\n\\nAI use: AI-generated, not reviewed line by line. AI also used for: icon/banner art, description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/sertay1/switchdeck/releases/download/v1.0.0/SwitchDeck_v1.0.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
