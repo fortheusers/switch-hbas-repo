@@ -1,0 +1,35 @@
+{
+    "package": "Classof09",
+    "info": {
+        "title": "Class of '09",
+        "author": "catsandgats",
+        "category": "game",
+        "version": "1.0.0",
+        "url": "https://github.com/dannyboyjaros/switchclassof09",
+        "license": "n/a",
+        "description": "homebrew port of Class of '09 runtime",
+        "details": "A native Nintendo Switch homebrew port of the Class of '09 runtime.\\n\\nUnofficial fan project. Not affiliated with the game's developers or publishers, Nintendo, or Sony.\\n\\n*Release does NOT include any retail game assets - users must supply game folder\\n\\nCopy game folder from retail copy of Class of '09 to sdmc:/switch/class09/assets/ on the switch\\n\\nFinal folder layout should appear as sdmc:/switch/class09/assets/game/\\n\\nAI use: Co-written with AI."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/dannyboyjaros/switchclassof09/releases/download/v1.0.0/class.of.09.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": ""
+}
