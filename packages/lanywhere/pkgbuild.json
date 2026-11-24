@@ -1,0 +1,36 @@
+{
+    "package": "lanywhere",
+    "info": {
+        "title": "LANywhere",
+        "author": "augustocco",
+        "category": "tool",
+        "version": "0.2.0",
+        "url": "https://github.com/augustocco/lanywhere",
+        "license": "GPLv2",
+        "binary": "/switch/lanywhere.nro",
+        "description": "Your local multiplayer, online. No PC, no setup.",
+        "details": "LANywhere takes the local wireless mode of your games to the internet: local multiplayer, but your friends don't have to be in the room.\\n\\nCreate a group in a game's local wireless mode as usual and players anywhere in the world can join it; search for groups and you'll see the ones open online. There's also a private room with a 6-letter code to play only with a friend.\\n\\n- No PC, no client to run, no IPs to type: a public server is already running.\\n- Other players see a nickname, never your console user name, and never your IP.\\n- Open the LANywhere app to see the open groups, pick one and open its game.\\n- Spanish and English.\\n- A PC with the Ryujinx emulator (LAN Play mode) can join the same groups as consoles.\\n\\nNOTE: LANywhere is based on ldn_mitm and replaces it (both use the same sysmodule). Don't install ldn_mitm at the same time. Restart the console after installing.\\n\\nRequires Atmosphere 1.12.x. This is a beta: if you try it, tell us how it went on GitHub."
+    },
+    "changelog": "0.2.0\\nRyujinx (LAN Play mode) can play in the same groups as consoles. Full matches: large game packets now get through. More robust with bursts of packets. Consoles on 0.1.0 must update to join new groups.\\n\\n0.1.0\\nFirst beta release.",
+    "assets": [
+        {
+            "url": "https://github.com/augustocco/lanywhere/releases/download/v0.2.0/lanywhere-0.2.0.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        },
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        }
+    ]
+}
