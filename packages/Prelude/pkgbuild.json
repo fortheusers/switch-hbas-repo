@@ -1,0 +1,26 @@
+{
+    "package": "Prelude",
+    "info": {
+        "title": "Prelude",
+        "author": "Nextendo Network",
+        "category": "tool",
+        "version": "4.0.15",
+        "url": "https://github.com/NextendoNetwork/Prelude-Nextendo",
+        "license": "PolyForm Shield 1.0.0",
+        "binary": "/switch/nextendo.nro",
+        "description": "Switch your console between Nextendo Network and Nintendo",
+        "details": "Prelude is the homebrew that switches your console between the Nextendo Network community servers and Nintendo's official servers.\\n\\nPick a mode, Prelude applies the change and reboots. Nothing is permanent: Nintendo mode removes everything Prelude installed and hands the console back to Nintendo, with Atmosphere's own telemetry blocking restored.\\n\\n- Nextendo mode: redirects Nintendo traffic to the Nextendo servers and installs what the console needs to trust them\\n- Online setup for supported games, with the right hosts and patches\\n- Follows the console's system theme, with a language list of English, Spanish, Portuguese, French, Chinese, Russian and Italian\\n- Self-updating from GitHub releases\\n\\nNeeds a console running Atmosphere (CFW). Prelude changes Atmosphere's hosts files and installs patches on the SD card, so back up your SD card first. More information at https://nextendo.network"
+    },
+    "changelog": "4.0.15: Russian and Italian translations, with Montserrat for Cyrillic text; Guilty Gear -Strive- service hosts; safer \"Reinstall patches\" (each resource is checked before it replaces the installed one, and an offer to reboot after a manual reinstall).",
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "url": "https://github.com/NextendoNetwork/Prelude-Nextendo/releases/download/v4.0.15/nextendo.nro",
+            "dest": "/switch/nextendo.nro",
+            "type": "update"
+        }
+    ]
+}
