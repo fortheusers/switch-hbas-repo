@@ -1,0 +1,29 @@
+{
+    "package": "RadioNX",
+    "info": {
+        "title": "RadioNX",
+        "author": "Muveeer",
+        "category": "tool",
+        "version": "2.1.0",
+        "url": "https://github.com/Muveeer/RadioNX",
+        "license": "GPLv3",
+        "description": "Explore the world through radio",
+        "details": "RadioNX is a free internet radio application  that combines worldwide radio, GTA radio stations, and an interactive exploration experience.\\n\\nAI use: Co-written with AI."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/Muveeer/RadioNX/releases/download/v2.1.0/RadioNX.nro",
+            "type": "update",
+            "dest": "/switch/RadioNX/RadioNX.nro"
+        }
+    ],
+    "changelog": ""
+}
