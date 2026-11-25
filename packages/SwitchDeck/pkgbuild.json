@@ -24,8 +24,13 @@
             "type": "zip",
             "zip": [
                 {
-                    "path": "/**/*",
-                    "dest": "/",
+                    "path": "/SwitchDeck*/switch/SwitchDeck/SwitchDeck.nro",
+                    "dest": "/switch/SwitchDeck/SwitchDeck.nro",
+                    "type": "update"
+                },
+                {
+                    "path": "/SwitchDeck*/switch/SwitchDeck/contact_qr.png",
+                    "dest": "/switch/SwitchDeck/contact_qr.png",
                     "type": "update"
                 }
             ]
