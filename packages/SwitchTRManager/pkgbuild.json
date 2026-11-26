@@ -1,0 +1,40 @@
+{
+    "package": "SwitchTRManager",
+    "info": {
+        "title": "SwitchTR Manager",
+        "author": "miyqwx",
+        "category": "tool",
+        "version": "1.1.1",
+        "url": "https://github.com/miyqwx-dev/SwitchTR-Manager",
+        "license": "MIT",
+        "description": "T\u00fcrk\u00e7e aray\u00fcz / Turkish UI for Switch",
+        "details": "[TR] Nintendo Switch'in sistem aray\u00fcz\u00fcn\u00fc T\u00fcrk\u00e7e yapar. Ana men\u00fc, Sistem Ayarlar\u0131, h\u0131zl\u0131 ayarlar ve hata ekranlar\u0131 T\u00fcrk\u00e7e g\u00f6r\u00fcn\u00fcr. Uygulama T\u00fcrk\u00e7e yamay\u0131 GitHub'dan indirir, konsolunun b\u00f6lgesini alg\u0131lay\u0131p uygun paketi (Avrupa/Amerika) kurar ve yeni s\u00fcr\u00fcm \u00e7\u0131kt\u0131\u011f\u0131nda g\u00fcnceller.\\n- Otomatik ve manuel kurulum\\n- SD karttan internetsiz kurulum\\n- Tek tu\u015fla kald\u0131rma\\n- NAND'e yazmaz, Atmosph\u00e8re LayeredFS ile \u00e7al\u0131\u015f\u0131r\\nGereksinim: Atmosph\u00e8re, sistem 20.0.0-23.0.1, sistem dili \u0130ngilizce.\\n\\n[EN] Turns the Nintendo Switch system interface Turkish: home menu, System Settings, quick settings and error screens. Downloads the Turkish patch from GitHub, detects your console region, installs the matching package (Europe/Americas) and keeps it updated.\\n- Automatic and manual install\\n- Offline install from SD card\\n- One-tap removal\\n- No NAND writes, uses Atmosph\u00e8re LayeredFS\\nRequires: Atmosph\u00e8re, system 20.0.0-23.0.1, system language English.\\n\\nAI use: Co-written with AI. AI also used for: icon/banner art, description text."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/miyqwx-dev/SwitchTR-Manager/releases/download/v1.1.1/SwitchTR-Manager.nro",
+            "type": "update",
+            "dest": "/switch/SwitchTRManager/SwitchTR-Manager.nro"
+        },
+        {
+            "url": "https://github.com/miyqwx-dev/SwitchTR-Manager/releases/download/v1.1.1/SwitchTR-Manager.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/**/*",
+                    "dest": "/",
+                    "type": "update"
+                }
+            ]
+        }
+    ],
+    "changelog": "1.1.1\\n[TR] Ana ekrandaki geli\u015ftirici kart\u0131 kald\u0131r\u0131ld\u0131.\\n[EN] Removed the developer card from the home screen.\\n\\n1.1.0\\n[TR] \u0130lk s\u00fcr\u00fcm: otomatik/manuel/SD karttan kurulum, b\u00f6lge tespiti, g\u00fcncelleme takibi, kald\u0131rma, T\u00fcrk\u00e7e/\u0130ngilizce aray\u00fcz.\\n[EN] First release: automatic/manual/SD card install, region detection, update tracking, removal, Turkish/English UI."
+}
