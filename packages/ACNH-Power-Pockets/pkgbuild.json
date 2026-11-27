@@ -4,17 +4,17 @@
         "title": "ACNH Power Pockets",
         "author": "chatelp",
         "category": "tool",
-        "version": "1.2.0",
+        "version": "1.4.0",
         "url": "https://github.com/chatelp/ACNH-Power-Pockets",
         "license": "MIT",
         "description": "On-console pocket and Bells editor for Animal Crossing: New Horizons 3.0.x",
-        "details": "Edits the pocket slots (20, 30 or 40, as many as you have unlocked), Bells, Nook Miles and the house loan of the primary resident, directly on the console. Fork of ACNH Save Editor by cbreezy210: the save engine is his, the interface is new.\n\n- Pick an item once, then each press of Y drops it in the next empty slot. Occupied slots are never overwritten.\n- Every change is staged and shown in a Review screen (before > after); nothing is written until you press Apply.\n- Quantities stop at each item's real stack limit; about 10,500 items that never stack are marked 1/slot.\n- 69 built-in favorites, plus your own, managed in the app.\n- Turnips panel: this week's Stalk Market prices, read from the save (read-only).\n- Integrity hashes recomputed and checked before every write; SD backups before every write and a pre-edit backup.\n\nWARNING: this app writes to your save. Back up your save with JKSV or Checkpoint first, and use it offline. Launch it by holding R while starting Animal Crossing (title override), not from the Album.\n\nItem data from NHSE (GPL-3.0), font Varela Round (OFL 1.1).",
+        "details": "Edits the pocket slots (20, 30 or 40, as many as you have unlocked), Bells, Nook Miles and the house loan of the primary resident, directly on the console. Fork of ACNH Save Editor by cbreezy210: the save engine is his, the interface is new.\n\n- New in 1.4.0, lists from catalogue.ac: send your lists from your phone over your own Wi-Fi (the console serves a small page and shows a 4-digit code), then fill your pockets with what a list still needs.\n- Pick an item once, then each press of Y drops it in the next empty slot. Occupied slots are never overwritten.\n- Every change is staged and shown in a Review screen (before > after); nothing is written until you press Apply.\n- Quantities stop at each item's real stack limit; about 10,500 items that never stack are marked 1/slot.\n- 69 built-in favorites, plus your own, managed in the app.\n- Catalog: search by name or hex ID, browse 113 collections (styles such as Japanese, furniture series, HHA themes, clothing styles and themes) and filter by type with ZL / ZR.\n- Turnips panel: this week's Stalk Market prices, read from the save (read-only).\n- Integrity hashes recomputed and checked before every write; SD backups before every write and a pre-edit backup.\n- About and updates: an optional Check for updates, only when you press it (HTTPS, SHA-256 checked against the GitHub release).\n\nWARNING: this app writes to your save. Back up your save with JKSV or Checkpoint first, and use it offline. Launch it by holding R while starting Animal Crossing (title override), not from the Album.\n\nItem data from NHSE (GPL-3.0). Collections from the community ACNH data spreadsheet, via Norviah/animal-crossing (MIT). Clothing colors of catalogue.ac lists from catalogue.ac's data (not affiliated). libcurl (curl license). Font Varela Round (OFL 1.1).",
         "binary": "/switch/acnh_power_pockets/acnh_power_pockets.nro"
     },
-    "changelog": "1.2.0 - 30 and 40 pocket slots (pocket upgrades), read from the save; loadouts of up to 40 slots; 69 built-in favorites.\n1.1.1 - L / R wrap around the panels; 41 built-in favorites.\n1.1.0 - Turnips panel: this week's Stalk Market prices, read-only.\n1.0.1 - Stack quantities stored as the game expects them, capped at each item's stack limit.\n1.0.0 - First release.",
+    "changelog": "1.4.0 - Lists from catalogue.ac, received from a phone over local Wi-Fi; Fill pockets with a list; About screen; optional in-app updates from GitHub.\n1.3.0 - Catalog: browse 113 collections (styles, furniture series, HHA themes, clothing styles and themes) and filter by type with ZL / ZR; X searches from any page.\n1.2.0 - 30 and 40 pocket slots (pocket upgrades), read from the save; loadouts of up to 40 slots; 69 built-in favorites.\n1.1.1 - L / R wrap around the panels; 41 built-in favorites.\n1.1.0 - Turnips panel: this week's Stalk Market prices, read-only.\n1.0.1 - Stack quantities stored as the game expects them, capped at each item's stack limit.\n1.0.0 - First release.",
     "assets": [
         {
-            "url": "https://github.com/chatelp/ACNH-Power-Pockets/releases/download/v1.2.0/ACNH-Power-Pockets-v1.2.0.zip",
+            "url": "https://github.com/chatelp/ACNH-Power-Pockets/releases/download/v1.4.0/ACNH-Power-Pockets-v1.4.0.zip",
             "type": "zip",
             "zip": [
                 {
@@ -35,6 +35,14 @@
         },
         {
             "type": "screenshot",
+            "url": "lists.png"
+        },
+        {
+            "type": "screenshot",
+            "url": "list-receive.png"
+        },
+        {
+            "type": "screenshot",
             "url": "pockets.png"
         },
         {
@@ -47,7 +55,7 @@
         },
         {
             "type": "screenshot",
-            "url": "turnips.png"
+            "url": "collections.png"
         },
         {
             "type": "banner",
