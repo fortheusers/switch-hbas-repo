@@ -1,0 +1,29 @@
+{
+    "package": "Punktfunk",
+    "info": {
+        "title": "Punktfunk",
+        "author": "broslife",
+        "category": "tool",
+        "version": "1.2.0",
+        "url": "https://github.com/punktfunk/client-switch",
+        "license": "GPLv3",
+        "description": "Play your PC games on your Switch",
+        "details": "Punktfunkt is a client that allows runs your games on your PC and sends the picture and sound to your Switch. It is a native homebrew app: it opens from the Homebrew Menu (no applet mode), uses the Switch's own video decoder, and works handheld or docked. Handheld has been more tested and it's the recommended mode to play.\\n\\nSee it more: https://docs.punktfunk.unom.io/docs/quickstart\\n\\nAI use: AI-generated, not reviewed line by line."
+    },
+    "assets": [
+        {
+            "type": "icon",
+            "url": "icon.png"
+        },
+        {
+            "type": "banner",
+            "url": "screen.png"
+        },
+        {
+            "url": "https://github.com/punktfunk/client-switch/releases/download/v1.2.0/punktfunk.nro",
+            "type": "update",
+            "dest": "/switch/Punktfunk/punktfunk.nro"
+        }
+    ],
+    "changelog": ""
+}
