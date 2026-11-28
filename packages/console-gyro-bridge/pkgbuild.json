@@ -7,11 +7,11 @@
         "version": "0.6.9",
         "url": "https://github.com/Pianist13r/console-gyro-bridge",
         "license": "GPL-3.0",
-        "description": "Use the Switch console's gyro for handheld motion controls",
-        "details": "Tilt the Switch console to control motion-enabled games in handheld mode, including with controllers that have no motion sensors. This Atmosphère sysmodule supplies the console's gyro readings when the game requests motion and the controller has no active motion input. Buttons and sticks work as usual.\\n\\nReboot into Atmosphère after installing, then enable motion controls in a supported game. To disable the module, remove atmosphere/contents/4200000000475952/flags/boot2.flag from the SD card and reboot.",
+        "description": "Handheld gyro controls / Гироскоп в портативном режиме",
+        "details": "Tilt the console to aim in games that support handheld motion controls. This Atmosphère module uses the console's gyro when the controller has no active motion input. It works with any brand recognized by the system as Handheld. Reboot into Atmosphère after installation. To disable the module, remove atmosphere/contents/4200000000475952/flags/boot2.flag and reboot.\\n\\nНаклоняйте консоль, чтобы целиться в играх с управлением движением в портативном режиме. Когда контроллер не передаёт данные движения, модуль Atmosphère использует гироскоп консоли. Подходят контроллеры любой марки, которые система распознаёт в режиме Handheld. После установки перезагрузитесь в Atmosphère. Чтобы отключить модуль, удалите atmosphere/contents/4200000000475952/flags/boot2.flag и перезагрузитесь.\\n\\nTelegram channel / Канал проекта — https://t.me/ConsoleGyroBridge\\nDownload / Скачать — https://t.me/ConsoleGyroBridge/3\\nSupport with Stars / Поддержать звёздами — https://t.me/ConsoleGyroBridge/2",
         "binary": false
     },
-    "changelog": "Improves sensor handoff when switching between games. Removes runtime diagnostic logging.",
+    "changelog": "Improves sensor handoff when switching games and removes runtime diagnostic logging.\\n\\nУлучшена передача датчика при смене игр, убрана запись диагностического журнала.",
     "assets": [
         {
             "url": "https://github.com/Pianist13r/console-gyro-bridge/releases/download/v0.6.9/Console-Gyro-Bridge-0.6.9.zip",
