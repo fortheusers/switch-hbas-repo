@@ -1,0 +1,33 @@
+{
+    "package": "console-gyro-bridge",
+    "info": {
+        "title": "Console Gyro Bridge",
+        "author": "Pianist13r",
+        "category": "advanced",
+        "version": "0.6.9",
+        "url": "https://github.com/Pianist13r/console-gyro-bridge",
+        "license": "GPL-3.0",
+        "description": "Use the Switch OLED gyro with an attached Hori Split Pad",
+        "details": "An Atmosphère sysmodule for handheld play. When a game requests motion input and the attached controller provides none, Console Gyro Bridge supplies it from the console's built-in motion sensor. Buttons and sticks work as usual.\\n\\nReboot into Atmosphère after installing, then enable motion controls in a supported game. To disable the module, remove atmosphere/contents/4200000000475952/flags/boot2.flag from the SD card and reboot.",
+        "binary": false
+    },
+    "changelog": "Improves sensor handoff when switching between games. Removes runtime diagnostic logging.",
+    "assets": [
+        {
+            "url": "https://github.com/Pianist13r/console-gyro-bridge/releases/download/v0.6.9/Console-Gyro-Bridge-0.6.9.zip",
+            "type": "zip",
+            "zip": [
+                {
+                    "path": "/atmosphere/contents/4200000000475952/exefs.nsp",
+                    "dest": "/atmosphere/contents/4200000000475952/exefs.nsp",
+                    "type": "update"
+                },
+                {
+                    "path": "/atmosphere/contents/4200000000475952/flags/boot2.flag",
+                    "dest": "/atmosphere/contents/4200000000475952/flags/boot2.flag",
+                    "type": "update"
+                }
+            ]
+        }
+    ]
+}
