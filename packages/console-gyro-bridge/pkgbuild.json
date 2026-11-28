@@ -8,13 +8,13 @@
         "url": "https://github.com/Pianist13r/console-gyro-bridge",
         "license": "GPL-3.0",
         "description": "Handheld gyro controls / Гироскоп в портативном режиме",
-        "details": "Tilt the console to aim in games that support handheld motion controls. This Atmosphère module uses the console's gyro when the controller has no active motion input. It works with any brand recognized by the system as Handheld. Reboot into Atmosphère after installation. To disable the module, remove atmosphere/contents/4200000000475952/flags/boot2.flag and reboot.\\n\\nНаклоняйте консоль, чтобы целиться в играх с управлением движением в портативном режиме. Когда контроллер не передаёт данные движения, модуль Atmosphère использует гироскоп консоли. Подходят контроллеры любой марки, которые система распознаёт в режиме Handheld. После установки перезагрузитесь в Atmosphère. Чтобы отключить модуль, удалите atmosphere/contents/4200000000475952/flags/boot2.flag и перезагрузитесь.\\n\\nTelegram channel / Канал проекта — https://t.me/ConsoleGyroBridge\\nDownload / Скачать — https://t.me/ConsoleGyroBridge/3\\nSupport with Stars / Поддержать звёздами — https://t.me/ConsoleGyroBridge/2",
+        "details": "Tilt the console to aim in games that support handheld motion controls. This Atmosphère module uses the console's gyro when the controller has no active motion input. It works with any brand recognized by the system as Handheld. Reboot into Atmosphère after installation. To disable the module, remove atmosphere/contents/4200000000475952/flags/boot2.flag and reboot.\\n\\nНаклоняйте консоль, чтобы целиться в играх с управлением движением в портативном режиме. Когда контроллер не передаёт данные движения, модуль Atmosphère использует гироскоп консоли. Подходят контроллеры любой марки, которые система распознаёт в режиме Handheld. После установки перезагрузитесь в Atmosphère. Чтобы отключить модуль, удалите atmosphere/contents/4200000000475952/flags/boot2.flag и перезагрузитесь.\\n\\nTelegram channel / Канал проекта — https://t.me/ConsoleGyroBridge\\nDownload / Скачать — https://t.me/ConsoleGyroBridge/3\\nSupport on DonationAlerts / Поддержать разработку — https://www.donationalerts.com/r/pianist13r",
         "binary": false
     },
     "changelog": "Skip repeated gyro resets and empty input buffers while motion is idle. Button and stick updates keep their usual cadence.\\n\\nВ простое пропускаются повторные сбросы гироскопа и проверки уже пустых буферов. Частота обновления кнопок и стиков сохраняется.",
     "assets": [
         {
-            "url": "https://github.com/Pianist13r/console-gyro-bridge/releases/download/v0.6.10/Console-Gyro-Bridge-0.6.10.zip",
+            "url": "https://github.com/Pianist13r/console-gyro-bridge/releases/download/v0.6.10-r2/Console-Gyro-Bridge-0.6.10-r2.zip",
             "type": "zip",
             "zip": [
                 {
